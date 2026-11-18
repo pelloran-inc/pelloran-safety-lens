@@ -1,0 +1,2111 @@
+{
+  "test_cases": [
+    {
+      "id": "fin_direction_flip_001",
+      "trap_type": "direction_flip",
+      "clause_a": "Q3 revenue increased 12% year-over-year to $4.2 billion.",
+      "clause_b": "Q3 revenue decreased 12% year-over-year to $4.2 billion.",
+      "clause_c": "Third-quarter revenue rose 12% versus prior year, reaching $4.2 billion."
+    },
+    {
+      "id": "fin_direction_flip_002",
+      "trap_type": "direction_flip",
+      "clause_a": "Operating income grew 8% in the quarter driven by margin expansion.",
+      "clause_b": "Operating income declined 8% in the quarter driven by margin expansion.",
+      "clause_c": "Quarterly operating income was up 8%, powered by expanding margins."
+    },
+    {
+      "id": "fin_direction_flip_003",
+      "trap_type": "direction_flip",
+      "clause_a": "Free cash flow rose to $850 million from $720 million a year earlier.",
+      "clause_b": "Free cash flow fell to $850 million from $720 million a year earlier.",
+      "clause_c": "Free cash flow climbed to $850 million versus $720 million the prior year."
+    },
+    {
+      "id": "fin_direction_flip_004",
+      "trap_type": "direction_flip",
+      "clause_a": "Adjusted EBITDA expanded 15% to $2.1 billion in the second half.",
+      "clause_b": "Adjusted EBITDA contracted 15% to $2.1 billion in the second half.",
+      "clause_c": "Second-half adjusted EBITDA grew by 15% to reach $2.1 billion."
+    },
+    {
+      "id": "fin_direction_flip_005",
+      "trap_type": "direction_flip",
+      "clause_a": "Gross margin improved 220 basis points to 42.8% for the fiscal year.",
+      "clause_b": "Gross margin deteriorated 220 basis points to 42.8% for the fiscal year.",
+      "clause_c": "Fiscal-year gross margin gained 220 bps, arriving at 42.8%."
+    },
+    {
+      "id": "fin_direction_flip_006",
+      "trap_type": "direction_flip",
+      "clause_a": "International segment sales expanded 18% on constant-currency basis.",
+      "clause_b": "International segment sales contracted 18% on constant-currency basis.",
+      "clause_c": "International segment revenue was up 18% at constant currency."
+    },
+    {
+      "id": "fin_direction_flip_007",
+      "trap_type": "direction_flip",
+      "clause_a": "Total headcount increased by 3,400 employees during the fiscal year.",
+      "clause_b": "Total headcount decreased by 3,400 employees during the fiscal year.",
+      "clause_c": "During the fiscal year, total headcount grew by roughly 3,400."
+    },
+    {
+      "id": "fin_direction_flip_008",
+      "trap_type": "direction_flip",
+      "clause_a": "Same-store sales rose 4.2% in the Americas region for the fourth quarter.",
+      "clause_b": "Same-store sales fell 4.2% in the Americas region for the fourth quarter.",
+      "clause_c": "Fourth-quarter Americas same-store sales were up 4.2%."
+    },
+    {
+      "id": "fin_direction_flip_009",
+      "trap_type": "direction_flip",
+      "clause_a": "Deferred revenue grew to $1.8 billion at year-end.",
+      "clause_b": "Deferred revenue shrank to $1.8 billion at year-end.",
+      "clause_c": "Year-end deferred revenue climbed to $1.8 billion."
+    },
+    {
+      "id": "fin_direction_flip_010",
+      "trap_type": "direction_flip",
+      "clause_a": "Backlog increased by $650 million sequentially to $8.4 billion.",
+      "clause_b": "Backlog decreased by $650 million sequentially to $8.4 billion.",
+      "clause_c": "Sequential backlog was up $650 million, reaching $8.4 billion."
+    },
+    {
+      "id": "fin_direction_flip_011",
+      "trap_type": "direction_flip",
+      "clause_a": "Cash and equivalents rose to $12.6 billion from $10.1 billion.",
+      "clause_b": "Cash and equivalents fell to $12.6 billion from $10.1 billion.",
+      "clause_c": "The cash-and-equivalents balance climbed to $12.6 billion from $10.1 billion."
+    },
+    {
+      "id": "fin_direction_flip_012",
+      "trap_type": "direction_flip",
+      "clause_a": "Advertising spend increased 22% year-over-year in the digital channel.",
+      "clause_b": "Advertising spend decreased 22% year-over-year in the digital channel.",
+      "clause_c": "Digital-channel advertising spend was up 22% versus prior year."
+    },
+    {
+      "id": "fin_direction_flip_013",
+      "trap_type": "direction_flip",
+      "clause_a": "Non-GAAP earnings per share grew 11% to $1.45 for the reporting period.",
+      "clause_b": "Non-GAAP earnings per share declined 11% to $1.45 for the reporting period.",
+      "clause_c": "Reporting-period non-GAAP EPS increased 11%, reaching $1.45."
+    },
+    {
+      "id": "fin_direction_flip_014",
+      "trap_type": "direction_flip",
+      "clause_a": "Subscription revenue expanded 28% year-over-year on new customer wins.",
+      "clause_b": "Subscription revenue contracted 28% year-over-year on new customer wins.",
+      "clause_c": "New customer wins drove subscription revenue up 28% year-over-year."
+    },
+    {
+      "id": "fin_direction_flip_015",
+      "trap_type": "direction_flip",
+      "clause_a": "Capital expenditures rose to $3.2 billion for the fiscal year.",
+      "clause_b": "Capital expenditures fell to $3.2 billion for the fiscal year.",
+      "clause_c": "Fiscal-year capital expenditures were $3.2 billion, an increase."
+    },
+    {
+      "id": "fin_direction_flip_016",
+      "trap_type": "direction_flip",
+      "clause_a": "The dividend was raised by 6% to $0.85 per share annually.",
+      "clause_b": "The dividend was cut by 6% to $0.85 per share annually.",
+      "clause_c": "The annual dividend rose 6% to reach $0.85 per share."
+    },
+    {
+      "id": "fin_direction_flip_017",
+      "trap_type": "direction_flip",
+      "clause_a": "Return on invested capital improved to 18.4% from 15.9% year-over-year.",
+      "clause_b": "Return on invested capital worsened to 18.4% from 15.9% year-over-year.",
+      "clause_c": "ROIC climbed to 18.4% from a prior 15.9% year-over-year."
+    },
+    {
+      "id": "fin_direction_flip_018",
+      "trap_type": "direction_flip",
+      "clause_a": "Days sales outstanding decreased to 42 days from 48 days.",
+      "clause_b": "Days sales outstanding increased to 42 days from 48 days.",
+      "clause_c": "DSO improved to 42 days, down from the earlier 48-day figure."
+    },
+    {
+      "id": "fin_direction_flip_019",
+      "trap_type": "direction_flip",
+      "clause_a": "Inventory turns accelerated to 6.8x from 5.4x year-over-year.",
+      "clause_b": "Inventory turns slowed to 6.8x from 5.4x year-over-year.",
+      "clause_c": "Inventory turns rose to 6.8x from the prior year's 5.4x."
+    },
+    {
+      "id": "fin_direction_flip_020",
+      "trap_type": "direction_flip",
+      "clause_a": "Operating expenses declined 3% as cost-optimization initiatives took effect.",
+      "clause_b": "Operating expenses climbed 3% as cost-optimization initiatives took effect.",
+      "clause_c": "Cost-optimization actions drove a 3% reduction in operating expenses."
+    },
+    {
+      "id": "fin_direction_flip_021",
+      "trap_type": "direction_flip",
+      "clause_a": "Net interest income rose 14% year-over-year on higher benchmark rates.",
+      "clause_b": "Net interest income fell 14% year-over-year on higher benchmark rates.",
+      "clause_c": "Higher benchmark rates drove a 14% year-over-year gain in net interest income."
+    },
+    {
+      "id": "fin_direction_flip_022",
+      "trap_type": "direction_flip",
+      "clause_a": "Book value per share grew to $32.40 at fiscal year-end.",
+      "clause_b": "Book value per share shrank to $32.40 at fiscal year-end.",
+      "clause_c": "Fiscal-year-end book value per share climbed to $32.40."
+    },
+    {
+      "id": "fin_direction_flip_023",
+      "trap_type": "direction_flip",
+      "clause_a": "Enterprise-segment bookings increased 24% sequentially in the quarter.",
+      "clause_b": "Enterprise-segment bookings decreased 24% sequentially in the quarter.",
+      "clause_c": "Enterprise-segment bookings climbed 24% quarter-over-quarter in the period."
+    },
+    {
+      "id": "fin_direction_flip_024",
+      "trap_type": "direction_flip",
+      "clause_a": "Long-term debt was reduced by $1.2 billion during the reporting period.",
+      "clause_b": "Long-term debt was expanded by $1.2 billion during the reporting period.",
+      "clause_c": "The company cut long-term debt by $1.2 billion during the period."
+    },
+    {
+      "id": "fin_direction_flip_025",
+      "trap_type": "direction_flip",
+      "clause_a": "Effective tax rate declined to 21.5% from 24.8% year-over-year.",
+      "clause_b": "Effective tax rate increased to 21.5% from 24.8% year-over-year.",
+      "clause_c": "The effective tax rate dropped to 21.5% from 24.8% year-over-year."
+    },
+    {
+      "id": "fin_direction_flip_026",
+      "trap_type": "direction_flip",
+      "clause_a": "Segment operating margin improved by 180 basis points to 24.2%.",
+      "clause_b": "Segment operating margin deteriorated by 180 basis points to 24.2%.",
+      "clause_c": "Segment operating margin was up 180 bps, reaching 24.2%."
+    },
+    {
+      "id": "fin_direction_flip_027",
+      "trap_type": "direction_flip",
+      "clause_a": "Loan loss provisions rose to $340 million on a deteriorating credit environment.",
+      "clause_b": "Loan loss provisions fell to $340 million on a deteriorating credit environment.",
+      "clause_c": "The company increased loan loss provisions to $340 million as credit conditions weakened."
+    },
+    {
+      "id": "fin_direction_flip_028",
+      "trap_type": "direction_flip",
+      "clause_a": "Assets under management grew to $1.4 trillion at period-end.",
+      "clause_b": "Assets under management shrank to $1.4 trillion at period-end.",
+      "clause_c": "Period-end AUM climbed to $1.4 trillion."
+    },
+    {
+      "id": "fin_direction_flip_029",
+      "trap_type": "direction_flip",
+      "clause_a": "Same-store customer traffic increased 5% year-over-year in the retail segment.",
+      "clause_b": "Same-store customer traffic decreased 5% year-over-year in the retail segment.",
+      "clause_c": "Retail-segment same-store customer traffic was up 5% year-over-year."
+    },
+    {
+      "id": "fin_direction_flip_030",
+      "trap_type": "direction_flip",
+      "clause_a": "Bookings-to-billings ratio improved to 1.15 from 1.02 in the prior quarter.",
+      "clause_b": "Bookings-to-billings ratio worsened to 1.15 from 1.02 in the prior quarter.",
+      "clause_c": "The bookings-to-billings ratio rose to 1.15, up from 1.02 last quarter."
+    },
+    {
+      "id": "fin_direction_flip_031",
+      "trap_type": "direction_flip",
+      "clause_a": "Cost of goods sold decreased 4% due to raw material price relief.",
+      "clause_b": "Cost of goods sold increased 4% due to raw material price relief.",
+      "clause_c": "Raw material price relief drove a 4% reduction in cost of goods sold."
+    },
+    {
+      "id": "fin_direction_flip_032",
+      "trap_type": "direction_flip",
+      "clause_a": "Digital sales channel revenue grew 32% to $2.6 billion for the year.",
+      "clause_b": "Digital sales channel revenue declined 32% to $2.6 billion for the year.",
+      "clause_c": "Full-year digital-channel revenue climbed 32%, reaching $2.6 billion."
+    },
+    {
+      "id": "fin_direction_flip_033",
+      "trap_type": "direction_flip",
+      "clause_a": "Consolidated net income rose to $5.1 billion for the fiscal year.",
+      "clause_b": "Consolidated net income fell to $5.1 billion for the fiscal year.",
+      "clause_c": "Fiscal-year consolidated net income climbed to $5.1 billion."
+    },
+    {
+      "id": "fin_direction_flip_034",
+      "trap_type": "direction_flip",
+      "clause_a": "Payment default rates decreased in the consumer lending portfolio year-over-year.",
+      "clause_b": "Payment default rates increased in the consumer lending portfolio year-over-year.",
+      "clause_c": "The consumer lending portfolio saw lower default rates year-over-year."
+    },
+    {
+      "id": "fin_direction_flip_035",
+      "trap_type": "direction_flip",
+      "clause_a": "Net promoter score improved to 68 from 61 in the prior survey wave.",
+      "clause_b": "Net promoter score worsened to 68 from 61 in the prior survey wave.",
+      "clause_c": "NPS rose to 68 in the latest wave, up from 61."
+    },
+    {
+      "id": "fin_direction_flip_036",
+      "trap_type": "direction_flip",
+      "clause_a": "Cloud services revenue expanded 41% year-over-year to $8.7 billion.",
+      "clause_b": "Cloud services revenue contracted 41% year-over-year to $8.7 billion.",
+      "clause_c": "Cloud services revenue climbed 41% year-over-year, reaching $8.7 billion."
+    },
+    {
+      "id": "fin_direction_flip_037",
+      "trap_type": "direction_flip",
+      "clause_a": "Same-store retail margins improved to 27.3% from 25.1% year-over-year.",
+      "clause_b": "Same-store retail margins deteriorated to 27.3% from 25.1% year-over-year.",
+      "clause_c": "Same-store retail margins rose to 27.3% from 25.1% year-over-year."
+    },
+    {
+      "id": "fin_direction_flip_038",
+      "trap_type": "direction_flip",
+      "clause_a": "Net promoter score of the enterprise segment increased by 12 points annually.",
+      "clause_b": "Net promoter score of the enterprise segment decreased by 12 points annually.",
+      "clause_c": "The enterprise segment's NPS rose by 12 points on an annual basis."
+    },
+    {
+      "id": "fin_direction_flip_039",
+      "trap_type": "direction_flip",
+      "clause_a": "Free cash flow conversion improved to 92% for the trailing twelve months.",
+      "clause_b": "Free cash flow conversion worsened to 92% for the trailing twelve months.",
+      "clause_c": "Trailing-twelve-month free cash flow conversion climbed to 92%."
+    },
+    {
+      "id": "fin_direction_flip_040",
+      "trap_type": "direction_flip",
+      "clause_a": "Working capital efficiency improved as receivables declined faster than payables.",
+      "clause_b": "Working capital efficiency worsened as receivables declined faster than payables.",
+      "clause_c": "Receivables dropping faster than payables lifted working capital efficiency."
+    },
+    {
+      "id": "fin_direction_flip_041",
+      "trap_type": "direction_flip",
+      "clause_a": "Adjusted operating margin expanded to 32.5% in the current fiscal year.",
+      "clause_b": "Adjusted operating margin contracted to 32.5% in the current fiscal year.",
+      "clause_c": "Current-year adjusted operating margin rose to 32.5%."
+    },
+    {
+      "id": "fin_direction_flip_042",
+      "trap_type": "direction_flip",
+      "clause_a": "International revenue grew 19% year-over-year on new market penetration.",
+      "clause_b": "International revenue shrank 19% year-over-year on new market penetration.",
+      "clause_c": "New market penetration drove a 19% year-over-year rise in international revenue."
+    },
+    {
+      "id": "fin_direction_flip_043",
+      "trap_type": "direction_flip",
+      "clause_a": "The stock repurchase program increased authorized capacity to $10 billion.",
+      "clause_b": "The stock repurchase program decreased authorized capacity to $10 billion.",
+      "clause_c": "The company raised the stock repurchase authorization to $10 billion."
+    },
+    {
+      "id": "fin_direction_flip_044",
+      "trap_type": "direction_flip",
+      "clause_a": "Segment gross profit dollars expanded 22% year-over-year to $1.9 billion.",
+      "clause_b": "Segment gross profit dollars contracted 22% year-over-year to $1.9 billion.",
+      "clause_c": "Segment gross profit dollars climbed 22%, reaching $1.9 billion year-over-year."
+    },
+    {
+      "id": "fin_direction_flip_045",
+      "trap_type": "direction_flip",
+      "clause_a": "Full-year revenue exceeded prior guidance by rising to $28.6 billion.",
+      "clause_b": "Full-year revenue fell short of prior guidance by dropping to $28.6 billion.",
+      "clause_c": "Full-year revenue beat prior guidance, arriving at $28.6 billion."
+    },
+    {
+      "id": "fin_direction_flip_046",
+      "trap_type": "direction_flip",
+      "clause_a": "Recurring subscription revenue increased 26% on strong renewal rates.",
+      "clause_b": "Recurring subscription revenue decreased 26% on strong renewal rates.",
+      "clause_c": "Strong renewal rates drove a 26% rise in recurring subscription revenue."
+    },
+    {
+      "id": "fin_direction_flip_047",
+      "trap_type": "direction_flip",
+      "clause_a": "Operating cash flow expanded to $4.8 billion for the reporting period.",
+      "clause_b": "Operating cash flow contracted to $4.8 billion for the reporting period.",
+      "clause_c": "Reporting-period operating cash flow rose to $4.8 billion."
+    },
+    {
+      "id": "fin_direction_flip_048",
+      "trap_type": "direction_flip",
+      "clause_a": "Trailing twelve-month adjusted EBITDA margin improved to 34.8%.",
+      "clause_b": "Trailing twelve-month adjusted EBITDA margin deteriorated to 34.8%.",
+      "clause_c": "TTM adjusted EBITDA margin climbed to 34.8%."
+    },
+    {
+      "id": "fin_direction_flip_049",
+      "trap_type": "direction_flip",
+      "clause_a": "Sales productivity per representative rose 14% during the fiscal year.",
+      "clause_b": "Sales productivity per representative fell 14% during the fiscal year.",
+      "clause_c": "Fiscal-year sales productivity per rep climbed 14%."
+    },
+    {
+      "id": "fin_direction_flip_050",
+      "trap_type": "direction_flip",
+      "clause_a": "Total assets grew to $312 billion at the end of the fourth quarter.",
+      "clause_b": "Total assets shrank to $312 billion at the end of the fourth quarter.",
+      "clause_c": "Fourth-quarter-end total assets rose to $312 billion."
+    },
+    {
+      "id": "fin_direction_flip_051",
+      "trap_type": "direction_flip",
+      "clause_a": "Same-property NOI increased 6.4% year-over-year in the industrial portfolio.",
+      "clause_b": "Same-property NOI decreased 6.4% year-over-year in the industrial portfolio.",
+      "clause_c": "Industrial-portfolio same-property NOI was up 6.4% year-over-year."
+    },
+    {
+      "id": "fin_direction_flip_052",
+      "trap_type": "direction_flip",
+      "clause_a": "Cost per acquisition improved by 18% following the customer-targeting overhaul.",
+      "clause_b": "Cost per acquisition worsened by 18% following the customer-targeting overhaul.",
+      "clause_c": "The customer-targeting overhaul drove an 18% reduction in cost per acquisition."
+    },
+    {
+      "id": "fin_direction_flip_053",
+      "trap_type": "direction_flip",
+      "clause_a": "Average revenue per user expanded to $47 for the mobile subscriber base.",
+      "clause_b": "Average revenue per user contracted to $47 for the mobile subscriber base.",
+      "clause_c": "Mobile-subscriber ARPU climbed to $47 during the reporting period."
+    },
+    {
+      "id": "fin_direction_flip_054",
+      "trap_type": "direction_flip",
+      "clause_a": "Merchandise inventory levels decreased 8% year-over-year on tighter ordering.",
+      "clause_b": "Merchandise inventory levels increased 8% year-over-year on tighter ordering.",
+      "clause_c": "Tighter ordering drove an 8% year-over-year drop in merchandise inventory."
+    },
+    {
+      "id": "fin_direction_flip_055",
+      "trap_type": "direction_flip",
+      "clause_a": "Segment adjusted profit rose 17% year-over-year to $890 million.",
+      "clause_b": "Segment adjusted profit fell 17% year-over-year to $890 million.",
+      "clause_c": "Segment adjusted profit was up 17% year-over-year, reaching $890 million."
+    },
+    {
+      "id": "fin_direction_flip_056",
+      "trap_type": "direction_flip",
+      "clause_a": "Store-count growth accelerated to 12% net new locations in the year.",
+      "clause_b": "Store-count growth decelerated to 12% net new locations in the year.",
+      "clause_c": "Net new store openings drove a 12% acceleration in store-count growth."
+    },
+    {
+      "id": "fin_direction_flip_057",
+      "trap_type": "direction_flip",
+      "clause_a": "Bad debt expense declined by $45 million on improved collection efforts.",
+      "clause_b": "Bad debt expense climbed by $45 million on improved collection efforts.",
+      "clause_c": "Improved collection efforts drove a $45 million reduction in bad debt expense."
+    },
+    {
+      "id": "fin_direction_flip_058",
+      "trap_type": "direction_flip",
+      "clause_a": "Same-store transaction volume grew 8% year-over-year in the payments segment.",
+      "clause_b": "Same-store transaction volume shrank 8% year-over-year in the payments segment.",
+      "clause_c": "Payments-segment same-store transaction volume climbed 8% year-over-year."
+    },
+    {
+      "id": "fin_direction_flip_059",
+      "trap_type": "direction_flip",
+      "clause_a": "Consolidated leverage ratio improved to 1.2x from 1.9x during the fiscal year.",
+      "clause_b": "Consolidated leverage ratio deteriorated to 1.2x from 1.9x during the fiscal year.",
+      "clause_c": "The consolidated leverage ratio dropped to 1.2x from 1.9x during the fiscal year."
+    },
+    {
+      "id": "fin_direction_flip_060",
+      "trap_type": "direction_flip",
+      "clause_a": "Adjusted free cash flow expanded to $6.2 billion for the trailing period.",
+      "clause_b": "Adjusted free cash flow contracted to $6.2 billion for the trailing period.",
+      "clause_c": "Trailing-period adjusted free cash flow climbed to $6.2 billion."
+    },
+    {
+      "id": "fin_direction_flip_061",
+      "trap_type": "direction_flip",
+      "clause_a": "Return on equity improved to 22.8% from 19.5% in the prior fiscal year.",
+      "clause_b": "Return on equity worsened to 22.8% from 19.5% in the prior fiscal year.",
+      "clause_c": "ROE rose to 22.8% from 19.5% versus the prior fiscal year."
+    },
+    {
+      "id": "fin_direction_flip_062",
+      "trap_type": "direction_flip",
+      "clause_a": "Customer churn rates decreased by 130 basis points annually.",
+      "clause_b": "Customer churn rates increased by 130 basis points annually.",
+      "clause_c": "Annual customer churn declined by 130 basis points."
+    },
+    {
+      "id": "fin_direction_flip_063",
+      "trap_type": "direction_flip",
+      "clause_a": "Enterprise pipeline coverage grew to 4.2x quota for the coming quarter.",
+      "clause_b": "Enterprise pipeline coverage shrank to 4.2x quota for the coming quarter.",
+      "clause_c": "Enterprise pipeline coverage rose to 4.2x quota heading into next quarter."
+    },
+    {
+      "id": "fin_direction_flip_064",
+      "trap_type": "direction_flip",
+      "clause_a": "Segment reported margins expanded 340 basis points in the current period.",
+      "clause_b": "Segment reported margins contracted 340 basis points in the current period.",
+      "clause_c": "Segment reported margins climbed 340 bps in the current period."
+    },
+    {
+      "id": "fin_direction_flip_065",
+      "trap_type": "direction_flip",
+      "clause_a": "Interest coverage ratio improved to 8.5x from 6.2x during the fiscal year.",
+      "clause_b": "Interest coverage ratio worsened to 8.5x from 6.2x during the fiscal year.",
+      "clause_c": "The interest coverage ratio climbed to 8.5x versus a prior 6.2x."
+    },
+    {
+      "id": "fin_direction_flip_066",
+      "trap_type": "direction_flip",
+      "clause_a": "Full-year adjusted operating income rose 14% to $9.7 billion.",
+      "clause_b": "Full-year adjusted operating income fell 14% to $9.7 billion.",
+      "clause_c": "Full-year adjusted operating income climbed 14%, reaching $9.7 billion."
+    },
+    {
+      "id": "fin_direction_flip_067",
+      "trap_type": "direction_flip",
+      "clause_a": "Restructuring charges declined to $180 million for the reporting period.",
+      "clause_b": "Restructuring charges climbed to $180 million for the reporting period.",
+      "clause_c": "Restructuring charges came down to $180 million for the period."
+    },
+    {
+      "id": "fin_direction_flip_068",
+      "trap_type": "direction_flip",
+      "clause_a": "Segment year-over-year unit shipments grew 21% in the second half.",
+      "clause_b": "Segment year-over-year unit shipments declined 21% in the second half.",
+      "clause_c": "Segment year-over-year unit shipments climbed 21% in the second half."
+    },
+    {
+      "id": "fin_direction_flip_069",
+      "trap_type": "direction_flip",
+      "clause_a": "Adjusted operating expenses decreased to 63% of revenue for the year.",
+      "clause_b": "Adjusted operating expenses increased to 63% of revenue for the year.",
+      "clause_c": "Adjusted operating expenses came down to 63% of full-year revenue."
+    },
+    {
+      "id": "fin_direction_flip_070",
+      "trap_type": "direction_flip",
+      "clause_a": "Gross written premiums rose 11% year-over-year in the property segment.",
+      "clause_b": "Gross written premiums fell 11% year-over-year in the property segment.",
+      "clause_c": "Property-segment gross written premiums climbed 11% year-over-year."
+    },
+    {
+      "id": "fin_direction_flip_071",
+      "trap_type": "direction_flip",
+      "clause_a": "Working capital days improved by 6 days sequentially in the fourth quarter.",
+      "clause_b": "Working capital days worsened by 6 days sequentially in the fourth quarter.",
+      "clause_c": "Q4 working capital days dropped by 6 days from the prior quarter."
+    },
+    {
+      "id": "fin_direction_flip_072",
+      "trap_type": "direction_flip",
+      "clause_a": "Sales through the direct channel grew 19% year-over-year in the segment.",
+      "clause_b": "Sales through the direct channel declined 19% year-over-year in the segment.",
+      "clause_c": "Direct-channel segment sales climbed 19% year-over-year."
+    },
+    {
+      "id": "fin_direction_flip_073",
+      "trap_type": "direction_flip",
+      "clause_a": "Consolidated adjusted operating margin improved 210 basis points annually.",
+      "clause_b": "Consolidated adjusted operating margin worsened 210 basis points annually.",
+      "clause_c": "Consolidated adjusted operating margin climbed 210 bps on an annual basis."
+    },
+    {
+      "id": "fin_direction_flip_074",
+      "trap_type": "direction_flip",
+      "clause_a": "Reported operating income grew 9% to $2.4 billion in the reporting period.",
+      "clause_b": "Reported operating income declined 9% to $2.4 billion in the reporting period.",
+      "clause_c": "Reporting-period reported operating income climbed 9% to $2.4 billion."
+    },
+    {
+      "id": "fin_direction_flip_075",
+      "trap_type": "direction_flip",
+      "clause_a": "Enterprise services revenue expanded 33% year-over-year in fiscal 2024.",
+      "clause_b": "Enterprise services revenue contracted 33% year-over-year in fiscal 2024.",
+      "clause_c": "Fiscal 2024 enterprise services revenue climbed 33% year-over-year."
+    },
+    {
+      "id": "fin_polarity_flip_001",
+      "trap_type": "polarity_flip",
+      "clause_a": "The subsidiary recorded a net gain of $50 million from asset divestiture.",
+      "clause_b": "The subsidiary recorded a net loss of $50 million from asset divestiture.",
+      "clause_c": "Asset divestiture produced a $50 million net gain for the subsidiary."
+    },
+    {
+      "id": "fin_polarity_flip_002",
+      "trap_type": "polarity_flip",
+      "clause_a": "The impairment charge resulted in a pretax loss of $220 million for the segment.",
+      "clause_b": "The impairment charge resulted in a pretax gain of $220 million for the segment.",
+      "clause_c": "Segment impairment led to a $220 million pretax loss."
+    },
+    {
+      "id": "fin_polarity_flip_003",
+      "trap_type": "polarity_flip",
+      "clause_a": "The company reported operating profit of $1.8 billion for the fiscal year.",
+      "clause_b": "The company reported operating loss of $1.8 billion for the fiscal year.",
+      "clause_c": "Fiscal-year operating profit came in at $1.8 billion for the company."
+    },
+    {
+      "id": "fin_polarity_flip_004",
+      "trap_type": "polarity_flip",
+      "clause_a": "The foreign currency translation produced a $75 million positive impact on earnings.",
+      "clause_b": "The foreign currency translation produced a $75 million negative impact on earnings.",
+      "clause_c": "Foreign currency translation added $75 million of positive earnings impact."
+    },
+    {
+      "id": "fin_polarity_flip_005",
+      "trap_type": "polarity_flip",
+      "clause_a": "The pension obligation is classified as a long-term liability on the balance sheet.",
+      "clause_b": "The pension obligation is classified as a long-term asset on the balance sheet.",
+      "clause_c": "The balance sheet shows the pension obligation under long-term liabilities."
+    },
+    {
+      "id": "fin_polarity_flip_006",
+      "trap_type": "polarity_flip",
+      "clause_a": "Goodwill impairment testing produced a non-cash charge to earnings this quarter.",
+      "clause_b": "Goodwill impairment testing produced a non-cash credit to earnings this quarter.",
+      "clause_c": "Goodwill impairment testing generated a non-cash earnings charge this quarter."
+    },
+    {
+      "id": "fin_polarity_flip_007",
+      "trap_type": "polarity_flip",
+      "clause_a": "The mark-to-market adjustment produced an unrealized gain of $180 million.",
+      "clause_b": "The mark-to-market adjustment produced an unrealized loss of $180 million.",
+      "clause_c": "The mark-to-market adjustment recorded an unrealized $180 million gain."
+    },
+    {
+      "id": "fin_polarity_flip_008",
+      "trap_type": "polarity_flip",
+      "clause_a": "The interest rate swap contract represents an asset position on the balance sheet.",
+      "clause_b": "The interest rate swap contract represents a liability position on the balance sheet.",
+      "clause_c": "The balance sheet reflects the interest rate swap as an asset position."
+    },
+    {
+      "id": "fin_polarity_flip_009",
+      "trap_type": "polarity_flip",
+      "clause_a": "The divisional reorganization contributed a positive $95 million to operating income.",
+      "clause_b": "The divisional reorganization contributed a negative $95 million to operating income.",
+      "clause_c": "The divisional reorganization added $95 million to operating income."
+    },
+    {
+      "id": "fin_polarity_flip_010",
+      "trap_type": "polarity_flip",
+      "clause_a": "Full-year performance produced a return on equity of positive 18.4%.",
+      "clause_b": "Full-year performance produced a return on equity of negative 18.4%.",
+      "clause_c": "Full-year return on equity came in at positive 18.4%."
+    },
+    {
+      "id": "fin_polarity_flip_011",
+      "trap_type": "polarity_flip",
+      "clause_a": "The derivative position generated a realized gain during the reporting period.",
+      "clause_b": "The derivative position generated a realized loss during the reporting period.",
+      "clause_c": "The derivative position produced a realized gain in the reporting period."
+    },
+    {
+      "id": "fin_polarity_flip_012",
+      "trap_type": "polarity_flip",
+      "clause_a": "Total shareholders' equity increased by $2.4 billion due to net income.",
+      "clause_b": "Total shareholders' equity decreased by $2.4 billion due to net income.",
+      "clause_c": "Net income contributed a $2.4 billion increase to shareholders' equity."
+    },
+    {
+      "id": "fin_polarity_flip_013",
+      "trap_type": "polarity_flip",
+      "clause_a": "The tax valuation allowance created a deferred tax asset on the balance sheet.",
+      "clause_b": "The tax valuation allowance created a deferred tax liability on the balance sheet.",
+      "clause_c": "The balance sheet gained a deferred tax asset from the valuation allowance."
+    },
+    {
+      "id": "fin_polarity_flip_014",
+      "trap_type": "polarity_flip",
+      "clause_a": "The one-time sale produced a realized profit of $130 million pretax.",
+      "clause_b": "The one-time sale produced a realized loss of $130 million pretax.",
+      "clause_c": "The one-time sale realized a $130 million pretax gain."
+    },
+    {
+      "id": "fin_polarity_flip_015",
+      "trap_type": "polarity_flip",
+      "clause_a": "The revaluation reserve represents a credit to shareholders' equity.",
+      "clause_b": "The revaluation reserve represents a debit to shareholders' equity.",
+      "clause_c": "The revaluation reserve sits as a credit within shareholders' equity."
+    },
+    {
+      "id": "fin_polarity_flip_016",
+      "trap_type": "polarity_flip",
+      "clause_a": "The segment reported positive operating leverage during the reporting period.",
+      "clause_b": "The segment reported negative operating leverage during the reporting period.",
+      "clause_c": "The segment achieved positive operating leverage during the reporting period."
+    },
+    {
+      "id": "fin_polarity_flip_017",
+      "trap_type": "polarity_flip",
+      "clause_a": "The bond issuance was recorded as a long-term liability on the balance sheet.",
+      "clause_b": "The bond issuance was recorded as a long-term asset on the balance sheet.",
+      "clause_c": "The balance sheet reflects the bond issuance as a long-term liability."
+    },
+    {
+      "id": "fin_polarity_flip_018",
+      "trap_type": "polarity_flip",
+      "clause_a": "Accumulated other comprehensive income shows a positive balance at fiscal year-end.",
+      "clause_b": "Accumulated other comprehensive income shows a negative balance at fiscal year-end.",
+      "clause_c": "Fiscal-year-end accumulated other comprehensive income sits in positive territory."
+    },
+    {
+      "id": "fin_polarity_flip_019",
+      "trap_type": "polarity_flip",
+      "clause_a": "The commodity hedge generated an economic profit for the reporting period.",
+      "clause_b": "The commodity hedge generated an economic loss for the reporting period.",
+      "clause_c": "The commodity hedge produced an economic gain for the period."
+    },
+    {
+      "id": "fin_polarity_flip_020",
+      "trap_type": "polarity_flip",
+      "clause_a": "The customer deposit is a current liability recognized on the balance sheet.",
+      "clause_b": "The customer deposit is a current asset recognized on the balance sheet.",
+      "clause_c": "The balance sheet lists the customer deposit as a current liability."
+    },
+    {
+      "id": "fin_polarity_flip_021",
+      "trap_type": "polarity_flip",
+      "clause_a": "The pension plan is currently in a funded surplus position of $180 million.",
+      "clause_b": "The pension plan is currently in a funded deficit position of $180 million.",
+      "clause_c": "The pension plan carries a $180 million funded surplus at present."
+    },
+    {
+      "id": "fin_polarity_flip_022",
+      "trap_type": "polarity_flip",
+      "clause_a": "The environmental remediation obligation is recorded as an accrued liability.",
+      "clause_b": "The environmental remediation obligation is recorded as an accrued asset.",
+      "clause_c": "The accrued liability includes the environmental remediation obligation."
+    },
+    {
+      "id": "fin_polarity_flip_023",
+      "trap_type": "polarity_flip",
+      "clause_a": "The put option premium was recognized as revenue over the option's life.",
+      "clause_b": "The put option premium was recognized as expense over the option's life.",
+      "clause_c": "The option's life brought the put option premium into revenue recognition."
+    },
+    {
+      "id": "fin_polarity_flip_024",
+      "trap_type": "polarity_flip",
+      "clause_a": "The retained earnings balance is positive $18.5 billion at year-end.",
+      "clause_b": "The retained earnings balance is negative $18.5 billion at year-end.",
+      "clause_c": "Year-end retained earnings show a positive balance of $18.5 billion."
+    },
+    {
+      "id": "fin_polarity_flip_025",
+      "trap_type": "polarity_flip",
+      "clause_a": "The lease agreement created a right-of-use asset under ASC 842 accounting.",
+      "clause_b": "The lease agreement created a right-of-use liability under ASC 842 accounting.",
+      "clause_c": "ASC 842 accounting recognized the lease as a right-of-use asset."
+    },
+    {
+      "id": "fin_polarity_flip_026",
+      "trap_type": "polarity_flip",
+      "clause_a": "Segment profitability was positive across all four operating divisions.",
+      "clause_b": "Segment profitability was negative across all four operating divisions.",
+      "clause_c": "All four operating divisions delivered positive segment profitability."
+    },
+    {
+      "id": "fin_polarity_flip_027",
+      "trap_type": "polarity_flip",
+      "clause_a": "The insurance claim recovery created an income statement gain of $28 million.",
+      "clause_b": "The insurance claim recovery created an income statement loss of $28 million.",
+      "clause_c": "The insurance claim recovery contributed a $28 million income statement gain."
+    },
+    {
+      "id": "fin_polarity_flip_028",
+      "trap_type": "polarity_flip",
+      "clause_a": "Contributions to the pension plan qualify as operating asset build-up.",
+      "clause_b": "Contributions to the pension plan qualify as operating liability build-up.",
+      "clause_c": "Pension plan contributions add to operating asset build-up."
+    },
+    {
+      "id": "fin_polarity_flip_029",
+      "trap_type": "polarity_flip",
+      "clause_a": "The intangible asset recognized on acquisition amounts to $1.2 billion.",
+      "clause_b": "The intangible liability recognized on acquisition amounts to $1.2 billion.",
+      "clause_c": "Acquisition-recognized intangible assets total $1.2 billion."
+    },
+    {
+      "id": "fin_polarity_flip_030",
+      "trap_type": "polarity_flip",
+      "clause_a": "Provision releases produced a positive earnings adjustment for the quarter.",
+      "clause_b": "Provision releases produced a negative earnings adjustment for the quarter.",
+      "clause_c": "The quarter saw a positive earnings adjustment from provision releases."
+    },
+    {
+      "id": "fin_polarity_flip_031",
+      "trap_type": "polarity_flip",
+      "clause_a": "The receivable factoring arrangement moved balances out of current assets.",
+      "clause_b": "The receivable factoring arrangement moved balances out of current liabilities.",
+      "clause_c": "Receivable factoring shifted balances off the current assets line."
+    },
+    {
+      "id": "fin_polarity_flip_032",
+      "trap_type": "polarity_flip",
+      "clause_a": "The vendor financing terms created an accounts payable liability.",
+      "clause_b": "The vendor financing terms created an accounts payable asset.",
+      "clause_c": "The accounts payable liability grew because of vendor financing terms."
+    },
+    {
+      "id": "fin_polarity_flip_033",
+      "trap_type": "polarity_flip",
+      "clause_a": "The reclassification produced a net credit adjustment to retained earnings.",
+      "clause_b": "The reclassification produced a net debit adjustment to retained earnings.",
+      "clause_c": "Retained earnings received a net credit adjustment from the reclassification."
+    },
+    {
+      "id": "fin_polarity_flip_034",
+      "trap_type": "polarity_flip",
+      "clause_a": "The pension benefit adjustment resulted in an actuarial gain of $65 million.",
+      "clause_b": "The pension benefit adjustment resulted in an actuarial loss of $65 million.",
+      "clause_c": "The pension benefit adjustment recorded a $65 million actuarial gain."
+    },
+    {
+      "id": "fin_polarity_flip_035",
+      "trap_type": "polarity_flip",
+      "clause_a": "The margin trading account holds a debit balance at period-end.",
+      "clause_b": "The margin trading account holds a credit balance at period-end.",
+      "clause_c": "At period-end, the margin trading account carries a debit balance."
+    },
+    {
+      "id": "fin_polarity_flip_036",
+      "trap_type": "polarity_flip",
+      "clause_a": "Consolidated retained earnings reflect a $9.4 billion positive balance.",
+      "clause_b": "Consolidated retained earnings reflect a $9.4 billion negative balance.",
+      "clause_c": "Consolidated retained earnings sit at a positive $9.4 billion."
+    },
+    {
+      "id": "fin_polarity_flip_037",
+      "trap_type": "polarity_flip",
+      "clause_a": "The property held for sale is classified as a current asset.",
+      "clause_b": "The property held for sale is classified as a current liability.",
+      "clause_c": "Balance sheet classification puts the property held for sale under current assets."
+    },
+    {
+      "id": "fin_polarity_flip_038",
+      "trap_type": "polarity_flip",
+      "clause_a": "The extinguishment of debt produced a gain of $22 million on the income statement.",
+      "clause_b": "The extinguishment of debt produced a loss of $22 million on the income statement.",
+      "clause_c": "Debt extinguishment created a $22 million income statement gain."
+    },
+    {
+      "id": "fin_polarity_flip_039",
+      "trap_type": "polarity_flip",
+      "clause_a": "The bank loan balance is recorded as a non-current liability at year-end.",
+      "clause_b": "The bank loan balance is recorded as a non-current asset at year-end.",
+      "clause_c": "Year-end classification places the bank loan under non-current liabilities."
+    },
+    {
+      "id": "fin_polarity_flip_040",
+      "trap_type": "polarity_flip",
+      "clause_a": "The subsidiary contributed positive earnings per share of $0.42 to consolidated results.",
+      "clause_b": "The subsidiary contributed negative earnings per share of $0.42 to consolidated results.",
+      "clause_c": "The subsidiary added $0.42 of positive EPS to consolidated results."
+    },
+    {
+      "id": "fin_polarity_flip_041",
+      "trap_type": "polarity_flip",
+      "clause_a": "The unrealized gain on available-for-sale securities was $340 million pretax.",
+      "clause_b": "The unrealized loss on available-for-sale securities was $340 million pretax.",
+      "clause_c": "Available-for-sale securities produced a $340 million pretax unrealized gain."
+    },
+    {
+      "id": "fin_polarity_flip_042",
+      "trap_type": "polarity_flip",
+      "clause_a": "The joint venture reported operating profit contribution of $95 million.",
+      "clause_b": "The joint venture reported operating loss contribution of $95 million.",
+      "clause_c": "The joint venture added $95 million of operating profit contribution."
+    },
+    {
+      "id": "fin_polarity_flip_043",
+      "trap_type": "polarity_flip",
+      "clause_a": "Consolidated free cash flow was positive $4.8 billion for the trailing period.",
+      "clause_b": "Consolidated free cash flow was negative $4.8 billion for the trailing period.",
+      "clause_c": "Trailing-period consolidated free cash flow came in at positive $4.8 billion."
+    },
+    {
+      "id": "fin_polarity_flip_044",
+      "trap_type": "polarity_flip",
+      "clause_a": "The trade receivable is a current asset carried at net realizable value.",
+      "clause_b": "The trade receivable is a current liability carried at net realizable value.",
+      "clause_c": "The current asset section carries the trade receivable at net realizable value."
+    },
+    {
+      "id": "fin_polarity_flip_045",
+      "trap_type": "polarity_flip",
+      "clause_a": "The warranty accrual is recorded as a current liability on the balance sheet.",
+      "clause_b": "The warranty accrual is recorded as a current asset on the balance sheet.",
+      "clause_c": "The balance sheet places the warranty accrual under current liabilities."
+    },
+    {
+      "id": "fin_polarity_flip_046",
+      "trap_type": "polarity_flip",
+      "clause_a": "Reinvestment activity produced positive cash generation across the segments.",
+      "clause_b": "Reinvestment activity produced negative cash generation across the segments.",
+      "clause_c": "Reinvestment activity delivered positive cash generation segment-wide."
+    },
+    {
+      "id": "fin_polarity_flip_047",
+      "trap_type": "polarity_flip",
+      "clause_a": "The share repurchase reduced treasury stock, an offset to equity.",
+      "clause_b": "The share issuance increased treasury stock, an offset to equity.",
+      "clause_c": "Treasury stock, which offsets equity, was reduced by the share repurchase."
+    },
+    {
+      "id": "fin_polarity_flip_048",
+      "trap_type": "polarity_flip",
+      "clause_a": "The subordinated debenture is a long-term liability with a 2032 maturity.",
+      "clause_b": "The subordinated debenture is a long-term asset with a 2032 maturity.",
+      "clause_c": "This long-term liability, the subordinated debenture, matures in 2032."
+    },
+    {
+      "id": "fin_polarity_flip_049",
+      "trap_type": "polarity_flip",
+      "clause_a": "The reinsurance recoverable balance is presented as an operating asset.",
+      "clause_b": "The reinsurance recoverable balance is presented as an operating liability.",
+      "clause_c": "Operating assets include the reinsurance recoverable balance."
+    },
+    {
+      "id": "fin_polarity_flip_050",
+      "trap_type": "polarity_flip",
+      "clause_a": "The FX hedge realized a gain of $18 million during the settlement period.",
+      "clause_b": "The FX hedge realized a loss of $18 million during the settlement period.",
+      "clause_c": "The FX hedge produced an $18 million gain over the settlement period."
+    },
+    {
+      "id": "fin_polarity_flip_051",
+      "trap_type": "polarity_flip",
+      "clause_a": "The purchase price allocation resulted in $340 million of goodwill on the balance sheet.",
+      "clause_b": "The purchase price allocation resulted in $340 million of bargain purchase gain on the income statement.",
+      "clause_c": "The purchase price allocation added $340 million of goodwill to the balance sheet."
+    },
+    {
+      "id": "fin_polarity_flip_052",
+      "trap_type": "polarity_flip",
+      "clause_a": "Segment profitability tipped positive for the first time in eight quarters.",
+      "clause_b": "Segment profitability tipped negative for the first time in eight quarters.",
+      "clause_c": "The segment reached positive profitability for the first time in eight quarters."
+    },
+    {
+      "id": "fin_polarity_flip_053",
+      "trap_type": "polarity_flip",
+      "clause_a": "The available-for-sale reserve carries a credit balance in equity.",
+      "clause_b": "The available-for-sale reserve carries a debit balance in equity.",
+      "clause_c": "Within equity, the available-for-sale reserve sits as a credit balance."
+    },
+    {
+      "id": "fin_polarity_flip_054",
+      "trap_type": "polarity_flip",
+      "clause_a": "The subsidiary buyout produced accretion to consolidated earnings per share.",
+      "clause_b": "The subsidiary buyout produced dilution to consolidated earnings per share.",
+      "clause_c": "Consolidated EPS was accreted through the subsidiary buyout."
+    },
+    {
+      "id": "fin_polarity_flip_055",
+      "trap_type": "polarity_flip",
+      "clause_a": "The disposal of the retail division produced a book gain of $180 million.",
+      "clause_b": "The disposal of the retail division produced a book loss of $180 million.",
+      "clause_c": "The retail division disposal generated a $180 million book gain."
+    },
+    {
+      "id": "fin_polarity_flip_056",
+      "trap_type": "polarity_flip",
+      "clause_a": "Comprehensive income for the period totals a positive $3.2 billion.",
+      "clause_b": "Comprehensive income for the period totals a negative $3.2 billion.",
+      "clause_c": "Period comprehensive income sums to a positive $3.2 billion."
+    },
+    {
+      "id": "fin_polarity_flip_057",
+      "trap_type": "polarity_flip",
+      "clause_a": "The equity-method investment produced a share of earnings for the reporting period.",
+      "clause_b": "The equity-method investment produced a share of losses for the reporting period.",
+      "clause_c": "The reporting period saw the equity-method investment contribute earnings share."
+    },
+    {
+      "id": "fin_polarity_flip_058",
+      "trap_type": "polarity_flip",
+      "clause_a": "The property revaluation was recognized as an increment to equity reserves.",
+      "clause_b": "The property revaluation was recognized as a decrement to equity reserves.",
+      "clause_c": "Equity reserves grew from the property revaluation increment."
+    },
+    {
+      "id": "fin_polarity_flip_059",
+      "trap_type": "polarity_flip",
+      "clause_a": "The customer overpayment created a refundable liability payable to the customer.",
+      "clause_b": "The customer overpayment created a refundable asset payable to the customer.",
+      "clause_c": "The refundable liability owed to the customer arose from an overpayment."
+    },
+    {
+      "id": "fin_polarity_flip_060",
+      "trap_type": "polarity_flip",
+      "clause_a": "The environmental credit was recognized as revenue during the fiscal year.",
+      "clause_b": "The environmental credit was recognized as expense during the fiscal year.",
+      "clause_c": "Fiscal-year revenue included the environmental credit recognition."
+    },
+    {
+      "id": "fin_polarity_flip_061",
+      "trap_type": "polarity_flip",
+      "clause_a": "The contingent consideration is presented as a purchase-related liability.",
+      "clause_b": "The contingent consideration is presented as a purchase-related asset.",
+      "clause_c": "The purchase-related liability line includes the contingent consideration."
+    },
+    {
+      "id": "fin_polarity_flip_062",
+      "trap_type": "polarity_flip",
+      "clause_a": "The private-equity investment showed positive fair value change in the quarter.",
+      "clause_b": "The private-equity investment showed negative fair value change in the quarter.",
+      "clause_c": "The quarter recorded a positive fair value change on the private-equity investment."
+    },
+    {
+      "id": "fin_polarity_flip_063",
+      "trap_type": "polarity_flip",
+      "clause_a": "The convertible note is a long-term liability with an equity conversion feature.",
+      "clause_b": "The convertible note is a long-term asset with an equity conversion feature.",
+      "clause_c": "This long-term liability, the convertible note, includes an equity conversion feature."
+    },
+    {
+      "id": "fin_polarity_flip_064",
+      "trap_type": "polarity_flip",
+      "clause_a": "The pension settlement produced a one-time gain of $110 million for the period.",
+      "clause_b": "The pension settlement produced a one-time loss of $110 million for the period.",
+      "clause_c": "The period saw a $110 million one-time gain from the pension settlement."
+    },
+    {
+      "id": "fin_polarity_flip_065",
+      "trap_type": "polarity_flip",
+      "clause_a": "The intercompany balance sits as a receivable on the parent balance sheet.",
+      "clause_b": "The intercompany balance sits as a payable on the parent balance sheet.",
+      "clause_c": "The parent balance sheet carries the intercompany balance as a receivable."
+    },
+    {
+      "id": "fin_polarity_flip_066",
+      "trap_type": "polarity_flip",
+      "clause_a": "Interest expense is recognized as a period cost on the income statement.",
+      "clause_b": "Interest income is recognized as a period cost on the income statement.",
+      "clause_c": "The income statement recognizes interest expense as a period cost."
+    },
+    {
+      "id": "fin_polarity_flip_067",
+      "trap_type": "polarity_flip",
+      "clause_a": "Segment reporting shows positive operating income for all product lines.",
+      "clause_b": "Segment reporting shows negative operating income for all product lines.",
+      "clause_c": "All product lines contribute positive operating income to segment reporting."
+    },
+    {
+      "id": "fin_polarity_flip_068",
+      "trap_type": "polarity_flip",
+      "clause_a": "The disposition of the joint venture stake produced a realized gain in the quarter.",
+      "clause_b": "The disposition of the joint venture stake produced a realized loss in the quarter.",
+      "clause_c": "The quarter recorded a realized gain from the joint venture stake disposition."
+    },
+    {
+      "id": "fin_polarity_flip_069",
+      "trap_type": "polarity_flip",
+      "clause_a": "Treasury stock reduces the equity balance as a contra-equity account.",
+      "clause_b": "Additional paid-in capital increases the equity balance as a contributory account.",
+      "clause_c": "The contra-equity treasury stock account reduces the equity balance."
+    },
+    {
+      "id": "fin_polarity_flip_070",
+      "trap_type": "polarity_flip",
+      "clause_a": "The deferred revenue liability decreased as customer contracts were fulfilled.",
+      "clause_b": "The deferred revenue asset decreased as customer contracts were fulfilled.",
+      "clause_c": "Fulfilled customer contracts drove down the deferred revenue liability balance."
+    },
+    {
+      "id": "fin_polarity_flip_071",
+      "trap_type": "polarity_flip",
+      "clause_a": "The unrealized foreign exchange gain was recorded in OCI for the period.",
+      "clause_b": "The unrealized foreign exchange loss was recorded in OCI for the period.",
+      "clause_c": "Period OCI included the unrealized foreign exchange gain."
+    },
+    {
+      "id": "fin_polarity_flip_072",
+      "trap_type": "polarity_flip",
+      "clause_a": "The dividends declared to shareholders reduce retained earnings.",
+      "clause_b": "The dividends received from investees add to retained earnings.",
+      "clause_c": "Retained earnings decrease from dividends declared to shareholders."
+    },
+    {
+      "id": "fin_polarity_flip_073",
+      "trap_type": "polarity_flip",
+      "clause_a": "The interest-rate cap contract sits as an asset position at fair value.",
+      "clause_b": "The interest-rate cap contract sits as a liability position at fair value.",
+      "clause_c": "At fair value, the interest-rate cap contract is an asset position."
+    },
+    {
+      "id": "fin_polarity_flip_074",
+      "trap_type": "polarity_flip",
+      "clause_a": "The one-time bonus payment reduced net income for the fourth quarter.",
+      "clause_b": "The one-time bonus recovery increased net income for the fourth quarter.",
+      "clause_c": "Fourth-quarter net income was reduced by the one-time bonus payment."
+    },
+    {
+      "id": "fin_polarity_flip_075",
+      "trap_type": "polarity_flip",
+      "clause_a": "Held-to-maturity securities are carried at amortized cost as long-term assets.",
+      "clause_b": "Held-to-maturity securities are carried at amortized cost as long-term liabilities.",
+      "clause_c": "Long-term assets include held-to-maturity securities at amortized cost."
+    },
+    {
+      "id": "fin_period_flip_001",
+      "trap_type": "period_flip",
+      "clause_a": "Fiscal 2023 operating margin improved to 18.5% from 16.2% in fiscal 2022.",
+      "clause_b": "Fiscal 2024 operating margin improved to 18.5% from 16.2% in fiscal 2022.",
+      "clause_c": "The fiscal 2023 operating margin rose to 18.5%, up from 16.2% in fiscal 2022."
+    },
+    {
+      "id": "fin_period_flip_002",
+      "trap_type": "period_flip",
+      "clause_a": "Q1 2024 revenue was $6.8 billion, up 9% from Q1 2023.",
+      "clause_b": "Q4 2024 revenue was $6.8 billion, up 9% from Q1 2023.",
+      "clause_c": "First-quarter 2024 revenue reached $6.8 billion, a 9% gain over Q1 2023."
+    },
+    {
+      "id": "fin_period_flip_003",
+      "trap_type": "period_flip",
+      "clause_a": "Second-quarter net income of $1.2 billion exceeded consensus estimates.",
+      "clause_b": "Fourth-quarter net income of $1.2 billion exceeded consensus estimates.",
+      "clause_c": "Q2 net income beat consensus estimates, reaching $1.2 billion."
+    },
+    {
+      "id": "fin_period_flip_004",
+      "trap_type": "period_flip",
+      "clause_a": "The company reported record third-quarter free cash flow of $2.6 billion.",
+      "clause_b": "The company reported record first-quarter free cash flow of $2.6 billion.",
+      "clause_c": "Third-quarter free cash flow hit a record $2.6 billion at the company."
+    },
+    {
+      "id": "fin_period_flip_005",
+      "trap_type": "period_flip",
+      "clause_a": "Year-over-year comparisons show 14% revenue growth in the reporting period.",
+      "clause_b": "Quarter-over-quarter comparisons show 14% revenue growth in the reporting period.",
+      "clause_c": "Reporting-period year-over-year revenue growth came in at 14%."
+    },
+    {
+      "id": "fin_period_flip_006",
+      "trap_type": "period_flip",
+      "clause_a": "Current-year operating cash flow of $8.9 billion compares to $7.4 billion in the prior year.",
+      "clause_b": "Prior-year operating cash flow of $8.9 billion compares to $7.4 billion in the current year.",
+      "clause_c": "Current-year operating cash flow reached $8.9 billion versus $7.4 billion prior year."
+    },
+    {
+      "id": "fin_period_flip_007",
+      "trap_type": "period_flip",
+      "clause_a": "First-half revenue grew 18% year-over-year to $14.2 billion.",
+      "clause_b": "Second-half revenue grew 18% year-over-year to $14.2 billion.",
+      "clause_c": "First-half revenue climbed 18% year-over-year, reaching $14.2 billion."
+    },
+    {
+      "id": "fin_period_flip_008",
+      "trap_type": "period_flip",
+      "clause_a": "The forecast anticipates Q2 revenue in the range of $7.2 to $7.4 billion.",
+      "clause_b": "The forecast anticipates Q3 revenue in the range of $7.2 to $7.4 billion.",
+      "clause_c": "Q2 revenue is forecast to land between $7.2 and $7.4 billion."
+    },
+    {
+      "id": "fin_period_flip_009",
+      "trap_type": "period_flip",
+      "clause_a": "Sequential quarter growth in the software segment reached 11 percent.",
+      "clause_b": "Sequential year growth in the software segment reached 11 percent.",
+      "clause_c": "Software segment sequential quarterly growth landed at 11 percent."
+    },
+    {
+      "id": "fin_period_flip_010",
+      "trap_type": "period_flip",
+      "clause_a": "Fiscal 2024 guidance projects EPS in the range of $6.20 to $6.40 per share.",
+      "clause_b": "Fiscal 2023 guidance projects EPS in the range of $6.20 to $6.40 per share.",
+      "clause_c": "The fiscal 2024 guidance range for EPS is $6.20 to $6.40 per share."
+    },
+    {
+      "id": "fin_period_flip_011",
+      "trap_type": "period_flip",
+      "clause_a": "Third quarter operating margin expanded 210 basis points versus the year-ago quarter.",
+      "clause_b": "First quarter operating margin expanded 210 basis points versus the year-ago quarter.",
+      "clause_c": "Q3 operating margin was up 210 bps versus the year-ago quarter."
+    },
+    {
+      "id": "fin_period_flip_012",
+      "trap_type": "period_flip",
+      "clause_a": "The trailing twelve-month EBITDA of $12.4 billion compares favorably to the prior year.",
+      "clause_b": "The forward twelve-month EBITDA of $12.4 billion compares favorably to the prior year.",
+      "clause_c": "TTM EBITDA of $12.4 billion compares favorably to the prior year."
+    },
+    {
+      "id": "fin_period_flip_013",
+      "trap_type": "period_flip",
+      "clause_a": "Full-year fiscal 2024 revenue landed at $34.8 billion, above prior guidance.",
+      "clause_b": "Full-year fiscal 2023 revenue landed at $34.8 billion, above prior guidance.",
+      "clause_c": "Fiscal 2024 full-year revenue finished at $34.8 billion, beating prior guidance."
+    },
+    {
+      "id": "fin_period_flip_014",
+      "trap_type": "period_flip",
+      "clause_a": "Second-quarter EBITDA margin improved by 220 basis points sequentially.",
+      "clause_b": "Second-quarter EBITDA margin improved by 220 basis points year-over-year.",
+      "clause_c": "Q2 EBITDA margin was up 220 bps quarter-over-quarter."
+    },
+    {
+      "id": "fin_period_flip_015",
+      "trap_type": "period_flip",
+      "clause_a": "Prior-year comparable base grew 6% in the retail segment.",
+      "clause_b": "Current-year comparable base grew 6% in the retail segment.",
+      "clause_c": "The prior-year comparable base in retail was up 6%."
+    },
+    {
+      "id": "fin_period_flip_016",
+      "trap_type": "period_flip",
+      "clause_a": "Third-quarter revenue accelerated to 15% growth from 11% in Q2.",
+      "clause_b": "Second-quarter revenue accelerated to 15% growth from 11% in Q2.",
+      "clause_c": "Q3 revenue growth accelerated to 15%, up from 11% in Q2."
+    },
+    {
+      "id": "fin_period_flip_017",
+      "trap_type": "period_flip",
+      "clause_a": "Year-to-date operating income of $9.2 billion is up 12% versus prior year-to-date.",
+      "clause_b": "Year-to-date operating income of $9.2 billion is down 12% versus prior year-to-date.",
+      "clause_c": "YTD operating income at $9.2 billion is 12% ahead of prior YTD."
+    },
+    {
+      "id": "fin_period_flip_018",
+      "trap_type": "period_flip",
+      "clause_a": "First-quarter guidance implies revenue of $6.5 billion at the midpoint.",
+      "clause_b": "Fourth-quarter guidance implies revenue of $6.5 billion at the midpoint.",
+      "clause_c": "Q1 guidance implies midpoint revenue of $6.5 billion."
+    },
+    {
+      "id": "fin_period_flip_019",
+      "trap_type": "period_flip",
+      "clause_a": "Full-year 2024 operating cash flow guidance stands at $12 billion.",
+      "clause_b": "Full-year 2025 operating cash flow guidance stands at $12 billion.",
+      "clause_c": "The 2024 full-year operating cash flow guidance is $12 billion."
+    },
+    {
+      "id": "fin_period_flip_020",
+      "trap_type": "period_flip",
+      "clause_a": "The quarter-over-quarter revenue decline of 3% reflected seasonal weakness.",
+      "clause_b": "The year-over-year revenue decline of 3% reflected seasonal weakness.",
+      "clause_c": "A 3% quarter-over-quarter revenue decline came from seasonal weakness."
+    },
+    {
+      "id": "fin_period_flip_021",
+      "trap_type": "period_flip",
+      "clause_a": "Q2 2024 gross margin of 47.2% compares to 45.1% in Q2 2023.",
+      "clause_b": "Q4 2024 gross margin of 47.2% compares to Q2 2023's 45.1%.",
+      "clause_c": "Q2 2024 gross margin at 47.2% is ahead of the Q2 2023 45.1%."
+    },
+    {
+      "id": "fin_period_flip_022",
+      "trap_type": "period_flip",
+      "clause_a": "Third-quarter operating expenses grew slower than revenue for the fifth consecutive quarter.",
+      "clause_b": "Third-quarter operating expenses grew slower than revenue for the fifth consecutive year.",
+      "clause_c": "For five consecutive quarters, Q3 operating expenses have grown slower than revenue."
+    },
+    {
+      "id": "fin_period_flip_023",
+      "trap_type": "period_flip",
+      "clause_a": "Fiscal 2025 preliminary revenue guidance sits in the $38-40 billion range.",
+      "clause_b": "Fiscal 2024 preliminary revenue guidance sits in the $38-40 billion range.",
+      "clause_c": "Preliminary fiscal 2025 revenue guidance is $38 to $40 billion."
+    },
+    {
+      "id": "fin_period_flip_024",
+      "trap_type": "period_flip",
+      "clause_a": "The first-half operating margin of 22.8% is above the second-half comparable prior year.",
+      "clause_b": "The second-half operating margin of 22.8% is above the first-half comparable prior year.",
+      "clause_c": "First-half operating margin at 22.8% beats the second-half prior year comparable."
+    },
+    {
+      "id": "fin_period_flip_025",
+      "trap_type": "period_flip",
+      "clause_a": "Third-quarter same-store sales grew 4.2% year-over-year.",
+      "clause_b": "First-quarter same-store sales grew 4.2% year-over-year.",
+      "clause_c": "Q3 same-store sales climbed 4.2% year-over-year."
+    },
+    {
+      "id": "fin_period_flip_026",
+      "trap_type": "period_flip",
+      "clause_a": "Year-end 2024 total debt stood at $18.5 billion, down from year-end 2023.",
+      "clause_b": "Year-end 2023 total debt stood at $18.5 billion, down from year-end 2024.",
+      "clause_c": "Total debt at year-end 2024 was $18.5 billion, below the year-end 2023 figure."
+    },
+    {
+      "id": "fin_period_flip_027",
+      "trap_type": "period_flip",
+      "clause_a": "Fourth-quarter fiscal 2024 revenue of $9.1 billion set an all-time record.",
+      "clause_b": "Fourth-quarter fiscal 2023 revenue of $9.1 billion set an all-time record.",
+      "clause_c": "Q4 fiscal 2024 revenue reached an all-time record of $9.1 billion."
+    },
+    {
+      "id": "fin_period_flip_028",
+      "trap_type": "period_flip",
+      "clause_a": "Prior-quarter operating income of $2.1 billion compares to $1.8 billion this quarter.",
+      "clause_b": "Prior-year operating income of $2.1 billion compares to $1.8 billion this quarter.",
+      "clause_c": "The prior quarter's operating income of $2.1 billion compares with $1.8 billion this quarter."
+    },
+    {
+      "id": "fin_period_flip_029",
+      "trap_type": "period_flip",
+      "clause_a": "The upcoming quarter is expected to generate free cash flow of $2.9 billion.",
+      "clause_b": "The current quarter is expected to generate free cash flow of $2.9 billion.",
+      "clause_c": "Expected free cash flow for the upcoming quarter is $2.9 billion."
+    },
+    {
+      "id": "fin_period_flip_030",
+      "trap_type": "period_flip",
+      "clause_a": "First-half capital expenditures totaled $1.6 billion versus $1.4 billion in the first half of the prior year.",
+      "clause_b": "Second-half capital expenditures totaled $1.6 billion versus $1.4 billion in the first half of the prior year.",
+      "clause_c": "First-half capex reached $1.6 billion, up from $1.4 billion in the prior-year first half."
+    },
+    {
+      "id": "fin_period_flip_031",
+      "trap_type": "period_flip",
+      "clause_a": "The company reported second-quarter revenue of $12.3 billion this Tuesday.",
+      "clause_b": "The company reported fourth-quarter revenue of $12.3 billion this Tuesday.",
+      "clause_c": "Tuesday's report showed second-quarter revenue of $12.3 billion."
+    },
+    {
+      "id": "fin_period_flip_032",
+      "trap_type": "period_flip",
+      "clause_a": "Year-to-date interest expense of $520 million exceeds prior-year YTD by 12%.",
+      "clause_b": "Year-to-date interest expense of $520 million lags prior-year YTD by 12%.",
+      "clause_c": "YTD interest expense at $520 million is 12% above the prior-year YTD."
+    },
+    {
+      "id": "fin_period_flip_033",
+      "trap_type": "period_flip",
+      "clause_a": "Consensus estimates place Q3 EPS at $1.85 per share.",
+      "clause_b": "Consensus estimates place Q1 EPS at $1.85 per share.",
+      "clause_c": "Consensus for Q3 EPS is $1.85 per share."
+    },
+    {
+      "id": "fin_period_flip_034",
+      "trap_type": "period_flip",
+      "clause_a": "Trailing four-quarter operating income of $8.8 billion is a company record.",
+      "clause_b": "Trailing two-quarter operating income of $8.8 billion is a company record.",
+      "clause_c": "The trailing four-quarter operating income of $8.8 billion sets a company record."
+    },
+    {
+      "id": "fin_period_flip_035",
+      "trap_type": "period_flip",
+      "clause_a": "Fiscal-year 2024 ended with cash reserves of $16.8 billion on the balance sheet.",
+      "clause_b": "Fiscal-year 2023 ended with cash reserves of $16.8 billion on the balance sheet.",
+      "clause_c": "Fiscal 2024 ended with $16.8 billion of cash reserves on the balance sheet."
+    },
+    {
+      "id": "fin_period_flip_036",
+      "trap_type": "period_flip",
+      "clause_a": "Sequential revenue improvement was 6% from Q1 to Q2 in fiscal 2024.",
+      "clause_b": "Sequential revenue improvement was 6% from Q3 to Q4 in fiscal 2024.",
+      "clause_c": "Q1-to-Q2 sequential revenue improvement in fiscal 2024 was 6%."
+    },
+    {
+      "id": "fin_period_flip_037",
+      "trap_type": "period_flip",
+      "clause_a": "The dividend declared for the third quarter is $0.42 per share.",
+      "clause_b": "The dividend declared for the first quarter is $0.42 per share.",
+      "clause_c": "Q3 dividend declaration came in at $0.42 per share."
+    },
+    {
+      "id": "fin_period_flip_038",
+      "trap_type": "period_flip",
+      "clause_a": "Fiscal 2023 gross margin of 44.8% beats fiscal 2022's 41.2%.",
+      "clause_b": "Fiscal 2024 gross margin of 44.8% beats fiscal 2022's 41.2%.",
+      "clause_c": "The fiscal 2023 gross margin at 44.8% is ahead of fiscal 2022's 41.2%."
+    },
+    {
+      "id": "fin_period_flip_039",
+      "trap_type": "period_flip",
+      "clause_a": "Second-quarter EPS of $1.35 exceeds prior-year Q2 EPS of $1.18.",
+      "clause_b": "Second-quarter EPS of $1.35 exceeds prior-year Q3 EPS of $1.18.",
+      "clause_c": "Q2 EPS at $1.35 beats prior-year Q2 EPS of $1.18."
+    },
+    {
+      "id": "fin_period_flip_040",
+      "trap_type": "period_flip",
+      "clause_a": "The first-quarter contract-value bookings reached $4.1 billion.",
+      "clause_b": "The fourth-quarter contract-value bookings reached $4.1 billion.",
+      "clause_c": "Q1 contract-value bookings totaled $4.1 billion."
+    },
+    {
+      "id": "fin_period_flip_041",
+      "trap_type": "period_flip",
+      "clause_a": "Prior-period restructuring charges of $220 million compare to $95 million this period.",
+      "clause_b": "Prior-year restructuring charges of $220 million compare to $95 million this period.",
+      "clause_c": "This period's $95 million restructuring charges compare to a prior period's $220 million."
+    },
+    {
+      "id": "fin_period_flip_042",
+      "trap_type": "period_flip",
+      "clause_a": "Third-quarter guidance calls for gross margin of approximately 47%.",
+      "clause_b": "First-quarter guidance calls for gross margin of approximately 47%.",
+      "clause_c": "Q3 guidance calls for approximately 47% gross margin."
+    },
+    {
+      "id": "fin_period_flip_043",
+      "trap_type": "period_flip",
+      "clause_a": "Year-ago comparable-quarter revenue of $5.8 billion is now the base.",
+      "clause_b": "Year-ago comparable-year revenue of $5.8 billion is now the base.",
+      "clause_c": "Comparable-quarter year-ago revenue of $5.8 billion serves as the base."
+    },
+    {
+      "id": "fin_period_flip_044",
+      "trap_type": "period_flip",
+      "clause_a": "The reporting period ended June 30, 2024, marked fiscal year-end.",
+      "clause_b": "The reporting period ended June 30, 2023, marked fiscal year-end.",
+      "clause_c": "Fiscal year-end fell on June 30, 2024, at the close of the reporting period."
+    },
+    {
+      "id": "fin_period_flip_045",
+      "trap_type": "period_flip",
+      "clause_a": "Quarter-over-quarter book value per share grew by $1.20 in Q2.",
+      "clause_b": "Year-over-year book value per share grew by $1.20 in Q2.",
+      "clause_c": "Q2 quarter-over-quarter book value per share climbed by $1.20."
+    },
+    {
+      "id": "fin_period_flip_046",
+      "trap_type": "period_flip",
+      "clause_a": "Fiscal 2023 fourth-quarter free cash flow was $3.2 billion.",
+      "clause_b": "Fiscal 2024 fourth-quarter free cash flow was $3.2 billion.",
+      "clause_c": "Fiscal 2023 Q4 free cash flow reached $3.2 billion."
+    },
+    {
+      "id": "fin_period_flip_047",
+      "trap_type": "period_flip",
+      "clause_a": "Prior-year full-year revenue of $28.1 billion compares to $32.4 billion this year.",
+      "clause_b": "Prior-quarter revenue of $28.1 billion compares to $32.4 billion this quarter.",
+      "clause_c": "The prior-year full-year revenue of $28.1 billion contrasts with $32.4 billion this year."
+    },
+    {
+      "id": "fin_period_flip_048",
+      "trap_type": "period_flip",
+      "clause_a": "The current-quarter tax rate of 22.4% compares to 24.1% in the prior quarter.",
+      "clause_b": "The current-year tax rate of 22.4% compares to 24.1% in the prior year.",
+      "clause_c": "This quarter's tax rate at 22.4% is below the 24.1% of the prior quarter."
+    },
+    {
+      "id": "fin_period_flip_049",
+      "trap_type": "period_flip",
+      "clause_a": "Six-month interim revenue of $16.4 billion exceeds prior-year six-month interim.",
+      "clause_b": "Three-month interim revenue of $16.4 billion exceeds prior-year six-month interim.",
+      "clause_c": "The six-month interim revenue of $16.4 billion tops the prior-year six-month interim."
+    },
+    {
+      "id": "fin_period_flip_050",
+      "trap_type": "period_flip",
+      "clause_a": "Fourth-quarter operating expenses declined 3% year-over-year to $2.4 billion.",
+      "clause_b": "Second-quarter operating expenses declined 3% year-over-year to $2.4 billion.",
+      "clause_c": "Q4 operating expenses dropped 3% year-over-year to $2.4 billion."
+    },
+    {
+      "id": "fin_period_flip_051",
+      "trap_type": "period_flip",
+      "clause_a": "The fiscal 2024 guide implies second-half revenue growth of 12%.",
+      "clause_b": "The fiscal 2023 guide implies second-half revenue growth of 12%.",
+      "clause_c": "Fiscal 2024 guidance implies 12% second-half revenue growth."
+    },
+    {
+      "id": "fin_period_flip_052",
+      "trap_type": "period_flip",
+      "clause_a": "Third-quarter product revenue grew 21% year-over-year to $4.7 billion.",
+      "clause_b": "Fourth-quarter product revenue grew 21% year-over-year to $4.7 billion.",
+      "clause_c": "Q3 product revenue climbed 21% year-over-year, reaching $4.7 billion."
+    },
+    {
+      "id": "fin_period_flip_053",
+      "trap_type": "period_flip",
+      "clause_a": "Segment revenue for the trailing four quarters totaled $18.9 billion.",
+      "clause_b": "Segment revenue for the trailing two quarters totaled $18.9 billion.",
+      "clause_c": "Trailing four-quarter segment revenue was $18.9 billion."
+    },
+    {
+      "id": "fin_period_flip_054",
+      "trap_type": "period_flip",
+      "clause_a": "The prior-quarter guidance was raised by $200 million during the current quarter.",
+      "clause_b": "The prior-year guidance was raised by $200 million during the current quarter.",
+      "clause_c": "This quarter, the prior-quarter guidance was lifted by $200 million."
+    },
+    {
+      "id": "fin_period_flip_055",
+      "trap_type": "period_flip",
+      "clause_a": "Third-quarter net income of $2.1 billion compares to $1.8 billion in Q3 2023.",
+      "clause_b": "First-quarter net income of $2.1 billion compares to $1.8 billion in Q3 2023.",
+      "clause_c": "Q3 net income of $2.1 billion is above the Q3 2023 comparable of $1.8 billion."
+    },
+    {
+      "id": "fin_period_flip_056",
+      "trap_type": "period_flip",
+      "clause_a": "Fiscal 2024 first-half free cash flow reached $5.9 billion, ahead of internal plan.",
+      "clause_b": "Fiscal 2023 first-half free cash flow reached $5.9 billion, ahead of internal plan.",
+      "clause_c": "Fiscal 2024 first-half free cash flow of $5.9 billion beat internal plan."
+    },
+    {
+      "id": "fin_period_flip_057",
+      "trap_type": "period_flip",
+      "clause_a": "Prior-quarter revenue guidance was raised by 4% during this current quarter.",
+      "clause_b": "Prior-year revenue guidance was raised by 4% during this current quarter.",
+      "clause_c": "This quarter saw prior-quarter revenue guidance raised by 4%."
+    },
+    {
+      "id": "fin_period_flip_058",
+      "trap_type": "period_flip",
+      "clause_a": "Second-quarter operating income margin of 24.8% is the highest in the fiscal year.",
+      "clause_b": "Fourth-quarter operating income margin of 24.8% is the highest in the fiscal year.",
+      "clause_c": "Q2 operating income margin at 24.8% is the fiscal year's high."
+    },
+    {
+      "id": "fin_period_flip_059",
+      "trap_type": "period_flip",
+      "clause_a": "The reporting period ended March 31, 2024, corresponds to Q1 fiscal 2024.",
+      "clause_b": "The reporting period ended March 31, 2024, corresponds to Q4 fiscal 2024.",
+      "clause_c": "March 31, 2024 as the reporting period end lines up with Q1 fiscal 2024."
+    },
+    {
+      "id": "fin_period_flip_060",
+      "trap_type": "period_flip",
+      "clause_a": "Full fiscal-year 2024 preliminary results were disclosed in the earnings release.",
+      "clause_b": "Full fiscal-year 2023 preliminary results were disclosed in the earnings release.",
+      "clause_c": "The earnings release contained fiscal-year 2024 preliminary results."
+    },
+    {
+      "id": "fin_period_flip_061",
+      "trap_type": "period_flip",
+      "clause_a": "Third-quarter service revenue grew 15% to $3.6 billion, in line with guidance.",
+      "clause_b": "First-quarter service revenue grew 15% to $3.6 billion, in line with guidance.",
+      "clause_c": "Q3 service revenue climbed 15% to $3.6 billion, matching guidance."
+    },
+    {
+      "id": "fin_period_flip_062",
+      "trap_type": "period_flip",
+      "clause_a": "Trailing twelve-month adjusted EPS of $6.45 exceeded the prior TTM period.",
+      "clause_b": "Trailing three-month adjusted EPS of $6.45 exceeded the prior TTM period.",
+      "clause_c": "TTM adjusted EPS at $6.45 exceeded the prior trailing twelve months."
+    },
+    {
+      "id": "fin_period_flip_063",
+      "trap_type": "period_flip",
+      "clause_a": "Fiscal 2024 second-quarter dividend was declared at $0.55 per share.",
+      "clause_b": "Fiscal 2024 fourth-quarter dividend was declared at $0.55 per share.",
+      "clause_c": "The fiscal 2024 Q2 dividend was $0.55 per share as declared."
+    },
+    {
+      "id": "fin_period_flip_064",
+      "trap_type": "period_flip",
+      "clause_a": "Prior-period retained earnings adjustment of $180 million was recorded in Q2.",
+      "clause_b": "Prior-period retained earnings adjustment of $180 million was recorded in Q4.",
+      "clause_c": "Q2 recorded a $180 million prior-period retained earnings adjustment."
+    },
+    {
+      "id": "fin_period_flip_065",
+      "trap_type": "period_flip",
+      "clause_a": "Full-year fiscal 2024 net income growth is projected at 12% year-over-year.",
+      "clause_b": "Full-year fiscal 2023 net income growth is projected at 12% year-over-year.",
+      "clause_c": "Fiscal 2024 net income growth is projected at 12% year-over-year for the full year."
+    },
+    {
+      "id": "fin_period_flip_066",
+      "trap_type": "period_flip",
+      "clause_a": "Third-quarter interest expense of $340 million was below prior-quarter levels.",
+      "clause_b": "First-quarter interest expense of $340 million was below prior-quarter levels.",
+      "clause_c": "Q3 interest expense at $340 million came in below prior-quarter levels."
+    },
+    {
+      "id": "fin_period_flip_067",
+      "trap_type": "period_flip",
+      "clause_a": "The fiscal 2024 dividend total exceeded fiscal 2023 dividend total by 8%.",
+      "clause_b": "The fiscal 2023 dividend total exceeded fiscal 2024 dividend total by 8%.",
+      "clause_c": "Fiscal 2024 dividends came in 8% above the fiscal 2023 dividend total."
+    },
+    {
+      "id": "fin_period_flip_068",
+      "trap_type": "period_flip",
+      "clause_a": "Q1 2024 revenue outperformed Q1 2023 revenue by $600 million.",
+      "clause_b": "Q4 2024 revenue outperformed Q1 2023 revenue by $600 million.",
+      "clause_c": "Q1 2024 revenue beat Q1 2023 revenue by $600 million."
+    },
+    {
+      "id": "fin_period_flip_069",
+      "trap_type": "period_flip",
+      "clause_a": "Prior-year operating expenses of $12.4 billion compare to $13.1 billion this year.",
+      "clause_b": "Prior-quarter operating expenses of $12.4 billion compare to $13.1 billion this year.",
+      "clause_c": "Prior-year operating expenses were $12.4 billion versus this year's $13.1 billion."
+    },
+    {
+      "id": "fin_period_flip_070",
+      "trap_type": "period_flip",
+      "clause_a": "Trailing twelve-month free cash flow of $8.7 billion sets a new company record.",
+      "clause_b": "Trailing three-month free cash flow of $8.7 billion sets a new company record.",
+      "clause_c": "The TTM free cash flow at $8.7 billion is a new company record."
+    },
+    {
+      "id": "fin_period_flip_071",
+      "trap_type": "period_flip",
+      "clause_a": "Fiscal 2024 R&D spend of $3.8 billion is up from fiscal 2023 R&D of $3.2 billion.",
+      "clause_b": "Fiscal 2023 R&D spend of $3.8 billion is up from fiscal 2024 R&D of $3.2 billion.",
+      "clause_c": "Fiscal 2024 R&D of $3.8 billion is above the fiscal 2023 R&D of $3.2 billion."
+    },
+    {
+      "id": "fin_period_flip_072",
+      "trap_type": "period_flip",
+      "clause_a": "Q1 to Q2 sequential SG&A grew by $80 million to $1.05 billion.",
+      "clause_b": "Q3 to Q4 sequential SG&A grew by $80 million to $1.05 billion.",
+      "clause_c": "Q1-to-Q2 sequential SG&A rose $80 million, reaching $1.05 billion."
+    },
+    {
+      "id": "fin_period_flip_073",
+      "trap_type": "period_flip",
+      "clause_a": "The fiscal 2024 Q3 tax rate of 21.2% is below the fiscal 2023 Q3 comparable.",
+      "clause_b": "The fiscal 2024 Q1 tax rate of 21.2% is below the fiscal 2023 Q3 comparable.",
+      "clause_c": "Fiscal 2024 Q3 tax rate at 21.2% is below the fiscal 2023 Q3 comparable rate."
+    },
+    {
+      "id": "fin_period_flip_074",
+      "trap_type": "period_flip",
+      "clause_a": "Prior-year fourth-quarter EPS of $1.72 compares to $1.95 in current Q4.",
+      "clause_b": "Prior-year first-quarter EPS of $1.72 compares to $1.95 in current Q4.",
+      "clause_c": "Prior-year Q4 EPS at $1.72 is below the current Q4 EPS of $1.95."
+    },
+    {
+      "id": "fin_period_flip_075",
+      "trap_type": "period_flip",
+      "clause_a": "Fiscal 2024 first-quarter revenue growth accelerated to 14% year-over-year.",
+      "clause_b": "Fiscal 2023 first-quarter revenue growth accelerated to 14% year-over-year.",
+      "clause_c": "Fiscal 2024 Q1 revenue growth accelerated to 14% year-over-year."
+    },
+    {
+      "id": "fin_period_flip_076",
+      "trap_type": "period_flip",
+      "clause_a": "The trailing four-quarter operating income margin averaged 23.8%.",
+      "clause_b": "The trailing two-quarter operating income margin averaged 23.8%.",
+      "clause_c": "Trailing four-quarter average operating income margin was 23.8%."
+    },
+    {
+      "id": "fin_party_flip_001",
+      "trap_type": "party_flip",
+      "clause_a": "The company acted as lender in the $200 million credit facility to XYZ Corp.",
+      "clause_b": "The company acted as borrower in the $200 million credit facility to XYZ Corp.",
+      "clause_c": "In the $200 million XYZ Corp credit facility, the company was the lender."
+    },
+    {
+      "id": "fin_party_flip_002",
+      "trap_type": "party_flip",
+      "clause_a": "As the acquirer, the parent recognized $180 million of goodwill on the balance sheet.",
+      "clause_b": "As the target, the parent recognized $180 million of goodwill on the balance sheet.",
+      "clause_c": "The parent acquirer recorded $180 million of goodwill on the balance sheet."
+    },
+    {
+      "id": "fin_party_flip_003",
+      "trap_type": "party_flip",
+      "clause_a": "The subsidiary served as the seller in the divestiture of the industrial segment.",
+      "clause_b": "The subsidiary served as the buyer in the divestiture of the industrial segment.",
+      "clause_c": "In the industrial segment divestiture, the subsidiary was the seller."
+    },
+    {
+      "id": "fin_party_flip_004",
+      "trap_type": "party_flip",
+      "clause_a": "The bank is the payer under the interest rate swap agreement.",
+      "clause_b": "The bank is the payee under the interest rate swap agreement.",
+      "clause_c": "Under the interest rate swap agreement, the bank makes the payments."
+    },
+    {
+      "id": "fin_party_flip_005",
+      "trap_type": "party_flip",
+      "clause_a": "The parent company acted as guarantor for the subsidiary's $500 million bond issuance.",
+      "clause_b": "The parent company acted as debtor for the subsidiary's $500 million bond issuance.",
+      "clause_c": "The parent stood as guarantor on the subsidiary's $500 million bond issuance."
+    },
+    {
+      "id": "fin_party_flip_006",
+      "trap_type": "party_flip",
+      "clause_a": "As lessor, the REIT collected quarterly rental income from the tenant.",
+      "clause_b": "As lessee, the REIT paid quarterly rental income to the landlord.",
+      "clause_c": "The REIT, in its role as lessor, received quarterly rent from its tenant."
+    },
+    {
+      "id": "fin_party_flip_007",
+      "trap_type": "party_flip",
+      "clause_a": "The plaintiff filed suit seeking damages related to the contract breach.",
+      "clause_b": "The defendant filed suit seeking damages related to the contract breach.",
+      "clause_c": "The plaintiff pursued damages in the contract breach litigation."
+    },
+    {
+      "id": "fin_party_flip_008",
+      "trap_type": "party_flip",
+      "clause_a": "The company is the licensor of the patent portfolio to third-party manufacturers.",
+      "clause_b": "The company is the licensee of the patent portfolio to third-party manufacturers.",
+      "clause_c": "As licensor, the company grants patent portfolio use to third-party manufacturers."
+    },
+    {
+      "id": "fin_party_flip_009",
+      "trap_type": "party_flip",
+      "clause_a": "The counterparty is the buyer of the $400 million commercial paper issuance.",
+      "clause_b": "The counterparty is the seller of the $400 million commercial paper issuance.",
+      "clause_c": "The counterparty purchased the $400 million commercial paper issuance."
+    },
+    {
+      "id": "fin_party_flip_010",
+      "trap_type": "party_flip",
+      "clause_a": "The employer is the sponsor of the defined-benefit pension plan for retirees.",
+      "clause_b": "The employee is the sponsor of the defined-benefit pension plan for retirees.",
+      "clause_c": "The employer sponsors the defined-benefit pension plan for retirees."
+    },
+    {
+      "id": "fin_party_flip_011",
+      "trap_type": "party_flip",
+      "clause_a": "The vendor is the seller of the $80 million supply agreement over three years.",
+      "clause_b": "The vendor is the buyer of the $80 million supply agreement over three years.",
+      "clause_c": "The vendor sells goods under the $80 million three-year supply agreement."
+    },
+    {
+      "id": "fin_party_flip_012",
+      "trap_type": "party_flip",
+      "clause_a": "The auditor is the independent verifier of the annual financial statements.",
+      "clause_b": "The auditor is the compiler of the annual financial statements.",
+      "clause_c": "The independent auditor verifies the annual financial statements."
+    },
+    {
+      "id": "fin_party_flip_013",
+      "trap_type": "party_flip",
+      "clause_a": "The company is the assignor of the trademark rights to the wholly-owned subsidiary.",
+      "clause_b": "The company is the assignee of the trademark rights to the wholly-owned subsidiary.",
+      "clause_c": "As assignor, the company transferred trademark rights to the wholly-owned subsidiary."
+    },
+    {
+      "id": "fin_party_flip_014",
+      "trap_type": "party_flip",
+      "clause_a": "The issuer is the seller of the $600 million high-yield senior notes.",
+      "clause_b": "The issuer is the buyer of the $600 million high-yield senior notes.",
+      "clause_c": "The issuer of the $600 million high-yield senior notes is the seller."
+    },
+    {
+      "id": "fin_party_flip_015",
+      "trap_type": "party_flip",
+      "clause_a": "The reinsurer is the recipient of premiums for assumed insurance risk.",
+      "clause_b": "The cedant is the recipient of premiums for assumed insurance risk.",
+      "clause_c": "The reinsurer receives premiums for assuming insurance risk."
+    },
+    {
+      "id": "fin_party_flip_016",
+      "trap_type": "party_flip",
+      "clause_a": "The corporate parent is the pledgor of the subsidiary shares as loan collateral.",
+      "clause_b": "The corporate parent is the pledgee of the subsidiary shares as loan collateral.",
+      "clause_c": "The corporate parent pledged the subsidiary shares as loan collateral."
+    },
+    {
+      "id": "fin_party_flip_017",
+      "trap_type": "party_flip",
+      "clause_a": "The bidder is the acquirer proposing the takeover of the target company.",
+      "clause_b": "The bidder is the target proposing the takeover of the acquirer company.",
+      "clause_c": "As the acquirer bidder, the party proposes the takeover of the target."
+    },
+    {
+      "id": "fin_party_flip_018",
+      "trap_type": "party_flip",
+      "clause_a": "The consortium is the buyer of the $2.4 billion infrastructure portfolio.",
+      "clause_b": "The consortium is the seller of the $2.4 billion infrastructure portfolio.",
+      "clause_c": "The consortium purchased the $2.4 billion infrastructure portfolio."
+    },
+    {
+      "id": "fin_party_flip_019",
+      "trap_type": "party_flip",
+      "clause_a": "The trustee is the party managing the assets on behalf of the beneficiary.",
+      "clause_b": "The beneficiary is the party managing the assets on behalf of the trustee.",
+      "clause_c": "As trustee, the party manages the assets for the beneficiary."
+    },
+    {
+      "id": "fin_party_flip_020",
+      "trap_type": "party_flip",
+      "clause_a": "The mortgagor is the property owner pledging real estate as loan security.",
+      "clause_b": "The mortgagee is the property owner pledging real estate as loan security.",
+      "clause_c": "The mortgagor, as property owner, pledges real estate as security for the loan."
+    },
+    {
+      "id": "fin_party_flip_021",
+      "trap_type": "party_flip",
+      "clause_a": "The vendor is the seller of the equipment under the $50 million capital lease.",
+      "clause_b": "The vendor is the lessee of the equipment under the $50 million capital lease.",
+      "clause_c": "Under the $50 million capital lease, the vendor sells the equipment."
+    },
+    {
+      "id": "fin_party_flip_022",
+      "trap_type": "party_flip",
+      "clause_a": "The syndicated bank is the lender under the $1.5 billion revolving credit line.",
+      "clause_b": "The syndicated bank is the borrower under the $1.5 billion revolving credit line.",
+      "clause_c": "The syndicated bank lends under the $1.5 billion revolving credit line."
+    },
+    {
+      "id": "fin_party_flip_023",
+      "trap_type": "party_flip",
+      "clause_a": "The insurance company is the insurer covering the property against catastrophic loss.",
+      "clause_b": "The insurance company is the insured covering the property against catastrophic loss.",
+      "clause_c": "As insurer, the insurance company covers property against catastrophic loss."
+    },
+    {
+      "id": "fin_party_flip_024",
+      "trap_type": "party_flip",
+      "clause_a": "The subsidiary is the transferor of the intellectual property to the parent entity.",
+      "clause_b": "The subsidiary is the transferee of the intellectual property to the parent entity.",
+      "clause_c": "The subsidiary transfers the intellectual property to the parent as transferor."
+    },
+    {
+      "id": "fin_party_flip_025",
+      "trap_type": "party_flip",
+      "clause_a": "The manager is the fund advisor charging management fees to the fund investors.",
+      "clause_b": "The manager is the fund investor paying management fees to the fund advisor.",
+      "clause_c": "The fund advisor manager charges management fees to the investors."
+    },
+    {
+      "id": "fin_party_flip_026",
+      "trap_type": "party_flip",
+      "clause_a": "The custodian is the safekeeper of the client's brokerage account securities.",
+      "clause_b": "The client is the safekeeper of the custodian's brokerage account securities.",
+      "clause_c": "The custodian safeguards the client's brokerage account securities."
+    },
+    {
+      "id": "fin_party_flip_027",
+      "trap_type": "party_flip",
+      "clause_a": "The parent is the guarantor of the subsidiary's $250 million lease obligations.",
+      "clause_b": "The parent is the obligor of the subsidiary's $250 million lease obligations.",
+      "clause_c": "The parent guarantees the subsidiary's $250 million lease obligations."
+    },
+    {
+      "id": "fin_party_flip_028",
+      "trap_type": "party_flip",
+      "clause_a": "The syndicate lead is the underwriter of the initial public offering.",
+      "clause_b": "The syndicate lead is the issuer of the initial public offering.",
+      "clause_c": "The syndicate lead underwrites the initial public offering."
+    },
+    {
+      "id": "fin_party_flip_029",
+      "trap_type": "party_flip",
+      "clause_a": "The counterparty is the seller of the S&P 500 futures contract.",
+      "clause_b": "The counterparty is the buyer of the S&P 500 futures contract.",
+      "clause_c": "In the S&P 500 futures contract, the counterparty is the seller."
+    },
+    {
+      "id": "fin_party_flip_030",
+      "trap_type": "party_flip",
+      "clause_a": "The provider is the vendor supplying cloud services under the $30 million contract.",
+      "clause_b": "The provider is the customer receiving cloud services under the $30 million contract.",
+      "clause_c": "As vendor, the provider supplies cloud services under the $30 million contract."
+    },
+    {
+      "id": "fin_party_flip_031",
+      "trap_type": "party_flip",
+      "clause_a": "The parent is the shareholder receiving the $80 million dividend from the subsidiary.",
+      "clause_b": "The subsidiary is the shareholder receiving the $80 million dividend from the parent.",
+      "clause_c": "As shareholder, the parent receives the $80 million dividend from the subsidiary."
+    },
+    {
+      "id": "fin_party_flip_032",
+      "trap_type": "party_flip",
+      "clause_a": "The manager is the general partner of the private-equity fund with LPs as backers.",
+      "clause_b": "The manager is the limited partner of the private-equity fund with LPs as backers.",
+      "clause_c": "The manager serves as general partner of the private-equity fund."
+    },
+    {
+      "id": "fin_party_flip_033",
+      "trap_type": "party_flip",
+      "clause_a": "The purchaser is the buyer of the $500 million commercial real estate portfolio.",
+      "clause_b": "The purchaser is the seller of the $500 million commercial real estate portfolio.",
+      "clause_c": "The purchaser bought the $500 million commercial real estate portfolio."
+    },
+    {
+      "id": "fin_party_flip_034",
+      "trap_type": "party_flip",
+      "clause_a": "The employer is the payer of the salary and benefits to plan participants.",
+      "clause_b": "The employer is the recipient of the salary and benefits to plan participants.",
+      "clause_c": "The employer pays salary and benefits to plan participants."
+    },
+    {
+      "id": "fin_party_flip_035",
+      "trap_type": "party_flip",
+      "clause_a": "The company is the counterparty long on the interest rate derivative contract.",
+      "clause_b": "The company is the counterparty short on the interest rate derivative contract.",
+      "clause_c": "The company holds the long side on the interest rate derivative contract."
+    },
+    {
+      "id": "fin_party_flip_036",
+      "trap_type": "party_flip",
+      "clause_a": "The parent is the offeror of the $180 million tender offer for the shares.",
+      "clause_b": "The parent is the offeree of the $180 million tender offer for the shares.",
+      "clause_c": "The parent offered the $180 million tender for the shares."
+    },
+    {
+      "id": "fin_party_flip_037",
+      "trap_type": "party_flip",
+      "clause_a": "The advisor is the fiduciary acting on behalf of the client portfolio.",
+      "clause_b": "The client is the fiduciary acting on behalf of the advisor portfolio.",
+      "clause_c": "As fiduciary, the advisor acts on behalf of the client portfolio."
+    },
+    {
+      "id": "fin_party_flip_038",
+      "trap_type": "party_flip",
+      "clause_a": "The parent is the majority shareholder controlling the joint venture's board vote.",
+      "clause_b": "The parent is the minority shareholder controlling the joint venture's board vote.",
+      "clause_c": "As majority shareholder, the parent controls the joint venture board vote."
+    },
+    {
+      "id": "fin_party_flip_039",
+      "trap_type": "party_flip",
+      "clause_a": "The subsidiary is the payor of the intercompany service fees to the parent entity.",
+      "clause_b": "The subsidiary is the payee of the intercompany service fees to the parent entity.",
+      "clause_c": "The subsidiary pays intercompany service fees to the parent entity as payor."
+    },
+    {
+      "id": "fin_party_flip_040",
+      "trap_type": "party_flip",
+      "clause_a": "The parent is the beneficial owner of the trust holding the operating assets.",
+      "clause_b": "The parent is the settlor of the trust holding the operating assets.",
+      "clause_c": "As beneficial owner, the parent benefits from the trust holding operating assets."
+    },
+    {
+      "id": "fin_party_flip_041",
+      "trap_type": "party_flip",
+      "clause_a": "The company is the acquirer proposing to purchase the target company for cash.",
+      "clause_b": "The company is the target being proposed for purchase by the acquirer for cash.",
+      "clause_c": "As acquirer, the company proposes to buy the target for cash."
+    },
+    {
+      "id": "fin_party_flip_042",
+      "trap_type": "party_flip",
+      "clause_a": "The subsidiary is the licensee paying royalties to the parent as the licensor.",
+      "clause_b": "The subsidiary is the licensor paying royalties to the parent as the licensee.",
+      "clause_c": "The subsidiary, as licensee, pays royalties to the parent licensor."
+    },
+    {
+      "id": "fin_party_flip_043",
+      "trap_type": "party_flip",
+      "clause_a": "The originator is the party issuing the receivables that are securitized.",
+      "clause_b": "The investor is the party issuing the receivables that are securitized.",
+      "clause_c": "The originator issues the receivables that get securitized."
+    },
+    {
+      "id": "fin_party_flip_044",
+      "trap_type": "party_flip",
+      "clause_a": "The manager is the general partner earning management fees from the LP investors.",
+      "clause_b": "The manager is the limited partner earning management fees from the LP investors.",
+      "clause_c": "As general partner, the manager earns management fees from LP investors."
+    },
+    {
+      "id": "fin_party_flip_045",
+      "trap_type": "party_flip",
+      "clause_a": "The joint venture is the vehicle owned by the two partners on equal terms.",
+      "clause_b": "The joint venture is the partner owned by the two vehicles on equal terms.",
+      "clause_c": "The joint venture serves as the vehicle jointly owned by the two partners."
+    },
+    {
+      "id": "fin_party_flip_046",
+      "trap_type": "party_flip",
+      "clause_a": "The parent is the assignor transferring subsidiary loans to the special-purpose vehicle.",
+      "clause_b": "The parent is the assignee transferring subsidiary loans to the special-purpose vehicle.",
+      "clause_c": "As assignor, the parent transferred subsidiary loans to the SPV."
+    },
+    {
+      "id": "fin_party_flip_047",
+      "trap_type": "party_flip",
+      "clause_a": "The corporate treasurer is the payor of the semi-annual bond coupon.",
+      "clause_b": "The bondholder is the payor of the semi-annual bond coupon.",
+      "clause_c": "The corporate treasurer pays the semi-annual bond coupon."
+    },
+    {
+      "id": "fin_party_flip_048",
+      "trap_type": "party_flip",
+      "clause_a": "The private-equity firm is the sponsor of the $800 million buyout transaction.",
+      "clause_b": "The target company is the sponsor of the $800 million buyout transaction.",
+      "clause_c": "The private-equity firm sponsored the $800 million buyout transaction."
+    },
+    {
+      "id": "fin_party_flip_049",
+      "trap_type": "party_flip",
+      "clause_a": "The parent is the debtor under the $400 million senior secured note indenture.",
+      "clause_b": "The parent is the creditor under the $400 million senior secured note indenture.",
+      "clause_c": "The parent is the debtor party in the $400 million senior secured note indenture."
+    },
+    {
+      "id": "fin_party_flip_050",
+      "trap_type": "party_flip",
+      "clause_a": "The company is the guarantor of the counterparty performance under the swap contract.",
+      "clause_b": "The company is the beneficiary of the counterparty performance under the swap contract.",
+      "clause_c": "As guarantor, the company backs counterparty performance under the swap."
+    },
+    {
+      "id": "fin_party_flip_051",
+      "trap_type": "party_flip",
+      "clause_a": "The employer is the plan sponsor administering the retirement plan for employees.",
+      "clause_b": "The employee is the plan sponsor administering the retirement plan for employers.",
+      "clause_c": "The employer sponsors and administers the retirement plan for employees."
+    },
+    {
+      "id": "fin_party_flip_052",
+      "trap_type": "party_flip",
+      "clause_a": "The seller is the party ceding the receivable book to the factoring purchaser.",
+      "clause_b": "The buyer is the party ceding the receivable book to the factoring purchaser.",
+      "clause_c": "The seller cedes the receivable book to the factoring purchaser."
+    },
+    {
+      "id": "fin_party_flip_053",
+      "trap_type": "party_flip",
+      "clause_a": "The bidder is the acquirer offering $22 per share in cash for the target's stock.",
+      "clause_b": "The bidder is the target offering $22 per share in cash for the acquirer's stock.",
+      "clause_c": "The bidder offers $22 per share cash for the target's stock as acquirer."
+    },
+    {
+      "id": "fin_party_flip_054",
+      "trap_type": "party_flip",
+      "clause_a": "The corporate parent is the pledgor pledging its ownership stake for a bank loan.",
+      "clause_b": "The bank is the pledgor pledging its ownership stake for a bank loan.",
+      "clause_c": "The corporate parent pledges its ownership stake for a bank loan as pledgor."
+    },
+    {
+      "id": "fin_party_flip_055",
+      "trap_type": "party_flip",
+      "clause_a": "The customer is the payee receiving the $12 million refund after litigation.",
+      "clause_b": "The customer is the payor sending the $12 million refund after litigation.",
+      "clause_c": "The customer receives the $12 million refund following litigation as payee."
+    },
+    {
+      "id": "fin_party_flip_056",
+      "trap_type": "party_flip",
+      "clause_a": "The company is the promisor of the $18 million contingent consideration payment.",
+      "clause_b": "The company is the promisee of the $18 million contingent consideration payment.",
+      "clause_c": "As promisor, the company owes the $18 million contingent consideration payment."
+    },
+    {
+      "id": "fin_party_flip_057",
+      "trap_type": "party_flip",
+      "clause_a": "The subsidiary is the transferor of loans to the securitization vehicle.",
+      "clause_b": "The subsidiary is the transferee of loans to the securitization vehicle.",
+      "clause_c": "The subsidiary transfers loans to the securitization vehicle as transferor."
+    },
+    {
+      "id": "fin_party_flip_058",
+      "trap_type": "party_flip",
+      "clause_a": "The parent is the beneficial holder of the $2 billion in trust-held investments.",
+      "clause_b": "The subsidiary is the beneficial holder of the $2 billion in trust-held investments.",
+      "clause_c": "The parent beneficially holds the $2 billion in trust-held investments."
+    },
+    {
+      "id": "fin_party_flip_059",
+      "trap_type": "party_flip",
+      "clause_a": "The counterparty is the fixed-rate payer under the interest rate swap.",
+      "clause_b": "The counterparty is the floating-rate payer under the interest rate swap.",
+      "clause_c": "The counterparty pays the fixed rate on the interest rate swap."
+    },
+    {
+      "id": "fin_party_flip_060",
+      "trap_type": "party_flip",
+      "clause_a": "The company is the lender extending the $300 million credit line to the buyer.",
+      "clause_b": "The company is the borrower extending the $300 million credit line to the buyer.",
+      "clause_c": "As lender, the company extends the $300 million credit line to the buyer."
+    },
+    {
+      "id": "fin_party_flip_061",
+      "trap_type": "party_flip",
+      "clause_a": "The insurer is the policy writer collecting premiums from the policyholder.",
+      "clause_b": "The insured is the policy writer collecting premiums from the policyholder.",
+      "clause_c": "The insurer writes the policy and collects premiums from the policyholder."
+    },
+    {
+      "id": "fin_party_flip_062",
+      "trap_type": "party_flip",
+      "clause_a": "The corporate treasurer is the settlor of the trust holding hedge instruments.",
+      "clause_b": "The corporate treasurer is the beneficiary of the trust holding hedge instruments.",
+      "clause_c": "As settlor, the corporate treasurer established the trust for hedge instruments."
+    },
+    {
+      "id": "fin_party_flip_063",
+      "trap_type": "party_flip",
+      "clause_a": "The company is the general contractor overseeing subcontractor performance.",
+      "clause_b": "The company is the subcontractor overseeing general contractor performance.",
+      "clause_c": "As general contractor, the company oversees subcontractor performance."
+    },
+    {
+      "id": "fin_party_flip_064",
+      "trap_type": "party_flip",
+      "clause_a": "The purchaser is the acquirer of the $1 billion technology-services business.",
+      "clause_b": "The purchaser is the seller of the $1 billion technology-services business.",
+      "clause_c": "The purchaser acquired the $1 billion technology-services business."
+    },
+    {
+      "id": "fin_party_flip_065",
+      "trap_type": "party_flip",
+      "clause_a": "The parent is the beneficial owner of the special-purpose entity holding the assets.",
+      "clause_b": "The parent is the settlor of the special-purpose entity holding the assets.",
+      "clause_c": "The parent beneficially owns the special-purpose entity holding the assets."
+    },
+    {
+      "id": "fin_party_flip_066",
+      "trap_type": "party_flip",
+      "clause_a": "The counterparty is the option writer receiving the premium at contract inception.",
+      "clause_b": "The counterparty is the option holder receiving the premium at contract inception.",
+      "clause_c": "At contract inception, the counterparty as option writer receives the premium."
+    },
+    {
+      "id": "fin_party_flip_067",
+      "trap_type": "party_flip",
+      "clause_a": "The vendor is the seller of the raw materials under the long-term supply agreement.",
+      "clause_b": "The buyer is the seller of the raw materials under the long-term supply agreement.",
+      "clause_c": "The vendor sells the raw materials under the long-term supply agreement."
+    },
+    {
+      "id": "fin_party_flip_068",
+      "trap_type": "party_flip",
+      "clause_a": "The parent is the grantor of the stock options to eligible executive employees.",
+      "clause_b": "The employee is the grantor of the stock options to eligible executive employers.",
+      "clause_c": "The parent grants the stock options to eligible executive employees."
+    },
+    {
+      "id": "fin_party_flip_069",
+      "trap_type": "party_flip",
+      "clause_a": "The corporate borrower is the debtor under the $600 million syndicated term loan.",
+      "clause_b": "The corporate borrower is the creditor under the $600 million syndicated term loan.",
+      "clause_c": "As debtor, the corporate borrower has the $600 million syndicated term loan obligation."
+    },
+    {
+      "id": "fin_party_flip_070",
+      "trap_type": "party_flip",
+      "clause_a": "The financial advisor is the fiduciary representing the target board in negotiations.",
+      "clause_b": "The financial advisor is the counterparty representing the target board in negotiations.",
+      "clause_c": "As fiduciary, the financial advisor represents the target board in negotiations."
+    },
+    {
+      "id": "fin_party_flip_071",
+      "trap_type": "party_flip",
+      "clause_a": "The parent is the tax filer under the consolidated group return with subsidiaries.",
+      "clause_b": "The subsidiary is the tax filer under the consolidated group return with subsidiaries.",
+      "clause_c": "The parent files taxes as the parent of the consolidated group return."
+    },
+    {
+      "id": "fin_party_flip_072",
+      "trap_type": "party_flip",
+      "clause_a": "The company is the offeror of the exchange of new notes for outstanding bonds.",
+      "clause_b": "The company is the offeree of the exchange of new notes for outstanding bonds.",
+      "clause_c": "The company offers to exchange new notes for outstanding bonds as offeror."
+    },
+    {
+      "id": "fin_party_flip_073",
+      "trap_type": "party_flip",
+      "clause_a": "The subsidiary is the direct owner of the operating assets in the region.",
+      "clause_b": "The parent is the direct owner of the operating assets in the region.",
+      "clause_c": "The subsidiary directly owns the operating assets in the region."
+    },
+    {
+      "id": "fin_party_flip_074",
+      "trap_type": "party_flip",
+      "clause_a": "The vendor is the counterparty to the $500 million multi-year outsourcing contract.",
+      "clause_b": "The customer is the counterparty to the $500 million multi-year outsourcing contract.",
+      "clause_c": "The vendor stands as counterparty to the $500 million multi-year outsourcing contract."
+    },
+    {
+      "id": "fin_party_flip_075",
+      "trap_type": "party_flip",
+      "clause_a": "The parent is the writer of the put option on the subsidiary's non-voting shares.",
+      "clause_b": "The parent is the holder of the put option on the subsidiary's non-voting shares.",
+      "clause_c": "As writer, the parent wrote the put option on the subsidiary's non-voting shares."
+    }
+  ]
+}

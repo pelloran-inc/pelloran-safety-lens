@@ -1,0 +1,22 @@
+{
+  "_comment": "Trap-fall rate HN@10 (primary) and HitC@10 of trap-agnostic projections at the shipped dimensions, on the four matched-domain 5k pools (the canonical POOLS_SHA256SUMS pools), by exact nearest-neighbour search. Reproduce with scripts/reproduce_extras.sh --aqtc-dir DIR. The trained lens is HN@10=0.0000 in every domain.",
+  "pool": "5k (canonical, results/POOLS_SHA256SUMS)",
+  "metric": "HN@10 (trap-fall rate); lower is safer",
+  "lens_reference_HN10": 0.0,
+  "random_projection_seed": 42,
+  "pca": "uncentered, fit on the distractor rows only",
+  "HN10": {
+    "rp_d11":  {"legal": 0.5251, "medical": 0.7000, "patent": 0.6478, "financial": 0.6478},
+    "rp_d32":  {"legal": 0.7659, "medical": 0.9600, "patent": 0.9668, "financial": 0.9236},
+    "pca_d11": {"legal": 0.5418, "medical": 0.8167, "patent": 0.8472, "financial": 0.5748},
+    "pca_d32": {"legal": 0.6020, "medical": 0.9367, "patent": 0.9668, "financial": 0.6445}
+  },
+  "HitC10": {
+    "rp_d11":  {"legal": 0.4147, "medical": 0.5267, "patent": 0.8837, "financial": 0.8439},
+    "rp_d32":  {"legal": 0.6388, "medical": 0.9333, "patent": 0.9568, "financial": 0.9867},
+    "pca_d11": {"legal": 0.5418, "medical": 0.4500, "patent": 0.9502, "financial": 0.8040},
+    "pca_d32": {"legal": 0.5552, "medical": 0.7833, "patent": 0.9568, "financial": 0.9734}
+  },
+  "tolerance": 0.0,
+  "note": "Exact search: these are exact (not approximate). A mismatch means the pool differs from the shipped one."
+}

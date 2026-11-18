@@ -1,0 +1,2104 @@
+{
+  "test_cases": [
+    {
+      "id": "med_v2_dosage_001",
+      "trap_type": "dosage_flip",
+      "clause_a": "Metformin is dosed at 500 mg twice daily for adults with type-2 diabetes.",
+      "clause_b": "Metformin is dosed at 5000 mg twice daily for adults with type-2 diabetes.",
+      "clause_c": "Adults with type-2 diabetes receive metformin 500 mg BID."
+    },
+    {
+      "id": "med_v2_dosage_002",
+      "trap_type": "dosage_flip",
+      "clause_a": "Atorvastatin 40 mg once daily is indicated for adults with hyperlipidemia.",
+      "clause_b": "Atorvastatin 4 mg once daily is indicated for adults with hyperlipidemia.",
+      "clause_c": "For adult hyperlipidemia, prescribe atorvastatin 40 mg QD."
+    },
+    {
+      "id": "med_v2_dosage_003",
+      "trap_type": "dosage_flip",
+      "clause_a": "Amoxicillin 500 mg every eight hours treats community-acquired pneumonia in adults.",
+      "clause_b": "Amoxicillin 50 mg every eight hours treats community-acquired pneumonia in adults.",
+      "clause_c": "For adult CAP therapy, use amoxicillin 500 mg q8h."
+    },
+    {
+      "id": "med_v2_dosage_004",
+      "trap_type": "dosage_flip",
+      "clause_a": "Warfarin is initiated at 5 mg once daily and titrated to INR 2.0-3.0.",
+      "clause_b": "Warfarin is initiated at 50 mg once daily and titrated to INR 2.0-3.0.",
+      "clause_c": "Start warfarin at 5 mg QD with INR target 2.0-3.0."
+    },
+    {
+      "id": "med_v2_dosage_005",
+      "trap_type": "dosage_flip",
+      "clause_a": "Insulin glargine is started at 10 units subcutaneously once daily at bedtime.",
+      "clause_b": "Insulin glargine is started at 100 units subcutaneously once daily at bedtime.",
+      "clause_c": "Bedtime dosing of insulin glargine begins at 10 units SC daily."
+    },
+    {
+      "id": "med_v2_dosage_006",
+      "trap_type": "dosage_flip",
+      "clause_a": "Prednisone 60 mg once daily is used for acute asthma exacerbation in adults.",
+      "clause_b": "Prednisone 6 mg once daily is used for acute asthma exacerbation in adults.",
+      "clause_c": "For adult asthma flares, prescribe prednisone 60 mg PO daily."
+    },
+    {
+      "id": "med_v2_dosage_007",
+      "trap_type": "dosage_flip",
+      "clause_a": "Ibuprofen 400 mg every six hours relieves pain in adult patients.",
+      "clause_b": "Ibuprofen 4000 mg every six hours relieves pain in adult patients.",
+      "clause_c": "Adult pain management uses ibuprofen 400 mg q6h."
+    },
+    {
+      "id": "med_v2_dosage_008",
+      "trap_type": "dosage_flip",
+      "clause_a": "Aspirin 81 mg daily provides cardiovascular protection in adults over 50.",
+      "clause_b": "Aspirin 810 mg daily provides cardiovascular protection in adults over 50.",
+      "clause_c": "Cardioprotection in adults over 50 uses low-dose aspirin 81 mg QD."
+    },
+    {
+      "id": "med_v2_dosage_009",
+      "trap_type": "dosage_flip",
+      "clause_a": "Acetaminophen 1000 mg every six hours manages fever in adults.",
+      "clause_b": "Acetaminophen 100 mg every six hours manages fever in adults.",
+      "clause_c": "For adult fever, dose acetaminophen 1000 mg q6h."
+    },
+    {
+      "id": "med_v2_dosage_010",
+      "trap_type": "dosage_flip",
+      "clause_a": "Morphine 2 mg intravenously every four hours controls postoperative pain.",
+      "clause_b": "Morphine 20 mg intravenously every four hours controls postoperative pain.",
+      "clause_c": "Postoperative pain is controlled with IV morphine 2 mg q4h."
+    },
+    {
+      "id": "med_v2_dosage_011",
+      "trap_type": "dosage_flip",
+      "clause_a": "Heparin bolus is 80 units per kilogram followed by 18 units per kilogram per hour.",
+      "clause_b": "Heparin bolus is 800 units per kilogram followed by 18 units per kilogram per hour.",
+      "clause_c": "Heparin loading: 80 U/kg bolus then 18 U/kg/h infusion."
+    },
+    {
+      "id": "med_v2_dosage_012",
+      "trap_type": "dosage_flip",
+      "clause_a": "Clopidogrel 75 mg once daily prevents stent thrombosis after PCI.",
+      "clause_b": "Clopidogrel 750 mg once daily prevents stent thrombosis after PCI.",
+      "clause_c": "Post-PCI antiplatelet therapy uses clopidogrel 75 mg QD."
+    },
+    {
+      "id": "med_v2_dosage_013",
+      "trap_type": "dosage_flip",
+      "clause_a": "Lisinopril 10 mg once daily is first-line for adult hypertension.",
+      "clause_b": "Lisinopril 100 mg once daily is first-line for adult hypertension.",
+      "clause_c": "Adult hypertension therapy starts with lisinopril 10 mg QD."
+    },
+    {
+      "id": "med_v2_dosage_014",
+      "trap_type": "dosage_flip",
+      "clause_a": "Amlodipine 5 mg once daily manages essential hypertension in adults.",
+      "clause_b": "Amlodipine 50 mg once daily manages essential hypertension in adults.",
+      "clause_c": "For adult essential hypertension, use amlodipine 5 mg QD."
+    },
+    {
+      "id": "med_v2_dosage_015",
+      "trap_type": "dosage_flip",
+      "clause_a": "Omeprazole 20 mg once daily heals gastric ulcer in adults over four weeks.",
+      "clause_b": "Omeprazole 200 mg once daily heals gastric ulcer in adults over four weeks.",
+      "clause_c": "Four-week omeprazole 20 mg QD heals adult gastric ulcer."
+    },
+    {
+      "id": "med_v2_dosage_016",
+      "trap_type": "dosage_flip",
+      "clause_a": "Levothyroxine 25 mcg once daily is a starting dose for adults with hypothyroidism.",
+      "clause_b": "Levothyroxine 250 mcg once daily is a starting dose for adults with hypothyroidism.",
+      "clause_c": "Adult hypothyroidism starts at levothyroxine 25 mcg QD."
+    },
+    {
+      "id": "med_v2_dosage_017",
+      "trap_type": "dosage_flip",
+      "clause_a": "Hydrochlorothiazide 25 mg once daily reduces blood pressure in adults.",
+      "clause_b": "Hydrochlorothiazide 250 mg once daily reduces blood pressure in adults.",
+      "clause_c": "For adult BP reduction, use HCTZ 25 mg PO QD."
+    },
+    {
+      "id": "med_v2_dosage_018",
+      "trap_type": "dosage_flip",
+      "clause_a": "Sertraline 50 mg once daily is a starting dose for major depressive disorder in adults.",
+      "clause_b": "Sertraline 500 mg once daily is a starting dose for major depressive disorder in adults.",
+      "clause_c": "Adult MDD therapy begins at sertraline 50 mg QD."
+    },
+    {
+      "id": "med_v2_dosage_019",
+      "trap_type": "dosage_flip",
+      "clause_a": "Gabapentin 300 mg three times daily manages neuropathic pain in adults.",
+      "clause_b": "Gabapentin 30 mg three times daily manages neuropathic pain in adults.",
+      "clause_c": "Adult neuropathic pain uses gabapentin 300 mg TID."
+    },
+    {
+      "id": "med_v2_dosage_020",
+      "trap_type": "dosage_flip",
+      "clause_a": "Furosemide 40 mg once daily controls edema in congestive heart failure.",
+      "clause_b": "Furosemide 4 mg once daily controls edema in congestive heart failure.",
+      "clause_c": "CHF edema management uses furosemide 40 mg PO QD."
+    },
+    {
+      "id": "med_v2_dosage_021",
+      "trap_type": "dosage_flip",
+      "clause_a": "Losartan 50 mg once daily lowers blood pressure in adult hypertensives.",
+      "clause_b": "Losartan 500 mg once daily lowers blood pressure in adult hypertensives.",
+      "clause_c": "Adult hypertension responds to losartan 50 mg QD."
+    },
+    {
+      "id": "med_v2_dosage_022",
+      "trap_type": "dosage_flip",
+      "clause_a": "Simvastatin 20 mg once daily at bedtime lowers LDL cholesterol in adults.",
+      "clause_b": "Simvastatin 200 mg once daily at bedtime lowers LDL cholesterol in adults.",
+      "clause_c": "Adult LDL reduction uses simvastatin 20 mg PO qHS."
+    },
+    {
+      "id": "med_v2_dosage_023",
+      "trap_type": "dosage_flip",
+      "clause_a": "Azithromycin 500 mg on day one then 250 mg daily treats respiratory infection.",
+      "clause_b": "Azithromycin 5000 mg on day one then 250 mg daily treats respiratory infection.",
+      "clause_c": "Respiratory infection therapy: azithromycin 500 mg day one, 250 mg days two through five."
+    },
+    {
+      "id": "med_v2_dosage_024",
+      "trap_type": "dosage_flip",
+      "clause_a": "Metoprolol 50 mg twice daily controls heart rate in atrial fibrillation.",
+      "clause_b": "Metoprolol 500 mg twice daily controls heart rate in atrial fibrillation.",
+      "clause_c": "Atrial fibrillation rate control uses metoprolol 50 mg BID."
+    },
+    {
+      "id": "med_v2_dosage_025",
+      "trap_type": "dosage_flip",
+      "clause_a": "Doxycycline 100 mg twice daily treats Lyme disease in adults for fourteen days.",
+      "clause_b": "Doxycycline 1000 mg twice daily treats Lyme disease in adults for fourteen days.",
+      "clause_c": "Adult Lyme disease: doxycycline 100 mg BID for fourteen days."
+    },
+    {
+      "id": "med_v2_contra_001",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Warfarin is indicated in patients with atrial fibrillation and CHA2DS2-VASc score of 2 or greater.",
+      "clause_b": "Warfarin is contraindicated in patients with atrial fibrillation and CHA2DS2-VASc score of 2 or greater.",
+      "clause_c": "AFib patients with CHA2DS2-VASc score at least 2 should receive warfarin anticoagulation."
+    },
+    {
+      "id": "med_v2_contra_002",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Metformin is indicated in adults with type-2 diabetes and preserved renal function.",
+      "clause_b": "Metformin is contraindicated in adults with type-2 diabetes and preserved renal function.",
+      "clause_c": "In adult T2DM with normal kidneys, metformin is the first-line agent."
+    },
+    {
+      "id": "med_v2_contra_003",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Aspirin is recommended for secondary cardiovascular prevention after myocardial infarction.",
+      "clause_b": "Aspirin is contraindicated for secondary cardiovascular prevention after myocardial infarction.",
+      "clause_c": "Post-MI patients receive aspirin for secondary CV prevention."
+    },
+    {
+      "id": "med_v2_contra_004",
+      "trap_type": "contraindication_flip",
+      "clause_a": "ACE inhibitors are indicated for heart failure with reduced ejection fraction.",
+      "clause_b": "ACE inhibitors are contraindicated for heart failure with reduced ejection fraction.",
+      "clause_c": "For heart failure with reduced ejection fraction, ACE inhibitors are a standard component of therapy."
+    },
+    {
+      "id": "med_v2_contra_005",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Beta-blockers are appropriate for chronic stable angina in adults.",
+      "clause_b": "Beta-blockers are contraindicated for chronic stable angina in adults.",
+      "clause_c": "Adult chronic stable angina benefits from beta-blocker therapy."
+    },
+    {
+      "id": "med_v2_contra_006",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Statins are indicated for LDL cholesterol above 190 mg/dL regardless of ASCVD risk.",
+      "clause_b": "Statins are contraindicated for LDL cholesterol above 190 mg/dL regardless of ASCVD risk.",
+      "clause_c": "LDL over 190 mg/dL warrants statin therapy irrespective of atherosclerotic risk."
+    },
+    {
+      "id": "med_v2_contra_007",
+      "trap_type": "contraindication_flip",
+      "clause_a": "NSAIDs are indicated for short-term pain relief in patients without renal impairment.",
+      "clause_b": "NSAIDs are contraindicated for short-term pain relief in patients without renal impairment.",
+      "clause_c": "In renally-normal patients, NSAIDs can be used for short-term analgesia."
+    },
+    {
+      "id": "med_v2_contra_008",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Proton pump inhibitors are indicated for erosive esophagitis in adults.",
+      "clause_b": "Proton pump inhibitors are contraindicated for erosive esophagitis in adults.",
+      "clause_c": "Adult erosive esophagitis responds to PPI therapy."
+    },
+    {
+      "id": "med_v2_contra_009",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Antibiotic prophylaxis is recommended before invasive dental procedures in high-risk patients.",
+      "clause_b": "Antibiotic prophylaxis is contraindicated before invasive dental procedures in high-risk patients.",
+      "clause_c": "High-risk patients receive antibiotic prophylaxis prior to invasive dental work."
+    },
+    {
+      "id": "med_v2_contra_010",
+      "trap_type": "contraindication_flip",
+      "clause_a": "SSRIs are first-line pharmacotherapy for adult major depressive disorder.",
+      "clause_b": "SSRIs are contraindicated as first-line pharmacotherapy for adult major depressive disorder.",
+      "clause_c": "Adult MDD initial pharmacologic treatment uses selective serotonin reuptake inhibitors."
+    },
+    {
+      "id": "med_v2_contra_011",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Inhaled corticosteroids are indicated for persistent asthma in adults and children over 5.",
+      "clause_b": "Inhaled corticosteroids are contraindicated for persistent asthma in adults and children over 5.",
+      "clause_c": "Adults and children over 5 with persistent asthma receive inhaled corticosteroid controller therapy."
+    },
+    {
+      "id": "med_v2_contra_012",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Direct oral anticoagulants are appropriate for non-valvular atrial fibrillation stroke prevention.",
+      "clause_b": "Direct oral anticoagulants are contraindicated for non-valvular atrial fibrillation stroke prevention.",
+      "clause_c": "DOACs are used for stroke prevention in non-valvular AFib patients."
+    },
+    {
+      "id": "med_v2_contra_013",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Iron supplementation is indicated in adults with iron deficiency anemia.",
+      "clause_b": "Iron supplementation is contraindicated in adults with iron deficiency anemia.",
+      "clause_c": "Adult iron deficiency anemia is treated with oral iron therapy."
+    },
+    {
+      "id": "med_v2_contra_014",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Vitamin K administration is indicated for warfarin-induced coagulopathy with major bleeding.",
+      "clause_b": "Vitamin K administration is contraindicated for warfarin-induced coagulopathy with major bleeding.",
+      "clause_c": "Major warfarin-induced coagulopathy is reversed by administration of vitamin K."
+    },
+    {
+      "id": "med_v2_contra_015",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Diuretics are indicated for symptomatic volume overload in congestive heart failure.",
+      "clause_b": "Diuretics are contraindicated for symptomatic volume overload in congestive heart failure.",
+      "clause_c": "For symptomatic volume overload in congestive heart failure, diuretics are the standard therapy."
+    },
+    {
+      "id": "med_v2_contra_016",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Levothyroxine replacement is indicated for primary hypothyroidism with elevated TSH.",
+      "clause_b": "Levothyroxine replacement is contraindicated for primary hypothyroidism with elevated TSH.",
+      "clause_c": "Elevated TSH in primary hypothyroidism warrants levothyroxine replacement."
+    },
+    {
+      "id": "med_v2_contra_017",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Antiepileptic drugs are recommended for adults with two or more unprovoked seizures.",
+      "clause_b": "Antiepileptic drugs are contraindicated for adults with two or more unprovoked seizures.",
+      "clause_c": "Two or more unprovoked seizures in adults warrant AED initiation."
+    },
+    {
+      "id": "med_v2_contra_018",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Inhaled bronchodilators are appropriate for acute COPD exacerbation in adults.",
+      "clause_b": "Inhaled bronchodilators are contraindicated for acute COPD exacerbation in adults.",
+      "clause_c": "Adult acute COPD flares are treated with inhaled bronchodilators."
+    },
+    {
+      "id": "med_v2_contra_019",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Antihistamines are indicated for symptomatic relief of allergic rhinitis in adults.",
+      "clause_b": "Antihistamines are contraindicated for symptomatic relief of allergic rhinitis in adults.",
+      "clause_c": "Adult allergic rhinitis symptoms are managed with antihistamines."
+    },
+    {
+      "id": "med_v2_contra_020",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Fluoroquinolones are appropriate for complicated urinary tract infection in adults.",
+      "clause_b": "Fluoroquinolones are contraindicated for complicated urinary tract infection in adults.",
+      "clause_c": "Complicated adult UTI can be treated with fluoroquinolones."
+    },
+    {
+      "id": "med_v2_contra_021",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Beta-lactam antibiotics are first-line for streptococcal pharyngitis in children.",
+      "clause_b": "Beta-lactam antibiotics are contraindicated for streptococcal pharyngitis in children.",
+      "clause_c": "Pediatric strep throat is treated with beta-lactam antibiotic therapy."
+    },
+    {
+      "id": "med_v2_contra_022",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Glucocorticoids are indicated for acute severe asthma exacerbation in adults.",
+      "clause_b": "Glucocorticoids are contraindicated for acute severe asthma exacerbation in adults.",
+      "clause_c": "Severe adult asthma exacerbation warrants systemic glucocorticoid therapy."
+    },
+    {
+      "id": "med_v2_contra_023",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Selective serotonin reuptake inhibitors are appropriate for adult generalized anxiety disorder.",
+      "clause_b": "Selective serotonin reuptake inhibitors are contraindicated for adult generalized anxiety disorder.",
+      "clause_c": "Adult GAD initial pharmacotherapy is SSRI-based."
+    },
+    {
+      "id": "med_v2_contra_024",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Anticoagulation is indicated for confirmed deep vein thrombosis in adults.",
+      "clause_b": "Anticoagulation is contraindicated for confirmed deep vein thrombosis in adults.",
+      "clause_c": "Confirmed deep vein thrombosis in adults is treated with therapeutic anticoagulation."
+    },
+    {
+      "id": "med_v2_contra_025",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Antipyretics are indicated for febrile children over three months of age.",
+      "clause_b": "Antipyretics are contraindicated for febrile children over three months of age.",
+      "clause_c": "Children older than three months with fever benefit from antipyretic therapy."
+    },
+    {
+      "id": "med_v2_pop_001",
+      "trap_type": "population_flip",
+      "clause_a": "Aspirin is safe for cardiovascular prevention in adults over 50 years old.",
+      "clause_b": "Aspirin is safe for cardiovascular prevention in pediatric patients over 50 years old.",
+      "clause_c": "Adults aged over 50 can take aspirin for CV protection."
+    },
+    {
+      "id": "med_v2_pop_002",
+      "trap_type": "population_flip",
+      "clause_a": "Ibuprofen 400 mg every six hours is appropriate for adult pain management.",
+      "clause_b": "Ibuprofen 400 mg every six hours is appropriate for infant pain management.",
+      "clause_c": "For adult analgesia, ibuprofen 400 mg q6h is a reasonable regimen."
+    },
+    {
+      "id": "med_v2_pop_003",
+      "trap_type": "population_flip",
+      "clause_a": "Codeine is not recommended for pain management in children under 12.",
+      "clause_b": "Codeine is not recommended for pain management in adults under 65.",
+      "clause_c": "Children younger than 12 should not receive codeine for pain."
+    },
+    {
+      "id": "med_v2_pop_004",
+      "trap_type": "population_flip",
+      "clause_a": "Warfarin dose is adjusted for INR target in elderly patients over 75.",
+      "clause_b": "Warfarin dose is adjusted for INR target in pediatric patients over 75.",
+      "clause_c": "Elderly patients above 75 receive INR-guided warfarin adjustments."
+    },
+    {
+      "id": "med_v2_pop_005",
+      "trap_type": "population_flip",
+      "clause_a": "Fluoroquinolones should be avoided in pediatric patients due to musculoskeletal toxicity.",
+      "clause_b": "Fluoroquinolones should be avoided in adult patients due to musculoskeletal toxicity.",
+      "clause_c": "Children generally do not receive fluoroquinolones because of musculoskeletal risk."
+    },
+    {
+      "id": "med_v2_pop_006",
+      "trap_type": "population_flip",
+      "clause_a": "Metformin dose is reduced in patients with moderate renal impairment.",
+      "clause_b": "Metformin dose is reduced in patients with normal renal function.",
+      "clause_c": "Moderate renal impairment warrants a metformin dose reduction."
+    },
+    {
+      "id": "med_v2_pop_007",
+      "trap_type": "population_flip",
+      "clause_a": "ACE inhibitors are teratogenic and contraindicated in pregnant women.",
+      "clause_b": "ACE inhibitors are teratogenic and contraindicated in non-pregnant women.",
+      "clause_c": "Pregnancy is a contraindication to ACE inhibitor use due to teratogenicity."
+    },
+    {
+      "id": "med_v2_pop_008",
+      "trap_type": "population_flip",
+      "clause_a": "Tetracyclines are avoided in children under 8 to prevent tooth discoloration.",
+      "clause_b": "Tetracyclines are avoided in adults over 8 to prevent tooth discoloration.",
+      "clause_c": "Tooth discoloration risk makes tetracyclines unsuitable for children below age 8."
+    },
+    {
+      "id": "med_v2_pop_009",
+      "trap_type": "population_flip",
+      "clause_a": "Statin therapy is indicated for primary prevention in adults aged 40 to 75 with elevated ASCVD risk.",
+      "clause_b": "Statin therapy is indicated for primary prevention in adults aged 40 to 75 with normal ASCVD risk.",
+      "clause_c": "Elevated ASCVD risk in adults 40-75 warrants primary-prevention statin use."
+    },
+    {
+      "id": "med_v2_pop_010",
+      "trap_type": "population_flip",
+      "clause_a": "Digoxin dose is reduced in elderly patients and those with renal impairment.",
+      "clause_b": "Digoxin dose is reduced in young adults and those with normal renal function.",
+      "clause_c": "Elderly and renally-impaired patients receive lower digoxin doses."
+    },
+    {
+      "id": "med_v2_pop_011",
+      "trap_type": "population_flip",
+      "clause_a": "Prophylactic antibiotics are appropriate in immunocompromised patients undergoing dental work.",
+      "clause_b": "Prophylactic antibiotics are appropriate in immunocompetent patients undergoing dental work.",
+      "clause_c": "Immunocompromised patients receive antibiotic prophylaxis before dental procedures."
+    },
+    {
+      "id": "med_v2_pop_012",
+      "trap_type": "population_flip",
+      "clause_a": "Vaccination against pneumococcus is recommended in adults over 65.",
+      "clause_b": "Vaccination against pneumococcus is recommended in children over 65.",
+      "clause_c": "Adults aged over 65 should receive pneumococcal vaccination."
+    },
+    {
+      "id": "med_v2_pop_013",
+      "trap_type": "population_flip",
+      "clause_a": "Insulin therapy is required in patients with type-1 diabetes regardless of age.",
+      "clause_b": "Insulin therapy is required in patients with type-2 diabetes regardless of age.",
+      "clause_c": "Type-1 diabetics require insulin therapy irrespective of patient age."
+    },
+    {
+      "id": "med_v2_pop_014",
+      "trap_type": "population_flip",
+      "clause_a": "Colonoscopy screening is recommended for adults starting at age 45.",
+      "clause_b": "Colonoscopy screening is recommended for adolescents starting at age 45.",
+      "clause_c": "Adult colorectal screening begins at 45 years with colonoscopy."
+    },
+    {
+      "id": "med_v2_pop_015",
+      "trap_type": "population_flip",
+      "clause_a": "Iron supplementation is indicated in pregnant women with iron deficiency anemia.",
+      "clause_b": "Iron supplementation is indicated in men with iron deficiency anemia.",
+      "clause_c": "Pregnant women with iron deficiency anemia should receive iron supplementation."
+    },
+    {
+      "id": "med_v2_pop_016",
+      "trap_type": "population_flip",
+      "clause_a": "Beta-blockers are avoided in patients with acute decompensated heart failure.",
+      "clause_b": "Beta-blockers are avoided in patients with compensated stable heart failure.",
+      "clause_c": "Acute decompensated heart failure is a reason to hold beta-blockers."
+    },
+    {
+      "id": "med_v2_pop_017",
+      "trap_type": "population_flip",
+      "clause_a": "Fluid restriction is indicated in patients with hyponatremia due to SIADH.",
+      "clause_b": "Fluid restriction is indicated in patients with hypernatremia due to SIADH.",
+      "clause_c": "SIADH-associated hyponatremia is managed with fluid restriction."
+    },
+    {
+      "id": "med_v2_pop_018",
+      "trap_type": "population_flip",
+      "clause_a": "SGLT2 inhibitors improve outcomes in adults with heart failure and reduced ejection fraction.",
+      "clause_b": "SGLT2 inhibitors improve outcomes in adults with heart failure and preserved ejection fraction.",
+      "clause_c": "HFrEF outcomes are improved by SGLT2 inhibitor therapy."
+    },
+    {
+      "id": "med_v2_pop_019",
+      "trap_type": "population_flip",
+      "clause_a": "Anti-D immunoglobulin is given to Rh-negative pregnant women after delivery.",
+      "clause_b": "Anti-D immunoglobulin is given to Rh-positive pregnant women after delivery.",
+      "clause_c": "Rh-negative postpartum women receive anti-D immunoglobulin prophylaxis."
+    },
+    {
+      "id": "med_v2_pop_020",
+      "trap_type": "population_flip",
+      "clause_a": "Mammographic screening is recommended in average-risk women starting at age 40.",
+      "clause_b": "Mammographic screening is recommended in average-risk men starting at age 40.",
+      "clause_c": "Women of average breast cancer risk begin mammography at age 40."
+    },
+    {
+      "id": "med_v2_pop_021",
+      "trap_type": "population_flip",
+      "clause_a": "Rotavirus vaccine is administered to infants between six weeks and eight months.",
+      "clause_b": "Rotavirus vaccine is administered to adults between six weeks and eight months.",
+      "clause_c": "Infants aged six weeks to eight months receive rotavirus vaccination."
+    },
+    {
+      "id": "med_v2_pop_022",
+      "trap_type": "population_flip",
+      "clause_a": "Folic acid supplementation before conception reduces neural tube defects in offspring.",
+      "clause_b": "Folic acid supplementation after conception reduces neural tube defects in offspring.",
+      "clause_c": "Preconception folic acid intake lowers the risk of neural tube defects."
+    },
+    {
+      "id": "med_v2_pop_023",
+      "trap_type": "population_flip",
+      "clause_a": "Varicella vaccine is a live-attenuated vaccine contraindicated in immunocompromised patients.",
+      "clause_b": "Varicella vaccine is a live-attenuated vaccine contraindicated in immunocompetent patients.",
+      "clause_c": "Immunocompromised patients should not receive live-attenuated varicella vaccine."
+    },
+    {
+      "id": "med_v2_pop_024",
+      "trap_type": "population_flip",
+      "clause_a": "Warfarin is preferred over DOACs in patients with mechanical heart valves.",
+      "clause_b": "Warfarin is preferred over DOACs in patients with bioprosthetic heart valves.",
+      "clause_c": "Mechanical valve recipients receive warfarin rather than direct oral anticoagulants."
+    },
+    {
+      "id": "med_v2_pop_025",
+      "trap_type": "population_flip",
+      "clause_a": "Beta-blocker withdrawal should be tapered slowly in patients with ischemic heart disease.",
+      "clause_b": "Beta-blocker withdrawal should be tapered slowly in patients without ischemic heart disease.",
+      "clause_c": "Patients with IHD should taper beta-blockers gradually to avoid rebound."
+    },
+    {
+      "id": "med_v2_drug_001",
+      "trap_type": "drug_substitution",
+      "clause_a": "Metformin lowers blood glucose by inhibiting hepatic gluconeogenesis in patients with type-2 diabetes.",
+      "clause_b": "Metoprolol lowers blood glucose by inhibiting hepatic gluconeogenesis in patients with type-2 diabetes.",
+      "clause_c": "In T2DM, metformin reduces plasma glucose via suppression of liver glucose output."
+    },
+    {
+      "id": "med_v2_drug_002",
+      "trap_type": "drug_substitution",
+      "clause_a": "Amiodarone is used for chemical cardioversion in atrial fibrillation.",
+      "clause_b": "Amitriptyline is used for chemical cardioversion in atrial fibrillation.",
+      "clause_c": "Chemical cardioversion of AFib can be achieved with amiodarone."
+    },
+    {
+      "id": "med_v2_drug_003",
+      "trap_type": "drug_substitution",
+      "clause_a": "Levothyroxine replaces thyroid hormone in patients with primary hypothyroidism.",
+      "clause_b": "Levofloxacin replaces thyroid hormone in patients with primary hypothyroidism.",
+      "clause_c": "Primary hypothyroidism is treated with thyroid hormone replacement via levothyroxine."
+    },
+    {
+      "id": "med_v2_drug_004",
+      "trap_type": "drug_substitution",
+      "clause_a": "Aspirin inhibits cyclooxygenase and reduces platelet aggregation.",
+      "clause_b": "Ampicillin inhibits cyclooxygenase and reduces platelet aggregation.",
+      "clause_c": "Cyclooxygenase inhibition by aspirin reduces platelet function."
+    },
+    {
+      "id": "med_v2_drug_005",
+      "trap_type": "drug_substitution",
+      "clause_a": "Prednisone reduces inflammation via glucocorticoid receptor activation.",
+      "clause_b": "Pravastatin reduces inflammation via glucocorticoid receptor activation.",
+      "clause_c": "Glucocorticoid receptor activation by prednisone provides anti-inflammatory effect."
+    },
+    {
+      "id": "med_v2_drug_006",
+      "trap_type": "drug_substitution",
+      "clause_a": "Furosemide is a loop diuretic that inhibits sodium reabsorption in the ascending limb.",
+      "clause_b": "Fluoxetine is a loop diuretic that inhibits sodium reabsorption in the ascending limb.",
+      "clause_c": "Loop diuresis by furosemide blocks sodium uptake in the loop of Henle."
+    },
+    {
+      "id": "med_v2_drug_007",
+      "trap_type": "drug_substitution",
+      "clause_a": "Sertraline is an SSRI used for major depressive disorder and anxiety disorders.",
+      "clause_b": "Simvastatin is an SSRI used for major depressive disorder and anxiety disorders.",
+      "clause_c": "MDD and anxiety respond to SSRIs like sertraline."
+    },
+    {
+      "id": "med_v2_drug_008",
+      "trap_type": "drug_substitution",
+      "clause_a": "Warfarin inhibits vitamin K-dependent clotting factor synthesis.",
+      "clause_b": "Wellbutrin inhibits vitamin K-dependent clotting factor synthesis.",
+      "clause_c": "Vitamin K-dependent coagulation is blocked by warfarin therapy."
+    },
+    {
+      "id": "med_v2_drug_009",
+      "trap_type": "drug_substitution",
+      "clause_a": "Ceftriaxone is a third-generation cephalosporin used for bacterial meningitis.",
+      "clause_b": "Cetirizine is a third-generation cephalosporin used for bacterial meningitis.",
+      "clause_c": "Bacterial meningitis treatment includes third-generation ceftriaxone."
+    },
+    {
+      "id": "med_v2_drug_010",
+      "trap_type": "drug_substitution",
+      "clause_a": "Albuterol is a short-acting beta-2 agonist for acute asthma bronchospasm.",
+      "clause_b": "Alprazolam is a short-acting beta-2 agonist for acute asthma bronchospasm.",
+      "clause_c": "Acute bronchospasm in asthma responds to short-acting beta-2 albuterol."
+    },
+    {
+      "id": "med_v2_drug_011",
+      "trap_type": "drug_substitution",
+      "clause_a": "Enalapril is an ACE inhibitor used for hypertension and heart failure.",
+      "clause_b": "Enoxaparin is an ACE inhibitor used for hypertension and heart failure.",
+      "clause_c": "Hypertension and HFrEF are treated with the ACE inhibitor enalapril."
+    },
+    {
+      "id": "med_v2_drug_012",
+      "trap_type": "drug_substitution",
+      "clause_a": "Ranitidine is an H2 receptor antagonist that reduces gastric acid secretion.",
+      "clause_b": "Ramipril is an H2 receptor antagonist that reduces gastric acid secretion.",
+      "clause_c": "Gastric acid reduction via H2 blockade uses ranitidine."
+    },
+    {
+      "id": "med_v2_drug_013",
+      "trap_type": "drug_substitution",
+      "clause_a": "Ondansetron is a 5-HT3 antagonist used for chemotherapy-induced nausea.",
+      "clause_b": "Omeprazole is a 5-HT3 antagonist used for chemotherapy-induced nausea.",
+      "clause_c": "Chemo-induced nausea is prevented by 5-HT3 blocker ondansetron."
+    },
+    {
+      "id": "med_v2_drug_014",
+      "trap_type": "drug_substitution",
+      "clause_a": "Clonidine is an alpha-2 agonist used for hypertension and opioid withdrawal.",
+      "clause_b": "Clopidogrel is an alpha-2 agonist used for hypertension and opioid withdrawal.",
+      "clause_c": "Alpha-2 agonism by clonidine treats hypertension and helps opioid withdrawal."
+    },
+    {
+      "id": "med_v2_drug_015",
+      "trap_type": "drug_substitution",
+      "clause_a": "Verapamil is a non-dihydropyridine calcium channel blocker used for rate control.",
+      "clause_b": "Valsartan is a non-dihydropyridine calcium channel blocker used for rate control.",
+      "clause_c": "Rate control uses non-DHP calcium blockers such as verapamil."
+    },
+    {
+      "id": "med_v2_drug_016",
+      "trap_type": "drug_substitution",
+      "clause_a": "Fluconazole is a triazole antifungal used for candidiasis.",
+      "clause_b": "Furosemide is a triazole antifungal used for candidiasis.",
+      "clause_c": "Candida infection is treated with the triazole antifungal fluconazole."
+    },
+    {
+      "id": "med_v2_drug_017",
+      "trap_type": "drug_substitution",
+      "clause_a": "Digoxin is a positive inotrope used for symptomatic heart failure.",
+      "clause_b": "Doxycycline is a positive inotrope used for symptomatic heart failure.",
+      "clause_c": "Symptomatic HF benefits from positive inotropic action of digoxin."
+    },
+    {
+      "id": "med_v2_drug_018",
+      "trap_type": "drug_substitution",
+      "clause_a": "Naloxone reverses opioid overdose by competitively binding mu receptors.",
+      "clause_b": "Naproxen reverses opioid overdose by competitively binding mu receptors.",
+      "clause_c": "Opioid overdose is reversed by mu receptor antagonist naloxone."
+    },
+    {
+      "id": "med_v2_drug_019",
+      "trap_type": "drug_substitution",
+      "clause_a": "Spironolactone is a potassium-sparing diuretic used in heart failure and cirrhosis.",
+      "clause_b": "Sertraline is a potassium-sparing diuretic used in heart failure and cirrhosis.",
+      "clause_c": "Heart failure and cirrhosis benefit from potassium-sparing spironolactone."
+    },
+    {
+      "id": "med_v2_drug_020",
+      "trap_type": "drug_substitution",
+      "clause_a": "Amoxicillin is a penicillin-class antibiotic used for otitis media and sinusitis.",
+      "clause_b": "Amlodipine is a penicillin-class antibiotic used for otitis media and sinusitis.",
+      "clause_c": "Otitis media and sinusitis are treated with penicillin-class amoxicillin."
+    },
+    {
+      "id": "med_v2_drug_021",
+      "trap_type": "drug_substitution",
+      "clause_a": "Methotrexate is a disease-modifying antirheumatic drug used for rheumatoid arthritis.",
+      "clause_b": "Metronidazole is a disease-modifying antirheumatic drug used for rheumatoid arthritis.",
+      "clause_c": "Rheumatoid arthritis is treated with DMARD methotrexate as first-line."
+    },
+    {
+      "id": "med_v2_drug_022",
+      "trap_type": "drug_substitution",
+      "clause_a": "Losartan is an angiotensin II receptor blocker used for hypertension.",
+      "clause_b": "Lorazepam is an angiotensin II receptor blocker used for hypertension.",
+      "clause_c": "Angiotensin receptor blockade by losartan treats hypertension."
+    },
+    {
+      "id": "med_v2_drug_023",
+      "trap_type": "drug_substitution",
+      "clause_a": "Metronidazole is used for anaerobic infections and Clostridium difficile colitis.",
+      "clause_b": "Metformin is used for anaerobic infections and Clostridium difficile colitis.",
+      "clause_c": "Anaerobic infection and C. difficile respond to metronidazole therapy."
+    },
+    {
+      "id": "med_v2_drug_024",
+      "trap_type": "drug_substitution",
+      "clause_a": "Atorvastatin is an HMG-CoA reductase inhibitor used for hyperlipidemia.",
+      "clause_b": "Atenolol is an HMG-CoA reductase inhibitor used for hyperlipidemia.",
+      "clause_c": "Hyperlipidemia is managed with HMG-CoA inhibitor atorvastatin."
+    },
+    {
+      "id": "med_v2_drug_025",
+      "trap_type": "drug_substitution",
+      "clause_a": "Levofloxacin is a fluoroquinolone used for respiratory tract infections.",
+      "clause_b": "Levothyroxine is a fluoroquinolone used for respiratory tract infections.",
+      "clause_c": "Respiratory tract infection is treated with fluoroquinolone levofloxacin."
+    },
+    {
+      "id": "med_v2b_dosage_flip_001",
+      "trap_type": "dosage_flip",
+      "clause_a": "Rosuvastatin 20 mg once daily is prescribed for adults with hyperlipidemia.",
+      "clause_b": "Rosuvastatin 200 mg once daily is prescribed for adults with hyperlipidemia.",
+      "clause_c": "For adult hyperlipidemia, rosuvastatin 20 mg QD is a first-line agent."
+    },
+    {
+      "id": "med_v2b_dosage_flip_002",
+      "trap_type": "dosage_flip",
+      "clause_a": "Lisinopril 10 mg once daily controls essential hypertension in adults.",
+      "clause_b": "Lisinopril 1000 mg once daily controls essential hypertension in adults.",
+      "clause_c": "Adults with essential hypertension receive lisinopril 10 mg QD."
+    },
+    {
+      "id": "med_v2b_dosage_flip_003",
+      "trap_type": "dosage_flip",
+      "clause_a": "Losartan 50 mg once daily is used for adults with primary hypertension.",
+      "clause_b": "Losartan 5 mg once daily is used for adults with primary hypertension.",
+      "clause_c": "For adult primary hypertension, prescribe losartan 50 mg once daily."
+    },
+    {
+      "id": "med_v2b_dosage_flip_004",
+      "trap_type": "dosage_flip",
+      "clause_a": "Amlodipine 5 mg once daily is standard for adults with mild hypertension.",
+      "clause_b": "Amlodipine 500 mg once daily is standard for adults with mild hypertension.",
+      "clause_c": "Adults with mild hypertension take amlodipine 5 mg QD."
+    },
+    {
+      "id": "med_v2b_dosage_flip_005",
+      "trap_type": "dosage_flip",
+      "clause_a": "Furosemide 40 mg twice daily is prescribed for adult volume overload in heart failure.",
+      "clause_b": "Furosemide 4 mg twice daily is prescribed for adult volume overload in heart failure.",
+      "clause_c": "Adult heart-failure edema is treated with furosemide 40 mg BID."
+    },
+    {
+      "id": "med_v2b_dosage_flip_006",
+      "trap_type": "dosage_flip",
+      "clause_a": "Hydrochlorothiazide 25 mg once daily is used for adult essential hypertension.",
+      "clause_b": "Hydrochlorothiazide 2500 mg once daily is used for adult essential hypertension.",
+      "clause_c": "Adults with essential hypertension take HCTZ 25 mg QD."
+    },
+    {
+      "id": "med_v2b_dosage_flip_007",
+      "trap_type": "dosage_flip",
+      "clause_a": "Spironolactone 25 mg once daily is added for adult heart failure with reduced ejection fraction.",
+      "clause_b": "Spironolactone 2500 mg once daily is added for adult heart failure with reduced ejection fraction.",
+      "clause_c": "For adult HFrEF, add spironolactone 25 mg QD."
+    },
+    {
+      "id": "med_v2b_dosage_flip_008",
+      "trap_type": "dosage_flip",
+      "clause_a": "Simvastatin 40 mg once daily at bedtime treats adult hypercholesterolemia.",
+      "clause_b": "Simvastatin 4 mg once daily at bedtime treats adult hypercholesterolemia.",
+      "clause_c": "Adults with hypercholesterolemia receive simvastatin 40 mg QHS."
+    },
+    {
+      "id": "med_v2b_dosage_flip_009",
+      "trap_type": "dosage_flip",
+      "clause_a": "Levothyroxine 100 mcg once daily is standard replacement for adult primary hypothyroidism.",
+      "clause_b": "Levothyroxine 1000 mcg once daily is standard replacement for adult primary hypothyroidism.",
+      "clause_c": "Adults with primary hypothyroidism take levothyroxine 100 mcg QD."
+    },
+    {
+      "id": "med_v2b_dosage_flip_010",
+      "trap_type": "dosage_flip",
+      "clause_a": "Prednisone 60 mg once daily is used for adult acute severe asthma exacerbation.",
+      "clause_b": "Prednisone 6 mg once daily is used for adult acute severe asthma exacerbation.",
+      "clause_c": "For adult severe asthma exacerbation, give prednisone 60 mg QD."
+    },
+    {
+      "id": "med_v2b_dosage_flip_011",
+      "trap_type": "dosage_flip",
+      "clause_a": "Omeprazole 20 mg once daily is prescribed for adult gastroesophageal reflux disease.",
+      "clause_b": "Omeprazole 2000 mg once daily is prescribed for adult gastroesophageal reflux disease.",
+      "clause_c": "Adults with GERD take omeprazole 20 mg QD."
+    },
+    {
+      "id": "med_v2b_dosage_flip_012",
+      "trap_type": "dosage_flip",
+      "clause_a": "Sertraline 50 mg once daily is initiated for adult major depressive disorder.",
+      "clause_b": "Sertraline 5 mg once daily is initiated for adult major depressive disorder.",
+      "clause_c": "Adults with MDD start on sertraline 50 mg QD."
+    },
+    {
+      "id": "med_v2b_dosage_flip_013",
+      "trap_type": "dosage_flip",
+      "clause_a": "Fluoxetine 20 mg once daily is a first-line agent for adult depression.",
+      "clause_b": "Fluoxetine 2 mg once daily is a first-line agent for adult depression.",
+      "clause_c": "For adult depression, fluoxetine 20 mg QD is first-line."
+    },
+    {
+      "id": "med_v2b_dosage_flip_014",
+      "trap_type": "dosage_flip",
+      "clause_a": "Escitalopram 10 mg once daily is prescribed for adult generalized anxiety disorder.",
+      "clause_b": "Escitalopram 100 mg once daily is prescribed for adult generalized anxiety disorder.",
+      "clause_c": "Adults with GAD take escitalopram 10 mg QD."
+    },
+    {
+      "id": "med_v2b_dosage_flip_015",
+      "trap_type": "dosage_flip",
+      "clause_a": "Alprazolam 0.5 mg three times daily is used for adult panic disorder.",
+      "clause_b": "Alprazolam 50 mg three times daily is used for adult panic disorder.",
+      "clause_c": "For adult panic disorder, alprazolam 0.5 mg TID is standard."
+    },
+    {
+      "id": "med_v2b_dosage_flip_016",
+      "trap_type": "dosage_flip",
+      "clause_a": "Lorazepam 1 mg every eight hours treats adult acute anxiety.",
+      "clause_b": "Lorazepam 10 mg every eight hours treats adult acute anxiety.",
+      "clause_c": "Adults with acute anxiety receive lorazepam 1 mg q8h."
+    },
+    {
+      "id": "med_v2b_dosage_flip_017",
+      "trap_type": "dosage_flip",
+      "clause_a": "Insulin glargine 20 units subcutaneous once daily is used for adult type-1 diabetes basal coverage.",
+      "clause_b": "Insulin glargine 200 units subcutaneous once daily is used for adult type-1 diabetes basal coverage.",
+      "clause_c": "Adult T1DM basal coverage uses insulin glargine 20 units SC QD."
+    },
+    {
+      "id": "med_v2b_dosage_flip_018",
+      "trap_type": "dosage_flip",
+      "clause_a": "Enoxaparin 40 mg subcutaneous once daily is prescribed for adult DVT prophylaxis.",
+      "clause_b": "Enoxaparin 4 mg subcutaneous once daily is prescribed for adult DVT prophylaxis.",
+      "clause_c": "For adult DVT prophylaxis, use enoxaparin 40 mg SC QD."
+    },
+    {
+      "id": "med_v2b_dosage_flip_019",
+      "trap_type": "dosage_flip",
+      "clause_a": "Ciprofloxacin 500 mg twice daily is used for adult uncomplicated urinary tract infection.",
+      "clause_b": "Ciprofloxacin 5 mg twice daily is used for adult uncomplicated urinary tract infection.",
+      "clause_c": "Adult uncomplicated UTI is treated with ciprofloxacin 500 mg BID."
+    },
+    {
+      "id": "med_v2b_dosage_flip_020",
+      "trap_type": "dosage_flip",
+      "clause_a": "Azithromycin 500 mg once daily on day one, then 250 mg daily, is used for adult community-acquired pneumonia.",
+      "clause_b": "Azithromycin 5 mg once daily on day one, then 2.5 mg daily, is used for adult community-acquired pneumonia.",
+      "clause_c": "Adult CAP receives azithromycin 500 mg day one then 250 mg QD."
+    },
+    {
+      "id": "med_v2b_dosage_flip_021",
+      "trap_type": "dosage_flip",
+      "clause_a": "Doxycycline 100 mg twice daily treats adult early Lyme disease.",
+      "clause_b": "Doxycycline 1000 mg twice daily treats adult early Lyme disease.",
+      "clause_c": "Adults with early Lyme disease take doxycycline 100 mg BID."
+    },
+    {
+      "id": "med_v2b_dosage_flip_022",
+      "trap_type": "dosage_flip",
+      "clause_a": "Cephalexin 500 mg every six hours is used for adult uncomplicated cellulitis.",
+      "clause_b": "Cephalexin 5 mg every six hours is used for adult uncomplicated cellulitis.",
+      "clause_c": "Adult uncomplicated cellulitis is treated with cephalexin 500 mg q6h."
+    },
+    {
+      "id": "med_v2b_dosage_flip_023",
+      "trap_type": "dosage_flip",
+      "clause_a": "Acetaminophen 1000 mg every six hours treats adult mild to moderate pain.",
+      "clause_b": "Acetaminophen 10000 mg every six hours treats adult mild to moderate pain.",
+      "clause_c": "For adult mild pain, give acetaminophen 1000 mg q6h."
+    },
+    {
+      "id": "med_v2b_dosage_flip_024",
+      "trap_type": "dosage_flip",
+      "clause_a": "Naproxen 500 mg twice daily is used for adult rheumatoid arthritis flare.",
+      "clause_b": "Naproxen 5 mg twice daily is used for adult rheumatoid arthritis flare.",
+      "clause_c": "Adults with RA flare take naproxen 500 mg BID."
+    },
+    {
+      "id": "med_v2b_dosage_flip_025",
+      "trap_type": "dosage_flip",
+      "clause_a": "Sildenafil 50 mg once daily is prescribed for adult erectile dysfunction.",
+      "clause_b": "Sildenafil 500 mg once daily is prescribed for adult erectile dysfunction.",
+      "clause_c": "For adult erectile dysfunction, sildenafil 50 mg QD is standard."
+    },
+    {
+      "id": "med_v2b_dosage_flip_026",
+      "trap_type": "dosage_flip",
+      "clause_a": "Tamsulosin 0.4 mg once daily is used for adult benign prostatic hyperplasia symptoms.",
+      "clause_b": "Tamsulosin 4 mg once daily is used for adult benign prostatic hyperplasia symptoms.",
+      "clause_c": "Adult BPH is treated with tamsulosin 0.4 mg QD."
+    },
+    {
+      "id": "med_v2b_dosage_flip_027",
+      "trap_type": "dosage_flip",
+      "clause_a": "Ondansetron 4 mg every eight hours is prescribed for adult chemotherapy-induced nausea.",
+      "clause_b": "Ondansetron 400 mg every eight hours is prescribed for adult chemotherapy-induced nausea.",
+      "clause_c": "For adult chemo-induced nausea, ondansetron 4 mg q8h is standard."
+    },
+    {
+      "id": "med_v2b_dosage_flip_028",
+      "trap_type": "dosage_flip",
+      "clause_a": "Salbutamol 200 mcg inhaled every four hours as needed is used for adult acute asthma.",
+      "clause_b": "Salbutamol 2000 mcg inhaled every four hours as needed is used for adult acute asthma.",
+      "clause_c": "Adult acute asthma is treated with salbutamol 200 mcg inhaled q4h PRN."
+    },
+    {
+      "id": "med_v2b_dosage_flip_029",
+      "trap_type": "dosage_flip",
+      "clause_a": "Budesonide 400 mcg inhaled twice daily is used for adult asthma maintenance.",
+      "clause_b": "Budesonide 4 mcg inhaled twice daily is used for adult asthma maintenance.",
+      "clause_c": "For adult asthma maintenance, budesonide 400 mcg BID is standard."
+    },
+    {
+      "id": "med_v2b_dosage_flip_030",
+      "trap_type": "dosage_flip",
+      "clause_a": "Montelukast 10 mg once daily in the evening is prescribed for adult asthma prophylaxis.",
+      "clause_b": "Montelukast 100 mg once daily in the evening is prescribed for adult asthma prophylaxis.",
+      "clause_c": "Adults on asthma prophylaxis take montelukast 10 mg QPM."
+    },
+    {
+      "id": "med_v2b_dosage_flip_031",
+      "trap_type": "dosage_flip",
+      "clause_a": "Digoxin 0.25 mg once daily is used for adult heart failure with reduced ejection fraction.",
+      "clause_b": "Digoxin 25 mg once daily is used for adult heart failure with reduced ejection fraction.",
+      "clause_c": "For adult HFrEF, digoxin 0.25 mg QD is a maintenance dose."
+    },
+    {
+      "id": "med_v2b_dosage_flip_032",
+      "trap_type": "dosage_flip",
+      "clause_a": "Dabigatran 150 mg twice daily is prescribed for adult atrial fibrillation stroke prevention.",
+      "clause_b": "Dabigatran 15 mg twice daily is prescribed for adult atrial fibrillation stroke prevention.",
+      "clause_c": "Adult AFib stroke prevention uses dabigatran 150 mg BID."
+    },
+    {
+      "id": "med_v2b_dosage_flip_033",
+      "trap_type": "dosage_flip",
+      "clause_a": "Fluconazole 150 mg as a single oral dose treats adult uncomplicated vulvovaginal candidiasis.",
+      "clause_b": "Fluconazole 1500 mg as a single oral dose treats adult uncomplicated vulvovaginal candidiasis.",
+      "clause_c": "Adult uncomplicated vaginal candidiasis is treated with fluconazole 150 mg PO once."
+    },
+    {
+      "id": "med_v2b_dosage_flip_034",
+      "trap_type": "dosage_flip",
+      "clause_a": "Acyclovir 400 mg five times daily treats adult acute herpes simplex outbreak.",
+      "clause_b": "Acyclovir 4 mg five times daily treats adult acute herpes simplex outbreak.",
+      "clause_c": "For adult acute HSV outbreak, acyclovir 400 mg five times daily is standard."
+    },
+    {
+      "id": "med_v2b_dosage_flip_035",
+      "trap_type": "dosage_flip",
+      "clause_a": "Methotrexate 15 mg orally once weekly is used for adult rheumatoid arthritis.",
+      "clause_b": "Methotrexate 15 mg orally once daily is used for adult rheumatoid arthritis.",
+      "clause_c": "Adults with RA take methotrexate 15 mg PO once weekly."
+    },
+    {
+      "id": "med_v2b_dosage_flip_036",
+      "trap_type": "dosage_flip",
+      "clause_a": "Apixaban 5 mg twice daily is prescribed for adult atrial fibrillation stroke prevention.",
+      "clause_b": "Apixaban 50 mg twice daily is prescribed for adult atrial fibrillation stroke prevention.",
+      "clause_c": "Adult AFib stroke prevention uses apixaban 5 mg BID."
+    },
+    {
+      "id": "med_v2b_dosage_flip_037",
+      "trap_type": "dosage_flip",
+      "clause_a": "Rivaroxaban 20 mg once daily with the evening meal is used for adult AFib.",
+      "clause_b": "Rivaroxaban 200 mg once daily with the evening meal is used for adult AFib.",
+      "clause_c": "Adults with AFib take rivaroxaban 20 mg QD with dinner."
+    },
+    {
+      "id": "med_v2b_dosage_flip_038",
+      "trap_type": "dosage_flip",
+      "clause_a": "Clopidogrel 75 mg once daily is used for adult secondary prevention after myocardial infarction.",
+      "clause_b": "Clopidogrel 750 mg once daily is used for adult secondary prevention after myocardial infarction.",
+      "clause_c": "Post-MI adults take clopidogrel 75 mg QD for secondary prevention."
+    },
+    {
+      "id": "med_v2b_dosage_flip_039",
+      "trap_type": "dosage_flip",
+      "clause_a": "Ticagrelor 90 mg twice daily is prescribed for adult acute coronary syndrome.",
+      "clause_b": "Ticagrelor 9 mg twice daily is prescribed for adult acute coronary syndrome.",
+      "clause_c": "Adult ACS is treated with ticagrelor 90 mg BID."
+    },
+    {
+      "id": "med_v2b_dosage_flip_040",
+      "trap_type": "dosage_flip",
+      "clause_a": "Levetiracetam 500 mg twice daily is used for adult focal seizure control.",
+      "clause_b": "Levetiracetam 5 mg twice daily is used for adult focal seizure control.",
+      "clause_c": "For adult focal seizures, levetiracetam 500 mg BID is standard."
+    },
+    {
+      "id": "med_v2b_dosage_flip_041",
+      "trap_type": "dosage_flip",
+      "clause_a": "Phenytoin 100 mg three times daily is used for adult generalized tonic-clonic seizure maintenance.",
+      "clause_b": "Phenytoin 1000 mg three times daily is used for adult generalized tonic-clonic seizure maintenance.",
+      "clause_c": "Adult tonic-clonic seizure maintenance uses phenytoin 100 mg TID."
+    },
+    {
+      "id": "med_v2b_dosage_flip_042",
+      "trap_type": "dosage_flip",
+      "clause_a": "Carbamazepine 200 mg twice daily is used for adult trigeminal neuralgia.",
+      "clause_b": "Carbamazepine 2000 mg twice daily is used for adult trigeminal neuralgia.",
+      "clause_c": "For adult trigeminal neuralgia, carbamazepine 200 mg BID is first-line."
+    },
+    {
+      "id": "med_v2b_dosage_flip_043",
+      "trap_type": "dosage_flip",
+      "clause_a": "Valproate 500 mg twice daily is prescribed for adult acute mania in bipolar disorder.",
+      "clause_b": "Valproate 5000 mg twice daily is prescribed for adult acute mania in bipolar disorder.",
+      "clause_c": "Adult bipolar acute mania is treated with valproate 500 mg BID."
+    },
+    {
+      "id": "med_v2b_dosage_flip_044",
+      "trap_type": "dosage_flip",
+      "clause_a": "Lithium 300 mg three times daily is used for adult bipolar disorder maintenance.",
+      "clause_b": "Lithium 3000 mg three times daily is used for adult bipolar disorder maintenance.",
+      "clause_c": "Adult bipolar maintenance uses lithium 300 mg TID."
+    },
+    {
+      "id": "med_v2b_dosage_flip_045",
+      "trap_type": "dosage_flip",
+      "clause_a": "Quetiapine 100 mg twice daily is used for adult bipolar depression.",
+      "clause_b": "Quetiapine 10 mg twice daily is used for adult bipolar depression.",
+      "clause_c": "For adult bipolar depression, quetiapine 100 mg BID is a treatment option."
+    },
+    {
+      "id": "med_v2b_dosage_flip_046",
+      "trap_type": "dosage_flip",
+      "clause_a": "Risperidone 2 mg twice daily is used for adult schizophrenia maintenance.",
+      "clause_b": "Risperidone 20 mg twice daily is used for adult schizophrenia maintenance.",
+      "clause_c": "Adult schizophrenia maintenance uses risperidone 2 mg BID."
+    },
+    {
+      "id": "med_v2b_dosage_flip_047",
+      "trap_type": "dosage_flip",
+      "clause_a": "Haloperidol 5 mg intramuscular every four hours as needed treats adult acute agitation.",
+      "clause_b": "Haloperidol 50 mg intramuscular every four hours as needed treats adult acute agitation.",
+      "clause_c": "For adult acute agitation, haloperidol 5 mg IM q4h PRN is standard."
+    },
+    {
+      "id": "med_v2b_dosage_flip_048",
+      "trap_type": "dosage_flip",
+      "clause_a": "Diphenhydramine 25 mg every six hours as needed is used for adult acute urticaria.",
+      "clause_b": "Diphenhydramine 250 mg every six hours as needed is used for adult acute urticaria.",
+      "clause_c": "Adult acute urticaria is treated with diphenhydramine 25 mg q6h PRN."
+    },
+    {
+      "id": "med_v2b_dosage_flip_049",
+      "trap_type": "dosage_flip",
+      "clause_a": "Metoprolol 25 mg twice daily is used for adult heart failure with reduced ejection fraction.",
+      "clause_b": "Metoprolol 250 mg twice daily is used for adult heart failure with reduced ejection fraction.",
+      "clause_c": "Adults with HFrEF take metoprolol 25 mg BID."
+    },
+    {
+      "id": "med_v2b_dosage_flip_050",
+      "trap_type": "dosage_flip",
+      "clause_a": "Propranolol 40 mg twice daily is used for adult essential tremor.",
+      "clause_b": "Propranolol 4 mg twice daily is used for adult essential tremor.",
+      "clause_c": "Adult essential tremor is treated with propranolol 40 mg BID."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_001",
+      "trap_type": "contraindication_flip",
+      "clause_a": "NSAIDs are contraindicated in adults with active peptic ulcer disease.",
+      "clause_b": "NSAIDs are indicated in adults with active peptic ulcer disease.",
+      "clause_c": "Adults with active PUD should not take NSAIDs."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_002",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Non-selective beta-blockers are contraindicated in patients with severe bronchial asthma.",
+      "clause_b": "Non-selective beta-blockers are indicated in patients with severe bronchial asthma.",
+      "clause_c": "Severe asthma is a contraindication for non-selective beta-blockade."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_003",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Metformin is contraindicated in adults with eGFR below 30 milliliters per minute.",
+      "clause_b": "Metformin is indicated in adults with eGFR below 30 milliliters per minute.",
+      "clause_c": "Adults with eGFR under 30 should not receive metformin."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_004",
+      "trap_type": "contraindication_flip",
+      "clause_a": "ACE inhibitors are contraindicated in patients with known bilateral renal artery stenosis.",
+      "clause_b": "ACE inhibitors are indicated in patients with known bilateral renal artery stenosis.",
+      "clause_c": "Bilateral renal artery stenosis rules out ACE-inhibitor use."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_005",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Spironolactone is contraindicated in patients with serum potassium above 5.5 milliequivalents per liter.",
+      "clause_b": "Spironolactone is indicated in patients with serum potassium above 5.5 milliequivalents per liter.",
+      "clause_c": "Serum K+ above 5.5 mEq/L contraindicates spironolactone."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_006",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Statins are contraindicated in patients with active liver disease and elevated transaminases.",
+      "clause_b": "Statins are indicated in patients with active liver disease and elevated transaminases.",
+      "clause_c": "Active liver disease with elevated LFTs is a contraindication for statins."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_007",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Fluoroquinolones are contraindicated in pediatric patients under 18 years for routine infections.",
+      "clause_b": "Fluoroquinolones are indicated in pediatric patients under 18 years for routine infections.",
+      "clause_c": "Routine pediatric infections should not be treated with fluoroquinolones."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_008",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Tetracyclines are contraindicated in pregnancy due to fetal tooth staining.",
+      "clause_b": "Tetracyclines are indicated in pregnancy due to fetal tooth staining.",
+      "clause_c": "Pregnancy contraindicates tetracycline use because of fetal tooth staining."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_009",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Nitroglycerin is contraindicated in patients who took a PDE5 inhibitor in the last 24 hours.",
+      "clause_b": "Nitroglycerin is indicated in patients who took a PDE5 inhibitor in the last 24 hours.",
+      "clause_c": "Recent PDE5 inhibitor use rules out nitroglycerin administration."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_010",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Metformin is contraindicated in patients receiving iodinated contrast with impaired renal function.",
+      "clause_b": "Metformin is indicated in patients receiving iodinated contrast with impaired renal function.",
+      "clause_c": "Iodinated contrast plus impaired renal function is a contraindication for metformin."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_011",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Warfarin is contraindicated in patients with active major bleeding.",
+      "clause_b": "Warfarin is indicated in patients with active major bleeding.",
+      "clause_c": "Active major bleeding rules out warfarin therapy."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_012",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Digoxin is contraindicated in patients with active ventricular fibrillation.",
+      "clause_b": "Digoxin is indicated in patients with active ventricular fibrillation.",
+      "clause_c": "Active ventricular fibrillation is a contraindication for digoxin."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_013",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Beta-blockers are contraindicated in patients with acute cocaine intoxication and hypertension.",
+      "clause_b": "Beta-blockers are indicated in patients with acute cocaine intoxication and hypertension.",
+      "clause_c": "Cocaine intoxication with hypertension rules out beta-blocker use."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_014",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Amiodarone is contraindicated in patients with baseline QT prolongation over 500 milliseconds.",
+      "clause_b": "Amiodarone is indicated in patients with baseline QT prolongation over 500 milliseconds.",
+      "clause_c": "QT prolongation above 500 ms is a contraindication for amiodarone."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_015",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Sildenafil is contraindicated in patients taking any form of nitrates.",
+      "clause_b": "Sildenafil is indicated in patients taking any form of nitrates.",
+      "clause_c": "Concurrent nitrate use rules out sildenafil administration."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_016",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Sotalol is contraindicated in patients with baseline QT interval over 500 milliseconds.",
+      "clause_b": "Sotalol is indicated in patients with baseline QT interval over 500 milliseconds.",
+      "clause_c": "Baseline QT over 500 ms contraindicates sotalol therapy."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_017",
+      "trap_type": "contraindication_flip",
+      "clause_a": "ACE inhibitors are contraindicated in pregnancy due to fetal renal toxicity.",
+      "clause_b": "ACE inhibitors are indicated in pregnancy due to fetal renal toxicity.",
+      "clause_c": "Pregnancy is an absolute contraindication for ACE-inhibitor use."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_018",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Angiotensin receptor blockers are contraindicated in pregnancy.",
+      "clause_b": "Angiotensin receptor blockers are indicated in pregnancy.",
+      "clause_c": "Angiotensin receptor blockers are avoided during pregnancy due to teratogenic risk."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_019",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Cephalosporins are contraindicated in patients with prior anaphylaxis to penicillin.",
+      "clause_b": "Cephalosporins are indicated in patients with prior anaphylaxis to penicillin.",
+      "clause_c": "Prior anaphylaxis to penicillin rules out cephalosporin therapy."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_020",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Sulfamethoxazole-trimethoprim is contraindicated in patients with G6PD deficiency.",
+      "clause_b": "Sulfamethoxazole-trimethoprim is indicated in patients with G6PD deficiency.",
+      "clause_c": "G6PD deficiency contraindicates TMP-SMX because of hemolysis risk."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_021",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Sulfonylureas are contraindicated in patients with severe renal impairment.",
+      "clause_b": "Sulfonylureas are indicated in patients with severe renal impairment.",
+      "clause_c": "Sulfonylureas are avoided in patients with severe renal impairment."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_022",
+      "trap_type": "contraindication_flip",
+      "clause_a": "GLP-1 receptor agonists are contraindicated in patients with medullary thyroid carcinoma.",
+      "clause_b": "GLP-1 receptor agonists are indicated in patients with medullary thyroid carcinoma.",
+      "clause_c": "Medullary thyroid carcinoma is a contraindication for GLP-1 agonists."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_023",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Fluoxetine is contraindicated within 14 days of stopping a monoamine oxidase inhibitor.",
+      "clause_b": "Fluoxetine is indicated within 14 days of stopping a monoamine oxidase inhibitor.",
+      "clause_c": "Recent MAOI use within 14 days rules out starting fluoxetine."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_024",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Tricyclic antidepressants are contraindicated in the acute post-myocardial-infarction period.",
+      "clause_b": "Tricyclic antidepressants are indicated in the acute post-myocardial-infarction period.",
+      "clause_c": "Acute post-MI period rules out TCA therapy."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_025",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Bupropion is contraindicated in patients with a known seizure disorder.",
+      "clause_b": "Bupropion is indicated in patients with a known seizure disorder.",
+      "clause_c": "Known seizure disorder is a contraindication for bupropion."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_026",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Live viral vaccines are contraindicated in patients with severe immunosuppression.",
+      "clause_b": "Live viral vaccines are indicated in patients with severe immunosuppression.",
+      "clause_c": "Severe immunosuppression rules out live viral vaccination."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_027",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Methotrexate is contraindicated in pregnancy due to teratogenicity.",
+      "clause_b": "Methotrexate is indicated in pregnancy due to teratogenicity.",
+      "clause_c": "Pregnancy contraindicates methotrexate because of teratogenic effects."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_028",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Combined oral contraceptives are contraindicated in patients with active venous thromboembolism.",
+      "clause_b": "Combined oral contraceptives are indicated in patients with active venous thromboembolism.",
+      "clause_c": "Active VTE rules out combined oral contraceptive use."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_029",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Aspirin is contraindicated in children with viral febrile illness due to Reye syndrome risk.",
+      "clause_b": "Aspirin is indicated in children with viral febrile illness due to Reye syndrome risk.",
+      "clause_c": "Viral fever in children rules out aspirin because of Reye syndrome."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_030",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Bisphosphonates are contraindicated in patients with active esophageal stricture.",
+      "clause_b": "Bisphosphonates are indicated in patients with active esophageal stricture.",
+      "clause_c": "Active esophageal stricture rules out bisphosphonate therapy."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_031",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Beta-blockers are contraindicated in decompensated acute heart failure with pulmonary edema.",
+      "clause_b": "Beta-blockers are indicated in decompensated acute heart failure with pulmonary edema.",
+      "clause_c": "Beta-blockers are avoided in decompensated acute heart failure with pulmonary edema."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_032",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Systemic corticosteroids are contraindicated in patients with active systemic fungal infection.",
+      "clause_b": "Systemic corticosteroids are indicated in patients with active systemic fungal infection.",
+      "clause_c": "Active systemic fungal infection is a contraindication for steroids."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_033",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Enoxaparin is contraindicated in patients with heparin-induced thrombocytopenia.",
+      "clause_b": "Enoxaparin is indicated in patients with heparin-induced thrombocytopenia.",
+      "clause_c": "HIT rules out enoxaparin therapy."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_034",
+      "trap_type": "contraindication_flip",
+      "clause_a": "NSAIDs are contraindicated in the third trimester of pregnancy.",
+      "clause_b": "NSAIDs are indicated in the third trimester of pregnancy.",
+      "clause_c": "Third-trimester pregnancy rules out NSAID use."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_035",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Aspirin is contraindicated in patients with severe hemophilia.",
+      "clause_b": "Aspirin is indicated in patients with severe hemophilia.",
+      "clause_c": "Severe hemophilia is a contraindication for aspirin therapy."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_036",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Metoclopramide is contraindicated in patients with confirmed mechanical bowel obstruction.",
+      "clause_b": "Metoclopramide is indicated in patients with confirmed mechanical bowel obstruction.",
+      "clause_c": "Confirmed mechanical bowel obstruction rules out metoclopramide."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_037",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Loperamide is contraindicated in patients with bloody diarrhea and suspected invasive colitis.",
+      "clause_b": "Loperamide is indicated in patients with bloody diarrhea and suspected invasive colitis.",
+      "clause_c": "Bloody diarrhea with suspected invasive colitis rules out loperamide."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_038",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Codeine is contraindicated in ultra-rapid CYP2D6 metabolizers who are breastfeeding.",
+      "clause_b": "Codeine is indicated in ultra-rapid CYP2D6 metabolizers who are breastfeeding.",
+      "clause_c": "Codeine is avoided in ultra-rapid CYP2D6 metabolizers who are breastfeeding due to infant risk."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_039",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Immediate-release nifedipine is contraindicated in acute hypertensive emergency.",
+      "clause_b": "Immediate-release nifedipine is indicated in acute hypertensive emergency.",
+      "clause_c": "Acute hypertensive emergency rules out immediate-release nifedipine."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_040",
+      "trap_type": "contraindication_flip",
+      "clause_a": "NSAIDs are contraindicated in patients with decompensated heart failure.",
+      "clause_b": "NSAIDs are indicated in patients with decompensated heart failure.",
+      "clause_c": "Decompensated heart failure is a contraindication for NSAID use."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_041",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Beta-2 agonists are contraindicated in patients with severe uncorrected hypokalemia.",
+      "clause_b": "Beta-2 agonists are indicated in patients with severe uncorrected hypokalemia.",
+      "clause_c": "Severe uncorrected hypokalemia rules out beta-2 agonist therapy."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_042",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Warfarin is contraindicated during pregnancy due to warfarin embryopathy.",
+      "clause_b": "Warfarin is indicated during pregnancy due to warfarin embryopathy.",
+      "clause_c": "Pregnancy rules out warfarin because of embryopathic effects."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_043",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Rituximab is contraindicated in patients with active untreated hepatitis B infection.",
+      "clause_b": "Rituximab is indicated in patients with active untreated hepatitis B infection.",
+      "clause_c": "Active untreated hepatitis B rules out rituximab therapy."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_044",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Isoniazid is contraindicated in patients with acute drug-induced hepatitis.",
+      "clause_b": "Isoniazid is indicated in patients with acute drug-induced hepatitis.",
+      "clause_c": "Isoniazid is held in patients with acute drug-induced hepatitis until liver enzymes normalize."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_045",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Nitrofurantoin is contraindicated in adults with creatinine clearance below 30 milliliters per minute.",
+      "clause_b": "Nitrofurantoin is indicated in adults with creatinine clearance below 30 milliliters per minute.",
+      "clause_c": "CrCl below 30 mL/min rules out nitrofurantoin use."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_046",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Ergotamines are contraindicated in patients with poorly controlled hypertension.",
+      "clause_b": "Ergotamines are indicated in patients with poorly controlled hypertension.",
+      "clause_c": "Poorly controlled hypertension rules out ergotamine therapy."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_047",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Triptans are contraindicated in patients with a history of ischemic stroke.",
+      "clause_b": "Triptans are indicated in patients with a history of ischemic stroke.",
+      "clause_c": "Prior ischemic stroke rules out triptan use for migraine."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_048",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Metformin is contraindicated in patients with active severe lactic acidosis.",
+      "clause_b": "Metformin is indicated in patients with active severe lactic acidosis.",
+      "clause_c": "Active severe lactic acidosis is a contraindication for metformin."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_049",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Fluoroquinolones are contraindicated in patients with active tendon rupture history.",
+      "clause_b": "Fluoroquinolones are indicated in patients with active tendon rupture history.",
+      "clause_c": "Fluoroquinolones are avoided in patients with active tendon rupture history."
+    },
+    {
+      "id": "med_v2b_contraindication_flip_050",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Live rotavirus vaccine is contraindicated in infants with severe combined immunodeficiency.",
+      "clause_b": "Live rotavirus vaccine is indicated in infants with severe combined immunodeficiency.",
+      "clause_c": "Live rotavirus vaccine is avoided in infants with severe combined immunodeficiency."
+    },
+    {
+      "id": "med_v2b_population_flip_001",
+      "trap_type": "population_flip",
+      "clause_a": "Aspirin is used for secondary cardiovascular prevention in adults over 50.",
+      "clause_b": "Aspirin is used for secondary cardiovascular prevention in children over 50.",
+      "clause_c": "Adults over 50 receive aspirin for secondary cardiovascular prevention."
+    },
+    {
+      "id": "med_v2b_population_flip_002",
+      "trap_type": "population_flip",
+      "clause_a": "NSAIDs are avoided in third-trimester pregnancy due to premature ductus closure.",
+      "clause_b": "NSAIDs are avoided in third-trimester adolescence due to premature ductus closure.",
+      "clause_c": "Third-trimester pregnancy is a period to avoid NSAIDs because of ductus closure."
+    },
+    {
+      "id": "med_v2b_population_flip_003",
+      "trap_type": "population_flip",
+      "clause_a": "ACE inhibitors are avoided in pregnant patients due to teratogenicity.",
+      "clause_b": "ACE inhibitors are avoided in male patients due to teratogenicity.",
+      "clause_c": "Pregnant patients should not receive ACE inhibitors due to fetal risk."
+    },
+    {
+      "id": "med_v2b_population_flip_004",
+      "trap_type": "population_flip",
+      "clause_a": "Tetracyclines are avoided in children under 8 years old due to tooth staining.",
+      "clause_b": "Tetracyclines are avoided in adults under 8 kg due to tooth staining.",
+      "clause_c": "Children under 8 years should not receive tetracyclines because of dental staining."
+    },
+    {
+      "id": "med_v2b_population_flip_005",
+      "trap_type": "population_flip",
+      "clause_a": "Fluoroquinolones are avoided in growing children due to cartilage toxicity.",
+      "clause_b": "Fluoroquinolones are avoided in growing adults due to cartilage toxicity.",
+      "clause_c": "Growing children should not receive fluoroquinolones because of cartilage effects."
+    },
+    {
+      "id": "med_v2b_population_flip_006",
+      "trap_type": "population_flip",
+      "clause_a": "Warfarin is not used in pregnant patients due to warfarin embryopathy.",
+      "clause_b": "Warfarin is not used in obese patients due to warfarin embryopathy.",
+      "clause_c": "Pregnant patients avoid warfarin because of embryopathy."
+    },
+    {
+      "id": "med_v2b_population_flip_007",
+      "trap_type": "population_flip",
+      "clause_a": "Statins are avoided in pregnant patients due to potential fetal harm.",
+      "clause_b": "Statins are avoided in geriatric patients due to potential fetal harm.",
+      "clause_c": "Pregnancy is a period to avoid statin therapy."
+    },
+    {
+      "id": "med_v2b_population_flip_008",
+      "trap_type": "population_flip",
+      "clause_a": "Metformin dose is reduced in adults with eGFR below 45 milliliters per minute.",
+      "clause_b": "Metformin dose is reduced in children with eGFR below 45 milliliters per minute.",
+      "clause_c": "Adults with eGFR under 45 require reduced metformin dosing."
+    },
+    {
+      "id": "med_v2b_population_flip_009",
+      "trap_type": "population_flip",
+      "clause_a": "Digoxin dose is reduced in patients with severe renal impairment.",
+      "clause_b": "Digoxin dose is reduced in patients with severe hepatic impairment.",
+      "clause_c": "Severe renal impairment requires digoxin dose reduction."
+    },
+    {
+      "id": "med_v2b_population_flip_010",
+      "trap_type": "population_flip",
+      "clause_a": "Vancomycin dosing is renally adjusted in patients with reduced creatinine clearance.",
+      "clause_b": "Vancomycin dosing is hepatically adjusted in patients with reduced creatinine clearance.",
+      "clause_c": "Reduced creatinine clearance mandates renal adjustment of vancomycin."
+    },
+    {
+      "id": "med_v2b_population_flip_011",
+      "trap_type": "population_flip",
+      "clause_a": "Insulin therapy is essential in type-1 diabetes for basal glycemic control.",
+      "clause_b": "Insulin therapy is essential in type-2 diabetes for basal glycemic control.",
+      "clause_c": "Type-1 diabetes requires insulin for basal glycemic control."
+    },
+    {
+      "id": "med_v2b_population_flip_012",
+      "trap_type": "population_flip",
+      "clause_a": "Live viral vaccines are avoided in severely immunocompromised patients.",
+      "clause_b": "Live viral vaccines are avoided in severely healthy patients.",
+      "clause_c": "Severe immunocompromise rules out live viral vaccination."
+    },
+    {
+      "id": "med_v2b_population_flip_013",
+      "trap_type": "population_flip",
+      "clause_a": "Metoclopramide is avoided in geriatric patients due to tardive dyskinesia risk.",
+      "clause_b": "Metoclopramide is avoided in pediatric patients due to tardive dyskinesia risk.",
+      "clause_c": "Geriatric patients should not receive chronic metoclopramide due to tardive dyskinesia."
+    },
+    {
+      "id": "med_v2b_population_flip_014",
+      "trap_type": "population_flip",
+      "clause_a": "Diphenhydramine is avoided in geriatric patients due to strong anticholinergic effects.",
+      "clause_b": "Diphenhydramine is avoided in pediatric patients due to strong anticholinergic effects.",
+      "clause_c": "Geriatric patients should avoid diphenhydramine because of anticholinergic burden."
+    },
+    {
+      "id": "med_v2b_population_flip_015",
+      "trap_type": "population_flip",
+      "clause_a": "Long-acting benzodiazepines are avoided in geriatric patients due to fall risk.",
+      "clause_b": "Long-acting benzodiazepines are avoided in adolescent patients due to fall risk.",
+      "clause_c": "Geriatric patients should avoid long-acting benzodiazepines because of fall risk."
+    },
+    {
+      "id": "med_v2b_population_flip_016",
+      "trap_type": "population_flip",
+      "clause_a": "Anticholinergic drugs are avoided in geriatric patients due to cognitive impairment.",
+      "clause_b": "Anticholinergic drugs are avoided in neonatal patients due to cognitive impairment.",
+      "clause_c": "Geriatric patients should avoid anticholinergic burden."
+    },
+    {
+      "id": "med_v2b_population_flip_017",
+      "trap_type": "population_flip",
+      "clause_a": "Codeine is avoided in breastfeeding mothers who are ultra-rapid CYP2D6 metabolizers.",
+      "clause_b": "Codeine is avoided in nonbreastfeeding mothers who are ultra-rapid CYP2D6 metabolizers.",
+      "clause_c": "Breastfeeding mothers with ultra-rapid CYP2D6 should not receive codeine."
+    },
+    {
+      "id": "med_v2b_population_flip_018",
+      "trap_type": "population_flip",
+      "clause_a": "Amiodarone dosing considers thyroid function and requires baseline TSH.",
+      "clause_b": "Amiodarone dosing considers renal function and requires baseline TSH.",
+      "clause_c": "Thyroid function status guides amiodarone monitoring."
+    },
+    {
+      "id": "med_v2b_population_flip_019",
+      "trap_type": "population_flip",
+      "clause_a": "Acetaminophen maximum dose is reduced in patients with chronic hepatic impairment.",
+      "clause_b": "Acetaminophen maximum dose is reduced in patients with chronic pulmonary impairment.",
+      "clause_c": "Chronic hepatic impairment mandates reduced acetaminophen dosing."
+    },
+    {
+      "id": "med_v2b_population_flip_020",
+      "trap_type": "population_flip",
+      "clause_a": "Opioid doses require reduction in patients with severe renal impairment.",
+      "clause_b": "Opioid doses require reduction in patients with severe pulmonary impairment.",
+      "clause_c": "Severe renal impairment mandates opioid dose reduction."
+    },
+    {
+      "id": "med_v2b_population_flip_021",
+      "trap_type": "population_flip",
+      "clause_a": "SSRIs are used cautiously in geriatric patients due to hyponatremia risk.",
+      "clause_b": "SSRIs are used cautiously in adolescent patients due to hyponatremia risk.",
+      "clause_c": "Geriatric patients on SSRIs need monitoring for hyponatremia."
+    },
+    {
+      "id": "med_v2b_population_flip_022",
+      "trap_type": "population_flip",
+      "clause_a": "Antipsychotics are used cautiously in geriatric patients with dementia due to mortality risk.",
+      "clause_b": "Antipsychotics are used cautiously in adolescent patients with dementia due to mortality risk.",
+      "clause_c": "Geriatric dementia patients need caution with antipsychotic therapy."
+    },
+    {
+      "id": "med_v2b_population_flip_023",
+      "trap_type": "population_flip",
+      "clause_a": "Chemotherapy dose reduction occurs in patients with severe neutropenia.",
+      "clause_b": "Chemotherapy dose reduction occurs in patients with severe leukocytosis.",
+      "clause_c": "Severe neutropenia mandates chemotherapy dose adjustment."
+    },
+    {
+      "id": "med_v2b_population_flip_024",
+      "trap_type": "population_flip",
+      "clause_a": "Rituximab requires hepatitis B screening in patients with prior HBV exposure.",
+      "clause_b": "Rituximab requires hepatitis B screening in patients with prior HCV exposure.",
+      "clause_c": "Prior HBV exposure mandates screening before rituximab therapy."
+    },
+    {
+      "id": "med_v2b_population_flip_025",
+      "trap_type": "population_flip",
+      "clause_a": "Isoniazid dosing considers acetylator status which affects toxicity risk.",
+      "clause_b": "Isoniazid dosing considers hydroxylator status which affects toxicity risk.",
+      "clause_c": "Acetylator phenotype affects isoniazid toxicity risk."
+    },
+    {
+      "id": "med_v2b_population_flip_026",
+      "trap_type": "population_flip",
+      "clause_a": "Warfarin monitoring intensifies in patients with recent high INR readings.",
+      "clause_b": "Warfarin monitoring intensifies in patients with recent low PT readings.",
+      "clause_c": "Recent high INR readings mandate closer warfarin monitoring."
+    },
+    {
+      "id": "med_v2b_population_flip_027",
+      "trap_type": "population_flip",
+      "clause_a": "Insulin therapy in gestational diabetes uses regimens safe during pregnancy.",
+      "clause_b": "Insulin therapy in gestational cirrhosis uses regimens safe during pregnancy.",
+      "clause_c": "Gestational diabetes calls for pregnancy-safe insulin regimens."
+    },
+    {
+      "id": "med_v2b_population_flip_028",
+      "trap_type": "population_flip",
+      "clause_a": "Beta-2 agonists caution required in patients with severe hypokalemia.",
+      "clause_b": "Beta-2 agonists caution required in patients with severe hypernatremia.",
+      "clause_c": "Severe hypokalemia mandates caution with beta-2 agonist therapy."
+    },
+    {
+      "id": "med_v2b_population_flip_029",
+      "trap_type": "population_flip",
+      "clause_a": "Loop diuretic caution required in patients with severe hyponatremia.",
+      "clause_b": "Loop diuretic caution required in patients with severe hyperglycemia.",
+      "clause_c": "Severe hyponatremia mandates caution with loop diuretic therapy."
+    },
+    {
+      "id": "med_v2b_population_flip_030",
+      "trap_type": "population_flip",
+      "clause_a": "ACE inhibitor caution required in patients with baseline hyperkalemia.",
+      "clause_b": "ACE inhibitor caution required in patients with baseline hypercalcemia.",
+      "clause_c": "Baseline hyperkalemia mandates caution when starting ACE inhibitors."
+    },
+    {
+      "id": "med_v2b_population_flip_031",
+      "trap_type": "population_flip",
+      "clause_a": "Metronidazole use is avoided in patients with recent alcohol consumption due to disulfiram-like reaction.",
+      "clause_b": "Metronidazole use is avoided in patients with recent caffeine consumption due to disulfiram-like reaction.",
+      "clause_c": "Recent alcohol intake rules out metronidazole because of disulfiram-like reaction."
+    },
+    {
+      "id": "med_v2b_population_flip_032",
+      "trap_type": "population_flip",
+      "clause_a": "Warfarin therapy monitoring intensifies with concurrent St John's wort use.",
+      "clause_b": "Warfarin therapy monitoring intensifies with concurrent chamomile tea use.",
+      "clause_c": "Concurrent St John's wort use mandates closer warfarin monitoring."
+    },
+    {
+      "id": "med_v2b_population_flip_033",
+      "trap_type": "population_flip",
+      "clause_a": "SSRIs are used cautiously with concurrent tramadol due to serotonin syndrome risk.",
+      "clause_b": "SSRIs are used cautiously with concurrent acetaminophen due to serotonin syndrome risk.",
+      "clause_c": "Concurrent tramadol use with SSRIs raises serotonin syndrome risk."
+    },
+    {
+      "id": "med_v2b_population_flip_034",
+      "trap_type": "population_flip",
+      "clause_a": "Vancomycin infusion rate is slowed in patients with prior red-man syndrome.",
+      "clause_b": "Vancomycin infusion rate is slowed in patients with prior serotonin syndrome.",
+      "clause_c": "Prior red-man syndrome mandates slower vancomycin infusion."
+    },
+    {
+      "id": "med_v2b_population_flip_035",
+      "trap_type": "population_flip",
+      "clause_a": "Penicillins are avoided in patients with prior severe anaphylactic reaction.",
+      "clause_b": "Penicillins are avoided in patients with prior severe allergic rhinitis reaction.",
+      "clause_c": "Prior anaphylactic reaction to penicillin rules out re-exposure."
+    },
+    {
+      "id": "med_v2b_population_flip_036",
+      "trap_type": "population_flip",
+      "clause_a": "Sulfa antibiotics are avoided in patients with prior Stevens-Johnson syndrome.",
+      "clause_b": "Sulfa antibiotics are avoided in patients with prior mild urticaria syndrome.",
+      "clause_c": "Prior Stevens-Johnson syndrome rules out sulfa antibiotic use."
+    },
+    {
+      "id": "med_v2b_population_flip_037",
+      "trap_type": "population_flip",
+      "clause_a": "Iodinated contrast is avoided in patients with prior severe contrast reactions.",
+      "clause_b": "Iodinated contrast is avoided in patients with prior mild contrast reactions.",
+      "clause_c": "Prior severe contrast reactions rule out iodinated contrast administration."
+    },
+    {
+      "id": "med_v2b_population_flip_038",
+      "trap_type": "population_flip",
+      "clause_a": "NSAIDs are avoided in patients with severe heart failure due to fluid retention.",
+      "clause_b": "NSAIDs are avoided in patients with severe liver hemangioma due to fluid retention.",
+      "clause_c": "Severe heart failure rules out NSAID use because of fluid retention."
+    },
+    {
+      "id": "med_v2b_population_flip_039",
+      "trap_type": "population_flip",
+      "clause_a": "Metformin is held in patients with active metabolic acidosis and lactic acid elevation.",
+      "clause_b": "Metformin is held in patients with active respiratory alkalosis and lactic acid elevation.",
+      "clause_c": "Active metabolic acidosis with lactic acid elevation mandates holding metformin therapy."
+    },
+    {
+      "id": "med_v2b_population_flip_040",
+      "trap_type": "population_flip",
+      "clause_a": "Corticosteroid dosing increases stress-dose coverage in diabetic patients undergoing surgery.",
+      "clause_b": "Corticosteroid dosing increases stress-dose coverage in nondiabetic patients undergoing surgery.",
+      "clause_c": "Chronic steroid users need stress-dose coverage for surgery."
+    },
+    {
+      "id": "med_v2b_population_flip_041",
+      "trap_type": "population_flip",
+      "clause_a": "Basal insulin adjustment intensifies in patients with hypoglycemia unawareness.",
+      "clause_b": "Basal insulin adjustment intensifies in patients with hyperglycemia unawareness.",
+      "clause_c": "Hypoglycemia unawareness mandates careful basal insulin adjustment."
+    },
+    {
+      "id": "med_v2b_population_flip_042",
+      "trap_type": "population_flip",
+      "clause_a": "Anticoagulation therapy is held in patients with active peptic ulcer bleeding.",
+      "clause_b": "Anticoagulation therapy is held in patients with active hemorrhoid inflammation.",
+      "clause_c": "Active peptic ulcer bleeding mandates holding anticoagulation."
+    },
+    {
+      "id": "med_v2b_population_flip_043",
+      "trap_type": "population_flip",
+      "clause_a": "Antiplatelets are held in patients with recent gastrointestinal hemorrhage.",
+      "clause_b": "Antiplatelets are held in patients with recent gastrointestinal reflux.",
+      "clause_c": "Recent GI hemorrhage mandates holding antiplatelet therapy."
+    },
+    {
+      "id": "med_v2b_population_flip_044",
+      "trap_type": "population_flip",
+      "clause_a": "Colchicine dose is reduced in patients with severe renal impairment on strong CYP3A4 inhibitors.",
+      "clause_b": "Colchicine dose is reduced in patients with severe cardiac impairment on strong CYP3A4 inhibitors.",
+      "clause_c": "Severe renal impairment plus CYP3A4 inhibitors mandate colchicine dose reduction."
+    },
+    {
+      "id": "med_v2b_population_flip_045",
+      "trap_type": "population_flip",
+      "clause_a": "Digoxin toxicity monitoring intensifies with concurrent amiodarone therapy.",
+      "clause_b": "Digoxin toxicity monitoring intensifies with concurrent atorvastatin therapy.",
+      "clause_c": "Concurrent amiodarone use with digoxin mandates closer toxicity monitoring."
+    },
+    {
+      "id": "med_v2b_population_flip_046",
+      "trap_type": "population_flip",
+      "clause_a": "Chemotherapy timing considers absolute neutrophil count in patients with prior neutropenic events.",
+      "clause_b": "Chemotherapy timing considers absolute platelet count in patients with prior neutropenic events.",
+      "clause_c": "Prior neutropenic events mandate absolute neutrophil count monitoring."
+    },
+    {
+      "id": "med_v2b_population_flip_047",
+      "trap_type": "population_flip",
+      "clause_a": "Immunotherapy considers thyroid function in patients with baseline thyroid disease.",
+      "clause_b": "Immunotherapy considers renal function in patients with baseline thyroid disease.",
+      "clause_c": "Baseline thyroid disease mandates thyroid function monitoring on immunotherapy."
+    },
+    {
+      "id": "med_v2b_population_flip_048",
+      "trap_type": "population_flip",
+      "clause_a": "Metformin therapy screens for vitamin B12 deficiency in long-term users.",
+      "clause_b": "Metformin therapy screens for vitamin D deficiency in long-term users.",
+      "clause_c": "Long-term metformin use mandates vitamin B12 deficiency screening."
+    },
+    {
+      "id": "med_v2b_population_flip_049",
+      "trap_type": "population_flip",
+      "clause_a": "Long-term proton pump inhibitor therapy monitors for magnesium deficiency.",
+      "clause_b": "Long-term proton pump inhibitor therapy monitors for calcium excess.",
+      "clause_c": "Chronic PPI use mandates magnesium deficiency monitoring."
+    },
+    {
+      "id": "med_v2b_population_flip_050",
+      "trap_type": "population_flip",
+      "clause_a": "Amiodarone therapy screens for pulmonary toxicity in long-term users.",
+      "clause_b": "Amiodarone therapy screens for auditory toxicity in long-term users.",
+      "clause_c": "Long-term amiodarone use mandates pulmonary toxicity screening."
+    },
+    {
+      "id": "med_v2b_drug_substitution_001",
+      "trap_type": "drug_substitution",
+      "clause_a": "Hydroxyzine is used for adult acute anxiety and pruritus.",
+      "clause_b": "Hydralazine is used for adult acute anxiety and pruritus.",
+      "clause_c": "Adult acute anxiety with pruritus is treated with hydroxyzine."
+    },
+    {
+      "id": "med_v2b_drug_substitution_002",
+      "trap_type": "drug_substitution",
+      "clause_a": "Prednisone is a systemic corticosteroid used for autoimmune inflammation.",
+      "clause_b": "Primidone is a systemic corticosteroid used for autoimmune inflammation.",
+      "clause_c": "Autoimmune inflammation is treated with the systemic corticosteroid prednisone."
+    },
+    {
+      "id": "med_v2b_drug_substitution_003",
+      "trap_type": "drug_substitution",
+      "clause_a": "Cephalexin is a first-generation cephalosporin used for skin infections.",
+      "clause_b": "Cyclosporine is a first-generation cephalosporin used for skin infections.",
+      "clause_c": "Skin infections respond to the first-generation cephalosporin cephalexin."
+    },
+    {
+      "id": "med_v2b_drug_substitution_004",
+      "trap_type": "drug_substitution",
+      "clause_a": "Chlorpromazine is a typical antipsychotic used for acute psychosis.",
+      "clause_b": "Chlorpropamide is a typical antipsychotic used for acute psychosis.",
+      "clause_c": "Acute psychosis is treated with the typical antipsychotic chlorpromazine."
+    },
+    {
+      "id": "med_v2b_drug_substitution_005",
+      "trap_type": "drug_substitution",
+      "clause_a": "Bupropion is an atypical antidepressant used for major depressive disorder.",
+      "clause_b": "Buspirone is an atypical antidepressant used for major depressive disorder.",
+      "clause_c": "Major depressive disorder is treated with the atypical antidepressant bupropion."
+    },
+    {
+      "id": "med_v2b_drug_substitution_006",
+      "trap_type": "drug_substitution",
+      "clause_a": "Tramadol is a weak opioid used for moderate pain management.",
+      "clause_b": "Trazodone is a weak opioid used for moderate pain management.",
+      "clause_c": "Moderate pain is treated with the weak opioid tramadol."
+    },
+    {
+      "id": "med_v2b_drug_substitution_007",
+      "trap_type": "drug_substitution",
+      "clause_a": "Vinblastine is a vinca alkaloid used for Hodgkin lymphoma chemotherapy.",
+      "clause_b": "Venlafaxine is a vinca alkaloid used for Hodgkin lymphoma chemotherapy.",
+      "clause_c": "Hodgkin lymphoma is treated with the vinca alkaloid vinblastine."
+    },
+    {
+      "id": "med_v2b_drug_substitution_008",
+      "trap_type": "drug_substitution",
+      "clause_a": "Zolpidem is a non-benzodiazepine hypnotic used for short-term insomnia.",
+      "clause_b": "Zoloft is a non-benzodiazepine hypnotic used for short-term insomnia.",
+      "clause_c": "Short-term insomnia is treated with the non-benzodiazepine hypnotic zolpidem."
+    },
+    {
+      "id": "med_v2b_drug_substitution_009",
+      "trap_type": "drug_substitution",
+      "clause_a": "Lorazepam is a short-acting benzodiazepine used for acute anxiety.",
+      "clause_b": "Ipratropium is a short-acting benzodiazepine used for acute anxiety.",
+      "clause_c": "Acute anxiety is treated with the benzodiazepine lorazepam."
+    },
+    {
+      "id": "med_v2b_drug_substitution_010",
+      "trap_type": "drug_substitution",
+      "clause_a": "Alprazolam is a benzodiazepine used for panic disorder treatment.",
+      "clause_b": "Ranitidine is a benzodiazepine used for panic disorder treatment.",
+      "clause_c": "Panic disorder is treated with the benzodiazepine alprazolam."
+    },
+    {
+      "id": "med_v2b_drug_substitution_011",
+      "trap_type": "drug_substitution",
+      "clause_a": "Clonidine is a central alpha-2 agonist used for treatment-resistant hypertension.",
+      "clause_b": "Clonazepam is a central alpha-2 agonist used for treatment-resistant hypertension.",
+      "clause_c": "Treatment-resistant hypertension responds to the alpha-2 agonist clonidine."
+    },
+    {
+      "id": "med_v2b_drug_substitution_012",
+      "trap_type": "drug_substitution",
+      "clause_a": "Amphetamine is a stimulant used for adult attention-deficit hyperactivity disorder.",
+      "clause_b": "Propranolol is a stimulant used for adult attention-deficit hyperactivity disorder.",
+      "clause_c": "Adult ADHD is treated with the stimulant amphetamine."
+    },
+    {
+      "id": "med_v2b_drug_substitution_013",
+      "trap_type": "drug_substitution",
+      "clause_a": "Celecoxib is a COX-2 selective NSAID used for osteoarthritis pain.",
+      "clause_b": "Fosphenytoin is a COX-2 selective NSAID used for osteoarthritis pain.",
+      "clause_c": "Osteoarthritis pain responds to the COX-2 selective NSAID celecoxib."
+    },
+    {
+      "id": "med_v2b_drug_substitution_014",
+      "trap_type": "drug_substitution",
+      "clause_a": "Doxazosin is an alpha-1 blocker used for adult benign prostatic hyperplasia.",
+      "clause_b": "Warfarin is an alpha-1 blocker used for adult benign prostatic hyperplasia.",
+      "clause_c": "Adult BPH is treated with the alpha-1 blocker doxazosin."
+    },
+    {
+      "id": "med_v2b_drug_substitution_015",
+      "trap_type": "drug_substitution",
+      "clause_a": "Amlodipine is a calcium channel blocker used for essential hypertension.",
+      "clause_b": "Thiothixene is a calcium channel blocker used for essential hypertension.",
+      "clause_c": "Essential hypertension is treated with the calcium channel blocker amlodipine."
+    },
+    {
+      "id": "med_v2b_drug_substitution_016",
+      "trap_type": "drug_substitution",
+      "clause_a": "Cetirizine is a second-generation antihistamine used for allergic rhinitis.",
+      "clause_b": "Olanzapine is a second-generation antihistamine used for allergic rhinitis.",
+      "clause_c": "Allergic rhinitis is treated with the second-generation antihistamine cetirizine."
+    },
+    {
+      "id": "med_v2b_drug_substitution_017",
+      "trap_type": "drug_substitution",
+      "clause_a": "Fluoxetine is a selective serotonin reuptake inhibitor used for major depressive disorder.",
+      "clause_b": "Fluoxymesterone is a selective serotonin reuptake inhibitor used for major depressive disorder.",
+      "clause_c": "MDD is treated with the SSRI fluoxetine."
+    },
+    {
+      "id": "med_v2b_drug_substitution_018",
+      "trap_type": "drug_substitution",
+      "clause_a": "Methylphenidate is a stimulant used for adult narcolepsy.",
+      "clause_b": "Rifampin is a stimulant used for adult narcolepsy.",
+      "clause_c": "Adult narcolepsy is treated with the stimulant methylphenidate."
+    },
+    {
+      "id": "med_v2b_drug_substitution_019",
+      "trap_type": "drug_substitution",
+      "clause_a": "Ibuprofen is an NSAID used for adult mild to moderate pain.",
+      "clause_b": "Bupropion is an NSAID used for adult mild to moderate pain.",
+      "clause_c": "Adult mild pain responds to the NSAID ibuprofen."
+    },
+    {
+      "id": "med_v2b_drug_substitution_020",
+      "trap_type": "drug_substitution",
+      "clause_a": "Regular insulin is a short-acting insulin used for adult postprandial glycemic control.",
+      "clause_b": "Regular heparin is a short-acting insulin used for adult postprandial glycemic control.",
+      "clause_c": "Adult postprandial glucose is controlled with short-acting regular insulin."
+    },
+    {
+      "id": "med_v2b_drug_substitution_021",
+      "trap_type": "drug_substitution",
+      "clause_a": "Colchicine is used for adult acute gout flare treatment.",
+      "clause_b": "Cyclobenzaprine is used for adult acute gout flare treatment.",
+      "clause_c": "Adult acute gout flare responds to colchicine therapy."
+    },
+    {
+      "id": "med_v2b_drug_substitution_022",
+      "trap_type": "drug_substitution",
+      "clause_a": "Losartan is an angiotensin receptor blocker used for essential hypertension.",
+      "clause_b": "Omeprazole is an angiotensin receptor blocker used for essential hypertension.",
+      "clause_c": "Essential hypertension responds to the ARB losartan."
+    },
+    {
+      "id": "med_v2b_drug_substitution_023",
+      "trap_type": "drug_substitution",
+      "clause_a": "Donepezil is a cholinesterase inhibitor used for adult Alzheimer disease.",
+      "clause_b": "Rabeprazole is a cholinesterase inhibitor used for adult Alzheimer disease.",
+      "clause_c": "Adult Alzheimer disease is treated with the cholinesterase inhibitor donepezil."
+    },
+    {
+      "id": "med_v2b_drug_substitution_024",
+      "trap_type": "drug_substitution",
+      "clause_a": "Oxycodone is a strong opioid used for adult severe acute pain.",
+      "clause_b": "Oxycontin extended-release is an alternative formulation of the same drug family.",
+      "clause_c": "Adult severe acute pain responds to the strong opioid oxycodone."
+    },
+    {
+      "id": "med_v2b_drug_substitution_025",
+      "trap_type": "drug_substitution",
+      "clause_a": "Leucovorin is used as a folate rescue for adult methotrexate toxicity.",
+      "clause_b": "Bupropion sustained-release is used as a folate rescue for adult methotrexate toxicity.",
+      "clause_c": "Adult methotrexate toxicity is managed with folate rescue via leucovorin."
+    },
+    {
+      "id": "med_v2b_drug_substitution_026",
+      "trap_type": "drug_substitution",
+      "clause_a": "Morphine is a strong opioid used for adult acute cancer pain.",
+      "clause_b": "Metoprolol is a strong opioid used for adult acute cancer pain.",
+      "clause_c": "Adult acute cancer pain responds to the strong opioid morphine."
+    },
+    {
+      "id": "med_v2b_drug_substitution_027",
+      "trap_type": "drug_substitution",
+      "clause_a": "Metoprolol is a cardioselective beta-blocker used for adult heart failure.",
+      "clause_b": "Misoprostol is a cardioselective beta-blocker used for adult heart failure.",
+      "clause_c": "Adult heart failure is treated with the cardioselective beta-blocker metoprolol."
+    },
+    {
+      "id": "med_v2b_drug_substitution_028",
+      "trap_type": "drug_substitution",
+      "clause_a": "Valsartan is an angiotensin receptor blocker used for adult heart failure.",
+      "clause_b": "Fluconazole is an angiotensin receptor blocker used for adult heart failure.",
+      "clause_c": "Adult heart failure responds to the ARB valsartan."
+    },
+    {
+      "id": "med_v2b_drug_substitution_029",
+      "trap_type": "drug_substitution",
+      "clause_a": "Ceftriaxone is a third-generation cephalosporin used for adult bacterial meningitis.",
+      "clause_b": "Calcitriol is a third-generation cephalosporin used for adult bacterial meningitis.",
+      "clause_c": "Adult bacterial meningitis is treated with the third-generation cephalosporin ceftriaxone."
+    },
+    {
+      "id": "med_v2b_drug_substitution_030",
+      "trap_type": "drug_substitution",
+      "clause_a": "Zidovudine is a nucleoside reverse-transcriptase inhibitor used for adult HIV.",
+      "clause_b": "Ritonavir is a nucleoside reverse-transcriptase inhibitor used for adult HIV.",
+      "clause_c": "Adult HIV is treated with the NRTI zidovudine."
+    },
+    {
+      "id": "med_v2b_drug_substitution_031",
+      "trap_type": "drug_substitution",
+      "clause_a": "Fluconazole is a triazole antifungal used for adult candidemia.",
+      "clause_b": "Difluprednate is a triazole antifungal used for adult candidemia.",
+      "clause_c": "Adult candidemia is treated with the triazole antifungal fluconazole."
+    },
+    {
+      "id": "med_v2b_drug_substitution_032",
+      "trap_type": "drug_substitution",
+      "clause_a": "Omeprazole is a proton pump inhibitor used for adult peptic ulcer disease.",
+      "clause_b": "Fluoxetine is a proton pump inhibitor used for adult peptic ulcer disease.",
+      "clause_c": "Adult peptic ulcer disease responds to the PPI omeprazole."
+    },
+    {
+      "id": "med_v2b_drug_substitution_033",
+      "trap_type": "drug_substitution",
+      "clause_a": "Tofacitinib is a JAK inhibitor used for adult rheumatoid arthritis.",
+      "clause_b": "Alprazolam is a JAK inhibitor used for adult rheumatoid arthritis.",
+      "clause_c": "Adult rheumatoid arthritis is treated with the JAK inhibitor tofacitinib."
+    },
+    {
+      "id": "med_v2b_drug_substitution_034",
+      "trap_type": "drug_substitution",
+      "clause_a": "Sertraline is a selective serotonin reuptake inhibitor used for panic disorder.",
+      "clause_b": "Simvastatin is a selective serotonin reuptake inhibitor used for panic disorder.",
+      "clause_c": "Panic disorder responds to the SSRI sertraline."
+    },
+    {
+      "id": "med_v2b_drug_substitution_035",
+      "trap_type": "drug_substitution",
+      "clause_a": "Diphenoxylate is an opioid antidiarrheal used for adult chronic diarrhea.",
+      "clause_b": "Lamotrigine is an opioid antidiarrheal used for adult chronic diarrhea.",
+      "clause_c": "Adult chronic diarrhea is treated with the opioid antidiarrheal diphenoxylate."
+    },
+    {
+      "id": "med_v2b_drug_substitution_036",
+      "trap_type": "drug_substitution",
+      "clause_a": "Mometasone is an intranasal corticosteroid used for adult allergic rhinitis.",
+      "clause_b": "Ketoconazole is an intranasal corticosteroid used for adult allergic rhinitis.",
+      "clause_c": "Adult allergic rhinitis is treated with the intranasal corticosteroid mometasone."
+    },
+    {
+      "id": "med_v2b_drug_substitution_037",
+      "trap_type": "drug_substitution",
+      "clause_a": "Fluticasone-salmeterol is a combination inhaler used for adult persistent asthma.",
+      "clause_b": "Simvastatin-niacin is a combination inhaler used for adult persistent asthma.",
+      "clause_c": "Adult persistent asthma is treated with the fluticasone-salmeterol combination inhaler."
+    },
+    {
+      "id": "med_v2b_drug_substitution_038",
+      "trap_type": "drug_substitution",
+      "clause_a": "Bicalutamide is an androgen receptor antagonist used for adult prostate cancer.",
+      "clause_b": "Losartan is an androgen receptor antagonist used for adult prostate cancer.",
+      "clause_c": "Adult prostate cancer is treated with the androgen receptor antagonist bicalutamide."
+    },
+    {
+      "id": "med_v2b_drug_substitution_039",
+      "trap_type": "drug_substitution",
+      "clause_a": "Fosphenytoin is a prodrug antiepileptic used for adult status epilepticus.",
+      "clause_b": "Citalopram is a prodrug antiepileptic used for adult status epilepticus.",
+      "clause_c": "Adult status epilepticus responds to the prodrug antiepileptic fosphenytoin."
+    },
+    {
+      "id": "med_v2b_drug_substitution_040",
+      "trap_type": "drug_substitution",
+      "clause_a": "Riluzole is a glutamate modulator used for adult amyotrophic lateral sclerosis.",
+      "clause_b": "Lepirudin is a glutamate modulator used for adult amyotrophic lateral sclerosis.",
+      "clause_c": "Adult ALS is treated with the glutamate modulator riluzole."
+    },
+    {
+      "id": "med_v2b_drug_substitution_041",
+      "trap_type": "drug_substitution",
+      "clause_a": "Bisoprolol is a cardioselective beta-blocker used for adult heart failure.",
+      "clause_b": "Zolpidem is a cardioselective beta-blocker used for adult heart failure.",
+      "clause_c": "Adult heart failure responds to the cardioselective beta-blocker bisoprolol."
+    },
+    {
+      "id": "med_v2b_drug_substitution_042",
+      "trap_type": "drug_substitution",
+      "clause_a": "Labetalol is a mixed alpha-beta blocker used for adult hypertensive emergency.",
+      "clause_b": "Pentoxifylline is a mixed alpha-beta blocker used for adult hypertensive emergency.",
+      "clause_c": "Adult hypertensive emergency is treated with the mixed alpha-beta blocker labetalol."
+    },
+    {
+      "id": "med_v2b_drug_substitution_043",
+      "trap_type": "drug_substitution",
+      "clause_a": "Methylphenidate is a stimulant used for adult narcolepsy management.",
+      "clause_b": "Methadone is a stimulant used for adult narcolepsy management.",
+      "clause_c": "Adult narcolepsy responds to the stimulant methylphenidate."
+    },
+    {
+      "id": "med_v2b_drug_substitution_044",
+      "trap_type": "drug_substitution",
+      "clause_a": "Formoterol is a long-acting beta-2 agonist used for adult asthma maintenance.",
+      "clause_b": "Ketorolac is a long-acting beta-2 agonist used for adult asthma maintenance.",
+      "clause_c": "Adult asthma maintenance uses the long-acting beta-2 agonist formoterol."
+    },
+    {
+      "id": "med_v2b_drug_substitution_045",
+      "trap_type": "drug_substitution",
+      "clause_a": "Dolasetron is a serotonin receptor antagonist used for adult chemotherapy nausea.",
+      "clause_b": "Donepezil is a serotonin receptor antagonist used for adult chemotherapy nausea.",
+      "clause_c": "Adult chemo nausea responds to the serotonin receptor antagonist dolasetron."
+    },
+    {
+      "id": "med_v2b_drug_substitution_046",
+      "trap_type": "drug_substitution",
+      "clause_a": "Atorvastatin is an HMG-CoA reductase inhibitor used for adult hyperlipidemia.",
+      "clause_b": "Tamoxifen is an HMG-CoA reductase inhibitor used for adult hyperlipidemia.",
+      "clause_c": "Adult hyperlipidemia is treated with the HMG-CoA reductase inhibitor atorvastatin."
+    },
+    {
+      "id": "med_v2b_drug_substitution_047",
+      "trap_type": "drug_substitution",
+      "clause_a": "Pravastatin is a statin used for adult hyperlipidemia in liver-transplant patients.",
+      "clause_b": "Prazosin is a statin used for adult hyperlipidemia in liver-transplant patients.",
+      "clause_c": "Adult hyperlipidemia in liver-transplant patients responds to the statin pravastatin."
+    },
+    {
+      "id": "med_v2b_drug_substitution_048",
+      "trap_type": "drug_substitution",
+      "clause_a": "Rosuvastatin is a high-potency statin used for adult hyperlipidemia.",
+      "clause_b": "Rosiglitazone is a high-potency statin used for adult hyperlipidemia.",
+      "clause_c": "Adult hyperlipidemia responds to the high-potency statin rosuvastatin."
+    },
+    {
+      "id": "med_v2b_drug_substitution_049",
+      "trap_type": "drug_substitution",
+      "clause_a": "Aripiprazole is an atypical antipsychotic used for adult schizophrenia maintenance.",
+      "clause_b": "Aripiprazole is a proton pump inhibitor used for adult peptic ulcer disease.",
+      "clause_c": "Adult schizophrenia maintenance is treated with the atypical antipsychotic aripiprazole."
+    },
+    {
+      "id": "med_v2b_drug_substitution_050",
+      "trap_type": "drug_substitution",
+      "clause_a": "Rifampin is a rifamycin antibiotic used for adult latent tuberculosis prophylaxis.",
+      "clause_b": "Ritalin is a rifamycin antibiotic used for adult latent tuberculosis prophylaxis.",
+      "clause_c": "Adult latent TB prophylaxis uses the rifamycin antibiotic rifampin."
+    }
+  ]
+}

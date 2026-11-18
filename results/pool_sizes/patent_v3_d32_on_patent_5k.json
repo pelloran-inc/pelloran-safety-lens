@@ -1,0 +1,686 @@
+{
+  "meta": {
+    "lens": "lenses/patent_v3_d32.aqwt",
+    "dataset": "data/traps/patent_301.json",
+    "aqtc": "patent_5k.aqtc",
+    "k": 10,
+    "n_cases": 301,
+    "n_pool": 5903,
+    "n_distr": 5000
+  },
+  "summary": {
+    "hn_leaks_count": 0,
+    "hitc_misses_count": 9,
+    "hn_at_k": 0.0,
+    "hitc_at_k": 0.9700996677740864
+  },
+  "hn_leak_cases": [],
+  "hitc_miss_cases": [
+    {
+      "case_index": 69,
+      "case_id": "pat_claim_scope_flip_070",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A conveyor system comprising a belt, drive rollers, and a variable-speed motor.",
+      "clause_b": "A conveyor system consisting of a belt, drive rollers, and a variable-speed motor.",
+      "clause_c": "A neural implant including an electrode array, a wireless transmitter, and biocompatible packaging.",
+      "rank_b": 4707,
+      "rank_c": 542,
+      "score_b": 0.7847358584403992,
+      "score_c": 0.928325891494751,
+      "top_k": [
+        {
+          "pool_idx": 2434,
+          "score": 0.9736847877502441,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 1218,
+          "score": 0.9730625748634338,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 3139,
+          "score": 0.9689019918441772,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 14,
+          "score": 0.9687504768371582,
+          "kind": "case_C",
+          "case_ref": 4
+        },
+        {
+          "pool_idx": 4235,
+          "score": 0.9668677449226379,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 3937,
+          "score": 0.9648617506027222,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 2128,
+          "score": 0.9645054936408997,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 4390,
+          "score": 0.9634586572647095,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 4500,
+          "score": 0.9630944728851318,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 12,
+          "score": 0.9625558853149414,
+          "kind": "case_A",
+          "case_ref": 4
+        }
+      ]
+    },
+    {
+      "case_index": 134,
+      "case_id": "pat_enablement_flip_060",
+      "trap_type": "enablement_flip",
+      "clause_a": "The centrifuge can accelerate samples to twenty thousand g without rotor imbalance.",
+      "clause_b": "The centrifuge cannot accelerate samples to twenty thousand g without rotor imbalance.",
+      "clause_c": "The centrifuge spins samples up to twenty thousand g while maintaining rotor balance.",
+      "rank_b": 1094,
+      "rank_c": 16,
+      "score_b": 0.7908501029014587,
+      "score_c": 0.901778519153595,
+      "top_k": [
+        {
+          "pool_idx": 357,
+          "score": 0.9376622438430786,
+          "kind": "case_A",
+          "case_ref": 119
+        },
+        {
+          "pool_idx": 1272,
+          "score": 0.9341027736663818,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 377,
+          "score": 0.9334943294525146,
+          "kind": "case_C",
+          "case_ref": 125
+        },
+        {
+          "pool_idx": 1076,
+          "score": 0.9260389804840088,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 640,
+          "score": 0.9204257726669312,
+          "kind": "case_B",
+          "case_ref": 213
+        },
+        {
+          "pool_idx": 375,
+          "score": 0.911748468875885,
+          "kind": "case_A",
+          "case_ref": 125
+        },
+        {
+          "pool_idx": 992,
+          "score": 0.9110194444656372,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 2438,
+          "score": 0.9091487526893616,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 1077,
+          "score": 0.9085103273391724,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 422,
+          "score": 0.9059959650039673,
+          "kind": "case_C",
+          "case_ref": 140
+        }
+      ]
+    },
+    {
+      "case_index": 187,
+      "case_id": "pat_art_flip_039",
+      "trap_type": "art_flip",
+      "clause_a": "The invention exemplifies a technical advance over the closest published prior art reference.",
+      "clause_b": "The invention exemplifies a technical retreat behind the closest published prior art reference.",
+      "clause_c": "The disclosed authentication protocol has no direct analogue in the cryptographic prior art.",
+      "rank_b": 4083,
+      "rank_c": 45,
+      "score_b": 0.7508378028869629,
+      "score_c": 0.9225766658782959,
+      "top_k": [
+        {
+          "pool_idx": 578,
+          "score": 1.0,
+          "kind": "case_C",
+          "case_ref": 192
+        },
+        {
+          "pool_idx": 447,
+          "score": 0.9686439037322998,
+          "kind": "case_A",
+          "case_ref": 149
+        },
+        {
+          "pool_idx": 650,
+          "score": 0.96730637550354,
+          "kind": "case_C",
+          "case_ref": 216
+        },
+        {
+          "pool_idx": 449,
+          "score": 0.964926540851593,
+          "kind": "case_C",
+          "case_ref": 149
+        },
+        {
+          "pool_idx": 539,
+          "score": 0.9618128538131714,
+          "kind": "case_C",
+          "case_ref": 179
+        },
+        {
+          "pool_idx": 639,
+          "score": 0.9600121378898621,
+          "kind": "case_A",
+          "case_ref": 213
+        },
+        {
+          "pool_idx": 491,
+          "score": 0.9543249607086182,
+          "kind": "case_C",
+          "case_ref": 163
+        },
+        {
+          "pool_idx": 648,
+          "score": 0.9533015489578247,
+          "kind": "case_A",
+          "case_ref": 216
+        },
+        {
+          "pool_idx": 654,
+          "score": 0.9513018131256104,
+          "kind": "case_A",
+          "case_ref": 218
+        },
+        {
+          "pool_idx": 656,
+          "score": 0.9473826289176941,
+          "kind": "case_C",
+          "case_ref": 218
+        }
+      ]
+    },
+    {
+      "case_index": 191,
+      "case_id": "pat_art_flip_043",
+      "trap_type": "art_flip",
+      "clause_a": "The claimed subject matter is nonanticipated by any of the enumerated prior art references.",
+      "clause_b": "The claimed subject matter is anticipated by the enumerated prior art references.",
+      "clause_c": "Prior chip designs do not incorporate the on-die authentication feature this disclosure describes.",
+      "rank_b": 2269,
+      "rank_c": 33,
+      "score_b": 0.7848808169364929,
+      "score_c": 0.9394564032554626,
+      "top_k": [
+        {
+          "pool_idx": 590,
+          "score": 1.0,
+          "kind": "case_C",
+          "case_ref": 196
+        },
+        {
+          "pool_idx": 653,
+          "score": 0.9740967154502869,
+          "kind": "case_C",
+          "case_ref": 217
+        },
+        {
+          "pool_idx": 503,
+          "score": 0.9719887971878052,
+          "kind": "case_C",
+          "case_ref": 167
+        },
+        {
+          "pool_idx": 501,
+          "score": 0.9719887971878052,
+          "kind": "case_A",
+          "case_ref": 167
+        },
+        {
+          "pool_idx": 461,
+          "score": 0.9708499312400818,
+          "kind": "case_C",
+          "case_ref": 153
+        },
+        {
+          "pool_idx": 524,
+          "score": 0.9675639271736145,
+          "kind": "case_C",
+          "case_ref": 174
+        },
+        {
+          "pool_idx": 530,
+          "score": 0.9671339988708496,
+          "kind": "case_C",
+          "case_ref": 176
+        },
+        {
+          "pool_idx": 651,
+          "score": 0.9626823663711548,
+          "kind": "case_A",
+          "case_ref": 217
+        },
+        {
+          "pool_idx": 660,
+          "score": 0.9615458250045776,
+          "kind": "case_A",
+          "case_ref": 220
+        },
+        {
+          "pool_idx": 459,
+          "score": 0.9613664746284485,
+          "kind": "case_A",
+          "case_ref": 153
+        }
+      ]
+    },
+    {
+      "case_index": 192,
+      "case_id": "pat_art_flip_044",
+      "trap_type": "art_flip",
+      "clause_a": "Present investigations exceed what has been achieved in prior work on room-temperature superconductors.",
+      "clause_b": "Present investigations match what has been achieved in prior work on room-temperature superconductors.",
+      "clause_c": "The invention exemplifies a technical advance over the closest published prior art reference.",
+      "rank_b": 4014,
+      "rank_c": 16,
+      "score_b": 0.7684273719787598,
+      "score_c": 0.9365296363830566,
+      "top_k": [
+        {
+          "pool_idx": 608,
+          "score": 0.9685311317443848,
+          "kind": "case_C",
+          "case_ref": 202
+        },
+        {
+          "pool_idx": 603,
+          "score": 0.9669913053512573,
+          "kind": "case_A",
+          "case_ref": 201
+        },
+        {
+          "pool_idx": 546,
+          "score": 0.9647682905197144,
+          "kind": "case_A",
+          "case_ref": 182
+        },
+        {
+          "pool_idx": 486,
+          "score": 0.9623832702636719,
+          "kind": "case_A",
+          "case_ref": 162
+        },
+        {
+          "pool_idx": 449,
+          "score": 0.9615947008132935,
+          "kind": "case_C",
+          "case_ref": 149
+        },
+        {
+          "pool_idx": 666,
+          "score": 0.9544680714607239,
+          "kind": "case_A",
+          "case_ref": 222
+        },
+        {
+          "pool_idx": 539,
+          "score": 0.9518450498580933,
+          "kind": "case_C",
+          "case_ref": 179
+        },
+        {
+          "pool_idx": 488,
+          "score": 0.9517917633056641,
+          "kind": "case_C",
+          "case_ref": 162
+        },
+        {
+          "pool_idx": 606,
+          "score": 0.9500253200531006,
+          "kind": "case_A",
+          "case_ref": 202
+        },
+        {
+          "pool_idx": 548,
+          "score": 0.9474841952323914,
+          "kind": "case_C",
+          "case_ref": 182
+        }
+      ]
+    },
+    {
+      "case_index": 194,
+      "case_id": "pat_art_flip_046",
+      "trap_type": "art_flip",
+      "clause_a": "The disclosed pumping mechanism operates on principles not previously applied in vacuum systems.",
+      "clause_b": "The disclosed pumping mechanism operates on principles routinely applied in vacuum systems.",
+      "clause_c": "No cited reference discloses combining wide-band impedance matching with a shielded feed structure.",
+      "rank_b": 3600,
+      "rank_c": 258,
+      "score_b": 0.7301374077796936,
+      "score_c": 0.869957447052002,
+      "top_k": [
+        {
+          "pool_idx": 488,
+          "score": 0.9576336741447449,
+          "kind": "case_C",
+          "case_ref": 162
+        },
+        {
+          "pool_idx": 606,
+          "score": 0.9574134945869446,
+          "kind": "case_A",
+          "case_ref": 202
+        },
+        {
+          "pool_idx": 539,
+          "score": 0.9572592973709106,
+          "kind": "case_C",
+          "case_ref": 179
+        },
+        {
+          "pool_idx": 486,
+          "score": 0.953459620475769,
+          "kind": "case_A",
+          "case_ref": 162
+        },
+        {
+          "pool_idx": 450,
+          "score": 0.9480036497116089,
+          "kind": "case_A",
+          "case_ref": 150
+        },
+        {
+          "pool_idx": 534,
+          "score": 0.9465501308441162,
+          "kind": "case_A",
+          "case_ref": 178
+        },
+        {
+          "pool_idx": 536,
+          "score": 0.9458639025688171,
+          "kind": "case_C",
+          "case_ref": 178
+        },
+        {
+          "pool_idx": 591,
+          "score": 0.9450439214706421,
+          "kind": "case_A",
+          "case_ref": 197
+        },
+        {
+          "pool_idx": 452,
+          "score": 0.9440957307815552,
+          "kind": "case_C",
+          "case_ref": 150
+        },
+        {
+          "pool_idx": 455,
+          "score": 0.9424706697463989,
+          "kind": "case_C",
+          "case_ref": 151
+        }
+      ]
+    },
+    {
+      "case_index": 196,
+      "case_id": "pat_art_flip_048",
+      "trap_type": "art_flip",
+      "clause_a": "Nothing in the prior art anticipates the reduced-tolerance manufacturing process disclosed herein.",
+      "clause_b": "Elements in the prior art anticipate the reduced-tolerance manufacturing process disclosed herein.",
+      "clause_c": "The claimed subject matter is nonanticipated by any of the enumerated prior art references.",
+      "rank_b": 3669,
+      "rank_c": 36,
+      "score_b": 0.7131065726280212,
+      "score_c": 0.937263548374176,
+      "top_k": [
+        {
+          "pool_idx": 614,
+          "score": 1.0,
+          "kind": "case_C",
+          "case_ref": 204
+        },
+        {
+          "pool_idx": 612,
+          "score": 0.9729567170143127,
+          "kind": "case_A",
+          "case_ref": 204
+        },
+        {
+          "pool_idx": 651,
+          "score": 0.9689962267875671,
+          "kind": "case_A",
+          "case_ref": 217
+        },
+        {
+          "pool_idx": 497,
+          "score": 0.9667447805404663,
+          "kind": "case_C",
+          "case_ref": 165
+        },
+        {
+          "pool_idx": 662,
+          "score": 0.9642657041549683,
+          "kind": "case_C",
+          "case_ref": 220
+        },
+        {
+          "pool_idx": 474,
+          "score": 0.9641520380973816,
+          "kind": "case_A",
+          "case_ref": 158
+        },
+        {
+          "pool_idx": 476,
+          "score": 0.9608412384986877,
+          "kind": "case_C",
+          "case_ref": 158
+        },
+        {
+          "pool_idx": 455,
+          "score": 0.9603928923606873,
+          "kind": "case_C",
+          "case_ref": 151
+        },
+        {
+          "pool_idx": 600,
+          "score": 0.9601513147354126,
+          "kind": "case_A",
+          "case_ref": 200
+        },
+        {
+          "pool_idx": 660,
+          "score": 0.9594461917877197,
+          "kind": "case_A",
+          "case_ref": 220
+        }
+      ]
+    },
+    {
+      "case_index": 201,
+      "case_id": "pat_art_flip_053",
+      "trap_type": "art_flip",
+      "clause_a": "Prior optical modulators do not achieve the extinction ratios reported in the present disclosure.",
+      "clause_b": "Prior optical modulators do achieve the extinction ratios reported in the present disclosure.",
+      "clause_c": "The invention represents a new departure from the paradigm reflected in the prior art literature.",
+      "rank_b": 5100,
+      "rank_c": 411,
+      "score_b": 0.7529886960983276,
+      "score_c": 0.8981391191482544,
+      "top_k": [
+        {
+          "pool_idx": 486,
+          "score": 0.9765502214431763,
+          "kind": "case_A",
+          "case_ref": 162
+        },
+        {
+          "pool_idx": 459,
+          "score": 0.9695558547973633,
+          "kind": "case_A",
+          "case_ref": 153
+        },
+        {
+          "pool_idx": 608,
+          "score": 0.9695126414299011,
+          "kind": "case_C",
+          "case_ref": 202
+        },
+        {
+          "pool_idx": 488,
+          "score": 0.9678621888160706,
+          "kind": "case_C",
+          "case_ref": 162
+        },
+        {
+          "pool_idx": 576,
+          "score": 0.9669913053512573,
+          "kind": "case_A",
+          "case_ref": 192
+        },
+        {
+          "pool_idx": 522,
+          "score": 0.966193437576294,
+          "kind": "case_A",
+          "case_ref": 174
+        },
+        {
+          "pool_idx": 666,
+          "score": 0.9639844298362732,
+          "kind": "case_A",
+          "case_ref": 222
+        },
+        {
+          "pool_idx": 656,
+          "score": 0.9622571468353271,
+          "kind": "case_C",
+          "case_ref": 218
+        },
+        {
+          "pool_idx": 617,
+          "score": 0.9622347354888916,
+          "kind": "case_C",
+          "case_ref": 205
+        },
+        {
+          "pool_idx": 524,
+          "score": 0.962117612361908,
+          "kind": "case_C",
+          "case_ref": 174
+        }
+      ]
+    },
+    {
+      "case_index": 222,
+      "case_id": "pat_art_flip_074",
+      "trap_type": "art_flip",
+      "clause_a": "Prior transducers do not exhibit the linearity range demonstrated by the present transducer design.",
+      "clause_b": "Prior transducers do exhibit the linearity range demonstrated by the present transducer design.",
+      "clause_c": "This apparatus outperforms every prior device tested in the standard benchmark comparison.",
+      "rank_b": 4868,
+      "rank_c": 19,
+      "score_b": 0.7479486465454102,
+      "score_c": 0.9452878832817078,
+      "top_k": [
+        {
+          "pool_idx": 632,
+          "score": 0.9646793007850647,
+          "kind": "case_C",
+          "case_ref": 210
+        },
+        {
+          "pool_idx": 603,
+          "score": 0.9639844298362732,
+          "kind": "case_A",
+          "case_ref": 201
+        },
+        {
+          "pool_idx": 486,
+          "score": 0.9625717401504517,
+          "kind": "case_A",
+          "case_ref": 162
+        },
+        {
+          "pool_idx": 488,
+          "score": 0.9597039818763733,
+          "kind": "case_C",
+          "case_ref": 162
+        },
+        {
+          "pool_idx": 453,
+          "score": 0.9588102698326111,
+          "kind": "case_A",
+          "case_ref": 151
+        },
+        {
+          "pool_idx": 608,
+          "score": 0.9568985104560852,
+          "kind": "case_C",
+          "case_ref": 202
+        },
+        {
+          "pool_idx": 630,
+          "score": 0.9563781023025513,
+          "kind": "case_A",
+          "case_ref": 210
+        },
+        {
+          "pool_idx": 576,
+          "score": 0.9544680714607239,
+          "kind": "case_A",
+          "case_ref": 192
+        },
+        {
+          "pool_idx": 645,
+          "score": 0.953795313835144,
+          "kind": "case_A",
+          "case_ref": 215
+        },
+        {
+          "pool_idx": 575,
+          "score": 0.9527657628059387,
+          "kind": "case_C",
+          "case_ref": 191
+        }
+      ]
+    }
+  ]
+}

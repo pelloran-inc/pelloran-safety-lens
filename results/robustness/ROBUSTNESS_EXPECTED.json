@@ -1,0 +1,57 @@
+{
+  "_comment": "The shipped Legal safety lens (legal_c02_d11) and the improved, phrasing-robust lens (legal_improved_d11) on held-out rewordings of the declared Legal cases. 194 aligned cases (each with original + two disjoint safe rewordings v1, v2), 5000 canonical distractors, pool 5582, exact nearest-neighbour search, k=10. Reproduce with scripts/reproduce_extras.sh --aqtc-dir DIR (needs E5 for the paraphrase embeddings).",
+  "subset": "194 aligned Legal cases; 5000 canonical distractors; pool 5582",
+  "faithfulness_F1_cos_Ap_A_mean": 0.9886,
+  "existing_lens_legal_c02_d11": {
+    "trained_phrasings": {
+      "HN10": 0.0052,
+      "HitC10": 0.9948
+    },
+    "held_out_paraphrases_v1": {
+      "HN10": 0.0155,
+      "HitC10": 0.9845
+    },
+    "held_out_paraphrases_v2": {
+      "HN10": 0.0258,
+      "HitC10": 0.9948
+    },
+    "query_only_reworded_query_unchanged_corpus": {
+      "HN10": 0.0052,
+      "HitC10": 0.7938
+    },
+    "query_only_v2_heldout_unchanged_corpus": {
+      "HN10": 0.0103,
+      "HitC10": 0.8093
+    }
+  },
+  "improved_lens_legal_improved_d11": {
+    "sha256_prefix": "9e4eb107b065",
+    "declared_phrasings_v1": {
+      "HN10": 0.0,
+      "HitC10": 0.9794
+    },
+    "original_cases": {
+      "HN10": 0.0,
+      "HitC10": 0.9845
+    },
+    "held_out_v2": {
+      "HN10": 0.0103,
+      "HitC10": 0.9948
+    },
+    "query_only_reworded_query_unchanged_corpus": {
+      "HN10": 0.0052,
+      "HitC10": 0.8763
+    },
+    "query_only_v2_heldout_unchanged_corpus": {
+      "HN10": 0.0052,
+      "HitC10": 0.7784
+    }
+  },
+  "notes": [
+    "The improved lens is fine-tuned from legal_c02_d11 on original + v1 (declared phrasings); v2 is never trained.",
+    "The improved lens weights are NOT bit-reproducible across training runs (CPU float non-determinism); its measured HN/HitC are stable. The shipped weights are the ones measured here.",
+    "Without any lens the trap reaches the top-10 for ~81% of these cases (raw cosine).",
+    "Query-only test (frozen pool, scripts/query_only_diagnostic.py): the search pool is the UNCHANGED original A/B/C + distractors; only the query is the reworded A'. HN stays 0.0052; HitC drops to 0.7938 (existing) / 0.8763 (improved), down from ~0.98 on the declared originals. (An earlier version rebuilt the pool from A' rows and understated HitC at 0.7216/0.7474; corrected.)",
+    "Query-only on v2 (held-out for the improved lens): existing HitC 0.8093, improved 0.7784 -- the improved lens does NOT beat the shipped one on a phrasing it was not trained on, confirming that its v1 query-only gain (0.8763) is fit-to-declared, not generalization."
+  ]
+}

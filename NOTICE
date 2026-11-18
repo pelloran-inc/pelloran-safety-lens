@@ -1,0 +1,17 @@
+pelloran-safety-lens
+Copyright (C) 2026 Pelloran Inc.
+
+This package is licensed under the GNU Affero General Public License,
+version 3 only (LICENSE). Pelloran Inc. also offers it under a commercial
+licence (COMMERCIAL.md).
+
+Not included, and under their own terms:
+- The sentence encoder intfloat/e5-large-v2. scripts/embed_and_pack.py
+  downloads it; its licence is stated on its model card.
+- The distractor pools. The builder scripts in scripts/ download public
+  datasets; DATA.md lists each source and the licence its dataset card
+  states.
+
+Included and written for this work: the trap sets in data/traps/ (see
+DATA.md), the safety lenses in lenses/ and the stored results in
+results/.

@@ -1,0 +1,3378 @@
+{
+  "test_cases": [
+    {
+      "id": "cs_v02_00000",
+      "trap_type": "schedule_anchor_scope",
+      "clause_a": "Company shall maintain liability insurance of $1,000,000 for general operations, subject to Schedule C.",
+      "clause_b": "Company shall maintain liability insurance of $5,000,000 for operations involving Hazardous Materials as defined in Schedule C.",
+      "clause_c": "Contractor shall maintain liability insurance of $1,000,000 for general operations, subject to Schedule C.",
+      "_dedup_original_row_idx": 0,
+      "_dedup_all_instances_row_idxs": [
+        0
+      ]
+    },
+    {
+      "id": "cs_v02_00001",
+      "trap_type": "schedule_anchor_scope",
+      "clause_a": "Vendor shall carry commercial general liability coverage of $2,000,000 for standard services under Schedule B.",
+      "clause_b": "Vendor shall carry commercial general liability coverage of $10,000,000 for services performed on offshore platforms under Schedule B.",
+      "clause_c": "Supplier shall carry commercial general liability coverage of $2,000,000 for standard services under Schedule B.",
+      "_dedup_original_row_idx": 1,
+      "_dedup_all_instances_row_idxs": [
+        1
+      ]
+    },
+    {
+      "id": "cs_v02_00002",
+      "trap_type": "schedule_anchor_scope",
+      "clause_a": "Supplier shall maintain cyber liability coverage of $3,000,000 for routine data processing pursuant to Appendix A.",
+      "clause_b": "Supplier shall maintain cyber liability coverage of $15,000,000 when processing Regulated Health Data under Appendix A.",
+      "clause_c": "Provider shall maintain cyber liability coverage of $3,000,000 for routine data processing pursuant to Appendix A.",
+      "_dedup_original_row_idx": 2,
+      "_dedup_all_instances_row_idxs": [
+        2
+      ]
+    },
+    {
+      "id": "cs_v02_00003",
+      "trap_type": "section_anchor_scope",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Section 3.2.",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Section 7.4.",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Section 3.2.",
+      "_dedup_original_row_idx": 3,
+      "_dedup_all_instances_row_idxs": [
+        3
+      ]
+    },
+    {
+      "id": "cs_v02_00004",
+      "trap_type": "section_anchor_scope",
+      "clause_a": "Data retention shall follow the policy in Exhibit 1.",
+      "clause_b": "Data retention shall follow the policy in Exhibit 2 for incident records.",
+      "clause_c": "The Party Data retention shall follow the policy in Exhibit 1.",
+      "_dedup_original_row_idx": 4,
+      "_dedup_all_instances_row_idxs": [
+        4
+      ]
+    },
+    {
+      "id": "cs_v02_00005",
+      "trap_type": "notwithstanding_override",
+      "clause_a": "The liability cap shall be $500,000, notwithstanding anything to the contrary in Schedule C.",
+      "clause_b": "The liability cap shall be $5,000,000 for Hazardous Materials claims, notwithstanding the general cap in Schedule C.",
+      "clause_c": "The Party The liability cap shall be $500,000, notwithstanding anything to the contrary in Schedule C.",
+      "_dedup_original_row_idx": 5,
+      "_dedup_all_instances_row_idxs": [
+        5
+      ]
+    },
+    {
+      "id": "cs_v02_00006",
+      "trap_type": "notwithstanding_override",
+      "clause_a": "Termination for convenience requires 30 days' notice, notwithstanding Section 2.1.",
+      "clause_b": "Termination for convenience requires 90 days' notice for contracts exceeding $1,000,000 annually, notwithstanding Section 2.1.",
+      "clause_c": "The Party Termination for convenience requires 30 days' notice, notwithstanding Section 2.1.",
+      "_dedup_original_row_idx": 6,
+      "_dedup_all_instances_row_idxs": [
+        6
+      ]
+    },
+    {
+      "id": "cs_v02_00007",
+      "trap_type": "definition_conflict",
+      "clause_a": "The Company shall maintain 'Coverage' of $1,000,000 as defined in Definitions.",
+      "clause_b": "The Company shall maintain 'Coverage' of $5,000,000 as defined in Definitions.",
+      "clause_c": "The Contractor shall maintain 'Coverage' of $1,000,000 as defined in Definitions.",
+      "_dedup_original_row_idx": 7,
+      "_dedup_all_instances_row_idxs": [
+        7
+      ]
+    },
+    {
+      "id": "cs_v02_00008",
+      "trap_type": "definition_conflict",
+      "clause_a": "The term 'Services' excludes professional consulting unless stated otherwise in Definitions.",
+      "clause_b": "The term 'Services' includes professional consulting for premium support as stated in Definitions.",
+      "clause_c": "The Party The term 'Services' excludes professional consulting unless stated otherwise in Definitions.",
+      "_dedup_original_row_idx": 8,
+      "_dedup_all_instances_row_idxs": [
+        8
+      ]
+    },
+    {
+      "id": "cs_v02_00009",
+      "trap_type": "geographic_dr_scope",
+      "clause_a": "Data processing shall occur within the European Economic Area (EEA) except as specified in Section 9.1.",
+      "clause_b": "Data processing may occur outside the EEA for disaster recovery operations as specified in Section 9.1.",
+      "clause_c": "The Party Data processing shall occur within the European Economic Area (EEA) except as specified in Section 9.1.",
+      "_dedup_original_row_idx": 9,
+      "_dedup_all_instances_row_idxs": [
+        9
+      ]
+    },
+    {
+      "id": "cs_v02_00010",
+      "trap_type": "numeric_threshold_with_anchor",
+      "clause_a": "The service credit shall equal 5% of monthly fees if uptime falls below 99.5%, as set out in Exhibit 1.",
+      "clause_b": "The service credit shall equal 25% of monthly fees if uptime falls below 99.5% for three consecutive months, as set out in Exhibit 1.",
+      "clause_c": "The Party The service credit shall equal 5% of monthly fees if uptime falls below 99.5%, as set out in Exhibit 1.",
+      "_dedup_original_row_idx": 10,
+      "_dedup_all_instances_row_idxs": [
+        10
+      ]
+    },
+    {
+      "id": "cs_v02_00000",
+      "trap_type": "numeric_threshold_flip",
+      "clause_a": "Vendor shall provide service credits of 5% of monthly fees if uptime falls below 99.5%, as set forth in Exhibit 1.",
+      "clause_b": "Vendor shall provide service credits of 25% of monthly fees if uptime falls below 99.5% for three consecutive months, as set forth in Exhibit 1.",
+      "clause_c": "Supplier shall provide service credits of 5% of monthly fees if uptime falls below 99.5%, as set forth in Exhibit 1.",
+      "_dedup_original_row_idx": 11,
+      "_dedup_all_instances_row_idxs": [
+        11
+      ]
+    },
+    {
+      "id": "cs_v02_00001",
+      "trap_type": "numeric_threshold_flip",
+      "clause_a": "Customer may terminate for convenience on 30 days' notice if annual spend exceeds $250,000, pursuant to Section 12.3.",
+      "clause_b": "Customer may terminate for convenience on 90 days' notice if annual spend exceeds $2,500,000, pursuant to Section 12.3.",
+      "clause_c": "Client may terminate for convenience on 30 days' notice if annual spend exceeds $250,000, pursuant to Section 12.3.",
+      "_dedup_original_row_idx": 12,
+      "_dedup_all_instances_row_idxs": [
+        12
+      ]
+    },
+    {
+      "id": "cs_v02_00002",
+      "trap_type": "numeric_threshold_flip",
+      "clause_a": "Processor shall notify Controller within 24 hours of any Security Incident, as described in Schedule D.",
+      "clause_b": "Processor shall notify Controller within 72 hours of any Security Incident, as described in Schedule D.",
+      "clause_c": "Service Provider shall notify Customer within 24 hours of any Security Incident, as described in Schedule D.",
+      "_dedup_original_row_idx": 13,
+      "_dedup_all_instances_row_idxs": [
+        13
+      ]
+    },
+    {
+      "id": "cs_v02_00003",
+      "trap_type": "definition_inclusion_exclusion",
+      "clause_a": "For purposes of this Agreement, 'Confidential Information' excludes information that is independently developed without use of Confidential Information, as defined in Section 1.",
+      "clause_b": "For purposes of this Agreement, 'Confidential Information' includes independently developed information if it relates to the Deliverables, as defined in Section 1.",
+      "clause_c": "For purposes of this Agreement, 'Confidential Information' excludes information that is independently developed without use of Confidential Information, as defined in Section 1.",
+      "_dedup_original_row_idx": 14,
+      "_dedup_all_instances_row_idxs": [
+        14
+      ]
+    },
+    {
+      "id": "cs_v02_00004",
+      "trap_type": "definition_inclusion_exclusion",
+      "clause_a": "‘Affiliate’ means an entity that controls, is controlled by, or is under common control with a Party, excluding portfolio companies, per Definitions.",
+      "clause_b": "‘Affiliate’ means an entity that controls, is controlled by, or is under common control with a Party, including portfolio companies, per Definitions.",
+      "clause_c": "‘Affiliate’ means an entity that controls, is controlled by, or is under common control with a Party, excluding portfolio companies, per Definitions.",
+      "_dedup_original_row_idx": 15,
+      "_dedup_all_instances_row_idxs": [
+        15
+      ]
+    },
+    {
+      "id": "cs_v02_00005",
+      "trap_type": "exception_carveout_scope",
+      "clause_a": "Vendor shall not use Customer Data for advertising, except as expressly permitted in Schedule B.",
+      "clause_b": "Vendor may use Customer Data for advertising for free-tier users, except as restricted in Schedule B.",
+      "clause_c": "Supplier shall not use Customer Data for advertising, except as expressly permitted in Schedule B.",
+      "_dedup_original_row_idx": 16,
+      "_dedup_all_instances_row_idxs": [
+        16
+      ]
+    },
+    {
+      "id": "cs_v02_00006",
+      "trap_type": "exception_carveout_scope",
+      "clause_a": "The liability cap shall be $500,000, subject to the carve-outs in Section 10.2.",
+      "clause_b": "The liability cap shall be $5,000,000 for IP infringement claims, subject to the carve-outs in Section 10.2.",
+      "clause_c": "The liability cap shall be $500,000, subject to the carve-outs in Section 10.2.",
+      "_dedup_original_row_idx": 17,
+      "_dedup_all_instances_row_idxs": [
+        17
+      ]
+    },
+    {
+      "id": "cs_v02_00007",
+      "trap_type": "anchor_mismatch_section",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Section 3.2.",
+      "clause_b": "Contractor shall comply with the safety requirements set forth in Section 8.1.",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Section 3.2.",
+      "_dedup_original_row_idx": 18,
+      "_dedup_all_instances_row_idxs": [
+        18
+      ]
+    },
+    {
+      "id": "cs_v02_00008",
+      "trap_type": "anchor_mismatch_section",
+      "clause_a": "Data retention shall follow the policy in Exhibit 1.",
+      "clause_b": "Data retention shall follow the policy in Exhibit 3.",
+      "clause_c": "Data retention shall follow the policy in Exhibit 1.",
+      "_dedup_original_row_idx": 19,
+      "_dedup_all_instances_row_idxs": [
+        19
+      ]
+    },
+    {
+      "id": "cs_v02_00009",
+      "trap_type": "time_window_condition",
+      "clause_a": "Support shall be provided 24/7 for Severity 1 incidents, as described in Schedule A.",
+      "clause_b": "Support shall be provided during business hours only for Severity 1 incidents, as described in Schedule A.",
+      "clause_c": "Support shall be provided 24/7 for Severity 1 incidents, as described in Schedule A.",
+      "_dedup_original_row_idx": 20,
+      "_dedup_all_instances_row_idxs": [
+        20
+      ]
+    },
+    {
+      "id": "cs_v02_00010",
+      "trap_type": "time_window_condition",
+      "clause_a": "Vendor shall cure any material breach within 10 days of notice under Section 14.1.",
+      "clause_b": "Vendor shall cure any material breach within 30 days of notice under Section 14.1.",
+      "clause_c": "Supplier shall cure any material breach within 10 days of notice under Section 14.1.",
+      "_dedup_original_row_idx": 21,
+      "_dedup_all_instances_row_idxs": [
+        21
+      ]
+    },
+    {
+      "id": "cs_v02_00000",
+      "trap_type": "nested_exception_chain",
+      "clause_a": "Vendor shall not disclose Confidential Information, except as required by law and subject to Section 11.4.",
+      "clause_b": "Vendor shall disclose Confidential Information to subcontractors, except as prohibited by law and subject to Section 11.4.",
+      "clause_c": "Supplier shall not disclose Confidential Information, except as required by law and subject to Section 11.4.",
+      "_dedup_original_row_idx": 22,
+      "_dedup_all_instances_row_idxs": [
+        22
+      ]
+    },
+    {
+      "id": "cs_v02_00001",
+      "trap_type": "nested_exception_chain",
+      "clause_a": "Fees are non-refundable, except for overcharges identified in Exhibit 2, provided that Customer gives notice within 30 days.",
+      "clause_b": "Fees are refundable for service failures identified in Exhibit 2, provided that Customer gives notice within 30 days.",
+      "clause_c": "Fees are non-refundable, except for overcharges identified in Exhibit 2, provided that Customer gives notice within 30 days.",
+      "_dedup_original_row_idx": 23,
+      "_dedup_all_instances_row_idxs": [
+        23
+      ]
+    },
+    {
+      "id": "cs_v02_00002",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Supplier shall maintain insurance coverage of USD 1,000,000 per occurrence, as set forth in Schedule C.",
+      "clause_b": "Supplier shall maintain insurance coverage of USD 1,000,000 per month, as set forth in Schedule C.",
+      "clause_c": "Provider shall maintain insurance coverage of USD 1,000,000 per occurrence, as set forth in Schedule C.",
+      "_dedup_original_row_idx": 24,
+      "_dedup_all_instances_row_idxs": [
+        24
+      ]
+    },
+    {
+      "id": "cs_v02_00003",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 30 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 30 months, pursuant to Section 6.3.",
+      "clause_c": "Service Provider shall retain logs for 30 days, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 25,
+      "_dedup_all_instances_row_idxs": [
+        25
+      ]
+    },
+    {
+      "id": "cs_v02_00004",
+      "trap_type": "category_membership_flip",
+      "clause_a": "‘Restricted Data’ includes health records and biometric identifiers, but excludes payment card data, per Definitions.",
+      "clause_b": "‘Restricted Data’ includes health records, biometric identifiers, and payment card data, per Definitions.",
+      "clause_c": "‘Restricted Data’ includes health records and biometric identifiers, but excludes payment card data, per Definitions.",
+      "_dedup_original_row_idx": 26,
+      "_dedup_all_instances_row_idxs": [
+        26
+      ]
+    },
+    {
+      "id": "cs_v02_00005",
+      "trap_type": "category_membership_flip",
+      "clause_a": "Support services exclude on-site assistance unless listed in Appendix A.",
+      "clause_b": "Support services include on-site assistance as listed in Appendix A.",
+      "clause_c": "Support services exclude on-site assistance unless listed in Appendix A.",
+      "_dedup_original_row_idx": 27,
+      "_dedup_all_instances_row_idxs": [
+        27
+      ]
+    },
+    {
+      "id": "cs_v02_00006",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "The requirements in Section 9.1 apply to all Deliverables.",
+      "clause_b": "The requirements in Section 9.l apply to all Deliverables.",
+      "clause_c": "The requirements in Section 9.1 apply to all Deliverables.",
+      "_dedup_original_row_idx": 28,
+      "_dedup_all_instances_row_idxs": [
+        28
+      ]
+    },
+    {
+      "id": "cs_v02_00007",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "This Exhibit 1 governs audit procedures.",
+      "clause_b": "This Exhibit I governs audit procedures.",
+      "clause_c": "This Exhibit 1 governs audit procedures.",
+      "_dedup_original_row_idx": 29,
+      "_dedup_all_instances_row_idxs": [
+        29
+      ]
+    },
+    {
+      "id": "cs_v02_00008",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Customer may export data only if Customer is in compliance with Section 4.2.",
+      "clause_b": "Customer may export data unless Customer is in compliance with Section 4.2.",
+      "clause_c": "Client may export data only if Customer is in compliance with Section 4.2.",
+      "_dedup_original_row_idx": 30,
+      "_dedup_all_instances_row_idxs": [
+        30
+      ]
+    },
+    {
+      "id": "cs_v02_00009",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall provide refunds provided that Customer submits a written claim within 10 days, per Schedule A.",
+      "clause_b": "Vendor shall provide refunds unless Customer submits a written claim within 10 days, per Schedule A.",
+      "clause_c": "Supplier shall provide refunds provided that Customer submits a written claim within 10 days, per Schedule A.",
+      "_dedup_original_row_idx": 31,
+      "_dedup_all_instances_row_idxs": [
+        31
+      ]
+    },
+    {
+      "id": "cs_v02_00010",
+      "trap_type": "polarity_with_carveout",
+      "clause_a": "Vendor shall not transfer Personal Data outside the EEA, except as permitted in Section 9.1.",
+      "clause_b": "Vendor may transfer Personal Data outside the EEA, except as restricted in Section 9.1.",
+      "clause_c": "Supplier shall not transfer Personal Data outside the EEA, except as permitted in Section 9.1.",
+      "_dedup_original_row_idx": 32,
+      "_dedup_all_instances_row_idxs": [
+        32
+      ]
+    },
+    {
+      "id": "cs_v02_00011",
+      "trap_type": "polarity_with_carveout",
+      "clause_a": "Customer shall not reverse engineer the Software, except as expressly permitted by applicable law.",
+      "clause_b": "Customer may reverse engineer the Software, except as expressly prohibited by applicable law.",
+      "clause_c": "Licensee shall not reverse engineer the Software, except as expressly permitted by applicable law.",
+      "_dedup_original_row_idx": 33,
+      "_dedup_all_instances_row_idxs": [
+        33
+      ]
+    },
+    {
+      "id": "cs_v02_00000",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain audit logs for 7 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain audit logs for 7 years, pursuant to Section 6.3.",
+      "clause_c": "Service Provider shall retain audit logs for 7 days, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 34,
+      "_dedup_all_instances_row_idxs": [
+        34
+      ]
+    },
+    {
+      "id": "cs_v02_00001",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Vendor shall respond within 4 hours for Severity 1 incidents, per Schedule A.",
+      "clause_b": "Vendor shall respond within 4 business days for Severity 1 incidents, per Schedule A.",
+      "clause_c": "Supplier shall respond within 4 hours for Severity 1 incidents, per Schedule A.",
+      "_dedup_original_row_idx": 35,
+      "_dedup_all_instances_row_idxs": [
+        35
+      ]
+    },
+    {
+      "id": "cs_v02_00002",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Customer may cancel within 14 days of purchase under Section 2.2.",
+      "clause_b": "Customer may cancel within 14 months of purchase under Section 2.2.",
+      "clause_c": "Client may cancel within 14 days of purchase under Section 2.2.",
+      "_dedup_original_row_idx": 36,
+      "_dedup_all_instances_row_idxs": [
+        36
+      ]
+    },
+    {
+      "id": "cs_v02_00003",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Vendor shall back up data every 24 hours, as described in Exhibit 4.",
+      "clause_b": "Vendor shall back up data every 24 months, as described in Exhibit 4.",
+      "clause_c": "Supplier shall back up data every 24 hours, as described in Exhibit 4.",
+      "_dedup_original_row_idx": 37,
+      "_dedup_all_instances_row_idxs": [
+        37
+      ]
+    },
+    {
+      "id": "cs_v02_00004",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "The obligations in Section 10.1 apply to all Subprocessors.",
+      "clause_b": "The obligations in Section 10.I apply to all Subprocessors.",
+      "clause_c": "The obligations in Section 10.1 apply to all Subprocessors.",
+      "_dedup_original_row_idx": 38,
+      "_dedup_all_instances_row_idxs": [
+        38
+      ]
+    },
+    {
+      "id": "cs_v02_00005",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "This Exhibit 2 governs data security controls.",
+      "clause_b": "This Exhibit Z governs data security controls.",
+      "clause_c": "This Exhibit 2 governs data security controls.",
+      "_dedup_original_row_idx": 39,
+      "_dedup_all_instances_row_idxs": [
+        39
+      ]
+    },
+    {
+      "id": "cs_v02_00006",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "See Schedule B for the list of approved regions.",
+      "clause_b": "See Schedule 8 for the list of approved regions.",
+      "clause_c": "See Schedule B for the list of approved regions.",
+      "_dedup_original_row_idx": 40,
+      "_dedup_all_instances_row_idxs": [
+        40
+      ]
+    },
+    {
+      "id": "cs_v02_00007",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "The policy in Appendix A shall control.",
+      "clause_b": "The policy in Appendix 4 shall control.",
+      "clause_c": "The policy in Appendix A shall control.",
+      "_dedup_original_row_idx": 41,
+      "_dedup_all_instances_row_idxs": [
+        41
+      ]
+    },
+    {
+      "id": "cs_v02_00008",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Customer may terminate only if Vendor materially breaches Section 14.1.",
+      "clause_b": "Customer may terminate unless Vendor materially breaches Section 14.1.",
+      "clause_c": "Client may terminate only if Vendor materially breaches Section 14.1.",
+      "_dedup_original_row_idx": 42,
+      "_dedup_all_instances_row_idxs": [
+        42
+      ]
+    },
+    {
+      "id": "cs_v02_00009",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall refund fees provided that Customer submits notice within 10 days, per Schedule A.",
+      "clause_b": "Vendor shall refund fees unless Customer submits notice within 10 days, per Schedule A.",
+      "clause_c": "Supplier shall refund fees provided that Customer submits notice within 10 days, per Schedule A.",
+      "_dedup_original_row_idx": 43,
+      "_dedup_all_instances_row_idxs": [
+        43
+      ]
+    },
+    {
+      "id": "cs_v02_00010",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Access is granted only if the user completes multi-factor authentication, as described in Section 5.4.",
+      "clause_b": "Access is granted unless the user completes multi-factor authentication, as described in Section 5.4.",
+      "clause_c": "Access is granted only if the user completes multi-factor authentication, as described in Section 5.4.",
+      "_dedup_original_row_idx": 44,
+      "_dedup_all_instances_row_idxs": [
+        44
+      ]
+    },
+    {
+      "id": "cs_v02_00011",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor may use Subprocessors only if listed in Exhibit 1.",
+      "clause_b": "Vendor may use Subprocessors unless listed in Exhibit 1.",
+      "clause_c": "Supplier may use Subprocessors only if listed in Exhibit 1.",
+      "_dedup_original_row_idx": 45,
+      "_dedup_all_instances_row_idxs": [
+        45
+      ]
+    },
+    {
+      "id": "cs_v04_00000",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 7 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 7 months, pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 7 days, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 46,
+      "_dedup_all_instances_row_idxs": [
+        46
+      ]
+    },
+    {
+      "id": "cs_v04_00001",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 7 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 7 mos., pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 7 days, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 47,
+      "_dedup_all_instances_row_idxs": [
+        47
+      ]
+    },
+    {
+      "id": "cs_v04_00002",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 14 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 14 months, pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 14 days, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 48,
+      "_dedup_all_instances_row_idxs": [
+        48
+      ]
+    },
+    {
+      "id": "cs_v04_00003",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 14 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 14 mos., pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 14 days, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 49,
+      "_dedup_all_instances_row_idxs": [
+        49
+      ]
+    },
+    {
+      "id": "cs_v04_00004",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 30 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 30 months, pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 30 days, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 50,
+      "_dedup_all_instances_row_idxs": [
+        50
+      ]
+    },
+    {
+      "id": "cs_v04_00005",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 30 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 30 mos., pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 30 days, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 51,
+      "_dedup_all_instances_row_idxs": [
+        51
+      ]
+    },
+    {
+      "id": "cs_v04_00006",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 45 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 45 months, pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 45 days, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 52,
+      "_dedup_all_instances_row_idxs": [
+        52
+      ]
+    },
+    {
+      "id": "cs_v04_00007",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 45 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 45 mos., pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 45 days, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 53,
+      "_dedup_all_instances_row_idxs": [
+        53
+      ]
+    },
+    {
+      "id": "cs_v04_00008",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 90 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 90 months, pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 90 days, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 54,
+      "_dedup_all_instances_row_idxs": [
+        54
+      ]
+    },
+    {
+      "id": "cs_v04_00009",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 90 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 90 mos., pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 90 days, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 55,
+      "_dedup_all_instances_row_idxs": [
+        55
+      ]
+    },
+    {
+      "id": "cs_v04_00010",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 365 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 365 months, pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 365 days, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 56,
+      "_dedup_all_instances_row_idxs": [
+        56
+      ]
+    },
+    {
+      "id": "cs_v04_00011",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 365 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 365 mos., pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 365 days, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 57,
+      "_dedup_all_instances_row_idxs": [
+        57
+      ]
+    },
+    {
+      "id": "cs_v04_00012",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 1 year, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 1 month, pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 1 year, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 58,
+      "_dedup_all_instances_row_idxs": [
+        58
+      ]
+    },
+    {
+      "id": "cs_v04_00013",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 1 year, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 1 mo., pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 1 year, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 59,
+      "_dedup_all_instances_row_idxs": [
+        59
+      ]
+    },
+    {
+      "id": "cs_v04_00014",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 2 years, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 2 months, pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 2 years, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 60,
+      "_dedup_all_instances_row_idxs": [
+        60
+      ]
+    },
+    {
+      "id": "cs_v04_00015",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 2 years, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 2 mos., pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 2 years, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 61,
+      "_dedup_all_instances_row_idxs": [
+        61
+      ]
+    },
+    {
+      "id": "cs_v04_00016",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 3 years, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 3 months, pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 3 years, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 62,
+      "_dedup_all_instances_row_idxs": [
+        62
+      ]
+    },
+    {
+      "id": "cs_v04_00017",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 3 years, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 3 mos., pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 3 years, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 63,
+      "_dedup_all_instances_row_idxs": [
+        63
+      ]
+    },
+    {
+      "id": "cs_v04_00018",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 12 months, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 1 year, pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 12 months, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 64,
+      "_dedup_all_instances_row_idxs": [
+        64
+      ]
+    },
+    {
+      "id": "cs_v04_00019",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 12 months, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 1 yr, pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 12 months, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 65,
+      "_dedup_all_instances_row_idxs": [
+        65
+      ]
+    },
+    {
+      "id": "cs_v04_00020",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 24 months, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 2 years, pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 24 months, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 66,
+      "_dedup_all_instances_row_idxs": [
+        66
+      ]
+    },
+    {
+      "id": "cs_v04_00021",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 24 months, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 2 yrs, pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 24 months, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 67,
+      "_dedup_all_instances_row_idxs": [
+        67
+      ]
+    },
+    {
+      "id": "cs_v04_00022",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 365 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 1 year, pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 365 days, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 68,
+      "_dedup_all_instances_row_idxs": [
+        68
+      ]
+    },
+    {
+      "id": "cs_v04_00023",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 365 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 1 yr, pursuant to Section 6.3.",
+      "clause_c": "Provider shall retain logs for 365 days, pursuant to Section 6.3.",
+      "_dedup_original_row_idx": 69,
+      "_dedup_all_instances_row_idxs": [
+        69
+      ]
+    },
+    {
+      "id": "cs_v04_00024",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 7 days, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 7 months, as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 7 days, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 70,
+      "_dedup_all_instances_row_idxs": [
+        70
+      ]
+    },
+    {
+      "id": "cs_v04_00025",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 7 days, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 7 mos., as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 7 days, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 71,
+      "_dedup_all_instances_row_idxs": [
+        71
+      ]
+    },
+    {
+      "id": "cs_v04_00026",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 14 days, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 14 months, as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 14 days, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 72,
+      "_dedup_all_instances_row_idxs": [
+        72
+      ]
+    },
+    {
+      "id": "cs_v04_00027",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 14 days, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 14 mos., as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 14 days, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 73,
+      "_dedup_all_instances_row_idxs": [
+        73
+      ]
+    },
+    {
+      "id": "cs_v04_00028",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 30 days, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 30 months, as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 30 days, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 74,
+      "_dedup_all_instances_row_idxs": [
+        74
+      ]
+    },
+    {
+      "id": "cs_v04_00029",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 30 days, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 30 mos., as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 30 days, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 75,
+      "_dedup_all_instances_row_idxs": [
+        75
+      ]
+    },
+    {
+      "id": "cs_v04_00030",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 45 days, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 45 months, as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 45 days, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 76,
+      "_dedup_all_instances_row_idxs": [
+        76
+      ]
+    },
+    {
+      "id": "cs_v04_00031",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 45 days, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 45 mos., as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 45 days, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 77,
+      "_dedup_all_instances_row_idxs": [
+        77
+      ]
+    },
+    {
+      "id": "cs_v04_00032",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 90 days, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 90 months, as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 90 days, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 78,
+      "_dedup_all_instances_row_idxs": [
+        78
+      ]
+    },
+    {
+      "id": "cs_v04_00033",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 90 days, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 90 mos., as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 90 days, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 79,
+      "_dedup_all_instances_row_idxs": [
+        79
+      ]
+    },
+    {
+      "id": "cs_v04_00034",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 365 days, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 365 months, as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 365 days, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 80,
+      "_dedup_all_instances_row_idxs": [
+        80
+      ]
+    },
+    {
+      "id": "cs_v04_00035",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 365 days, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 365 mos., as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 365 days, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 81,
+      "_dedup_all_instances_row_idxs": [
+        81
+      ]
+    },
+    {
+      "id": "cs_v04_00036",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 1 year, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 1 month, as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 1 year, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 82,
+      "_dedup_all_instances_row_idxs": [
+        82
+      ]
+    },
+    {
+      "id": "cs_v04_00037",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 1 year, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 1 mo., as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 1 year, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 83,
+      "_dedup_all_instances_row_idxs": [
+        83
+      ]
+    },
+    {
+      "id": "cs_v04_00038",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 2 years, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 2 months, as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 2 years, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 84,
+      "_dedup_all_instances_row_idxs": [
+        84
+      ]
+    },
+    {
+      "id": "cs_v04_00039",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 2 years, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 2 mos., as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 2 years, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 85,
+      "_dedup_all_instances_row_idxs": [
+        85
+      ]
+    },
+    {
+      "id": "cs_v04_00040",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 3 years, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 3 months, as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 3 years, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 86,
+      "_dedup_all_instances_row_idxs": [
+        86
+      ]
+    },
+    {
+      "id": "cs_v04_00041",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 3 years, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 3 mos., as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 3 years, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 87,
+      "_dedup_all_instances_row_idxs": [
+        87
+      ]
+    },
+    {
+      "id": "cs_v04_00042",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 12 months, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 1 year, as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 12 months, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 88,
+      "_dedup_all_instances_row_idxs": [
+        88
+      ]
+    },
+    {
+      "id": "cs_v04_00043",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 12 months, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 1 yr, as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 12 months, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 89,
+      "_dedup_all_instances_row_idxs": [
+        89
+      ]
+    },
+    {
+      "id": "cs_v04_00044",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 24 months, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 2 years, as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 24 months, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 90,
+      "_dedup_all_instances_row_idxs": [
+        90
+      ]
+    },
+    {
+      "id": "cs_v04_00045",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 24 months, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 2 yrs, as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 24 months, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 91,
+      "_dedup_all_instances_row_idxs": [
+        91
+      ]
+    },
+    {
+      "id": "cs_v04_00046",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 365 days, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 1 year, as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 365 days, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 92,
+      "_dedup_all_instances_row_idxs": [
+        92
+      ]
+    },
+    {
+      "id": "cs_v04_00047",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 365 days, as set out in Section 2.1.",
+      "clause_b": "Processor shall retain logs for 1 yr, as set out in Section 2.1.",
+      "clause_c": "Provider shall retain logs for 365 days, as set out in Section 2.1.",
+      "_dedup_original_row_idx": 93,
+      "_dedup_all_instances_row_idxs": [
+        93
+      ]
+    },
+    {
+      "id": "cs_v04_00048",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 7 days, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 7 months, in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 7 days, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 94,
+      "_dedup_all_instances_row_idxs": [
+        94
+      ]
+    },
+    {
+      "id": "cs_v04_00049",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 7 days, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 7 mos., in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 7 days, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 95,
+      "_dedup_all_instances_row_idxs": [
+        95
+      ]
+    },
+    {
+      "id": "cs_v04_00050",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 14 days, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 14 months, in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 14 days, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 96,
+      "_dedup_all_instances_row_idxs": [
+        96
+      ]
+    },
+    {
+      "id": "cs_v04_00051",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 14 days, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 14 mos., in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 14 days, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 97,
+      "_dedup_all_instances_row_idxs": [
+        97
+      ]
+    },
+    {
+      "id": "cs_v04_00052",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 30 days, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 30 months, in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 30 days, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 98,
+      "_dedup_all_instances_row_idxs": [
+        98
+      ]
+    },
+    {
+      "id": "cs_v04_00053",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 30 days, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 30 mos., in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 30 days, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 99,
+      "_dedup_all_instances_row_idxs": [
+        99
+      ]
+    },
+    {
+      "id": "cs_v04_00054",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 45 days, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 45 months, in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 45 days, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 100,
+      "_dedup_all_instances_row_idxs": [
+        100
+      ]
+    },
+    {
+      "id": "cs_v04_00055",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 45 days, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 45 mos., in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 45 days, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 101,
+      "_dedup_all_instances_row_idxs": [
+        101
+      ]
+    },
+    {
+      "id": "cs_v04_00056",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 90 days, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 90 months, in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 90 days, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 102,
+      "_dedup_all_instances_row_idxs": [
+        102
+      ]
+    },
+    {
+      "id": "cs_v04_00057",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 90 days, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 90 mos., in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 90 days, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 103,
+      "_dedup_all_instances_row_idxs": [
+        103
+      ]
+    },
+    {
+      "id": "cs_v04_00058",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 365 days, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 365 months, in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 365 days, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 104,
+      "_dedup_all_instances_row_idxs": [
+        104
+      ]
+    },
+    {
+      "id": "cs_v04_00059",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 365 days, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 365 mos., in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 365 days, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 105,
+      "_dedup_all_instances_row_idxs": [
+        105
+      ]
+    },
+    {
+      "id": "cs_v04_00060",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 1 year, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 1 month, in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 1 year, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 106,
+      "_dedup_all_instances_row_idxs": [
+        106
+      ]
+    },
+    {
+      "id": "cs_v04_00061",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 1 year, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 1 mo., in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 1 year, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 107,
+      "_dedup_all_instances_row_idxs": [
+        107
+      ]
+    },
+    {
+      "id": "cs_v04_00062",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 2 years, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 2 months, in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 2 years, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 108,
+      "_dedup_all_instances_row_idxs": [
+        108
+      ]
+    },
+    {
+      "id": "cs_v04_00063",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 2 years, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 2 mos., in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 2 years, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 109,
+      "_dedup_all_instances_row_idxs": [
+        109
+      ]
+    },
+    {
+      "id": "cs_v04_00064",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 3 years, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 3 months, in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 3 years, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 110,
+      "_dedup_all_instances_row_idxs": [
+        110
+      ]
+    },
+    {
+      "id": "cs_v04_00065",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 3 years, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 3 mos., in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 3 years, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 111,
+      "_dedup_all_instances_row_idxs": [
+        111
+      ]
+    },
+    {
+      "id": "cs_v04_00066",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 12 months, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 1 year, in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 12 months, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 112,
+      "_dedup_all_instances_row_idxs": [
+        112
+      ]
+    },
+    {
+      "id": "cs_v04_00067",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 12 months, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 1 yr, in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 12 months, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 113,
+      "_dedup_all_instances_row_idxs": [
+        113
+      ]
+    },
+    {
+      "id": "cs_v04_00068",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 24 months, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 2 years, in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 24 months, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 114,
+      "_dedup_all_instances_row_idxs": [
+        114
+      ]
+    },
+    {
+      "id": "cs_v04_00069",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 24 months, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 2 yrs, in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 24 months, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 115,
+      "_dedup_all_instances_row_idxs": [
+        115
+      ]
+    },
+    {
+      "id": "cs_v04_00070",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 365 days, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 1 year, in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 365 days, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 116,
+      "_dedup_all_instances_row_idxs": [
+        116
+      ]
+    },
+    {
+      "id": "cs_v04_00071",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 365 days, in accordance with Exhibit 1.",
+      "clause_b": "Processor shall retain logs for 1 yr, in accordance with Exhibit 1.",
+      "clause_c": "Provider shall retain logs for 365 days, in accordance with Exhibit 1.",
+      "_dedup_original_row_idx": 117,
+      "_dedup_all_instances_row_idxs": [
+        117
+      ]
+    },
+    {
+      "id": "cs_v04_00072",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 7 days, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 7 months, under Schedule C.",
+      "clause_c": "Provider shall retain logs for 7 days, under Schedule C.",
+      "_dedup_original_row_idx": 118,
+      "_dedup_all_instances_row_idxs": [
+        118
+      ]
+    },
+    {
+      "id": "cs_v04_00073",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 7 days, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 7 mos., under Schedule C.",
+      "clause_c": "Provider shall retain logs for 7 days, under Schedule C.",
+      "_dedup_original_row_idx": 119,
+      "_dedup_all_instances_row_idxs": [
+        119
+      ]
+    },
+    {
+      "id": "cs_v04_00074",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 14 days, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 14 months, under Schedule C.",
+      "clause_c": "Provider shall retain logs for 14 days, under Schedule C.",
+      "_dedup_original_row_idx": 120,
+      "_dedup_all_instances_row_idxs": [
+        120
+      ]
+    },
+    {
+      "id": "cs_v04_00075",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 14 days, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 14 mos., under Schedule C.",
+      "clause_c": "Provider shall retain logs for 14 days, under Schedule C.",
+      "_dedup_original_row_idx": 121,
+      "_dedup_all_instances_row_idxs": [
+        121
+      ]
+    },
+    {
+      "id": "cs_v04_00076",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 30 days, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 30 months, under Schedule C.",
+      "clause_c": "Provider shall retain logs for 30 days, under Schedule C.",
+      "_dedup_original_row_idx": 122,
+      "_dedup_all_instances_row_idxs": [
+        122
+      ]
+    },
+    {
+      "id": "cs_v04_00077",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 30 days, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 30 mos., under Schedule C.",
+      "clause_c": "Provider shall retain logs for 30 days, under Schedule C.",
+      "_dedup_original_row_idx": 123,
+      "_dedup_all_instances_row_idxs": [
+        123
+      ]
+    },
+    {
+      "id": "cs_v04_00078",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 45 days, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 45 months, under Schedule C.",
+      "clause_c": "Provider shall retain logs for 45 days, under Schedule C.",
+      "_dedup_original_row_idx": 124,
+      "_dedup_all_instances_row_idxs": [
+        124
+      ]
+    },
+    {
+      "id": "cs_v04_00079",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 45 days, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 45 mos., under Schedule C.",
+      "clause_c": "Provider shall retain logs for 45 days, under Schedule C.",
+      "_dedup_original_row_idx": 125,
+      "_dedup_all_instances_row_idxs": [
+        125
+      ]
+    },
+    {
+      "id": "cs_v04_00080",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 90 days, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 90 months, under Schedule C.",
+      "clause_c": "Provider shall retain logs for 90 days, under Schedule C.",
+      "_dedup_original_row_idx": 126,
+      "_dedup_all_instances_row_idxs": [
+        126
+      ]
+    },
+    {
+      "id": "cs_v04_00081",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 90 days, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 90 mos., under Schedule C.",
+      "clause_c": "Provider shall retain logs for 90 days, under Schedule C.",
+      "_dedup_original_row_idx": 127,
+      "_dedup_all_instances_row_idxs": [
+        127
+      ]
+    },
+    {
+      "id": "cs_v04_00082",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 365 days, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 365 months, under Schedule C.",
+      "clause_c": "Provider shall retain logs for 365 days, under Schedule C.",
+      "_dedup_original_row_idx": 128,
+      "_dedup_all_instances_row_idxs": [
+        128
+      ]
+    },
+    {
+      "id": "cs_v04_00083",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 365 days, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 365 mos., under Schedule C.",
+      "clause_c": "Provider shall retain logs for 365 days, under Schedule C.",
+      "_dedup_original_row_idx": 129,
+      "_dedup_all_instances_row_idxs": [
+        129
+      ]
+    },
+    {
+      "id": "cs_v04_00084",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 1 year, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 1 month, under Schedule C.",
+      "clause_c": "Provider shall retain logs for 1 year, under Schedule C.",
+      "_dedup_original_row_idx": 130,
+      "_dedup_all_instances_row_idxs": [
+        130
+      ]
+    },
+    {
+      "id": "cs_v04_00085",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 1 year, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 1 mo., under Schedule C.",
+      "clause_c": "Provider shall retain logs for 1 year, under Schedule C.",
+      "_dedup_original_row_idx": 131,
+      "_dedup_all_instances_row_idxs": [
+        131
+      ]
+    },
+    {
+      "id": "cs_v04_00086",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 2 years, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 2 months, under Schedule C.",
+      "clause_c": "Provider shall retain logs for 2 years, under Schedule C.",
+      "_dedup_original_row_idx": 132,
+      "_dedup_all_instances_row_idxs": [
+        132
+      ]
+    },
+    {
+      "id": "cs_v04_00087",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 2 years, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 2 mos., under Schedule C.",
+      "clause_c": "Provider shall retain logs for 2 years, under Schedule C.",
+      "_dedup_original_row_idx": 133,
+      "_dedup_all_instances_row_idxs": [
+        133
+      ]
+    },
+    {
+      "id": "cs_v04_00088",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 3 years, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 3 months, under Schedule C.",
+      "clause_c": "Provider shall retain logs for 3 years, under Schedule C.",
+      "_dedup_original_row_idx": 134,
+      "_dedup_all_instances_row_idxs": [
+        134
+      ]
+    },
+    {
+      "id": "cs_v04_00089",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 3 years, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 3 mos., under Schedule C.",
+      "clause_c": "Provider shall retain logs for 3 years, under Schedule C.",
+      "_dedup_original_row_idx": 135,
+      "_dedup_all_instances_row_idxs": [
+        135
+      ]
+    },
+    {
+      "id": "cs_v04_00090",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 12 months, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 1 year, under Schedule C.",
+      "clause_c": "Provider shall retain logs for 12 months, under Schedule C.",
+      "_dedup_original_row_idx": 136,
+      "_dedup_all_instances_row_idxs": [
+        136
+      ]
+    },
+    {
+      "id": "cs_v04_00091",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 12 months, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 1 yr, under Schedule C.",
+      "clause_c": "Provider shall retain logs for 12 months, under Schedule C.",
+      "_dedup_original_row_idx": 137,
+      "_dedup_all_instances_row_idxs": [
+        137
+      ]
+    },
+    {
+      "id": "cs_v04_00092",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 24 months, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 2 years, under Schedule C.",
+      "clause_c": "Provider shall retain logs for 24 months, under Schedule C.",
+      "_dedup_original_row_idx": 138,
+      "_dedup_all_instances_row_idxs": [
+        138
+      ]
+    },
+    {
+      "id": "cs_v04_00093",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 24 months, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 2 yrs, under Schedule C.",
+      "clause_c": "Provider shall retain logs for 24 months, under Schedule C.",
+      "_dedup_original_row_idx": 139,
+      "_dedup_all_instances_row_idxs": [
+        139
+      ]
+    },
+    {
+      "id": "cs_v04_00094",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 365 days, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 1 year, under Schedule C.",
+      "clause_c": "Provider shall retain logs for 365 days, under Schedule C.",
+      "_dedup_original_row_idx": 140,
+      "_dedup_all_instances_row_idxs": [
+        140
+      ]
+    },
+    {
+      "id": "cs_v04_00095",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 365 days, under Schedule C.",
+      "clause_b": "Processor shall retain logs for 1 yr, under Schedule C.",
+      "clause_c": "Provider shall retain logs for 365 days, under Schedule C.",
+      "_dedup_original_row_idx": 141,
+      "_dedup_all_instances_row_idxs": [
+        141
+      ]
+    },
+    {
+      "id": "cs_v05_00000",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Section 3.2.",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Section 3.02.",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Section 3.2.",
+      "_dedup_original_row_idx": 142,
+      "_dedup_all_instances_row_idxs": [
+        142
+      ]
+    },
+    {
+      "id": "cs_v05_00001",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in (Section 3.2).",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in (Section 3.02).",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in (Section 3.2).",
+      "_dedup_original_row_idx": 143,
+      "_dedup_all_instances_row_idxs": [
+        143
+      ]
+    },
+    {
+      "id": "cs_v05_00002",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Section 3.2 .",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Section 3.02 .",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Section 3.2 .",
+      "_dedup_original_row_idx": 144,
+      "_dedup_all_instances_row_idxs": [
+        144
+      ]
+    },
+    {
+      "id": "cs_v05_00003",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Section 7.4.",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Section 7.04.",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Section 7.4.",
+      "_dedup_original_row_idx": 145,
+      "_dedup_all_instances_row_idxs": [
+        145
+      ]
+    },
+    {
+      "id": "cs_v05_00004",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in (Section 7.4).",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in (Section 7.04).",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in (Section 7.4).",
+      "_dedup_original_row_idx": 146,
+      "_dedup_all_instances_row_idxs": [
+        146
+      ]
+    },
+    {
+      "id": "cs_v05_00005",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Section 7.4 .",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Section 7.04 .",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Section 7.4 .",
+      "_dedup_original_row_idx": 147,
+      "_dedup_all_instances_row_idxs": [
+        147
+      ]
+    },
+    {
+      "id": "cs_v05_00006",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in § 3.2.",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in §3.02.",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in § 3.2.",
+      "_dedup_original_row_idx": 148,
+      "_dedup_all_instances_row_idxs": [
+        148
+      ]
+    },
+    {
+      "id": "cs_v05_00007",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in (§ 3.2).",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in (§3.02).",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in (§ 3.2).",
+      "_dedup_original_row_idx": 149,
+      "_dedup_all_instances_row_idxs": [
+        149
+      ]
+    },
+    {
+      "id": "cs_v05_00008",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in § 3.2 .",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in §3.02 .",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in § 3.2 .",
+      "_dedup_original_row_idx": 150,
+      "_dedup_all_instances_row_idxs": [
+        150
+      ]
+    },
+    {
+      "id": "cs_v05_00009",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Schedule C.",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Schedule (C).",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Schedule C.",
+      "_dedup_original_row_idx": 151,
+      "_dedup_all_instances_row_idxs": [
+        151
+      ]
+    },
+    {
+      "id": "cs_v05_00010",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in (Schedule C).",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in (Schedule (C)).",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in (Schedule C).",
+      "_dedup_original_row_idx": 152,
+      "_dedup_all_instances_row_idxs": [
+        152
+      ]
+    },
+    {
+      "id": "cs_v05_00011",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Schedule C .",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Schedule (C) .",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Schedule C .",
+      "_dedup_original_row_idx": 153,
+      "_dedup_all_instances_row_idxs": [
+        153
+      ]
+    },
+    {
+      "id": "cs_v05_00012",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Schedule B.",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Schedule 8.",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Schedule B.",
+      "_dedup_original_row_idx": 154,
+      "_dedup_all_instances_row_idxs": [
+        154
+      ]
+    },
+    {
+      "id": "cs_v05_00013",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in (Schedule B).",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in (Schedule 8).",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in (Schedule B).",
+      "_dedup_original_row_idx": 155,
+      "_dedup_all_instances_row_idxs": [
+        155
+      ]
+    },
+    {
+      "id": "cs_v05_00014",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Schedule B .",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Schedule 8 .",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Schedule B .",
+      "_dedup_original_row_idx": 156,
+      "_dedup_all_instances_row_idxs": [
+        156
+      ]
+    },
+    {
+      "id": "cs_v05_00015",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Exhibit 1.",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Exhibit I.",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Exhibit 1.",
+      "_dedup_original_row_idx": 157,
+      "_dedup_all_instances_row_idxs": [
+        157
+      ]
+    },
+    {
+      "id": "cs_v05_00016",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in (Exhibit 1).",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in (Exhibit I).",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in (Exhibit 1).",
+      "_dedup_original_row_idx": 158,
+      "_dedup_all_instances_row_idxs": [
+        158
+      ]
+    },
+    {
+      "id": "cs_v05_00017",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Exhibit 1 .",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Exhibit I .",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Exhibit 1 .",
+      "_dedup_original_row_idx": 159,
+      "_dedup_all_instances_row_idxs": [
+        159
+      ]
+    },
+    {
+      "id": "cs_v05_00018",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Appendix A.",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Appendix (A).",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Appendix A.",
+      "_dedup_original_row_idx": 160,
+      "_dedup_all_instances_row_idxs": [
+        160
+      ]
+    },
+    {
+      "id": "cs_v05_00019",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in (Appendix A).",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in (Appendix (A)).",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in (Appendix A).",
+      "_dedup_original_row_idx": 161,
+      "_dedup_all_instances_row_idxs": [
+        161
+      ]
+    },
+    {
+      "id": "cs_v05_00020",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Appendix A .",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Appendix (A) .",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Appendix A .",
+      "_dedup_original_row_idx": 162,
+      "_dedup_all_instances_row_idxs": [
+        162
+      ]
+    },
+    {
+      "id": "cs_v05_00021",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Article IV.",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Article 4.",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Article IV.",
+      "_dedup_original_row_idx": 163,
+      "_dedup_all_instances_row_idxs": [
+        163
+      ]
+    },
+    {
+      "id": "cs_v05_00022",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in (Article IV).",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in (Article 4).",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in (Article IV).",
+      "_dedup_original_row_idx": 164,
+      "_dedup_all_instances_row_idxs": [
+        164
+      ]
+    },
+    {
+      "id": "cs_v05_00023",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Article IV .",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Article 4 .",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Article IV .",
+      "_dedup_original_row_idx": 165,
+      "_dedup_all_instances_row_idxs": [
+        165
+      ]
+    },
+    {
+      "id": "cs_v05_00024",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Clause 12.1.",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Clause 12.l.",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Clause 12.1.",
+      "_dedup_original_row_idx": 166,
+      "_dedup_all_instances_row_idxs": [
+        166
+      ]
+    },
+    {
+      "id": "cs_v05_00025",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in (Clause 12.1).",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in (Clause 12.l).",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in (Clause 12.1).",
+      "_dedup_original_row_idx": 167,
+      "_dedup_all_instances_row_idxs": [
+        167
+      ]
+    },
+    {
+      "id": "cs_v05_00026",
+      "trap_type": "anchor_format_confusable",
+      "clause_a": "Contractor shall comply with the safety requirements set forth in Clause 12.1 .",
+      "clause_b": "Contractor shall comply with the offshore safety requirements set forth in Clause 12.l .",
+      "clause_c": "Service Provider shall comply with the safety requirements set forth in Clause 12.1 .",
+      "_dedup_original_row_idx": 168,
+      "_dedup_all_instances_row_idxs": [
+        168
+      ]
+    },
+    {
+      "id": "cs_v06_00000",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1, unless operations involve Hazardous Materials.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 as set forth in Section 9.1.",
+      "_dedup_original_row_idx": 169,
+      "_dedup_all_instances_row_idxs": [
+        169
+      ]
+    },
+    {
+      "id": "cs_v06_00001",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1, unless operations involve Hazardous Materials.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 as set forth in Section 9.1, unless operations involve Hazardous Materials.",
+      "_dedup_original_row_idx": 170,
+      "_dedup_all_instances_row_idxs": [
+        170
+      ]
+    },
+    {
+      "id": "cs_v06_00002",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1, except operations involve Hazardous Materials.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 as set forth in Section 9.1.",
+      "_dedup_original_row_idx": 171,
+      "_dedup_all_instances_row_idxs": [
+        171
+      ]
+    },
+    {
+      "id": "cs_v06_00003",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1, except operations involve Hazardous Materials.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 as set forth in Section 9.1, except operations involve Hazardous Materials.",
+      "_dedup_original_row_idx": 172,
+      "_dedup_all_instances_row_idxs": [
+        172
+      ]
+    },
+    {
+      "id": "cs_v06_00004",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1, provided that operations involve Hazardous Materials.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 as set forth in Section 9.1.",
+      "_dedup_original_row_idx": 173,
+      "_dedup_all_instances_row_idxs": [
+        173
+      ]
+    },
+    {
+      "id": "cs_v06_00005",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1, provided that operations involve Hazardous Materials.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 as set forth in Section 9.1, provided that operations involve Hazardous Materials.",
+      "_dedup_original_row_idx": 174,
+      "_dedup_all_instances_row_idxs": [
+        174
+      ]
+    },
+    {
+      "id": "cs_v06_00006",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1, only if operations involve Hazardous Materials.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 as set forth in Section 9.1.",
+      "_dedup_original_row_idx": 175,
+      "_dedup_all_instances_row_idxs": [
+        175
+      ]
+    },
+    {
+      "id": "cs_v06_00007",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1, only if operations involve Hazardous Materials.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 as set forth in Section 9.1, only if operations involve Hazardous Materials.",
+      "_dedup_original_row_idx": 176,
+      "_dedup_all_instances_row_idxs": [
+        176
+      ]
+    },
+    {
+      "id": "cs_v06_00008",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1, unless operations involve Hazardous Materials.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1.",
+      "_dedup_original_row_idx": 177,
+      "_dedup_all_instances_row_idxs": [
+        177
+      ]
+    },
+    {
+      "id": "cs_v06_00009",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1, unless operations involve Hazardous Materials.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1, unless operations involve Hazardous Materials.",
+      "_dedup_original_row_idx": 178,
+      "_dedup_all_instances_row_idxs": [
+        178
+      ]
+    },
+    {
+      "id": "cs_v06_00010",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1, except operations involve Hazardous Materials.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1.",
+      "_dedup_original_row_idx": 179,
+      "_dedup_all_instances_row_idxs": [
+        179
+      ]
+    },
+    {
+      "id": "cs_v06_00011",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1, except operations involve Hazardous Materials.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1, except operations involve Hazardous Materials.",
+      "_dedup_original_row_idx": 180,
+      "_dedup_all_instances_row_idxs": [
+        180
+      ]
+    },
+    {
+      "id": "cs_v06_00012",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1, provided that operations involve Hazardous Materials.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1.",
+      "_dedup_original_row_idx": 181,
+      "_dedup_all_instances_row_idxs": [
+        181
+      ]
+    },
+    {
+      "id": "cs_v06_00013",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1, provided that operations involve Hazardous Materials.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1, provided that operations involve Hazardous Materials.",
+      "_dedup_original_row_idx": 182,
+      "_dedup_all_instances_row_idxs": [
+        182
+      ]
+    },
+    {
+      "id": "cs_v06_00014",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1, only if operations involve Hazardous Materials.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1.",
+      "_dedup_original_row_idx": 183,
+      "_dedup_all_instances_row_idxs": [
+        183
+      ]
+    },
+    {
+      "id": "cs_v06_00015",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1, only if operations involve Hazardous Materials.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1, only if operations involve Hazardous Materials.",
+      "_dedup_original_row_idx": 184,
+      "_dedup_all_instances_row_idxs": [
+        184
+      ]
+    },
+    {
+      "id": "cs_v06_00016",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C, unless operations involve Hazardous Materials.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 subject to Schedule C.",
+      "_dedup_original_row_idx": 185,
+      "_dedup_all_instances_row_idxs": [
+        185
+      ]
+    },
+    {
+      "id": "cs_v06_00017",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C, unless operations involve Hazardous Materials.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 subject to Schedule C, unless operations involve Hazardous Materials.",
+      "_dedup_original_row_idx": 186,
+      "_dedup_all_instances_row_idxs": [
+        186
+      ]
+    },
+    {
+      "id": "cs_v06_00018",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C, except operations involve Hazardous Materials.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 subject to Schedule C.",
+      "_dedup_original_row_idx": 187,
+      "_dedup_all_instances_row_idxs": [
+        187
+      ]
+    },
+    {
+      "id": "cs_v06_00019",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C, except operations involve Hazardous Materials.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 subject to Schedule C, except operations involve Hazardous Materials.",
+      "_dedup_original_row_idx": 188,
+      "_dedup_all_instances_row_idxs": [
+        188
+      ]
+    },
+    {
+      "id": "cs_v06_00020",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C, provided that operations involve Hazardous Materials.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 subject to Schedule C.",
+      "_dedup_original_row_idx": 189,
+      "_dedup_all_instances_row_idxs": [
+        189
+      ]
+    },
+    {
+      "id": "cs_v06_00021",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C, provided that operations involve Hazardous Materials.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 subject to Schedule C, provided that operations involve Hazardous Materials.",
+      "_dedup_original_row_idx": 190,
+      "_dedup_all_instances_row_idxs": [
+        190
+      ]
+    },
+    {
+      "id": "cs_v06_00022",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C, only if operations involve Hazardous Materials.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 subject to Schedule C.",
+      "_dedup_original_row_idx": 191,
+      "_dedup_all_instances_row_idxs": [
+        191
+      ]
+    },
+    {
+      "id": "cs_v06_00023",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C, only if operations involve Hazardous Materials.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 subject to Schedule C, only if operations involve Hazardous Materials.",
+      "_dedup_original_row_idx": 192,
+      "_dedup_all_instances_row_idxs": [
+        192
+      ]
+    },
+    {
+      "id": "cs_v06_00024",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall retain logs for 30 days, as set forth in Section 9.1.",
+      "clause_b": "Vendor shall retain logs for 30 days, as set forth in Section 9.1; unless otherwise agreed in writing.",
+      "clause_c": "Supplier shall retain logs for 30 days, as set forth in Section 9.1.",
+      "_dedup_original_row_idx": 193,
+      "_dedup_all_instances_row_idxs": [
+        193
+      ]
+    },
+    {
+      "id": "cs_v06_00025",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall retain logs for 30 days, pursuant to Exhibit 1.",
+      "clause_b": "Vendor shall retain logs for 30 days, pursuant to Exhibit 1; unless otherwise agreed in writing.",
+      "clause_c": "Supplier shall retain logs for 30 days, pursuant to Exhibit 1.",
+      "_dedup_original_row_idx": 194,
+      "_dedup_all_instances_row_idxs": [
+        194
+      ]
+    },
+    {
+      "id": "cs_v06_00026",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall retain logs for 30 days, subject to Schedule C.",
+      "clause_b": "Vendor shall retain logs for 30 days, subject to Schedule C; unless otherwise agreed in writing.",
+      "clause_c": "Supplier shall retain logs for 30 days, subject to Schedule C.",
+      "_dedup_original_row_idx": 195,
+      "_dedup_all_instances_row_idxs": [
+        195
+      ]
+    },
+    {
+      "id": "cs_v04_00096",
+      "trap_type": "definition_scope_resolution",
+      "clause_a": "“Affiliate” has the meaning set forth in Section 1.1, and the restrictions in Section 5 apply to Affiliates.",
+      "clause_b": "“Affiliate” has the meaning set forth in Section 1.1, but the restrictions in Section 5 apply only to the Company and not to its Affiliates.",
+      "clause_c": "“Affiliate” has the meaning set forth in Section 1.1, and the restrictions in Section 5 apply to the Vendor's Affiliates.",
+      "_dedup_original_row_idx": 196,
+      "_dedup_all_instances_row_idxs": [
+        196
+      ]
+    },
+    {
+      "id": "cs_v04_00097",
+      "trap_type": "definition_scope_resolution",
+      "clause_a": "“Confidential Information” excludes information independently developed, as defined in Exhibit A.",
+      "clause_b": "“Confidential Information” includes information independently developed unless Exhibit A expressly excludes it.",
+      "clause_c": "“Confidential Information” excludes information independently developed, as defined in Schedule A.",
+      "_dedup_original_row_idx": 197,
+      "_dedup_all_instances_row_idxs": [
+        197
+      ]
+    },
+    {
+      "id": "cs_v04_00098",
+      "trap_type": "definition_scope_resolution",
+      "clause_a": "“Services” means the services described in Schedule 1, excluding professional consulting.",
+      "clause_b": "“Services” means the services described in Schedule 1, including professional consulting.",
+      "clause_c": "“Deliverables” means the services described in Schedule 1, excluding professional consulting.",
+      "_dedup_original_row_idx": 198,
+      "_dedup_all_instances_row_idxs": [
+        198
+      ]
+    },
+    {
+      "id": "cs_v04_00099",
+      "trap_type": "exception_nesting_precedence",
+      "clause_a": "The liability cap shall not apply, except for claims arising from gross negligence.",
+      "clause_b": "The liability cap shall apply, except for claims arising from gross negligence.",
+      "clause_c": "The indemnity cap shall not apply, except for claims arising from gross negligence.",
+      "_dedup_original_row_idx": 199,
+      "_dedup_all_instances_row_idxs": [
+        199
+      ]
+    },
+    {
+      "id": "cs_v04_00100",
+      "trap_type": "exception_nesting_precedence",
+      "clause_a": "No assignment is permitted without consent, unless the assignee is an Affiliate.",
+      "clause_b": "Assignment is permitted without consent, unless the assignee is an Affiliate.",
+      "clause_c": "No delegation is permitted without consent, unless the assignee is an Affiliate.",
+      "_dedup_original_row_idx": 200,
+      "_dedup_all_instances_row_idxs": [
+        200
+      ]
+    },
+    {
+      "id": "cs_v04_00101",
+      "trap_type": "exception_nesting_precedence",
+      "clause_a": "Notwithstanding Section 7, Customer may terminate for convenience, provided that a 30-day notice is given.",
+      "clause_b": "Notwithstanding Section 7, Customer may terminate for convenience, provided that a 90-day notice is given.",
+      "clause_c": "Notwithstanding Section 7, Supplier may terminate for convenience, provided that a 30-day notice is given.",
+      "_dedup_original_row_idx": 201,
+      "_dedup_all_instances_row_idxs": [
+        201
+      ]
+    },
+    {
+      "id": "cs_v04_00102",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "A service credit applies if uptime falls below 99.9% in any calendar month.",
+      "clause_b": "A service credit applies if uptime falls below or equal to 99.9% in any calendar month.",
+      "clause_c": "A service credit applies if latency falls below 99.9% in any calendar month.",
+      "_dedup_original_row_idx": 202,
+      "_dedup_all_instances_row_idxs": [
+        202,
+        280
+      ]
+    },
+    {
+      "id": "cs_v04_00103",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "Approval is required for purchases exceeding $10,000.",
+      "clause_b": "Approval is required for purchases of $10,000 or more.",
+      "clause_c": "Approval is required for expenses exceeding $10,000.",
+      "_dedup_original_row_idx": 203,
+      "_dedup_all_instances_row_idxs": [
+        203,
+        274
+      ]
+    },
+    {
+      "id": "cs_v04_00104",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "The penalty applies only when the delay is more than 5 business days.",
+      "clause_b": "The penalty applies when the delay is 5 business days or more.",
+      "clause_c": "The remedy applies only when the delay is more than 5 business days.",
+      "_dedup_original_row_idx": 204,
+      "_dedup_all_instances_row_idxs": [
+        204
+      ]
+    },
+    {
+      "id": "cs_v04_00105",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The warranty period is 12 months from delivery.",
+      "clause_b": "The warranty period is 12 months from acceptance.",
+      "clause_c": "The maintenance period is 12 months from delivery.",
+      "_dedup_original_row_idx": 205,
+      "_dedup_all_instances_row_idxs": [
+        205
+      ]
+    },
+    {
+      "id": "cs_v04_00106",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Customer must notify Vendor of defects within 30 days after discovery.",
+      "clause_b": "Customer must notify Vendor of defects within 30 days after delivery.",
+      "clause_c": "Customer must notify Supplier of defects within 30 days after discovery.",
+      "_dedup_original_row_idx": 206,
+      "_dedup_all_instances_row_idxs": [
+        206
+      ]
+    },
+    {
+      "id": "cs_v04_00107",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Either party may terminate upon 60 days’ notice, but only after the Initial Term.",
+      "clause_b": "Either party may terminate upon 60 days’ notice, including during the Initial Term.",
+      "clause_c": "Either party may suspend upon 60 days’ notice, but only after the Initial Term.",
+      "_dedup_original_row_idx": 207,
+      "_dedup_all_instances_row_idxs": [
+        207
+      ]
+    },
+    {
+      "id": "cs_v04_00108",
+      "trap_type": "consent_exception_flip",
+      "clause_a": "Vendor may use Subprocessors only with Customer’s prior written consent.",
+      "clause_b": "Vendor may use Subprocessors without Customer’s prior written consent.",
+      "clause_c": "Vendor may use Subprocessors only with Customer’s prior written approval.",
+      "_dedup_original_row_idx": 208,
+      "_dedup_all_instances_row_idxs": [
+        208
+      ]
+    },
+    {
+      "id": "cs_v04_00109",
+      "trap_type": "consent_exception_flip",
+      "clause_a": "Customer may disclose Confidential Information only if required by law and with prior notice.",
+      "clause_b": "Customer may disclose Confidential Information only if required by law and without prior notice.",
+      "clause_c": "Customer may disclose Personal Data only if required by law and with prior notice.",
+      "_dedup_original_row_idx": 209,
+      "_dedup_all_instances_row_idxs": [
+        209
+      ]
+    },
+    {
+      "id": "cs_v04_00110",
+      "trap_type": "consent_exception_flip",
+      "clause_a": "Data may be transferred outside the EEA only if the parties execute standard contractual clauses.",
+      "clause_b": "Data may be transferred outside the EEA even if the parties do not execute standard contractual clauses.",
+      "clause_c": "Data may be transferred outside the UK only if the parties execute standard contractual clauses.",
+      "_dedup_original_row_idx": 210,
+      "_dedup_all_instances_row_idxs": [
+        210
+      ]
+    },
+    {
+      "id": "cs_v04_00111",
+      "trap_type": "party_role_swap",
+      "clause_a": "Supplier shall indemnify Customer for third-party IP infringement claims.",
+      "clause_b": "Customer shall indemnify Supplier for third-party IP infringement claims.",
+      "clause_c": "Supplier shall indemnify Customer for third-party bodily injury claims.",
+      "_dedup_original_row_idx": 211,
+      "_dedup_all_instances_row_idxs": [
+        211
+      ]
+    },
+    {
+      "id": "cs_v04_00112",
+      "trap_type": "party_role_swap",
+      "clause_a": "Customer is responsible for taxes on the fees, excluding Vendor’s income taxes.",
+      "clause_b": "Vendor is responsible for taxes on the fees, excluding Vendor’s income taxes.",
+      "clause_c": "Customer is responsible for duties on the fees, excluding Vendor’s income taxes.",
+      "_dedup_original_row_idx": 212,
+      "_dedup_all_instances_row_idxs": [
+        212
+      ]
+    },
+    {
+      "id": "cs_v04_00113",
+      "trap_type": "party_role_swap",
+      "clause_a": "Vendor may suspend Services for non-payment by Customer.",
+      "clause_b": "Customer may suspend Services for non-payment by Vendor.",
+      "clause_c": "Vendor may suspend Support for non-payment by Customer.",
+      "_dedup_original_row_idx": 213,
+      "_dedup_all_instances_row_idxs": [
+        213
+      ]
+    },
+    {
+      "id": "cs_v04_00114",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "A service credit applies if uptime falls below 99.95% in any calendar month.",
+      "clause_b": "A service credit applies if uptime falls below or equal to 99.95% in any calendar month.",
+      "clause_c": "A service credit applies if latency falls below 99.95% in any calendar month.",
+      "_dedup_original_row_idx": 214,
+      "_dedup_all_instances_row_idxs": [
+        214
+      ]
+    },
+    {
+      "id": "cs_v04_00115",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "Approval is required for purchases exceeding $25,000.",
+      "clause_b": "Approval is required for purchases of $25,000 or more.",
+      "clause_c": "Approval is required for expenses exceeding $25,000.",
+      "_dedup_original_row_idx": 215,
+      "_dedup_all_instances_row_idxs": [
+        215
+      ]
+    },
+    {
+      "id": "cs_v04_00116",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "The penalty applies only when the delay is more than 10 business days.",
+      "clause_b": "The penalty applies when the delay is 10 business days or more.",
+      "clause_c": "The remedy applies only when the delay is more than 10 business days.",
+      "_dedup_original_row_idx": 216,
+      "_dedup_all_instances_row_idxs": [
+        216,
+        285
+      ]
+    },
+    {
+      "id": "cs_v04_00117",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "The Customer may terminate if the breach remains uncured for more than 15 days after notice.",
+      "clause_b": "The Customer may terminate if the breach remains uncured for 15 days or more after notice.",
+      "clause_c": "The Customer may suspend if the breach remains uncured for more than 15 days after notice.",
+      "_dedup_original_row_idx": 217,
+      "_dedup_all_instances_row_idxs": [
+        217
+      ]
+    },
+    {
+      "id": "cs_v04_00118",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "A fee increase may occur only if CPI increases by more than 3%.",
+      "clause_b": "A fee increase may occur if CPI increases by 3% or more.",
+      "clause_c": "A price adjustment may occur only if CPI increases by more than 3%.",
+      "_dedup_original_row_idx": 218,
+      "_dedup_all_instances_row_idxs": [
+        218
+      ]
+    },
+    {
+      "id": "cs_v04_00119",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "SLA remedies apply when response time exceeds 200 ms.",
+      "clause_b": "SLA remedies apply when response time is 200 ms or greater.",
+      "clause_c": "SLA remedies apply when throughput exceeds 200 ms.",
+      "_dedup_original_row_idx": 219,
+      "_dedup_all_instances_row_idxs": [
+        219
+      ]
+    },
+    {
+      "id": "cs_v04_00120",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "Vendor must obtain consent for any subcontract over $50,000.",
+      "clause_b": "Vendor must obtain consent for any subcontract of $50,000 or more.",
+      "clause_c": "Vendor must obtain approval for any subcontract over $50,000.",
+      "_dedup_original_row_idx": 220,
+      "_dedup_all_instances_row_idxs": [
+        220
+      ]
+    },
+    {
+      "id": "cs_v04_00121",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "The audit right applies for records older than 24 months.",
+      "clause_b": "The audit right applies for records 24 months old or older.",
+      "clause_c": "The inspection right applies for records older than 24 months.",
+      "_dedup_original_row_idx": 221,
+      "_dedup_all_instances_row_idxs": [
+        221
+      ]
+    },
+    {
+      "id": "cs_v04_00122",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "The cap increases if annual fees exceed $1,000,000.",
+      "clause_b": "The cap increases if annual fees are $1,000,000 or more.",
+      "clause_c": "The limit increases if annual fees exceed $1,000,000.",
+      "_dedup_original_row_idx": 222,
+      "_dedup_all_instances_row_idxs": [
+        222
+      ]
+    },
+    {
+      "id": "cs_v04_00123",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "Customer may claim credits if downtime exceeds 30 minutes in a month.",
+      "clause_b": "Customer may claim credits if downtime is 30 minutes or more in a month.",
+      "clause_c": "Customer may claim refunds if downtime exceeds 30 minutes in a month.",
+      "_dedup_original_row_idx": 223,
+      "_dedup_all_instances_row_idxs": [
+        223
+      ]
+    },
+    {
+      "id": "cs_v04_00124",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "A discount applies only when the order quantity is greater than 1,000 units.",
+      "clause_b": "A discount applies when the order quantity is 1,000 units or more.",
+      "clause_c": "A rebate applies only when the order quantity is greater than 1,000 units.",
+      "_dedup_original_row_idx": 224,
+      "_dedup_all_instances_row_idxs": [
+        224,
+        288
+      ]
+    },
+    {
+      "id": "cs_v04_00125",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "The escalator applies if the index rises above 110.",
+      "clause_b": "The escalator applies if the index is 110 or higher.",
+      "clause_c": "The adjustment applies if the index rises above 110.",
+      "_dedup_original_row_idx": 225,
+      "_dedup_all_instances_row_idxs": [
+        225,
+        291
+      ]
+    },
+    {
+      "id": "cs_v04_00126",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "The offer is valid if accepted within less than 7 days.",
+      "clause_b": "The offer is valid if accepted within 7 days or less.",
+      "clause_c": "The quote is valid if accepted within less than 7 days.",
+      "_dedup_original_row_idx": 226,
+      "_dedup_all_instances_row_idxs": [
+        226
+      ]
+    },
+    {
+      "id": "cs_v04_00127",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "Vendor must notify Customer if a vulnerability score is greater than 7.0.",
+      "clause_b": "Vendor must notify Customer if a vulnerability score is 7.0 or greater.",
+      "clause_c": "Vendor must notify Customer if a severity score is greater than 7.0.",
+      "_dedup_original_row_idx": 227,
+      "_dedup_all_instances_row_idxs": [
+        227,
+        292
+      ]
+    },
+    {
+      "id": "cs_v04_00128",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "A breach is material if losses exceed €100,000.",
+      "clause_b": "A breach is material if losses are €100,000 or more.",
+      "clause_c": "A breach is material if damages exceed €100,000.",
+      "_dedup_original_row_idx": 228,
+      "_dedup_all_instances_row_idxs": [
+        228
+      ]
+    },
+    {
+      "id": "cs_v04_00129",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The warranty period is 18 months from delivery.",
+      "clause_b": "The warranty period is 18 months from acceptance.",
+      "clause_c": "The maintenance period is 18 months from delivery.",
+      "_dedup_original_row_idx": 229,
+      "_dedup_all_instances_row_idxs": [
+        229,
+        324
+      ]
+    },
+    {
+      "id": "cs_v04_00130",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Customer must notify Vendor of defects within 14 days after discovery.",
+      "clause_b": "Customer must notify Vendor of defects within 14 days after delivery.",
+      "clause_c": "Customer must notify Supplier of defects within 14 days after discovery.",
+      "_dedup_original_row_idx": 230,
+      "_dedup_all_instances_row_idxs": [
+        230,
+        325
+      ]
+    },
+    {
+      "id": "cs_v04_00131",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Either party may terminate upon 30 days’ notice, but only after the Initial Term.",
+      "clause_b": "Either party may terminate upon 30 days’ notice, including during the Initial Term.",
+      "clause_c": "Either party may suspend upon 30 days’ notice, but only after the Initial Term.",
+      "_dedup_original_row_idx": 231,
+      "_dedup_all_instances_row_idxs": [
+        231,
+        326
+      ]
+    },
+    {
+      "id": "cs_v04_00132",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The limitation period runs 2 years from the date the claim arises.",
+      "clause_b": "The limitation period runs 2 years from the date the claim is discovered.",
+      "clause_c": "The notice period runs 2 years from the date the claim arises.",
+      "_dedup_original_row_idx": 232,
+      "_dedup_all_instances_row_idxs": [
+        232
+      ]
+    },
+    {
+      "id": "cs_v04_00133",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Support response times apply during Business Hours.",
+      "clause_b": "Support response times apply 24x7.",
+      "clause_c": "Support availability applies during Business Hours.",
+      "_dedup_original_row_idx": 233,
+      "_dedup_all_instances_row_idxs": [
+        233
+      ]
+    },
+    {
+      "id": "cs_v04_00134",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Pricing is fixed for the first 12 months after the Effective Date.",
+      "clause_b": "Pricing is fixed for the first 12 months after the Start Date.",
+      "clause_c": "Fees are fixed for the first 12 months after the Effective Date.",
+      "_dedup_original_row_idx": 234,
+      "_dedup_all_instances_row_idxs": [
+        234,
+        329
+      ]
+    },
+    {
+      "id": "cs_v04_00135",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Insurance must be maintained for 3 years after termination.",
+      "clause_b": "Insurance must be maintained for 3 years after expiration.",
+      "clause_c": "Coverage must be maintained for 3 years after termination.",
+      "_dedup_original_row_idx": 235,
+      "_dedup_all_instances_row_idxs": [
+        235
+      ]
+    },
+    {
+      "id": "cs_v04_00136",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Confidentiality obligations survive for 5 years after disclosure.",
+      "clause_b": "Confidentiality obligations survive for 5 years after termination.",
+      "clause_c": "Non-disclosure obligations survive for 5 years after disclosure.",
+      "_dedup_original_row_idx": 236,
+      "_dedup_all_instances_row_idxs": [
+        236
+      ]
+    },
+    {
+      "id": "cs_v04_00137",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The renewal notice must be given no later than 60 days before the end of the Term.",
+      "clause_b": "The renewal notice must be given no later than 60 days after the start of the Term.",
+      "clause_c": "The extension notice must be given no later than 60 days before the end of the Term.",
+      "_dedup_original_row_idx": 237,
+      "_dedup_all_instances_row_idxs": [
+        237
+      ]
+    },
+    {
+      "id": "cs_v04_00138",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Data must be deleted within 30 days after request.",
+      "clause_b": "Data must be deleted within 30 days after termination.",
+      "clause_c": "Records must be deleted within 30 days after request.",
+      "_dedup_original_row_idx": 238,
+      "_dedup_all_instances_row_idxs": [
+        238
+      ]
+    },
+    {
+      "id": "cs_v04_00139",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The audit may be conducted once per year during the Term.",
+      "clause_b": "The audit may be conducted once per year after the Term.",
+      "clause_c": "The inspection may be conducted once per year during the Term.",
+      "_dedup_original_row_idx": 239,
+      "_dedup_all_instances_row_idxs": [
+        239
+      ]
+    },
+    {
+      "id": "cs_v04_00140",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Vendor shall deliver updates quarterly during the first year.",
+      "clause_b": "Vendor shall deliver updates quarterly after the first year.",
+      "clause_c": "Vendor shall deliver patches quarterly during the first year.",
+      "_dedup_original_row_idx": 240,
+      "_dedup_all_instances_row_idxs": [
+        240
+      ]
+    },
+    {
+      "id": "cs_v04_00141",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Indemnity claims must be brought within 12 months after the event.",
+      "clause_b": "Indemnity claims must be brought within 12 months after the invoice.",
+      "clause_c": "Warranty claims must be brought within 12 months after the event.",
+      "_dedup_original_row_idx": 241,
+      "_dedup_all_instances_row_idxs": [
+        241
+      ]
+    },
+    {
+      "id": "cs_v04_00142",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Termination for cause is effective immediately upon notice.",
+      "clause_b": "Termination for cause is effective 10 days after notice.",
+      "clause_c": "Suspension for cause is effective immediately upon notice.",
+      "_dedup_original_row_idx": 242,
+      "_dedup_all_instances_row_idxs": [
+        242,
+        331
+      ]
+    },
+    {
+      "id": "cs_v04_00143",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The Service Level applies starting on the Go-Live Date.",
+      "clause_b": "The Service Level applies starting on the Effective Date.",
+      "clause_c": "The uptime guarantee applies starting on the Go-Live Date.",
+      "_dedup_original_row_idx": 243,
+      "_dedup_all_instances_row_idxs": [
+        243
+      ]
+    },
+    {
+      "id": "cs_v04_00144",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "Vendor shall provide incident notification if unauthorized access persists for more than 2 hours.",
+      "clause_b": "Vendor shall provide incident notification if unauthorized access persists for 2 hours or more.",
+      "clause_c": "Vendor shall provide breach notification if unauthorized access persists for more than 2 hours.",
+      "_dedup_original_row_idx": 244,
+      "_dedup_all_instances_row_idxs": [
+        244,
+        282
+      ]
+    },
+    {
+      "id": "cs_v04_00145",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "A termination right applies if the service is unavailable for more than 4 hours in a day.",
+      "clause_b": "A termination right applies if the service is unavailable for 4 hours or more in a day.",
+      "clause_c": "A suspension right applies if the service is unavailable for more than 4 hours in a day.",
+      "_dedup_original_row_idx": 245,
+      "_dedup_all_instances_row_idxs": [
+        245
+      ]
+    },
+    {
+      "id": "cs_v04_00146",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "The cap increases if the Customer’s aggregate payments exceed £500,000.",
+      "clause_b": "The cap increases if the Customer’s aggregate payments are £500,000 or more.",
+      "clause_c": "The limit increases if the Customer’s aggregate payments exceed £500,000.",
+      "_dedup_original_row_idx": 246,
+      "_dedup_all_instances_row_idxs": [
+        246
+      ]
+    },
+    {
+      "id": "cs_v04_00147",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "Vendor must maintain SOC 2 coverage for systems supporting more than 250 users.",
+      "clause_b": "Vendor must maintain SOC 2 coverage for systems supporting 250 users or more.",
+      "clause_c": "Vendor must maintain ISO 27001 coverage for systems supporting more than 250 users.",
+      "_dedup_original_row_idx": 247,
+      "_dedup_all_instances_row_idxs": [
+        247
+      ]
+    },
+    {
+      "id": "cs_v04_00148",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "A fee reduction applies if performance falls below 98.0% for more than 2 consecutive weeks.",
+      "clause_b": "A fee reduction applies if performance falls below 98.0% for 2 consecutive weeks or more.",
+      "clause_c": "A credit applies if performance falls below 98.0% for more than 2 consecutive weeks.",
+      "_dedup_original_row_idx": 248,
+      "_dedup_all_instances_row_idxs": [
+        248
+      ]
+    },
+    {
+      "id": "cs_v04_00149",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "Data exports are included up to 5 GB per month.",
+      "clause_b": "Data exports are included for 5 GB per month or more.",
+      "clause_c": "Reports are included up to 5 GB per month.",
+      "_dedup_original_row_idx": 249,
+      "_dedup_all_instances_row_idxs": [
+        249
+      ]
+    },
+    {
+      "id": "cs_v04_00150",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "The Customer may request an audit if suspected overcharges exceed 2%.",
+      "clause_b": "The Customer may request an audit if suspected overcharges are 2% or more.",
+      "clause_c": "The Customer may request an inspection if suspected overcharges exceed 2%.",
+      "_dedup_original_row_idx": 250,
+      "_dedup_all_instances_row_idxs": [
+        250,
+        277
+      ]
+    },
+    {
+      "id": "cs_v04_00151",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "Vendor shall remediate critical issues within less than 48 hours.",
+      "clause_b": "Vendor shall remediate critical issues within 48 hours or less.",
+      "clause_c": "Vendor shall remediate high issues within less than 48 hours.",
+      "_dedup_original_row_idx": 251,
+      "_dedup_all_instances_row_idxs": [
+        251
+      ]
+    },
+    {
+      "id": "cs_v04_00152",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "An additional security review is required when the number of records exceeds 10 million.",
+      "clause_b": "An additional security review is required when the number of records is 10 million or more.",
+      "clause_c": "An additional privacy review is required when the number of records exceeds 10 million.",
+      "_dedup_original_row_idx": 252,
+      "_dedup_all_instances_row_idxs": [
+        252
+      ]
+    },
+    {
+      "id": "cs_v04_00153",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "Reimbursement is available only when travel exceeds 100 miles.",
+      "clause_b": "Reimbursement is available when travel is 100 miles or more.",
+      "clause_c": "Compensation is available only when travel exceeds 100 miles.",
+      "_dedup_original_row_idx": 253,
+      "_dedup_all_instances_row_idxs": [
+        253,
+        295,
+        297,
+        299,
+        301,
+        303,
+        305,
+        307,
+        309,
+        311,
+        313,
+        315,
+        317,
+        319,
+        321,
+        323
+      ]
+    },
+    {
+      "id": "cs_v04_00154",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "Service credits accrue only if weekly uptime is below 99.0%.",
+      "clause_b": "Service credits accrue only if weekly uptime is below or equal to 99.0%.",
+      "clause_c": "Support credits accrue only if weekly uptime is below 99.0%.",
+      "_dedup_original_row_idx": 254,
+      "_dedup_all_instances_row_idxs": [
+        254
+      ]
+    },
+    {
+      "id": "cs_v04_00155",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "A late fee applies when payment is more than 30 days overdue.",
+      "clause_b": "A late fee applies when payment is 30 days overdue or more.",
+      "clause_c": "Interest applies when payment is more than 30 days overdue.",
+      "_dedup_original_row_idx": 255,
+      "_dedup_all_instances_row_idxs": [
+        255
+      ]
+    },
+    {
+      "id": "cs_v04_00156",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "A price match applies if a competitor’s price is less than $9.99.",
+      "clause_b": "A price match applies if a competitor’s price is $9.99 or less.",
+      "clause_c": "A discount applies if a competitor’s price is less than $9.99.",
+      "_dedup_original_row_idx": 256,
+      "_dedup_all_instances_row_idxs": [
+        256,
+        290
+      ]
+    },
+    {
+      "id": "cs_v04_00157",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "The Customer may escalate if the issue severity is greater than Level 2.",
+      "clause_b": "The Customer may escalate if the issue severity is Level 2 or higher.",
+      "clause_c": "The Customer may escalate if the ticket priority is greater than Level 2.",
+      "_dedup_original_row_idx": 257,
+      "_dedup_all_instances_row_idxs": [
+        257
+      ]
+    },
+    {
+      "id": "cs_v04_00158",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "Vendor must provide redundancy for deployments with more than 3 availability zones.",
+      "clause_b": "Vendor must provide redundancy for deployments with 3 availability zones or more.",
+      "clause_c": "Vendor must provide failover for deployments with more than 3 availability zones.",
+      "_dedup_original_row_idx": 258,
+      "_dedup_all_instances_row_idxs": [
+        258
+      ]
+    },
+    {
+      "id": "cs_v04_00159",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The return period is 30 days from shipment.",
+      "clause_b": "The return period is 30 days from delivery.",
+      "clause_c": "The refund period is 30 days from shipment.",
+      "_dedup_original_row_idx": 259,
+      "_dedup_all_instances_row_idxs": [
+        259
+      ]
+    },
+    {
+      "id": "cs_v04_00160",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The implementation timeline begins upon signature.",
+      "clause_b": "The implementation timeline begins upon payment.",
+      "clause_c": "The rollout timeline begins upon signature.",
+      "_dedup_original_row_idx": 260,
+      "_dedup_all_instances_row_idxs": [
+        260
+      ]
+    },
+    {
+      "id": "cs_v04_00161",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Customer may request data export within 10 days after termination.",
+      "clause_b": "Customer may request data export within 10 days after request.",
+      "clause_c": "Customer may request data deletion within 10 days after termination.",
+      "_dedup_original_row_idx": 261,
+      "_dedup_all_instances_row_idxs": [
+        261
+      ]
+    },
+    {
+      "id": "cs_v04_00162",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Rate limits apply during peak hours only.",
+      "clause_b": "Rate limits apply at all times.",
+      "clause_c": "Throttling applies during peak hours only.",
+      "_dedup_original_row_idx": 262,
+      "_dedup_all_instances_row_idxs": [
+        262
+      ]
+    },
+    {
+      "id": "cs_v04_00163",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Vendor shall provide monthly reports during the Term.",
+      "clause_b": "Vendor shall provide monthly reports after the Term.",
+      "clause_c": "Vendor shall provide quarterly reports during the Term.",
+      "_dedup_original_row_idx": 263,
+      "_dedup_all_instances_row_idxs": [
+        263,
+        330
+      ]
+    },
+    {
+      "id": "cs_v04_00164",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The cure period is 20 days from receipt of notice.",
+      "clause_b": "The cure period is 20 days from issuance of notice.",
+      "clause_c": "The cure period is 20 days from receipt of demand.",
+      "_dedup_original_row_idx": 264,
+      "_dedup_all_instances_row_idxs": [
+        264
+      ]
+    },
+    {
+      "id": "cs_v04_00165",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Data retention applies for 90 days after account closure.",
+      "clause_b": "Data retention applies for 90 days after last access.",
+      "clause_c": "Log retention applies for 90 days after account closure.",
+      "_dedup_original_row_idx": 265,
+      "_dedup_all_instances_row_idxs": [
+        265,
+        338,
+        343,
+        348,
+        353,
+        358,
+        363,
+        368,
+        373,
+        378,
+        383
+      ]
+    },
+    {
+      "id": "cs_v04_00166",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The limitation of liability applies during the Term only.",
+      "clause_b": "The limitation of liability applies during and after the Term.",
+      "clause_c": "The cap on damages applies during the Term only.",
+      "_dedup_original_row_idx": 266,
+      "_dedup_all_instances_row_idxs": [
+        266
+      ]
+    },
+    {
+      "id": "cs_v04_00167",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Training is included for 30 days after Go-Live.",
+      "clause_b": "Training is included for 30 days after signature.",
+      "clause_c": "Onboarding is included for 30 days after Go-Live.",
+      "_dedup_original_row_idx": 267,
+      "_dedup_all_instances_row_idxs": [
+        267
+      ]
+    },
+    {
+      "id": "cs_v04_00168",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The response time SLA starts after the onboarding period.",
+      "clause_b": "The response time SLA starts immediately.",
+      "clause_c": "The resolution time SLA starts after the onboarding period.",
+      "_dedup_original_row_idx": 268,
+      "_dedup_all_instances_row_idxs": [
+        268
+      ]
+    },
+    {
+      "id": "cs_v04_00169",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The fee is due within 15 days after invoice date.",
+      "clause_b": "The fee is due within 15 days after receipt of invoice.",
+      "clause_c": "The payment is due within 15 days after invoice date.",
+      "_dedup_original_row_idx": 269,
+      "_dedup_all_instances_row_idxs": [
+        269
+      ]
+    },
+    {
+      "id": "cs_v04_00170",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Vendor will provide a hotfix within 72 hours after confirmation.",
+      "clause_b": "Vendor will provide a hotfix within 72 hours after reporting.",
+      "clause_c": "Vendor will provide a patch within 72 hours after confirmation.",
+      "_dedup_original_row_idx": 270,
+      "_dedup_all_instances_row_idxs": [
+        270
+      ]
+    },
+    {
+      "id": "cs_v04_00171",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The data migration window ends on the Cutover Date.",
+      "clause_b": "The data migration window ends on the Go-Live Date.",
+      "clause_c": "The import window ends on the Cutover Date.",
+      "_dedup_original_row_idx": 271,
+      "_dedup_all_instances_row_idxs": [
+        271
+      ]
+    },
+    {
+      "id": "cs_v04_00172",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The price lock applies until the first renewal.",
+      "clause_b": "The price lock applies until the second renewal.",
+      "clause_c": "The rate lock applies until the first renewal.",
+      "_dedup_original_row_idx": 272,
+      "_dedup_all_instances_row_idxs": [
+        272
+      ]
+    },
+    {
+      "id": "cs_v04_00173",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The customer may cancel within 24 hours after purchase.",
+      "clause_b": "The customer may cancel within 24 hours after delivery.",
+      "clause_c": "The customer may return within 24 hours after purchase.",
+      "_dedup_original_row_idx": 273,
+      "_dedup_all_instances_row_idxs": [
+        273
+      ]
+    },
+    {
+      "id": "cs_v04_00175",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "Approval is required for subcontracts exceeding $25,000.",
+      "clause_b": "Approval is required for subcontracts of $25,000 or more.",
+      "clause_c": "Approval is required for work orders exceeding $25,000.",
+      "_dedup_original_row_idx": 275,
+      "_dedup_all_instances_row_idxs": [
+        275
+      ]
+    },
+    {
+      "id": "cs_v04_00176",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "Approval is required for losses exceeding $100,000.",
+      "clause_b": "Approval is required for losses of $100,000 or more.",
+      "clause_c": "Approval is required for damages exceeding $100,000.",
+      "_dedup_original_row_idx": 276,
+      "_dedup_all_instances_row_idxs": [
+        276
+      ]
+    },
+    {
+      "id": "cs_v04_00178",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "The Customer may request an audit if suspected CPI increases exceed 3%.",
+      "clause_b": "The Customer may request an audit if suspected CPI increases are 3% or more.",
+      "clause_c": "The Customer may request an inspection if suspected CPI increases exceed 3%.",
+      "_dedup_original_row_idx": 278,
+      "_dedup_all_instances_row_idxs": [
+        278
+      ]
+    },
+    {
+      "id": "cs_v04_00179",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "The Customer may request an audit if suspected price increases exceed 5%.",
+      "clause_b": "The Customer may request an audit if suspected price increases are 5% or more.",
+      "clause_c": "The Customer may request an inspection if suspected price increases exceed 5%.",
+      "_dedup_original_row_idx": 279,
+      "_dedup_all_instances_row_idxs": [
+        279
+      ]
+    },
+    {
+      "id": "cs_v04_00181",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "A fee reduction applies only when performance falls below 98.0% for more than 2 consecutive weeks.",
+      "clause_b": "A fee reduction applies when performance falls below 98.0% for 2 consecutive weeks or more.",
+      "clause_c": "A credit applies only when performance falls below 98.0% for more than 2 consecutive weeks.",
+      "_dedup_original_row_idx": 281,
+      "_dedup_all_instances_row_idxs": [
+        281
+      ]
+    },
+    {
+      "id": "cs_v04_00183",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "Vendor shall provide termination right if unauthorized access persists for more than 4 hours.",
+      "clause_b": "Vendor shall provide termination right if unauthorized access persists for 4 hours or more.",
+      "clause_c": "Vendor shall provide breach notification if unauthorized access persists for more than 4 hours.",
+      "_dedup_original_row_idx": 283,
+      "_dedup_all_instances_row_idxs": [
+        283
+      ]
+    },
+    {
+      "id": "cs_v04_00184",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "Vendor shall provide remediation if unauthorized access persists for more than 48 hours.",
+      "clause_b": "Vendor shall provide remediation if unauthorized access persists for 48 hours or more.",
+      "clause_c": "Vendor shall provide breach notification if unauthorized access persists for more than 48 hours.",
+      "_dedup_original_row_idx": 284,
+      "_dedup_all_instances_row_idxs": [
+        284
+      ]
+    },
+    {
+      "id": "cs_v04_00186",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "The penalty applies only when the delay is more than 15 days.",
+      "clause_b": "The penalty applies when the delay is 15 days or more.",
+      "clause_c": "The remedy applies only when the delay is more than 15 days.",
+      "_dedup_original_row_idx": 286,
+      "_dedup_all_instances_row_idxs": [
+        286
+      ]
+    },
+    {
+      "id": "cs_v04_00187",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "The penalty applies only when the delay is more than 30 days.",
+      "clause_b": "The penalty applies when the delay is 30 days or more.",
+      "clause_c": "The remedy applies only when the delay is more than 30 days.",
+      "_dedup_original_row_idx": 287,
+      "_dedup_all_instances_row_idxs": [
+        287
+      ]
+    },
+    {
+      "id": "cs_v04_00189",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "A data export fee applies when monthly exports exceed 5 GB.",
+      "clause_b": "A data export fee applies when monthly exports are 5 GB or more.",
+      "clause_c": "A report fee applies when monthly exports exceed 5 GB.",
+      "_dedup_original_row_idx": 289,
+      "_dedup_all_instances_row_idxs": [
+        289
+      ]
+    },
+    {
+      "id": "cs_v04_00193",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "A security review is required when records exceed 250,000.",
+      "clause_b": "A security review is required when records are 250,000 or more.",
+      "clause_c": "A privacy review is required when records exceed 250,000.",
+      "_dedup_original_row_idx": 293,
+      "_dedup_all_instances_row_idxs": [
+        293
+      ]
+    },
+    {
+      "id": "cs_v04_00194",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "A security review is required when records exceed 50,000.",
+      "clause_b": "A security review is required when records are 50,000 or more.",
+      "clause_c": "A privacy review is required when records exceed 50,000.",
+      "_dedup_original_row_idx": 294,
+      "_dedup_all_instances_row_idxs": [
+        294,
+        298,
+        302,
+        306,
+        310,
+        314,
+        318,
+        322
+      ]
+    },
+    {
+      "id": "cs_v04_00196",
+      "trap_type": "numeric_threshold_boundary",
+      "clause_a": "A security review is required when records exceed 125,000.",
+      "clause_b": "A security review is required when records are 125,000 or more.",
+      "clause_c": "A privacy review is required when records exceed 125,000.",
+      "_dedup_original_row_idx": 296,
+      "_dedup_all_instances_row_idxs": [
+        296,
+        300,
+        304,
+        308,
+        312,
+        316,
+        320
+      ]
+    },
+    {
+      "id": "cs_v04_00227",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Vendor shall remediate critical incidents within 5 business days after notice.",
+      "clause_b": "Vendor shall remediate critical incidents within 5 calendar days after notice.",
+      "clause_c": "Vendor shall remediate high incidents within 5 business days after notice.",
+      "_dedup_original_row_idx": 327,
+      "_dedup_all_instances_row_idxs": [
+        327
+      ]
+    },
+    {
+      "id": "cs_v04_00228",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The renewal notice must be given on or before 60 days before the end of the Term.",
+      "clause_b": "The renewal notice must be given after 60 days before the end of the Term.",
+      "clause_c": "The extension notice must be given on or before 60 days before the end of the Term.",
+      "_dedup_original_row_idx": 328,
+      "_dedup_all_instances_row_idxs": [
+        328
+      ]
+    },
+    {
+      "id": "cs_v04_00232",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The return period is measured from shipment.",
+      "clause_b": "The return period is measured from delivery.",
+      "clause_c": "The return period is measured from shipment for Support.",
+      "_dedup_original_row_idx": 332,
+      "_dedup_all_instances_row_idxs": [
+        332
+      ]
+    },
+    {
+      "id": "cs_v04_00233",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The implementation timeline is measured from signature.",
+      "clause_b": "The implementation timeline is measured from payment.",
+      "clause_c": "The implementation timeline is measured from signature for Support.",
+      "_dedup_original_row_idx": 333,
+      "_dedup_all_instances_row_idxs": [
+        333
+      ]
+    },
+    {
+      "id": "cs_v04_00234",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The data deletion is measured from request.",
+      "clause_b": "The data deletion is measured from termination.",
+      "clause_c": "The data deletion is measured from request for Support.",
+      "_dedup_original_row_idx": 334,
+      "_dedup_all_instances_row_idxs": [
+        334
+      ]
+    },
+    {
+      "id": "cs_v04_00235",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The Service Level is measured from Go-Live Date.",
+      "clause_b": "The Service Level is measured from Effective Date.",
+      "clause_c": "The Service Level is measured from Go-Live Date for Support.",
+      "_dedup_original_row_idx": 335,
+      "_dedup_all_instances_row_idxs": [
+        335
+      ]
+    },
+    {
+      "id": "cs_v04_00236",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The fee due date is measured from invoice date.",
+      "clause_b": "The fee due date is measured from receipt of invoice.",
+      "clause_c": "The fee due date is measured from invoice date for Support.",
+      "_dedup_original_row_idx": 336,
+      "_dedup_all_instances_row_idxs": [
+        336
+      ]
+    },
+    {
+      "id": "cs_v04_00237",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "The migration window is measured from Cutover Date.",
+      "clause_b": "The migration window is measured from Go-Live Date.",
+      "clause_c": "The migration window is measured from Cutover Date for Support.",
+      "_dedup_original_row_idx": 337,
+      "_dedup_all_instances_row_idxs": [
+        337
+      ]
+    },
+    {
+      "id": "cs_v04_00239",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Data retention applies for 30 days after account closure.",
+      "clause_b": "Data retention applies for 30 days after last access.",
+      "clause_c": "Log retention applies for 30 days after account closure.",
+      "_dedup_original_row_idx": 339,
+      "_dedup_all_instances_row_idxs": [
+        339,
+        344,
+        349,
+        354,
+        359,
+        364,
+        369,
+        374,
+        379
+      ]
+    },
+    {
+      "id": "cs_v04_00240",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Data retention applies for 45 days after account closure.",
+      "clause_b": "Data retention applies for 45 days after last access.",
+      "clause_c": "Log retention applies for 45 days after account closure.",
+      "_dedup_original_row_idx": 340,
+      "_dedup_all_instances_row_idxs": [
+        340,
+        345,
+        350,
+        355,
+        360,
+        365,
+        370,
+        375,
+        380
+      ]
+    },
+    {
+      "id": "cs_v04_00241",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Data retention applies for 60 days after account closure.",
+      "clause_b": "Data retention applies for 60 days after last access.",
+      "clause_c": "Log retention applies for 60 days after account closure.",
+      "_dedup_original_row_idx": 341,
+      "_dedup_all_instances_row_idxs": [
+        341,
+        346,
+        351,
+        356,
+        361,
+        366,
+        371,
+        376,
+        381
+      ]
+    },
+    {
+      "id": "cs_v04_00242",
+      "trap_type": "temporal_scope_window",
+      "clause_a": "Data retention applies for 75 days after account closure.",
+      "clause_b": "Data retention applies for 75 days after last access.",
+      "clause_c": "Log retention applies for 75 days after account closure.",
+      "_dedup_original_row_idx": 342,
+      "_dedup_all_instances_row_idxs": [
+        342,
+        347,
+        352,
+        357,
+        362,
+        367,
+        372,
+        377,
+        382
+      ]
+    }
+  ]
+}

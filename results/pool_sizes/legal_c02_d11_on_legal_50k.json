@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "lens": "lenses/legal_c02_d11.aqwt",
+    "dataset": "data/traps/legal_299.json",
+    "aqtc": "legal_50k.aqtc",
+    "k": 10,
+    "n_cases": 299,
+    "n_pool": 50897,
+    "n_distr": 50000
+  },
+  "summary": {
+    "hn_leaks_count": 0,
+    "hitc_misses_count": 4,
+    "hn_at_k": 0.0,
+    "hitc_at_k": 0.9866220735785953
+  },
+  "hn_leak_cases": [],
+  "hitc_miss_cases": [
+    {
+      "case_index": 25,
+      "case_id": "cs_v02_00003",
+      "trap_type": "numeric_unit_anchor",
+      "clause_a": "Processor shall retain logs for 30 days, pursuant to Section 6.3.",
+      "clause_b": "Processor shall retain logs for 30 months, pursuant to Section 6.3.",
+      "clause_c": "Service Provider shall retain logs for 30 days, pursuant to Section 6.3.",
+      "rank_b": 239,
+      "rank_c": 13,
+      "score_b": 0.9055296182632446,
+      "score_c": 0.9948188066482544,
+      "top_k": [
+        {
+          "pool_idx": 150,
+          "score": 1.0,
+          "kind": "case_A",
+          "case_ref": 50
+        },
+        {
+          "pool_idx": 153,
+          "score": 1.0,
+          "kind": "case_A",
+          "case_ref": 51
+        },
+        {
+          "pool_idx": 152,
+          "score": 0.9976243376731873,
+          "kind": "case_C",
+          "case_ref": 50
+        },
+        {
+          "pool_idx": 155,
+          "score": 0.9976243376731873,
+          "kind": "case_C",
+          "case_ref": 51
+        },
+        {
+          "pool_idx": 369,
+          "score": 0.9971243143081665,
+          "kind": "case_A",
+          "case_ref": 123
+        },
+        {
+          "pool_idx": 366,
+          "score": 0.9971243143081665,
+          "kind": "case_A",
+          "case_ref": 122
+        },
+        {
+          "pool_idx": 368,
+          "score": 0.996579110622406,
+          "kind": "case_C",
+          "case_ref": 122
+        },
+        {
+          "pool_idx": 371,
+          "score": 0.996579110622406,
+          "kind": "case_C",
+          "case_ref": 123
+        },
+        {
+          "pool_idx": 222,
+          "score": 0.9958164691925049,
+          "kind": "case_A",
+          "case_ref": 74
+        },
+        {
+          "pool_idx": 225,
+          "score": 0.9958164691925049,
+          "kind": "case_A",
+          "case_ref": 75
+        }
+      ]
+    },
+    {
+      "case_index": 171,
+      "case_id": "cs_v06_00002",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 as set forth in Section 9.1, except operations involve Hazardous Materials.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 as set forth in Section 9.1.",
+      "rank_b": 570,
+      "rank_c": 11,
+      "score_b": 0.8905584812164307,
+      "score_c": 0.9948148727416992,
+      "top_k": [
+        {
+          "pool_idx": 517,
+          "score": 1.0,
+          "kind": "case_B",
+          "case_ref": 172
+        },
+        {
+          "pool_idx": 511,
+          "score": 1.0,
+          "kind": "case_B",
+          "case_ref": 170
+        },
+        {
+          "pool_idx": 525,
+          "score": 1.0,
+          "kind": "case_A",
+          "case_ref": 175
+        },
+        {
+          "pool_idx": 529,
+          "score": 1.0,
+          "kind": "case_B",
+          "case_ref": 176
+        },
+        {
+          "pool_idx": 507,
+          "score": 1.0,
+          "kind": "case_A",
+          "case_ref": 169
+        },
+        {
+          "pool_idx": 523,
+          "score": 1.0,
+          "kind": "case_B",
+          "case_ref": 174
+        },
+        {
+          "pool_idx": 519,
+          "score": 1.0,
+          "kind": "case_A",
+          "case_ref": 173
+        },
+        {
+          "pool_idx": 527,
+          "score": 0.9948148727416992,
+          "kind": "case_C",
+          "case_ref": 175
+        },
+        {
+          "pool_idx": 521,
+          "score": 0.9948148727416992,
+          "kind": "case_C",
+          "case_ref": 173
+        },
+        {
+          "pool_idx": 509,
+          "score": 0.9948148727416992,
+          "kind": "case_C",
+          "case_ref": 169
+        }
+      ]
+    },
+    {
+      "case_index": 183,
+      "case_id": "cs_v06_00014",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1, only if operations involve Hazardous Materials.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 pursuant to Exhibit 1.",
+      "rank_b": 1417,
+      "rank_c": 11,
+      "score_b": 0.8752517700195312,
+      "score_c": 0.9951757192611694,
+      "top_k": [
+        {
+          "pool_idx": 547,
+          "score": 1.0,
+          "kind": "case_B",
+          "case_ref": 182
+        },
+        {
+          "pool_idx": 541,
+          "score": 1.0,
+          "kind": "case_B",
+          "case_ref": 180
+        },
+        {
+          "pool_idx": 543,
+          "score": 1.0,
+          "kind": "case_A",
+          "case_ref": 181
+        },
+        {
+          "pool_idx": 537,
+          "score": 1.0,
+          "kind": "case_A",
+          "case_ref": 179
+        },
+        {
+          "pool_idx": 535,
+          "score": 1.0,
+          "kind": "case_B",
+          "case_ref": 178
+        },
+        {
+          "pool_idx": 531,
+          "score": 1.0,
+          "kind": "case_A",
+          "case_ref": 177
+        },
+        {
+          "pool_idx": 553,
+          "score": 1.0,
+          "kind": "case_B",
+          "case_ref": 184
+        },
+        {
+          "pool_idx": 539,
+          "score": 0.9951757192611694,
+          "kind": "case_C",
+          "case_ref": 179
+        },
+        {
+          "pool_idx": 533,
+          "score": 0.9951757192611694,
+          "kind": "case_C",
+          "case_ref": 177
+        },
+        {
+          "pool_idx": 545,
+          "score": 0.9951757192611694,
+          "kind": "case_C",
+          "case_ref": 181
+        }
+      ]
+    },
+    {
+      "case_index": 185,
+      "case_id": "cs_v06_00016",
+      "trap_type": "conditional_trigger_flip",
+      "clause_a": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C.",
+      "clause_b": "Vendor shall maintain liability coverage of $1,000,000 subject to Schedule C, unless operations involve Hazardous Materials.",
+      "clause_c": "Supplier shall maintain liability coverage of $1,000,000 subject to Schedule C.",
+      "rank_b": 1149,
+      "rank_c": 11,
+      "score_b": 0.8752089738845825,
+      "score_c": 0.9958111643791199,
+      "top_k": [
+        {
+          "pool_idx": 561,
+          "score": 1.0000001192092896,
+          "kind": "case_A",
+          "case_ref": 187
+        },
+        {
+          "pool_idx": 559,
+          "score": 1.0000001192092896,
+          "kind": "case_B",
+          "case_ref": 186
+        },
+        {
+          "pool_idx": 577,
+          "score": 1.0000001192092896,
+          "kind": "case_B",
+          "case_ref": 192
+        },
+        {
+          "pool_idx": 573,
+          "score": 1.0000001192092896,
+          "kind": "case_A",
+          "case_ref": 191
+        },
+        {
+          "pool_idx": 571,
+          "score": 1.0000001192092896,
+          "kind": "case_B",
+          "case_ref": 190
+        },
+        {
+          "pool_idx": 567,
+          "score": 1.0000001192092896,
+          "kind": "case_A",
+          "case_ref": 189
+        },
+        {
+          "pool_idx": 565,
+          "score": 1.0000001192092896,
+          "kind": "case_B",
+          "case_ref": 188
+        },
+        {
+          "pool_idx": 563,
+          "score": 0.9958111643791199,
+          "kind": "case_C",
+          "case_ref": 187
+        },
+        {
+          "pool_idx": 575,
+          "score": 0.9958111643791199,
+          "kind": "case_C",
+          "case_ref": 191
+        },
+        {
+          "pool_idx": 569,
+          "score": 0.9958111643791199,
+          "kind": "case_C",
+          "case_ref": 189
+        }
+      ]
+    }
+  ]
+}

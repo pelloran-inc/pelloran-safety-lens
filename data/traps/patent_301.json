@@ -1,0 +1,2111 @@
+{
+  "test_cases": [
+    {
+      "id": "pat_claim_scope_flip_001",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A circuit board comprising a processor, a memory chip, and a display driver.",
+      "clause_b": "A circuit board consisting of a processor, a memory chip, and a display driver.",
+      "clause_c": "A circuit board including a processor, a memory chip, and a display driver on it."
+    },
+    {
+      "id": "pat_claim_scope_flip_002",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A hinge assembly comprising two pivot arms and a locking mechanism.",
+      "clause_b": "A hinge assembly consisting of two pivot arms and a locking mechanism.",
+      "clause_c": "A hinge unit including two pivot arms plus a locking mechanism as part of its structure."
+    },
+    {
+      "id": "pat_claim_scope_flip_003",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A method comprising receiving a query and generating a corresponding response.",
+      "clause_b": "A method consisting of receiving a query and generating a corresponding response.",
+      "clause_c": "A method that includes the steps of receiving a query then generating the corresponding response."
+    },
+    {
+      "id": "pat_claim_scope_flip_004",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A cryptographic module comprising an encryption engine and a key store.",
+      "clause_b": "A cryptographic module consisting of an encryption engine and a key store.",
+      "clause_c": "A cryptographic module that includes an encryption engine along with a key store subsystem."
+    },
+    {
+      "id": "pat_claim_scope_flip_005",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A vehicle powertrain comprising an electric motor, a battery pack, and a controller.",
+      "clause_b": "A vehicle powertrain consisting of an electric motor, a battery pack, and a controller.",
+      "clause_c": "A vehicle powertrain including an electric motor, a battery pack, and a controller."
+    },
+    {
+      "id": "pat_claim_scope_flip_006",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "An antenna array comprising a plurality of dipole elements arranged in a phased configuration.",
+      "clause_b": "An antenna array consisting of a plurality of dipole elements arranged in a phased configuration.",
+      "clause_c": "An antenna array featuring multiple dipole elements arranged in a phased configuration."
+    },
+    {
+      "id": "pat_claim_scope_flip_007",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A pharmaceutical composition comprising an active ingredient and a pharmaceutically acceptable carrier.",
+      "clause_b": "A pharmaceutical composition consisting of an active ingredient and a pharmaceutically acceptable carrier.",
+      "clause_c": "A pharmaceutical composition that includes an active ingredient plus a pharmaceutically acceptable carrier."
+    },
+    {
+      "id": "pat_claim_scope_flip_008",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A wireless transmitter comprising a modulator, a power amplifier, and an antenna.",
+      "clause_b": "A wireless transmitter consisting of a modulator, a power amplifier, and an antenna.",
+      "clause_c": "A wireless transmitter including a modulator with a power amplifier and an antenna."
+    },
+    {
+      "id": "pat_claim_scope_flip_009",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A battery cell comprising a lithium-iron-phosphate cathode and a graphite anode.",
+      "clause_b": "A battery cell consisting of a lithium-iron-phosphate cathode and a graphite anode.",
+      "clause_c": "A battery cell including a lithium-iron-phosphate cathode and a graphite anode."
+    },
+    {
+      "id": "pat_claim_scope_flip_010",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A machine learning system comprising a neural network and a training data store.",
+      "clause_b": "A machine learning system consisting of a neural network and a training data store.",
+      "clause_c": "A machine learning system that includes a neural network plus a training data store."
+    },
+    {
+      "id": "pat_claim_scope_flip_011",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "An optical lens assembly comprising a first refractive element and a second aspheric element.",
+      "clause_b": "An optical lens assembly consisting of a first refractive element and a second aspheric element.",
+      "clause_c": "An optical lens assembly featuring a first refractive element together with a second aspheric element."
+    },
+    {
+      "id": "pat_claim_scope_flip_012",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A control system comprising a microcontroller, a sensor array, and an actuator module.",
+      "clause_b": "A control system consisting of a microcontroller, a sensor array, and an actuator module.",
+      "clause_c": "A control system including a microcontroller plus a sensor array and an actuator module."
+    },
+    {
+      "id": "pat_claim_scope_flip_013",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A solar panel comprising monocrystalline silicon cells arranged in a series-parallel matrix.",
+      "clause_b": "A solar panel consisting of monocrystalline silicon cells arranged in a series-parallel matrix.",
+      "clause_c": "A solar panel including monocrystalline silicon cells in a series-parallel matrix."
+    },
+    {
+      "id": "pat_claim_scope_flip_014",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A robotic arm comprising six degrees of freedom joints and end-effector tooling.",
+      "clause_b": "A robotic arm consisting of six degrees of freedom joints and end-effector tooling.",
+      "clause_c": "A robotic arm that includes six degrees of freedom joints plus end-effector tooling."
+    },
+    {
+      "id": "pat_claim_scope_flip_015",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A stent comprising a self-expanding nitinol mesh and a biocompatible coating.",
+      "clause_b": "A stent consisting of a self-expanding nitinol mesh and a biocompatible coating.",
+      "clause_c": "A stent including a self-expanding nitinol mesh and a biocompatible coating."
+    },
+    {
+      "id": "pat_claim_scope_flip_016",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A software module comprising an input handler, a compute engine, and an output formatter.",
+      "clause_b": "A software module consisting of an input handler, a compute engine, and an output formatter.",
+      "clause_c": "A software module including an input handler plus a compute engine and output formatter."
+    },
+    {
+      "id": "pat_claim_scope_flip_017",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A refrigeration unit comprising a compressor, a condenser, and an evaporator loop.",
+      "clause_b": "A refrigeration unit consisting of a compressor, a condenser, and an evaporator loop.",
+      "clause_c": "A refrigeration unit that includes a compressor together with a condenser and evaporator loop."
+    },
+    {
+      "id": "pat_claim_scope_flip_018",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "An electric motor comprising a stator winding, a permanent magnet rotor, and a bearing assembly.",
+      "clause_b": "An electric motor consisting of a stator winding, a permanent magnet rotor, and a bearing assembly.",
+      "clause_c": "An electric motor including a stator winding, permanent magnet rotor, and a bearing assembly."
+    },
+    {
+      "id": "pat_claim_scope_flip_019",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A router comprising a switching fabric, a routing table cache, and multiple network interfaces.",
+      "clause_b": "A router consisting of a switching fabric, a routing table cache, and multiple network interfaces.",
+      "clause_c": "A router including a switching fabric, a routing table cache, and multiple network interfaces."
+    },
+    {
+      "id": "pat_claim_scope_flip_020",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A composite material comprising carbon fiber, an epoxy matrix, and structural reinforcement fibers.",
+      "clause_b": "A composite material consisting of carbon fiber, an epoxy matrix, and structural reinforcement fibers.",
+      "clause_c": "A composite material that includes carbon fiber, an epoxy matrix, plus structural reinforcement fibers."
+    },
+    {
+      "id": "pat_claim_scope_flip_021",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A sensor comprising a piezoelectric element and a signal conditioning circuit.",
+      "clause_b": "A sensor consisting of a piezoelectric element and a signal conditioning circuit.",
+      "clause_c": "A sensor including a piezoelectric element and a signal conditioning circuit."
+    },
+    {
+      "id": "pat_claim_scope_flip_022",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A drone comprising four rotor motors, a flight controller, and a GPS receiver.",
+      "clause_b": "A drone consisting of four rotor motors, a flight controller, and a GPS receiver.",
+      "clause_c": "A drone including four rotor motors plus a flight controller and GPS receiver."
+    },
+    {
+      "id": "pat_claim_scope_flip_023",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "An imaging device comprising a CMOS sensor, a color filter array, and a lens system.",
+      "clause_b": "An imaging device consisting of a CMOS sensor, a color filter array, and a lens system.",
+      "clause_c": "An imaging device that includes a CMOS sensor plus a color filter array and lens system."
+    },
+    {
+      "id": "pat_claim_scope_flip_024",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A cooling system comprising a liquid pump, a heat exchanger, and a temperature controller.",
+      "clause_b": "A cooling system consisting of a liquid pump, a heat exchanger, and a temperature controller.",
+      "clause_c": "A cooling system that includes a liquid pump with a heat exchanger and temperature controller."
+    },
+    {
+      "id": "pat_claim_scope_flip_025",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A power inverter comprising a DC input stage, an H-bridge, and a sinusoidal filter.",
+      "clause_b": "A power inverter consisting of a DC input stage, an H-bridge, and a sinusoidal filter.",
+      "clause_c": "A power inverter that includes a DC input stage plus an H-bridge and sinusoidal filter."
+    },
+    {
+      "id": "pat_claim_scope_flip_026",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A packaging material comprising a polymer film and a barrier coating layer.",
+      "clause_b": "A packaging material consisting of a polymer film and a barrier coating layer.",
+      "clause_c": "A packaging material including a polymer film and a barrier coating layer."
+    },
+    {
+      "id": "pat_claim_scope_flip_027",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A wearable device comprising a heart-rate sensor, a display, and a wireless module.",
+      "clause_b": "A wearable device consisting of a heart-rate sensor, a display, and a wireless module.",
+      "clause_c": "A wearable device including a heart-rate sensor plus a display and a wireless module."
+    },
+    {
+      "id": "pat_claim_scope_flip_028",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A vaccine formulation comprising an mRNA payload, lipid nanoparticles, and a stabilizer.",
+      "clause_b": "A vaccine formulation consisting of an mRNA payload, lipid nanoparticles, and a stabilizer.",
+      "clause_c": "A vaccine formulation including an mRNA payload, lipid nanoparticles, and a stabilizer."
+    },
+    {
+      "id": "pat_claim_scope_flip_029",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A speech recognition system comprising an acoustic model, a language model, and a decoder.",
+      "clause_b": "A speech recognition system consisting of an acoustic model, a language model, and a decoder.",
+      "clause_c": "A speech recognition system including an acoustic model, a language model, and a decoder."
+    },
+    {
+      "id": "pat_claim_scope_flip_030",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A gear train comprising a sun gear, three planet gears, and an internal ring gear.",
+      "clause_b": "A gear train consisting of a sun gear, three planet gears, and an internal ring gear.",
+      "clause_c": "A gear train that includes a sun gear plus three planet gears and an internal ring gear."
+    },
+    {
+      "id": "pat_claim_scope_flip_031",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A distributed database comprising multiple storage nodes and a coordinator service.",
+      "clause_b": "A distributed database consisting of multiple storage nodes and a coordinator service.",
+      "clause_c": "A distributed database including multiple storage nodes together with a coordinator service."
+    },
+    {
+      "id": "pat_claim_scope_flip_032",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "An MRI scanner comprising a superconducting magnet, gradient coils, and an RF receiver.",
+      "clause_b": "An MRI scanner consisting of a superconducting magnet, gradient coils, and an RF receiver.",
+      "clause_c": "An MRI scanner that includes a superconducting magnet with gradient coils and an RF receiver."
+    },
+    {
+      "id": "pat_claim_scope_flip_033",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A 3D printer comprising an extruder head, a heated build plate, and a motion controller.",
+      "clause_b": "A 3D printer consisting of an extruder head, a heated build plate, and a motion controller.",
+      "clause_c": "A 3D printer including an extruder head plus a heated build plate and motion controller."
+    },
+    {
+      "id": "pat_claim_scope_flip_034",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A fuel cell stack comprising bipolar plates, membrane electrode assemblies, and gaskets.",
+      "clause_b": "A fuel cell stack consisting of bipolar plates, membrane electrode assemblies, and gaskets.",
+      "clause_c": "A fuel cell stack including bipolar plates, membrane electrode assemblies, and gaskets."
+    },
+    {
+      "id": "pat_claim_scope_flip_035",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A biometric authentication system comprising a fingerprint scanner and a template matcher.",
+      "clause_b": "A biometric authentication system consisting of a fingerprint scanner and a template matcher.",
+      "clause_c": "A biometric authentication system including a fingerprint scanner and a template matcher."
+    },
+    {
+      "id": "pat_claim_scope_flip_036",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A satellite subsystem comprising a solar array, an attitude controller, and a transceiver.",
+      "clause_b": "A satellite subsystem consisting of a solar array, an attitude controller, and a transceiver.",
+      "clause_c": "A satellite subsystem including a solar array with an attitude controller and transceiver."
+    },
+    {
+      "id": "pat_claim_scope_flip_037",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A gene editing system comprising a guide RNA, a Cas9 protein, and a delivery vector.",
+      "clause_b": "A gene editing system consisting of a guide RNA, a Cas9 protein, and a delivery vector.",
+      "clause_c": "A gene editing system that includes a guide RNA plus a Cas9 protein and delivery vector."
+    },
+    {
+      "id": "pat_claim_scope_flip_038",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A hydraulic actuator comprising a piston, a cylinder, and a pressure control valve.",
+      "clause_b": "A hydraulic actuator consisting of a piston, a cylinder, and a pressure control valve.",
+      "clause_c": "A hydraulic actuator including a piston with a cylinder and a pressure control valve."
+    },
+    {
+      "id": "pat_claim_scope_flip_039",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A digital signal processor comprising an ALU, a multiply-accumulate unit, and cache memory.",
+      "clause_b": "A digital signal processor consisting of an ALU, a multiply-accumulate unit, and cache memory.",
+      "clause_c": "A digital signal processor including an ALU, a multiply-accumulate unit, and cache memory."
+    },
+    {
+      "id": "pat_claim_scope_flip_040",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A water purification apparatus comprising a filter cartridge and a UV sterilization chamber.",
+      "clause_b": "A water purification apparatus consisting of a filter cartridge and a UV sterilization chamber.",
+      "clause_c": "A water purification apparatus including a filter cartridge and a UV sterilization chamber."
+    },
+    {
+      "id": "pat_claim_scope_flip_041",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A laser diode module comprising a semiconductor emitter and a beam collimation lens.",
+      "clause_b": "A laser diode module consisting of a semiconductor emitter and a beam collimation lens.",
+      "clause_c": "A laser diode module including a semiconductor emitter with a beam collimation lens."
+    },
+    {
+      "id": "pat_claim_scope_flip_042",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A distributed ledger comprising cryptographic hash chains and a consensus protocol.",
+      "clause_b": "A distributed ledger consisting of cryptographic hash chains and a consensus protocol.",
+      "clause_c": "A distributed ledger that includes cryptographic hash chains along with a consensus protocol."
+    },
+    {
+      "id": "pat_claim_scope_flip_043",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A CT scanner comprising an X-ray source, a detector ring, and a rotating gantry.",
+      "clause_b": "A CT scanner consisting of an X-ray source, a detector ring, and a rotating gantry.",
+      "clause_c": "A CT scanner including an X-ray source, a detector ring, and a rotating gantry."
+    },
+    {
+      "id": "pat_claim_scope_flip_044",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "An audio codec comprising an encoder stage, a decoder stage, and a bitstream formatter.",
+      "clause_b": "An audio codec consisting of an encoder stage, a decoder stage, and a bitstream formatter.",
+      "clause_c": "An audio codec including an encoder stage with a decoder stage and bitstream formatter."
+    },
+    {
+      "id": "pat_claim_scope_flip_045",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A biosensor comprising an enzyme layer, a transducer electrode, and a readout amplifier.",
+      "clause_b": "A biosensor consisting of an enzyme layer, a transducer electrode, and a readout amplifier.",
+      "clause_c": "A biosensor including an enzyme layer plus a transducer electrode and readout amplifier."
+    },
+    {
+      "id": "pat_claim_scope_flip_046",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A cellular base station comprising a baseband processor, a radio front-end, and antennas.",
+      "clause_b": "A cellular base station consisting of a baseband processor, a radio front-end, and antennas.",
+      "clause_c": "A cellular base station including a baseband processor, a radio front-end, and antennas."
+    },
+    {
+      "id": "pat_claim_scope_flip_047",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A tire assembly comprising a rubber tread, sidewall plies, and a steel bead reinforcement.",
+      "clause_b": "A tire assembly consisting of a rubber tread, sidewall plies, and a steel bead reinforcement.",
+      "clause_c": "A tire assembly including a rubber tread plus sidewall plies and steel bead reinforcement."
+    },
+    {
+      "id": "pat_claim_scope_flip_048",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A liquid crystal display comprising a backlight, polarizers, and a thin-film transistor array.",
+      "clause_b": "A liquid crystal display consisting of a backlight, polarizers, and a thin-film transistor array.",
+      "clause_c": "A liquid crystal display including a backlight, polarizers, and a thin-film transistor array."
+    },
+    {
+      "id": "pat_claim_scope_flip_049",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A voice assistant comprising a microphone array, a wake-word detector, and a cloud interface.",
+      "clause_b": "A voice assistant consisting of a microphone array, a wake-word detector, and a cloud interface.",
+      "clause_c": "A voice assistant including a microphone array with a wake-word detector and cloud interface."
+    },
+    {
+      "id": "pat_claim_scope_flip_050",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A silicon photonic chip comprising waveguides, ring resonators, and grating couplers.",
+      "clause_b": "A silicon photonic chip consisting of waveguides, ring resonators, and grating couplers.",
+      "clause_c": "A silicon photonic chip that includes waveguides plus ring resonators and grating couplers."
+    },
+    {
+      "id": "pat_claim_scope_flip_051",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A cardiac pacemaker comprising a pulse generator, a lead wire, and an electrode tip.",
+      "clause_b": "A cardiac pacemaker consisting of a pulse generator, a lead wire, and an electrode tip.",
+      "clause_c": "A cardiac pacemaker including a pulse generator with a lead wire and electrode tip."
+    },
+    {
+      "id": "pat_claim_scope_flip_052",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A microfluidic chip comprising input ports, mixing channels, and reaction chambers.",
+      "clause_b": "A microfluidic chip consisting of input ports, mixing channels, and reaction chambers.",
+      "clause_c": "A microfluidic chip including input ports, mixing channels, and reaction chambers."
+    },
+    {
+      "id": "pat_claim_scope_flip_053",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A DNA sequencing device comprising a flow cell, a fluorescence detector, and a sample preparation station.",
+      "clause_b": "A DNA sequencing device consisting of a flow cell, a fluorescence detector, and a sample preparation station.",
+      "clause_c": "A DNA sequencing device including a flow cell with a fluorescence detector plus sample preparation."
+    },
+    {
+      "id": "pat_claim_scope_flip_054",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A traffic control system comprising vehicle detectors, signal heads, and a central controller.",
+      "clause_b": "A traffic control system consisting of vehicle detectors, signal heads, and a central controller.",
+      "clause_c": "A traffic control system including vehicle detectors, signal heads, and a central controller."
+    },
+    {
+      "id": "pat_claim_scope_flip_055",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A pneumatic gripper comprising a housing, movable fingers, and a compressed-air actuator.",
+      "clause_b": "A pneumatic gripper consisting of a housing, movable fingers, and a compressed-air actuator.",
+      "clause_c": "A pneumatic gripper including a housing with movable fingers and a compressed-air actuator."
+    },
+    {
+      "id": "pat_claim_scope_flip_056",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A HVAC controller comprising a temperature sensor, a humidity sensor, and a relay output.",
+      "clause_b": "A HVAC controller consisting of a temperature sensor, a humidity sensor, and a relay output.",
+      "clause_c": "A HVAC controller including a temperature sensor, a humidity sensor, and a relay output."
+    },
+    {
+      "id": "pat_claim_scope_flip_057",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A GPS receiver comprising an RF front-end, a correlator bank, and a navigation processor.",
+      "clause_b": "A GPS receiver consisting of an RF front-end, a correlator bank, and a navigation processor.",
+      "clause_c": "A GPS receiver including an RF front-end with a correlator bank and a navigation processor."
+    },
+    {
+      "id": "pat_claim_scope_flip_058",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A quantum key distribution system comprising a single-photon source, a receiver, and a quantum channel.",
+      "clause_b": "A quantum key distribution system consisting of a single-photon source, a receiver, and a quantum channel.",
+      "clause_c": "A quantum key distribution system including a single-photon source plus a receiver and a quantum channel."
+    },
+    {
+      "id": "pat_claim_scope_flip_059",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "An autonomous vehicle perception stack comprising lidar, cameras, radar, and a fusion module.",
+      "clause_b": "An autonomous vehicle perception stack consisting of lidar, cameras, radar, and a fusion module.",
+      "clause_c": "An autonomous vehicle perception stack including lidar, cameras, radar, plus a fusion module."
+    },
+    {
+      "id": "pat_claim_scope_flip_060",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "An electrochemical cell comprising an anode, a cathode, and an aqueous electrolyte.",
+      "clause_b": "An electrochemical cell consisting of an anode, a cathode, and an aqueous electrolyte.",
+      "clause_c": "An electrochemical cell that includes an anode with a cathode and an aqueous electrolyte."
+    },
+    {
+      "id": "pat_claim_scope_flip_061",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A ventilator comprising a gas mixer, a pressure controller, and a patient breathing circuit.",
+      "clause_b": "A ventilator consisting of a gas mixer, a pressure controller, and a patient breathing circuit.",
+      "clause_c": "A ventilator including a gas mixer with a pressure controller and patient breathing circuit."
+    },
+    {
+      "id": "pat_claim_scope_flip_062",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A microwave oven comprising a magnetron, a waveguide, and a rotating turntable.",
+      "clause_b": "A microwave oven consisting of a magnetron, a waveguide, and a rotating turntable.",
+      "clause_c": "A microwave oven that includes a magnetron plus a waveguide and rotating turntable."
+    },
+    {
+      "id": "pat_claim_scope_flip_063",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A wind turbine comprising blades, a nacelle housing, and a generator hub.",
+      "clause_b": "A wind turbine consisting of blades, a nacelle housing, and a generator hub.",
+      "clause_c": "A wind turbine that includes blades with a nacelle housing and generator hub."
+    },
+    {
+      "id": "pat_claim_scope_flip_064",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "An OLED display comprising organic emissive layers, a cathode, and a transparent anode.",
+      "clause_b": "An OLED display consisting of organic emissive layers, a cathode, and a transparent anode.",
+      "clause_c": "An OLED display including organic emissive layers with a cathode and a transparent anode."
+    },
+    {
+      "id": "pat_claim_scope_flip_065",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A neural implant comprising an electrode array, a wireless transmitter, and biocompatible packaging.",
+      "clause_b": "A neural implant consisting of an electrode array, a wireless transmitter, and biocompatible packaging.",
+      "clause_c": "An electrochemical cell including an anode, a cathode, and an aqueous electrolyte."
+    },
+    {
+      "id": "pat_claim_scope_flip_066",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A packet switch comprising ingress ports, a crossbar fabric, and egress buffers.",
+      "clause_b": "A packet switch consisting of ingress ports, a crossbar fabric, and egress buffers.",
+      "clause_c": "A packet switch including ingress ports with a crossbar fabric and egress buffers."
+    },
+    {
+      "id": "pat_claim_scope_flip_067",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A speaker enclosure comprising a driver, a crossover network, and an acoustic port.",
+      "clause_b": "A speaker enclosure consisting of a driver, a crossover network, and an acoustic port.",
+      "clause_c": "A speaker enclosure that includes a driver plus a crossover network and acoustic port."
+    },
+    {
+      "id": "pat_claim_scope_flip_068",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A biodegradable polymer composition comprising polylactic acid and a plasticizer.",
+      "clause_b": "A biodegradable polymer composition consisting of polylactic acid and a plasticizer.",
+      "clause_c": "A biodegradable polymer composition that includes polylactic acid together with a plasticizer."
+    },
+    {
+      "id": "pat_claim_scope_flip_069",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A prosthetic limb comprising a socket interface, myoelectric sensors, and a servo actuator.",
+      "clause_b": "A prosthetic limb consisting of a socket interface, myoelectric sensors, and a servo actuator.",
+      "clause_c": "A prosthetic limb including a socket interface plus myoelectric sensors and a servo actuator."
+    },
+    {
+      "id": "pat_claim_scope_flip_070",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A conveyor system comprising a belt, drive rollers, and a variable-speed motor.",
+      "clause_b": "A conveyor system consisting of a belt, drive rollers, and a variable-speed motor.",
+      "clause_c": "A neural implant including an electrode array, a wireless transmitter, and biocompatible packaging."
+    },
+    {
+      "id": "pat_claim_scope_flip_071",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A field-programmable gate array comprising configurable logic blocks, routing tracks, and I/O buffers.",
+      "clause_b": "A field-programmable gate array consisting of configurable logic blocks, routing tracks, and I/O buffers.",
+      "clause_c": "A field-programmable gate array including configurable logic blocks plus routing tracks and I/O buffers."
+    },
+    {
+      "id": "pat_claim_scope_flip_072",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A power supply comprising a rectifier stage, a filter capacitor bank, and a voltage regulator.",
+      "clause_b": "A power supply consisting of a rectifier stage, a filter capacitor bank, and a voltage regulator.",
+      "clause_c": "A power supply that includes a rectifier stage plus a filter capacitor bank and voltage regulator."
+    },
+    {
+      "id": "pat_claim_scope_flip_073",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A cochlear implant comprising an external microphone, a speech processor, and an electrode array.",
+      "clause_b": "A cochlear implant consisting of an external microphone, a speech processor, and an electrode array.",
+      "clause_c": "A cochlear implant including an external microphone with a speech processor and electrode array."
+    },
+    {
+      "id": "pat_claim_scope_flip_074",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A recommendation engine comprising a user profile store, a similarity computer, and a ranking module.",
+      "clause_b": "A recommendation engine consisting of a user profile store, a similarity computer, and a ranking module.",
+      "clause_c": "A recommendation engine that includes a user profile store plus a similarity computer and ranking module."
+    },
+    {
+      "id": "pat_claim_scope_flip_075",
+      "trap_type": "claim_scope_flip",
+      "clause_a": "A UAV comprising a fixed-wing airframe, twin propellers, and an autopilot flight-management system.",
+      "clause_b": "A UAV consisting of a fixed-wing airframe, twin propellers, and an autopilot flight-management system.",
+      "clause_c": "A UAV including a fixed-wing airframe plus twin propellers and an autopilot flight-management system."
+    },
+    {
+      "id": "pat_enablement_flip_001",
+      "trap_type": "enablement_flip",
+      "clause_a": "The controller is enabled to activate the pump when the input pressure exceeds a threshold.",
+      "clause_b": "The controller is disabled to activate the pump when the input pressure exceeds a threshold.",
+      "clause_c": "The controller can trigger pump activation once the input pressure crosses the threshold."
+    },
+    {
+      "id": "pat_enablement_flip_002",
+      "trap_type": "enablement_flip",
+      "clause_a": "The module is configured to encrypt outgoing packets before transmission over the network.",
+      "clause_b": "The module is prevented from encrypting outgoing packets before transmission over the network.",
+      "clause_c": "The module handles encryption of outgoing packets prior to network transmission."
+    },
+    {
+      "id": "pat_enablement_flip_003",
+      "trap_type": "enablement_flip",
+      "clause_a": "The safety lock is capable of preventing accidental release under normal operating conditions.",
+      "clause_b": "The safety lock is incapable of preventing accidental release under normal operating conditions.",
+      "clause_c": "The safety lock reliably prevents accidental release under standard operating conditions."
+    },
+    {
+      "id": "pat_enablement_flip_004",
+      "trap_type": "enablement_flip",
+      "clause_a": "The regenerative brake is operable to recover kinetic energy during vehicle deceleration.",
+      "clause_b": "The regenerative brake is inoperable to recover kinetic energy during vehicle deceleration.",
+      "clause_c": "The regenerative brake recovers kinetic energy while the vehicle is decelerating."
+    },
+    {
+      "id": "pat_enablement_flip_005",
+      "trap_type": "enablement_flip",
+      "clause_a": "The sensor is functional across a temperature range of minus forty to eighty-five degrees Celsius.",
+      "clause_b": "The sensor is nonfunctional across a temperature range of minus forty to eighty-five degrees Celsius.",
+      "clause_c": "The sensor operates across the range from minus forty to eighty-five degrees Celsius."
+    },
+    {
+      "id": "pat_enablement_flip_006",
+      "trap_type": "enablement_flip",
+      "clause_a": "The firmware is designed to detect intrusion attempts and trigger a defensive response.",
+      "clause_b": "The firmware is unable to detect intrusion attempts and trigger a defensive response.",
+      "clause_c": "The firmware detects intrusion attempts then triggers the defensive response protocol."
+    },
+    {
+      "id": "pat_enablement_flip_007",
+      "trap_type": "enablement_flip",
+      "clause_a": "The valve assembly is configured to seal against a differential pressure of ten bar.",
+      "clause_b": "The valve assembly is unable to seal against a differential pressure of ten bar.",
+      "clause_c": "The valve assembly maintains a seal against a differential pressure of ten bar."
+    },
+    {
+      "id": "pat_enablement_flip_008",
+      "trap_type": "enablement_flip",
+      "clause_a": "The processor supports concurrent execution of four independent instruction streams.",
+      "clause_b": "The processor does not support concurrent execution of four independent instruction streams.",
+      "clause_c": "The processor handles four independent instruction streams executing concurrently."
+    },
+    {
+      "id": "pat_enablement_flip_009",
+      "trap_type": "enablement_flip",
+      "clause_a": "The wireless module is capable of maintaining a connection over distances exceeding one kilometer.",
+      "clause_b": "The wireless module is incapable of maintaining a connection over distances exceeding one kilometer.",
+      "clause_c": "The wireless module reliably maintains connectivity beyond one kilometer of range."
+    },
+    {
+      "id": "pat_enablement_flip_010",
+      "trap_type": "enablement_flip",
+      "clause_a": "The optical filter is designed to transmit wavelengths in the visible spectrum band.",
+      "clause_b": "The optical filter is not designed to transmit wavelengths in the visible spectrum band.",
+      "clause_c": "The optical filter passes wavelengths within the visible spectrum band."
+    },
+    {
+      "id": "pat_enablement_flip_011",
+      "trap_type": "enablement_flip",
+      "clause_a": "The battery management system is enabled to balance cell voltages during a charging cycle.",
+      "clause_b": "The battery management system is disabled from balancing cell voltages during a charging cycle.",
+      "clause_c": "The battery management system performs cell-voltage balancing throughout the charge cycle."
+    },
+    {
+      "id": "pat_enablement_flip_012",
+      "trap_type": "enablement_flip",
+      "clause_a": "The pump is capable of delivering flow rates up to two hundred liters per minute.",
+      "clause_b": "The pump is incapable of delivering flow rates up to two hundred liters per minute.",
+      "clause_c": "The pump provides flow rates up to two hundred liters per minute at rated conditions."
+    },
+    {
+      "id": "pat_enablement_flip_013",
+      "trap_type": "enablement_flip",
+      "clause_a": "The module is authorized to write configuration data to the protected memory region.",
+      "clause_b": "The module is not authorized to write configuration data to the protected memory region.",
+      "clause_c": "The module has permission to write configuration data into the protected memory region."
+    },
+    {
+      "id": "pat_enablement_flip_014",
+      "trap_type": "enablement_flip",
+      "clause_a": "The subsystem is configured to run in a low-power mode when idle for extended periods.",
+      "clause_b": "The subsystem is prevented from running in a low-power mode when idle for extended periods.",
+      "clause_c": "The subsystem enters low-power mode during extended idle periods for energy savings."
+    },
+    {
+      "id": "pat_enablement_flip_015",
+      "trap_type": "enablement_flip",
+      "clause_a": "The bearing is rated for continuous operation at rotational speeds up to ten thousand RPM.",
+      "clause_b": "The bearing is not rated for continuous operation at rotational speeds up to ten thousand RPM.",
+      "clause_c": "The bearing supports continuous operation at rotational speeds reaching ten thousand RPM."
+    },
+    {
+      "id": "pat_enablement_flip_016",
+      "trap_type": "enablement_flip",
+      "clause_a": "The device is capable of communicating over the Bluetooth Low Energy protocol version 5.",
+      "clause_b": "The device is incapable of communicating over the Bluetooth Low Energy protocol version 5.",
+      "clause_c": "The device supports communication using Bluetooth Low Energy protocol version 5."
+    },
+    {
+      "id": "pat_enablement_flip_017",
+      "trap_type": "enablement_flip",
+      "clause_a": "The encryption engine is configured to support both AES-128 and AES-256 key sizes.",
+      "clause_b": "The encryption engine is not configured to support both AES-128 and AES-256 key sizes.",
+      "clause_c": "The encryption engine handles AES-128 and AES-256 key sizes as configured options."
+    },
+    {
+      "id": "pat_enablement_flip_018",
+      "trap_type": "enablement_flip",
+      "clause_a": "The actuator can produce a linear stroke of up to fifty millimeters at rated load.",
+      "clause_b": "The actuator cannot produce a linear stroke of up to fifty millimeters at rated load.",
+      "clause_c": "The actuator delivers linear strokes up to fifty millimeters at the rated load specification."
+    },
+    {
+      "id": "pat_enablement_flip_019",
+      "trap_type": "enablement_flip",
+      "clause_a": "The membrane is permeable to water vapor while blocking liquid-phase transmission.",
+      "clause_b": "The membrane is impermeable to water vapor while blocking liquid-phase transmission.",
+      "clause_c": "The membrane passes water vapor and blocks the liquid phase from transmission."
+    },
+    {
+      "id": "pat_enablement_flip_020",
+      "trap_type": "enablement_flip",
+      "clause_a": "The digital-to-analog converter is designed to output signals with sixteen-bit resolution.",
+      "clause_b": "The digital-to-analog converter is not designed to output signals with sixteen-bit resolution.",
+      "clause_c": "The DAC produces output signals at sixteen-bit resolution as designed."
+    },
+    {
+      "id": "pat_enablement_flip_021",
+      "trap_type": "enablement_flip",
+      "clause_a": "The refrigeration compressor is rated to operate continuously at ambient temperatures up to fifty degrees.",
+      "clause_b": "The refrigeration compressor is not rated to operate continuously at ambient temperatures up to fifty degrees.",
+      "clause_c": "The refrigeration compressor sustains continuous operation up to fifty-degree ambient temperature."
+    },
+    {
+      "id": "pat_enablement_flip_022",
+      "trap_type": "enablement_flip",
+      "clause_a": "The kernel module is permitted to allocate memory in the direct-mapped kernel virtual address space.",
+      "clause_b": "The kernel module is not permitted to allocate memory in the direct-mapped kernel virtual address space.",
+      "clause_c": "The kernel module can allocate memory within the direct-mapped kernel virtual address space."
+    },
+    {
+      "id": "pat_enablement_flip_023",
+      "trap_type": "enablement_flip",
+      "clause_a": "The radio receiver is sensitive enough to demodulate signals at minus one hundred dBm input power.",
+      "clause_b": "The radio receiver is not sensitive enough to demodulate signals at minus one hundred dBm input power.",
+      "clause_c": "The radio receiver demodulates signals down to minus one hundred dBm input power sensitivity."
+    },
+    {
+      "id": "pat_enablement_flip_024",
+      "trap_type": "enablement_flip",
+      "clause_a": "The transformer core is designed to handle magnetic flux densities up to two Tesla without saturation.",
+      "clause_b": "The transformer core is not designed to handle magnetic flux densities up to two Tesla without saturation.",
+      "clause_c": "The transformer core supports magnetic flux densities up to two Tesla before reaching saturation."
+    },
+    {
+      "id": "pat_enablement_flip_025",
+      "trap_type": "enablement_flip",
+      "clause_a": "The controller supports over-the-air firmware updates through the cellular data channel.",
+      "clause_b": "The controller does not support over-the-air firmware updates through the cellular data channel.",
+      "clause_c": "The controller receives over-the-air firmware updates via the cellular data channel."
+    },
+    {
+      "id": "pat_enablement_flip_026",
+      "trap_type": "enablement_flip",
+      "clause_a": "The gearbox is capable of transmitting torque up to five hundred Newton-meters continuously.",
+      "clause_b": "The gearbox is incapable of transmitting torque up to five hundred Newton-meters continuously.",
+      "clause_c": "The gearbox continuously transmits torque up to five hundred Newton-meters at rated speed."
+    },
+    {
+      "id": "pat_enablement_flip_027",
+      "trap_type": "enablement_flip",
+      "clause_a": "The antenna is designed to operate across the 2.4 GHz and 5 GHz WiFi frequency bands.",
+      "clause_b": "The antenna is not designed to operate across the 2.4 GHz and 5 GHz WiFi frequency bands.",
+      "clause_c": "The antenna covers both 2.4 GHz and 5 GHz WiFi frequency bands as designed."
+    },
+    {
+      "id": "pat_enablement_flip_028",
+      "trap_type": "enablement_flip",
+      "clause_a": "The controller is enabled to switch between manual and autonomous operating modes on demand.",
+      "clause_b": "The controller is disabled from switching between manual and autonomous operating modes on demand.",
+      "clause_c": "The controller switches between manual and autonomous modes as the operator commands."
+    },
+    {
+      "id": "pat_enablement_flip_029",
+      "trap_type": "enablement_flip",
+      "clause_a": "The isolation valve is designed to withstand pressure surges of up to twenty megapascals.",
+      "clause_b": "The isolation valve is not designed to withstand pressure surges of up to twenty megapascals.",
+      "clause_c": "The isolation valve tolerates pressure surges up to twenty megapascals as designed."
+    },
+    {
+      "id": "pat_enablement_flip_030",
+      "trap_type": "enablement_flip",
+      "clause_a": "The compression algorithm is capable of achieving ratios above ten-to-one on natural text.",
+      "clause_b": "The compression algorithm is incapable of achieving ratios above ten-to-one on natural text.",
+      "clause_c": "The compression algorithm reaches compression ratios above ten-to-one on natural text inputs."
+    },
+    {
+      "id": "pat_enablement_flip_031",
+      "trap_type": "enablement_flip",
+      "clause_a": "The heat pump can extract thermal energy from ambient air at temperatures as low as minus twenty degrees.",
+      "clause_b": "The heat pump cannot extract thermal energy from ambient air at temperatures as low as minus twenty degrees.",
+      "clause_c": "The heat pump draws thermal energy from ambient air down to minus twenty degrees."
+    },
+    {
+      "id": "pat_enablement_flip_032",
+      "trap_type": "enablement_flip",
+      "clause_a": "The pattern recognition module is trained to identify facial features across varying lighting conditions.",
+      "clause_b": "The pattern recognition module is untrained to identify facial features across varying lighting conditions.",
+      "clause_c": "The pattern recognition module identifies facial features under various lighting conditions."
+    },
+    {
+      "id": "pat_enablement_flip_033",
+      "trap_type": "enablement_flip",
+      "clause_a": "The high-voltage insulation is rated to withstand impulse voltages of up to fifty kilovolts.",
+      "clause_b": "The high-voltage insulation is not rated to withstand impulse voltages of up to fifty kilovolts.",
+      "clause_c": "The high-voltage insulation handles impulse voltages up to fifty kilovolts as rated."
+    },
+    {
+      "id": "pat_enablement_flip_034",
+      "trap_type": "enablement_flip",
+      "clause_a": "The fluid pump can operate submerged at depths up to one hundred meters below the surface.",
+      "clause_b": "The fluid pump cannot operate submerged at depths up to one hundred meters below the surface.",
+      "clause_c": "The fluid pump functions when submerged up to one hundred meters underwater."
+    },
+    {
+      "id": "pat_enablement_flip_035",
+      "trap_type": "enablement_flip",
+      "clause_a": "The container is designed to be autoclave-sterilizable through repeated high-temperature cycles.",
+      "clause_b": "The container is not designed to be autoclave-sterilizable through repeated high-temperature cycles.",
+      "clause_c": "The container tolerates repeated autoclave sterilization at high-temperature cycles."
+    },
+    {
+      "id": "pat_enablement_flip_036",
+      "trap_type": "enablement_flip",
+      "clause_a": "The processor supports hardware-accelerated matrix multiplication through a dedicated tensor unit.",
+      "clause_b": "The processor does not support hardware-accelerated matrix multiplication through a dedicated tensor unit.",
+      "clause_c": "The processor accelerates matrix multiplication using a dedicated tensor unit in hardware."
+    },
+    {
+      "id": "pat_enablement_flip_037",
+      "trap_type": "enablement_flip",
+      "clause_a": "The satellite payload is capable of imaging Earth's surface at sub-meter ground resolution.",
+      "clause_b": "The satellite payload is incapable of imaging Earth's surface at sub-meter ground resolution.",
+      "clause_c": "The satellite payload provides Earth-surface imaging at sub-meter ground resolution."
+    },
+    {
+      "id": "pat_enablement_flip_038",
+      "trap_type": "enablement_flip",
+      "clause_a": "The vaccine delivery device is designed to inject a precise dose of one milliliter subcutaneously.",
+      "clause_b": "The vaccine delivery device is not designed to inject a precise dose of one milliliter subcutaneously.",
+      "clause_c": "The vaccine delivery device delivers a precisely metered one-milliliter subcutaneous injection."
+    },
+    {
+      "id": "pat_enablement_flip_039",
+      "trap_type": "enablement_flip",
+      "clause_a": "The controller is authorized to override manual input during an emergency shutdown sequence.",
+      "clause_b": "The controller is not authorized to override manual input during an emergency shutdown sequence.",
+      "clause_c": "The controller can override manual input in an emergency shutdown sequence when needed."
+    },
+    {
+      "id": "pat_enablement_flip_040",
+      "trap_type": "enablement_flip",
+      "clause_a": "The bearing seal is capable of retaining lubricant at operating speeds up to fifty thousand RPM.",
+      "clause_b": "The bearing seal is incapable of retaining lubricant at operating speeds up to fifty thousand RPM.",
+      "clause_c": "The bearing seal keeps lubricant contained at operating speeds up to fifty thousand RPM."
+    },
+    {
+      "id": "pat_enablement_flip_041",
+      "trap_type": "enablement_flip",
+      "clause_a": "The image sensor is enabled to capture at frame rates up to one hundred twenty frames per second.",
+      "clause_b": "The image sensor is disabled from capturing at frame rates up to one hundred twenty frames per second.",
+      "clause_c": "The image sensor captures at frame rates reaching one hundred twenty frames per second."
+    },
+    {
+      "id": "pat_enablement_flip_042",
+      "trap_type": "enablement_flip",
+      "clause_a": "The rectifier can convert AC line voltage to a regulated DC bus at up to two kilowatts of power.",
+      "clause_b": "The rectifier cannot convert AC line voltage to a regulated DC bus at up to two kilowatts of power.",
+      "clause_c": "The rectifier converts AC line voltage into a regulated DC bus up to two kilowatts."
+    },
+    {
+      "id": "pat_enablement_flip_043",
+      "trap_type": "enablement_flip",
+      "clause_a": "The transceiver is capable of frequency-hopping across sixteen predefined channels for interference avoidance.",
+      "clause_b": "The transceiver is incapable of frequency-hopping across sixteen predefined channels for interference avoidance.",
+      "clause_c": "The transceiver hops among sixteen predefined channels to avoid interference."
+    },
+    {
+      "id": "pat_enablement_flip_044",
+      "trap_type": "enablement_flip",
+      "clause_a": "The user interface is designed to remain accessible to visually impaired operators via screen-reader support.",
+      "clause_b": "The user interface is not designed to remain accessible to visually impaired operators via screen-reader support.",
+      "clause_c": "The user interface stays accessible to visually impaired operators through screen-reader integration."
+    },
+    {
+      "id": "pat_enablement_flip_045",
+      "trap_type": "enablement_flip",
+      "clause_a": "The membrane is permitted to swell in aqueous solutions without loss of structural integrity.",
+      "clause_b": "The membrane is not permitted to swell in aqueous solutions without loss of structural integrity.",
+      "clause_c": "The membrane can swell in aqueous solutions while retaining structural integrity."
+    },
+    {
+      "id": "pat_enablement_flip_046",
+      "trap_type": "enablement_flip",
+      "clause_a": "The controller is programmed to autonomously navigate around detected obstacles on the path.",
+      "clause_b": "The controller is not programmed to autonomously navigate around detected obstacles on the path.",
+      "clause_c": "The controller autonomously routes around obstacles detected on the intended path."
+    },
+    {
+      "id": "pat_enablement_flip_047",
+      "trap_type": "enablement_flip",
+      "clause_a": "The optical module can multiplex sixteen independent data streams over a single fiber-optic channel.",
+      "clause_b": "The optical module cannot multiplex sixteen independent data streams over a single fiber-optic channel.",
+      "clause_c": "The optical module carries sixteen independent data streams multiplexed on one fiber-optic channel."
+    },
+    {
+      "id": "pat_enablement_flip_048",
+      "trap_type": "enablement_flip",
+      "clause_a": "The braking system is rated to decelerate a fully loaded vehicle from highway speed within fifty meters.",
+      "clause_b": "The braking system is not rated to decelerate a fully loaded vehicle from highway speed within fifty meters.",
+      "clause_c": "The dispenser can meter dosages down to one microliter as small as a single increment."
+    },
+    {
+      "id": "pat_enablement_flip_049",
+      "trap_type": "enablement_flip",
+      "clause_a": "The heat exchanger is capable of transferring one hundred kilowatts of thermal power at the design flow rate.",
+      "clause_b": "The heat exchanger is incapable of transferring one hundred kilowatts of thermal power at the design flow rate.",
+      "clause_c": "The heat exchanger transfers one hundred kilowatts of thermal power under the design flow conditions."
+    },
+    {
+      "id": "pat_enablement_flip_050",
+      "trap_type": "enablement_flip",
+      "clause_a": "The network stack supports both IPv4 and IPv6 address families concurrently on the same interface.",
+      "clause_b": "The network stack does not support both IPv4 and IPv6 address families concurrently on the same interface.",
+      "clause_c": "The network stack handles IPv4 and IPv6 address families concurrently on one interface."
+    },
+    {
+      "id": "pat_enablement_flip_051",
+      "trap_type": "enablement_flip",
+      "clause_a": "The sensor package is designed to withstand shock loads of up to five hundred g without damage.",
+      "clause_b": "The sensor package is not designed to withstand shock loads of up to five hundred g without damage.",
+      "clause_c": "The sensor package survives shock loads reaching five hundred g without sustaining damage."
+    },
+    {
+      "id": "pat_enablement_flip_052",
+      "trap_type": "enablement_flip",
+      "clause_a": "The controller is enabled to log fault events into a persistent flash memory partition.",
+      "clause_b": "The controller is disabled from logging fault events into a persistent flash memory partition.",
+      "clause_c": "The controller records fault events into the persistent flash memory partition."
+    },
+    {
+      "id": "pat_enablement_flip_053",
+      "trap_type": "enablement_flip",
+      "clause_a": "The MRI-compatible probe is designed to operate safely within a three-Tesla static magnetic field.",
+      "clause_b": "The MRI-compatible probe is not designed to operate safely within a three-Tesla static magnetic field.",
+      "clause_c": "The MRI-compatible probe operates safely under a three-Tesla static magnetic field."
+    },
+    {
+      "id": "pat_enablement_flip_054",
+      "trap_type": "enablement_flip",
+      "clause_a": "The autonomous parking system is capable of maneuvering into spaces as narrow as thirty centimeters wider than the vehicle.",
+      "clause_b": "The autonomous parking system is incapable of maneuvering into spaces as narrow as thirty centimeters wider than the vehicle.",
+      "clause_c": "The autonomous parking system fits into spaces just thirty centimeters wider than the vehicle."
+    },
+    {
+      "id": "pat_enablement_flip_055",
+      "trap_type": "enablement_flip",
+      "clause_a": "The gene therapy vector is designed to deliver its payload preferentially to hepatocyte cells.",
+      "clause_b": "The gene therapy vector is not designed to deliver its payload preferentially to hepatocyte cells.",
+      "clause_c": "The gene therapy vector targets hepatocyte cells preferentially for payload delivery."
+    },
+    {
+      "id": "pat_enablement_flip_056",
+      "trap_type": "enablement_flip",
+      "clause_a": "The transformer is capable of handling short-circuit fault currents for up to two seconds without damage.",
+      "clause_b": "The transformer is incapable of handling short-circuit fault currents for up to two seconds without damage.",
+      "clause_c": "The transformer withstands short-circuit fault currents up to two seconds without damage."
+    },
+    {
+      "id": "pat_enablement_flip_057",
+      "trap_type": "enablement_flip",
+      "clause_a": "The keyless entry system is enabled to recognize its paired transponder within a five-meter radius.",
+      "clause_b": "The keyless entry system is disabled from recognizing its paired transponder within a five-meter radius.",
+      "clause_c": "The keyless entry system recognizes the paired transponder within a five-meter radius."
+    },
+    {
+      "id": "pat_enablement_flip_058",
+      "trap_type": "enablement_flip",
+      "clause_a": "The battery is designed to retain eighty percent of its rated capacity after two thousand full cycles.",
+      "clause_b": "The battery is not designed to retain eighty percent of its rated capacity after two thousand full cycles.",
+      "clause_c": "The battery preserves eighty percent of rated capacity after two thousand full cycles."
+    },
+    {
+      "id": "pat_enablement_flip_059",
+      "trap_type": "enablement_flip",
+      "clause_a": "The gas sensor is calibrated to detect methane concentrations as low as five parts per million.",
+      "clause_b": "The gas sensor is not calibrated to detect methane concentrations as low as five parts per million.",
+      "clause_c": "The gas sensor detects methane concentrations down to five parts per million after calibration."
+    },
+    {
+      "id": "pat_enablement_flip_060",
+      "trap_type": "enablement_flip",
+      "clause_a": "The centrifuge can accelerate samples to twenty thousand g without rotor imbalance.",
+      "clause_b": "The centrifuge cannot accelerate samples to twenty thousand g without rotor imbalance.",
+      "clause_c": "The centrifuge spins samples up to twenty thousand g while maintaining rotor balance."
+    },
+    {
+      "id": "pat_enablement_flip_061",
+      "trap_type": "enablement_flip",
+      "clause_a": "The dispenser is enabled to deliver dosages in increments as small as one microliter.",
+      "clause_b": "The dispenser is disabled from delivering dosages in increments as small as one microliter.",
+      "clause_c": "The dispenser meters dosages in one-microliter increments."
+    },
+    {
+      "id": "pat_enablement_flip_062",
+      "trap_type": "enablement_flip",
+      "clause_a": "The GPS module can maintain a positional accuracy of within one meter under open-sky conditions.",
+      "clause_b": "The GPS module cannot maintain a positional accuracy of within one meter under open-sky conditions.",
+      "clause_c": "The GPS module holds positional accuracy within one meter under open-sky conditions."
+    },
+    {
+      "id": "pat_enablement_flip_063",
+      "trap_type": "enablement_flip",
+      "clause_a": "The engine controller is programmed to switch to a fuel-conservation mode when the tank is below reserve.",
+      "clause_b": "The engine controller is not programmed to switch to a fuel-conservation mode when the tank is below reserve.",
+      "clause_c": "The engine controller enters fuel-conservation mode once tank levels drop below reserve."
+    },
+    {
+      "id": "pat_enablement_flip_064",
+      "trap_type": "enablement_flip",
+      "clause_a": "The X-ray tube is rated to sustain continuous operation at anode currents up to five hundred milliamps.",
+      "clause_b": "The X-ray tube is not rated to sustain continuous operation at anode currents up to five hundred milliamps.",
+      "clause_c": "The X-ray tube handles continuous operation at anode currents up to five hundred milliamps."
+    },
+    {
+      "id": "pat_enablement_flip_065",
+      "trap_type": "enablement_flip",
+      "clause_a": "The autopilot system is enabled to execute an automated go-around procedure during approach failures.",
+      "clause_b": "The autopilot system is disabled from executing an automated go-around procedure during approach failures.",
+      "clause_c": "The autopilot performs an automated go-around procedure during approach failures."
+    },
+    {
+      "id": "pat_enablement_flip_066",
+      "trap_type": "enablement_flip",
+      "clause_a": "The seal is designed to remain intact under repeated thermal cycling between cryogenic and ambient temperatures.",
+      "clause_b": "The seal is not designed to remain intact under repeated thermal cycling between cryogenic and ambient temperatures.",
+      "clause_c": "The seal survives repeated thermal cycling from cryogenic to ambient temperatures without failure."
+    },
+    {
+      "id": "pat_enablement_flip_067",
+      "trap_type": "enablement_flip",
+      "clause_a": "The camera lens is capable of autofocus lock within thirty milliseconds under typical lighting.",
+      "clause_b": "The camera lens is incapable of autofocus lock within thirty milliseconds under typical lighting.",
+      "clause_c": "The camera lens achieves autofocus lock within thirty milliseconds under typical lighting."
+    },
+    {
+      "id": "pat_enablement_flip_068",
+      "trap_type": "enablement_flip",
+      "clause_a": "The turbine is engineered to sustain operational torque loads up to two hundred kilonewton-meters at rated speed.",
+      "clause_b": "The turbine is not engineered to sustain operational torque loads up to two hundred kilonewton-meters at rated speed.",
+      "clause_c": "The turbine holds operational torque loads up to two hundred kilonewton-meters at rated speed."
+    },
+    {
+      "id": "pat_enablement_flip_069",
+      "trap_type": "enablement_flip",
+      "clause_a": "The pacemaker is programmed to detect atrial arrhythmias and adjust its pacing therapy in response.",
+      "clause_b": "The pacemaker is not programmed to detect atrial arrhythmias and adjust its pacing therapy in response.",
+      "clause_c": "The pacemaker adjusts pacing therapy in response to detected atrial arrhythmias."
+    },
+    {
+      "id": "pat_enablement_flip_070",
+      "trap_type": "enablement_flip",
+      "clause_a": "The signal processor can perform real-time noise cancellation on audio streams up to forty-eight kilohertz sampling rate.",
+      "clause_b": "The signal processor cannot perform real-time noise cancellation on audio streams up to forty-eight kilohertz sampling rate.",
+      "clause_c": "The signal processor cancels noise in real time on audio streams up to forty-eight kilohertz sampling."
+    },
+    {
+      "id": "pat_enablement_flip_071",
+      "trap_type": "enablement_flip",
+      "clause_a": "The greenhouse control system is capable of maintaining relative humidity within plus-or-minus three percent of setpoint.",
+      "clause_b": "The greenhouse control system is incapable of maintaining relative humidity within plus-or-minus three percent of setpoint.",
+      "clause_c": "The greenhouse system holds relative humidity within plus-or-minus three percent of setpoint."
+    },
+    {
+      "id": "pat_enablement_flip_072",
+      "trap_type": "enablement_flip",
+      "clause_a": "The recycling module is designed to sort mixed plastic waste streams by polymer type autonomously.",
+      "clause_b": "The recycling module is not designed to sort mixed plastic waste streams by polymer type autonomously.",
+      "clause_c": "The recycling module autonomously sorts mixed plastic waste by polymer type."
+    },
+    {
+      "id": "pat_enablement_flip_073",
+      "trap_type": "enablement_flip",
+      "clause_a": "The intake manifold is capable of maintaining laminar airflow at engine speeds up to eight thousand RPM.",
+      "clause_b": "The intake manifold is incapable of maintaining laminar airflow at engine speeds up to eight thousand RPM.",
+      "clause_c": "The intake manifold sustains laminar airflow at engine speeds up to eight thousand RPM."
+    },
+    {
+      "id": "pat_enablement_flip_074",
+      "trap_type": "enablement_flip",
+      "clause_a": "The pixel array is designed to preserve signal integrity across an operating dynamic range of one hundred twenty decibels.",
+      "clause_b": "The pixel array is not designed to preserve signal integrity across an operating dynamic range of one hundred twenty decibels.",
+      "clause_c": "The pixel array preserves signal integrity over a hundred-twenty-decibel operating dynamic range."
+    },
+    {
+      "id": "pat_art_flip_001",
+      "trap_type": "art_flip",
+      "clause_a": "The disclosed apparatus is novel over the prior art references cited during examination.",
+      "clause_b": "The disclosed apparatus is well-known in the prior art references cited during examination.",
+      "clause_c": "The disclosed apparatus represents novelty over the prior art references cited by the examiner."
+    },
+    {
+      "id": "pat_art_flip_002",
+      "trap_type": "art_flip",
+      "clause_a": "The claimed method is unknown in the field of digital signal processing prior to this application.",
+      "clause_b": "The claimed method is well-known in the field of digital signal processing prior to this application.",
+      "clause_c": "The claimed method had not been documented in digital signal processing before this application."
+    },
+    {
+      "id": "pat_art_flip_003",
+      "trap_type": "art_flip",
+      "clause_a": "No prior art teaches the specific combination of features described in claim one.",
+      "clause_b": "The prior art fully teaches the specific combination of features described in claim one.",
+      "clause_c": "No prior art teaches the specific combination of features that claim one describes."
+    },
+    {
+      "id": "pat_art_flip_004",
+      "trap_type": "art_flip",
+      "clause_a": "The inventive step over existing art is characterized by the new integration approach described herein.",
+      "clause_b": "The obvious step over existing art is characterized by the new integration approach described herein.",
+      "clause_c": "The described integration approach constitutes an inventive step over the existing art."
+    },
+    {
+      "id": "pat_art_flip_005",
+      "trap_type": "art_flip",
+      "clause_a": "The prior art fails to disclose the sub-micron alignment tolerance achieved by the present invention.",
+      "clause_b": "The prior art clearly discloses the sub-micron alignment tolerance achieved by the present invention.",
+      "clause_c": "No prior art discloses the sub-micron alignment tolerance this invention achieves."
+    },
+    {
+      "id": "pat_art_flip_006",
+      "trap_type": "art_flip",
+      "clause_a": "The novel encoding scheme reduces bandwidth by forty percent relative to the conventional method.",
+      "clause_b": "The conventional encoding scheme reduces bandwidth by forty percent relative to the novel method.",
+      "clause_c": "The disclosed encoding scheme achieves a forty percent bandwidth reduction versus conventional methods."
+    },
+    {
+      "id": "pat_art_flip_007",
+      "trap_type": "art_flip",
+      "clause_a": "The improved catalyst formulation is unique to the present disclosure and not found in prior literature.",
+      "clause_b": "The improved catalyst formulation is common to prior literature and not unique to the present disclosure.",
+      "clause_c": "The disclosed catalyst formulation is unique in the field, absent from prior literature."
+    },
+    {
+      "id": "pat_art_flip_008",
+      "trap_type": "art_flip",
+      "clause_a": "The distinguishing feature over the closest prior art is the two-stage compression architecture described.",
+      "clause_b": "The shared feature with the closest prior art is the two-stage compression architecture described.",
+      "clause_c": "The two-stage compression architecture distinguishes this invention from its closest prior art."
+    },
+    {
+      "id": "pat_art_flip_009",
+      "trap_type": "art_flip",
+      "clause_a": "The disclosed method addresses a long-felt need unmet by the prior art in the industry.",
+      "clause_b": "The disclosed method addresses a routine problem already met by the prior art in the industry.",
+      "clause_c": "The disclosed method solves a long-felt industry need that prior art failed to address."
+    },
+    {
+      "id": "pat_art_flip_010",
+      "trap_type": "art_flip",
+      "clause_a": "The prior art does not suggest the specific coupling geometry that yields the reported efficiency gain.",
+      "clause_b": "The prior art clearly suggests the specific coupling geometry that yields the reported efficiency gain.",
+      "clause_c": "The prior art does not suggest the specific coupling geometry yielding the reported efficiency gain."
+    },
+    {
+      "id": "pat_art_flip_011",
+      "trap_type": "art_flip",
+      "clause_a": "The invention is patentable over the cited references because they teach away from the claimed combination.",
+      "clause_b": "The invention is unpatentable over the cited references because they teach directly toward the claimed combination.",
+      "clause_c": "The invention is patentable because the cited references actually teach away from the claimed combination."
+    },
+    {
+      "id": "pat_art_flip_012",
+      "trap_type": "art_flip",
+      "clause_a": "This is the first known application of graphene coatings to lithium-ion battery separators.",
+      "clause_b": "This is a well-established application of graphene coatings to lithium-ion battery separators.",
+      "clause_c": "The disclosed application of graphene coatings to lithium-ion battery separators is unprecedented in the field."
+    },
+    {
+      "id": "pat_art_flip_013",
+      "trap_type": "art_flip",
+      "clause_a": "The claimed subject matter constitutes a nonobvious improvement over the state of the art.",
+      "clause_b": "The claimed subject matter constitutes an obvious modification of the state of the art.",
+      "clause_c": "The claimed subject matter is a nonobvious step forward from the current state of the art."
+    },
+    {
+      "id": "pat_art_flip_014",
+      "trap_type": "art_flip",
+      "clause_a": "Prior efforts in this field have not achieved the sensitivity levels demonstrated by the present invention.",
+      "clause_b": "Prior efforts in this field have already achieved the sensitivity levels demonstrated by the present invention.",
+      "clause_c": "Prior efforts in this field have not achieved the sensitivity levels this invention demonstrates."
+    },
+    {
+      "id": "pat_art_flip_015",
+      "trap_type": "art_flip",
+      "clause_a": "The disclosed architecture departs from conventional wisdom in the design of high-frequency amplifiers.",
+      "clause_b": "The disclosed architecture conforms to conventional wisdom in the design of high-frequency amplifiers.",
+      "clause_c": "The disclosed architecture breaks from conventional wisdom in high-frequency amplifier design."
+    },
+    {
+      "id": "pat_art_flip_016",
+      "trap_type": "art_flip",
+      "clause_a": "No known implementation combines active cooling with acoustic damping in the manner described.",
+      "clause_b": "Multiple known implementations combine active cooling with acoustic damping in the manner described.",
+      "clause_c": "No known implementation combines active cooling with acoustic damping in the described manner."
+    },
+    {
+      "id": "pat_art_flip_017",
+      "trap_type": "art_flip",
+      "clause_a": "The inventive concept underlying claim three has not been anticipated by any known reference.",
+      "clause_b": "The inventive concept underlying claim three has been anticipated by known references.",
+      "clause_c": "Claim three's inventive concept is not anticipated in any known reference literature."
+    },
+    {
+      "id": "pat_art_flip_018",
+      "trap_type": "art_flip",
+      "clause_a": "The proposed algorithm outperforms all published methods on the standard benchmark dataset.",
+      "clause_b": "The proposed algorithm underperforms most published methods on the standard benchmark dataset.",
+      "clause_c": "The proposed algorithm beats every published method on the standard benchmark dataset."
+    },
+    {
+      "id": "pat_art_flip_019",
+      "trap_type": "art_flip",
+      "clause_a": "Prior art does not contemplate the redundant failover mechanism disclosed in the specification.",
+      "clause_b": "Prior art fully contemplates the redundant failover mechanism disclosed in the specification.",
+      "clause_c": "Prior art does not contemplate the redundant failover mechanism disclosed in the specification."
+    },
+    {
+      "id": "pat_art_flip_020",
+      "trap_type": "art_flip",
+      "clause_a": "The apparatus provides a solution to a technical problem not previously addressed in the field.",
+      "clause_b": "The apparatus provides a solution to a technical problem previously addressed in the field.",
+      "clause_c": "The apparatus solves a technical problem that had not been addressed in the field before."
+    },
+    {
+      "id": "pat_art_flip_021",
+      "trap_type": "art_flip",
+      "clause_a": "The claim is directed to subject matter that is not obvious in view of the combined references.",
+      "clause_b": "The claim is directed to subject matter that is obvious in view of the combined references.",
+      "clause_c": "Claim subject matter is nonobvious when viewed against the combined reference set."
+    },
+    {
+      "id": "pat_art_flip_022",
+      "trap_type": "art_flip",
+      "clause_a": "The disclosed processing pipeline reduces latency below any previously reported implementation.",
+      "clause_b": "The disclosed processing pipeline increases latency above any previously reported implementation.",
+      "clause_c": "The disclosed processing pipeline reduces latency below every previously reported implementation."
+    },
+    {
+      "id": "pat_art_flip_023",
+      "trap_type": "art_flip",
+      "clause_a": "This particular arrangement of servo motors has not been described in the technical literature.",
+      "clause_b": "This particular arrangement of servo motors has been extensively described in the technical literature.",
+      "clause_c": "The described servo motor arrangement lacks precedent in the technical literature."
+    },
+    {
+      "id": "pat_art_flip_024",
+      "trap_type": "art_flip",
+      "clause_a": "The prior art teaches away from the counter-intuitive geometry adopted in the present design.",
+      "clause_b": "The prior art teaches toward the counter-intuitive geometry adopted in the present design.",
+      "clause_c": "The counter-intuitive geometry adopted here goes against what prior art recommends."
+    },
+    {
+      "id": "pat_art_flip_025",
+      "trap_type": "art_flip",
+      "clause_a": "No published patent discloses the specific temperature-compensation technique detailed in this application.",
+      "clause_b": "Multiple published patents disclose the specific temperature-compensation technique detailed in this application.",
+      "clause_c": "The temperature-compensation technique detailed here is not disclosed in any published patent."
+    },
+    {
+      "id": "pat_art_flip_026",
+      "trap_type": "art_flip",
+      "clause_a": "The claimed processor architecture represents a nonobvious departure from established design principles.",
+      "clause_b": "The claimed processor architecture represents an obvious extension of established design principles.",
+      "clause_c": "The claimed processor architecture nonobviously departs from established design principles."
+    },
+    {
+      "id": "pat_art_flip_027",
+      "trap_type": "art_flip",
+      "clause_a": "The invention addresses a shortcoming in prior thermal-management approaches used in dense server racks.",
+      "clause_b": "The invention exemplifies a routine approach in prior thermal-management practices used in dense server racks.",
+      "clause_c": "The invention addresses a shortcoming in prior thermal-management approaches for dense server racks."
+    },
+    {
+      "id": "pat_art_flip_028",
+      "trap_type": "art_flip",
+      "clause_a": "The disclosed circuit topology has not been suggested by any prior US or international patent filing.",
+      "clause_b": "The disclosed circuit topology has been suggested in many prior US and international patent filings.",
+      "clause_c": "The disclosed circuit topology is not suggested by any prior US or international patent filing."
+    },
+    {
+      "id": "pat_art_flip_029",
+      "trap_type": "art_flip",
+      "clause_a": "Present research advances beyond the state of the art in autonomous fault detection for turbine engines.",
+      "clause_b": "Present research recapitulates the state of the art in autonomous fault detection for turbine engines.",
+      "clause_c": "The present research pushes past the state of the art in turbine-engine autonomous fault detection."
+    },
+    {
+      "id": "pat_art_flip_030",
+      "trap_type": "art_flip",
+      "clause_a": "The apparatus incorporates a novel gasket seal that is unlike anything shown in the prior art.",
+      "clause_b": "The apparatus incorporates a conventional gasket seal that is like designs shown in the prior art.",
+      "clause_c": "The apparatus features a novel gasket seal design unlike anything shown in the prior art."
+    },
+    {
+      "id": "pat_art_flip_031",
+      "trap_type": "art_flip",
+      "clause_a": "The claimed method solves a technical challenge that prior art recognized but did not overcome.",
+      "clause_b": "The claimed method solves a technical challenge that prior art already recognized and overcame.",
+      "clause_c": "The claimed method overcomes a technical challenge that prior art recognized but could not solve."
+    },
+    {
+      "id": "pat_art_flip_032",
+      "trap_type": "art_flip",
+      "clause_a": "The described lens geometry is not disclosed or suggested by prior optical design references.",
+      "clause_b": "The described lens geometry is fully disclosed and suggested by prior optical design references.",
+      "clause_c": "The described lens geometry lacks disclosure or suggestion in prior optical design references."
+    },
+    {
+      "id": "pat_art_flip_033",
+      "trap_type": "art_flip",
+      "clause_a": "The invention departs meaningfully from the prior art through the introduction of an adaptive bias circuit.",
+      "clause_b": "The invention conforms meaningfully with the prior art through the introduction of an adaptive bias circuit.",
+      "clause_c": "The invention meaningfully departs from prior art by introducing an adaptive bias circuit."
+    },
+    {
+      "id": "pat_art_flip_034",
+      "trap_type": "art_flip",
+      "clause_a": "Prior batteries did not achieve the energy density levels reported in the present specification.",
+      "clause_b": "Prior batteries did achieve the energy density levels reported in the present specification.",
+      "clause_c": "The energy density levels reported here exceed what prior batteries have achieved."
+    },
+    {
+      "id": "pat_art_flip_035",
+      "trap_type": "art_flip",
+      "clause_a": "The disclosed authentication protocol has no direct analogue in the cryptographic prior art.",
+      "clause_b": "The disclosed authentication protocol has a direct analogue in the cryptographic prior art.",
+      "clause_c": "The disclosed authentication protocol lacks any direct analogue in cryptographic prior art."
+    },
+    {
+      "id": "pat_art_flip_036",
+      "trap_type": "art_flip",
+      "clause_a": "This solution overcomes a technical bias in the field that had persisted for over a decade.",
+      "clause_b": "This solution conforms to a technical bias in the field that has persisted for over a decade.",
+      "clause_c": "The solution overcomes a decade-long technical bias in the field."
+    },
+    {
+      "id": "pat_art_flip_037",
+      "trap_type": "art_flip",
+      "clause_a": "The composite material achieves a strength-to-weight ratio superior to any prior formulation.",
+      "clause_b": "The composite material achieves a strength-to-weight ratio inferior to prior formulations.",
+      "clause_c": "The composite material's strength-to-weight ratio exceeds every prior formulation."
+    },
+    {
+      "id": "pat_art_flip_038",
+      "trap_type": "art_flip",
+      "clause_a": "Prior chip designs do not incorporate the on-die authentication feature described in this disclosure.",
+      "clause_b": "Prior chip designs already incorporate the on-die authentication feature described in this disclosure.",
+      "clause_c": "The on-die authentication feature described here is absent from prior chip designs."
+    },
+    {
+      "id": "pat_art_flip_039",
+      "trap_type": "art_flip",
+      "clause_a": "The invention exemplifies a technical advance over the closest published prior art reference.",
+      "clause_b": "The invention exemplifies a technical retreat behind the closest published prior art reference.",
+      "clause_c": "The disclosed authentication protocol has no direct analogue in the cryptographic prior art."
+    },
+    {
+      "id": "pat_art_flip_040",
+      "trap_type": "art_flip",
+      "clause_a": "This filing discloses a first-of-its-kind implementation of quantum error correction on hardware.",
+      "clause_b": "This filing discloses a routine implementation of quantum error correction on hardware.",
+      "clause_c": "The filing presents a first-of-its-kind hardware implementation of quantum error correction."
+    },
+    {
+      "id": "pat_art_flip_041",
+      "trap_type": "art_flip",
+      "clause_a": "The described sensor housing achieves ingress protection ratings not previously reported at this size.",
+      "clause_b": "The described sensor housing achieves ingress protection ratings routinely reported at this size.",
+      "clause_c": "The described sensor housing reaches ingress protection ratings never before achieved at this size."
+    },
+    {
+      "id": "pat_art_flip_042",
+      "trap_type": "art_flip",
+      "clause_a": "No cited reference discloses combining wide-band impedance matching with a shielded feed structure.",
+      "clause_b": "Cited references disclose combining wide-band impedance matching with a shielded feed structure.",
+      "clause_c": "None of the cited references combine wide-band impedance matching with a shielded feed structure."
+    },
+    {
+      "id": "pat_art_flip_043",
+      "trap_type": "art_flip",
+      "clause_a": "The claimed subject matter is nonanticipated by any of the enumerated prior art references.",
+      "clause_b": "The claimed subject matter is anticipated by the enumerated prior art references.",
+      "clause_c": "Prior chip designs do not incorporate the on-die authentication feature this disclosure describes."
+    },
+    {
+      "id": "pat_art_flip_044",
+      "trap_type": "art_flip",
+      "clause_a": "Present investigations exceed what has been achieved in prior work on room-temperature superconductors.",
+      "clause_b": "Present investigations match what has been achieved in prior work on room-temperature superconductors.",
+      "clause_c": "The invention exemplifies a technical advance over the closest published prior art reference."
+    },
+    {
+      "id": "pat_art_flip_045",
+      "trap_type": "art_flip",
+      "clause_a": "The invention represents a new departure from the paradigm reflected in the prior art.",
+      "clause_b": "The invention represents a routine continuation of the paradigm reflected in the prior art.",
+      "clause_c": "The invention departs from the paradigm that the prior art reflects."
+    },
+    {
+      "id": "pat_art_flip_046",
+      "trap_type": "art_flip",
+      "clause_a": "The disclosed pumping mechanism operates on principles not previously applied in vacuum systems.",
+      "clause_b": "The disclosed pumping mechanism operates on principles routinely applied in vacuum systems.",
+      "clause_c": "No cited reference discloses combining wide-band impedance matching with a shielded feed structure."
+    },
+    {
+      "id": "pat_art_flip_047",
+      "trap_type": "art_flip",
+      "clause_a": "The prior art teaches an alternative approach that is inferior in reliability to the present invention.",
+      "clause_b": "The prior art teaches an equivalent approach that is comparable in reliability to the present invention.",
+      "clause_c": "The prior art's alternative approach is less reliable than the present invention."
+    },
+    {
+      "id": "pat_art_flip_048",
+      "trap_type": "art_flip",
+      "clause_a": "Nothing in the prior art anticipates the reduced-tolerance manufacturing process disclosed herein.",
+      "clause_b": "Elements in the prior art anticipate the reduced-tolerance manufacturing process disclosed herein.",
+      "clause_c": "The claimed subject matter is nonanticipated by any of the enumerated prior art references."
+    },
+    {
+      "id": "pat_art_flip_049",
+      "trap_type": "art_flip",
+      "clause_a": "The invention solves a technical problem in a way that has not been previously suggested.",
+      "clause_b": "The invention solves a technical problem in a way that has been previously suggested many times.",
+      "clause_c": "The invention's technical solution has not been suggested before."
+    },
+    {
+      "id": "pat_art_flip_050",
+      "trap_type": "art_flip",
+      "clause_a": "The described protocol is a novel contribution to the network security literature.",
+      "clause_b": "The described protocol is a routine reproduction of existing network security literature.",
+      "clause_c": "The described protocol represents a novel contribution to network security literature."
+    },
+    {
+      "id": "pat_art_flip_051",
+      "trap_type": "art_flip",
+      "clause_a": "This apparatus outperforms every prior device tested in the standard benchmark comparison.",
+      "clause_b": "This apparatus underperforms most prior devices tested in the standard benchmark comparison.",
+      "clause_c": "This apparatus beats every prior device tested in the standard benchmark comparison."
+    },
+    {
+      "id": "pat_art_flip_052",
+      "trap_type": "art_flip",
+      "clause_a": "The disclosed heat sink design has not been shown in any commercial or academic prior work.",
+      "clause_b": "The disclosed heat sink design has been shown in many commercial and academic prior works.",
+      "clause_c": "The disclosed heat sink design lacks precedent in commercial and academic prior work."
+    },
+    {
+      "id": "pat_art_flip_053",
+      "trap_type": "art_flip",
+      "clause_a": "Prior optical modulators do not achieve the extinction ratios reported in the present disclosure.",
+      "clause_b": "Prior optical modulators do achieve the extinction ratios reported in the present disclosure.",
+      "clause_c": "The invention represents a new departure from the paradigm reflected in the prior art literature."
+    },
+    {
+      "id": "pat_art_flip_054",
+      "trap_type": "art_flip",
+      "clause_a": "The design represents a nonobvious step forward beyond the incremental improvements in the prior art.",
+      "clause_b": "The design represents an obvious step consistent with the incremental improvements in the prior art.",
+      "clause_c": "The design steps nonobviously beyond the incremental improvements of prior art."
+    },
+    {
+      "id": "pat_art_flip_055",
+      "trap_type": "art_flip",
+      "clause_a": "The claimed sensor combines two features that have not been previously combined in a single device.",
+      "clause_b": "The claimed sensor combines two features that have been routinely combined in single devices.",
+      "clause_c": "The claimed sensor combines two features not previously combined into a single device."
+    },
+    {
+      "id": "pat_art_flip_056",
+      "trap_type": "art_flip",
+      "clause_a": "Nothing in the cited references teaches or suggests the redundant power path disclosed in claim two.",
+      "clause_b": "The cited references teach and suggest the redundant power path disclosed in claim two.",
+      "clause_c": "Nothing in the prior art anticipates the reduced-tolerance manufacturing process disclosed herein."
+    },
+    {
+      "id": "pat_art_flip_057",
+      "trap_type": "art_flip",
+      "clause_a": "The invention is a departure from the accepted design methodology in the field of RF filter design.",
+      "clause_b": "The invention is a continuation of the accepted design methodology in the field of RF filter design.",
+      "clause_c": "The invention departs from the accepted RF-filter-design methodology in the field."
+    },
+    {
+      "id": "pat_art_flip_058",
+      "trap_type": "art_flip",
+      "clause_a": "Prior art does not describe using this class of polymer for high-temperature packaging applications.",
+      "clause_b": "Prior art does describe using this class of polymer for high-temperature packaging applications.",
+      "clause_c": "This class of polymer is not described for high-temperature packaging applications in prior art."
+    },
+    {
+      "id": "pat_art_flip_059",
+      "trap_type": "art_flip",
+      "clause_a": "The disclosed method offers a nonobvious efficiency improvement over conventional approaches.",
+      "clause_b": "The disclosed method offers an obvious efficiency improvement over conventional approaches.",
+      "clause_c": "The disclosed method's efficiency improvement over conventional approaches is nonobvious."
+    },
+    {
+      "id": "pat_art_flip_060",
+      "trap_type": "art_flip",
+      "clause_a": "Present teachings advance state of the art in the domain of low-power sensor readout circuits.",
+      "clause_b": "Present teachings restate state of the art in the domain of low-power sensor readout circuits.",
+      "clause_c": "Present teachings push the state of the art forward in low-power sensor readout circuits."
+    },
+    {
+      "id": "pat_art_flip_061",
+      "trap_type": "art_flip",
+      "clause_a": "This is the first published description of a self-healing coating with these specific properties.",
+      "clause_b": "This is a routine published description of a self-healing coating with common properties.",
+      "clause_c": "The self-healing coating with these specific properties is described here for the first time in publication."
+    },
+    {
+      "id": "pat_art_flip_062",
+      "trap_type": "art_flip",
+      "clause_a": "The prior art has not addressed the specific noise floor challenge that this invention overcomes.",
+      "clause_b": "The prior art has addressed the specific noise floor challenge that this invention overcomes.",
+      "clause_c": "The specific noise floor challenge this invention overcomes has not been addressed in prior art."
+    },
+    {
+      "id": "pat_art_flip_063",
+      "trap_type": "art_flip",
+      "clause_a": "The claimed circuit is patentable because prior art references teach away from its polarity configuration.",
+      "clause_b": "The claimed circuit is unpatentable because prior art references teach toward its polarity configuration.",
+      "clause_c": "The claimed circuit is patentable — prior art teaches away from its polarity configuration."
+    },
+    {
+      "id": "pat_art_flip_064",
+      "trap_type": "art_flip",
+      "clause_a": "This filing represents an unprecedented level of integration in the field of microfluidic devices.",
+      "clause_b": "This filing represents a typical level of integration in the field of microfluidic devices.",
+      "clause_c": "The filing achieves an unprecedented integration level in the microfluidic-device field."
+    },
+    {
+      "id": "pat_art_flip_065",
+      "trap_type": "art_flip",
+      "clause_a": "Prior implementations of this class of device suffer from limitations that the present invention overcomes.",
+      "clause_b": "Prior implementations of this class of device do not suffer from limitations that the present invention overcomes.",
+      "clause_c": "The present invention resolves limitations that prior implementations of this device class had."
+    },
+    {
+      "id": "pat_art_flip_066",
+      "trap_type": "art_flip",
+      "clause_a": "The described phased-array beamforming approach is novel in the millimeter-wave frequency regime.",
+      "clause_b": "The described phased-array beamforming approach is well-known in the millimeter-wave frequency regime.",
+      "clause_c": "The described phased-array beamforming approach is novel for millimeter-wave frequency operation."
+    },
+    {
+      "id": "pat_art_flip_067",
+      "trap_type": "art_flip",
+      "clause_a": "The prior art fails to disclose combining the disclosed sensor with the disclosed control loop.",
+      "clause_b": "The prior art discloses combining the disclosed sensor with the disclosed control loop.",
+      "clause_c": "Prior art doesn't disclose combining the sensor with the control loop as done here."
+    },
+    {
+      "id": "pat_art_flip_068",
+      "trap_type": "art_flip",
+      "clause_a": "The disclosed data structure yields query performance beyond that of the closest prior work.",
+      "clause_b": "The disclosed data structure yields query performance behind that of the closest prior work.",
+      "clause_c": "The disclosed data structure delivers query performance surpassing the closest prior work."
+    },
+    {
+      "id": "pat_art_flip_069",
+      "trap_type": "art_flip",
+      "clause_a": "Nothing in the cited references anticipates the sub-nanosecond precision achieved by this invention.",
+      "clause_b": "The cited references anticipate the sub-nanosecond precision achieved by this invention.",
+      "clause_c": "The sub-nanosecond precision achieved here is not anticipated in the cited references."
+    },
+    {
+      "id": "pat_art_flip_070",
+      "trap_type": "art_flip",
+      "clause_a": "The invention overcomes a specific limitation identified but not solved in the prior art literature.",
+      "clause_b": "The invention overcomes a specific limitation both identified and solved in the prior art literature.",
+      "clause_c": "The invention resolves a specific prior-art limitation that had been identified but not solved."
+    },
+    {
+      "id": "pat_art_flip_071",
+      "trap_type": "art_flip",
+      "clause_a": "Prior work does not demonstrate the temperature stability characteristics of the present formulation.",
+      "clause_b": "Prior work does demonstrate the temperature stability characteristics of the present formulation.",
+      "clause_c": "The temperature stability characteristics of the present formulation have not been demonstrated in prior work."
+    },
+    {
+      "id": "pat_art_flip_072",
+      "trap_type": "art_flip",
+      "clause_a": "The disclosed control algorithm is nonobvious to a person of ordinary skill in the art.",
+      "clause_b": "The disclosed control algorithm is obvious to a person of ordinary skill in the art.",
+      "clause_c": "A person of ordinary skill in the art would not have found the control algorithm obvious."
+    },
+    {
+      "id": "pat_art_flip_073",
+      "trap_type": "art_flip",
+      "clause_a": "The invention establishes a new baseline for accuracy in autonomous navigation systems.",
+      "clause_b": "The invention conforms to the existing baseline for accuracy in autonomous navigation systems.",
+      "clause_c": "The invention sets a new accuracy baseline for autonomous navigation systems."
+    },
+    {
+      "id": "pat_art_flip_074",
+      "trap_type": "art_flip",
+      "clause_a": "Prior transducers do not exhibit the linearity range demonstrated by the present transducer design.",
+      "clause_b": "Prior transducers do exhibit the linearity range demonstrated by the present transducer design.",
+      "clause_c": "This apparatus outperforms every prior device tested in the standard benchmark comparison."
+    },
+    {
+      "id": "pat_art_flip_075",
+      "trap_type": "art_flip",
+      "clause_a": "The specification discloses a technique that has not been reported in the peer-reviewed literature.",
+      "clause_b": "The specification discloses a technique that has been widely reported in the peer-reviewed literature.",
+      "clause_c": "The technique disclosed in the specification is absent from the peer-reviewed literature."
+    },
+    {
+      "id": "pat_art_flip_076",
+      "trap_type": "art_flip",
+      "clause_a": "The claimed heater is novel in that it achieves uniform temperature over an unprecedented area.",
+      "clause_b": "The claimed heater is conventional in that it achieves uniform temperature over a routine area.",
+      "clause_c": "The claimed heater delivers uniform temperature over an unprecedented area, making it novel."
+    },
+    {
+      "id": "pat_mechanism_substitution_001",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The circuit encrypts the input signal before transmission over the public network.",
+      "clause_b": "The circuit decrypts the input signal before transmission over the public network.",
+      "clause_c": "The circuit performs encryption of the input signal ahead of public-network transmission."
+    },
+    {
+      "id": "pat_mechanism_substitution_002",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The enzyme activates the substrate through covalent bond formation at the active site.",
+      "clause_b": "The enzyme inhibits the substrate through covalent bond formation at the active site.",
+      "clause_c": "The enzyme catalyzes substrate activation via covalent bonding at its active site."
+    },
+    {
+      "id": "pat_mechanism_substitution_003",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The antenna transmits electromagnetic waves in the microwave frequency band.",
+      "clause_b": "The antenna receives electromagnetic waves in the microwave frequency band.",
+      "clause_c": "The antenna sends out microwave-band electromagnetic waves."
+    },
+    {
+      "id": "pat_mechanism_substitution_004",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The clutch couples the engine output shaft to the transmission input shaft during acceleration.",
+      "clause_b": "The clutch decouples the engine output shaft from the transmission input shaft during acceleration.",
+      "clause_c": "The clutch connects the engine output shaft with the transmission input during acceleration."
+    },
+    {
+      "id": "pat_mechanism_substitution_005",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The heat exchanger heats the incoming water stream using waste steam from the process.",
+      "clause_b": "The heat exchanger cools the incoming water stream using waste steam from the process.",
+      "clause_c": "The heat exchanger warms the incoming water stream by leveraging process waste steam."
+    },
+    {
+      "id": "pat_mechanism_substitution_006",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The valve opens under a control signal to allow gas flow through the pipeline.",
+      "clause_b": "The valve closes under a control signal to allow gas flow through the pipeline.",
+      "clause_c": "The valve opens on a control signal to permit gas flow along the pipeline."
+    },
+    {
+      "id": "pat_mechanism_substitution_007",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The amplifier increases the input signal amplitude by a factor of one hundred.",
+      "clause_b": "The amplifier decreases the input signal amplitude by a factor of one hundred.",
+      "clause_c": "The amplifier boosts the input signal amplitude by a hundred-fold factor."
+    },
+    {
+      "id": "pat_mechanism_substitution_008",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The rectifier converts AC line voltage into a smoothed DC output for the load.",
+      "clause_b": "The rectifier converts DC output into a fluctuating AC line voltage for the load.",
+      "clause_c": "The rectifier changes AC line voltage to a smoothed DC output feeding the load."
+    },
+    {
+      "id": "pat_mechanism_substitution_009",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The pressure regulator increases the outlet pressure when the demand rises.",
+      "clause_b": "The pressure regulator decreases the outlet pressure when the demand rises.",
+      "clause_c": "The pressure regulator raises outlet pressure in response to rising demand."
+    },
+    {
+      "id": "pat_mechanism_substitution_010",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The pump discharges fluid from the reservoir into the main hydraulic circuit.",
+      "clause_b": "The pump aspirates fluid from the main hydraulic circuit into the reservoir.",
+      "clause_c": "The pump moves fluid from the reservoir out into the main hydraulic circuit."
+    },
+    {
+      "id": "pat_mechanism_substitution_011",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The controller activates the alarm when the sensed pressure exceeds the threshold.",
+      "clause_b": "The controller deactivates the alarm when the sensed pressure exceeds the threshold.",
+      "clause_c": "The controller triggers the alarm once sensed pressure passes the threshold."
+    },
+    {
+      "id": "pat_mechanism_substitution_012",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The transformer steps up the primary voltage to the higher secondary voltage level.",
+      "clause_b": "The transformer steps down the primary voltage to the higher secondary voltage level.",
+      "clause_c": "The transformer boosts the primary voltage to the higher secondary voltage."
+    },
+    {
+      "id": "pat_mechanism_substitution_013",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The gate opens the current path when the control voltage rises above the threshold.",
+      "clause_b": "The gate closes the current path when the control voltage rises above the threshold.",
+      "clause_c": "The gate opens the current path once the control voltage crosses the threshold."
+    },
+    {
+      "id": "pat_mechanism_substitution_014",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The heater warms the reactor bed to the temperature required for the catalytic reaction.",
+      "clause_b": "The heater cools the reactor bed to the temperature required for the catalytic reaction.",
+      "clause_c": "The heater brings the reactor bed up to the temperature the catalytic reaction requires."
+    },
+    {
+      "id": "pat_mechanism_substitution_015",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The capacitor charges through the supply resistor over a defined RC time constant.",
+      "clause_b": "The capacitor discharges through the supply resistor over a defined RC time constant.",
+      "clause_c": "The capacitor accumulates charge through the supply resistor over the RC time constant."
+    },
+    {
+      "id": "pat_mechanism_substitution_016",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The turbine accelerates the shaft when the working fluid pressure increases.",
+      "clause_b": "The turbine decelerates the shaft when the working fluid pressure increases.",
+      "clause_c": "The turbine speeds up the shaft as working fluid pressure rises."
+    },
+    {
+      "id": "pat_mechanism_substitution_017",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The membrane transmits water vapor while blocking passage of dissolved salts.",
+      "clause_b": "The membrane blocks water vapor while allowing passage of dissolved salts.",
+      "clause_c": "The membrane passes water vapor and prevents dissolved salts from passing."
+    },
+    {
+      "id": "pat_mechanism_substitution_018",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The oscillator increases its output frequency as the applied bias voltage rises.",
+      "clause_b": "The oscillator decreases its output frequency as the applied bias voltage rises.",
+      "clause_c": "The oscillator's output frequency climbs as the applied bias voltage increases."
+    },
+    {
+      "id": "pat_mechanism_substitution_019",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The compressor raises the pressure of the refrigerant gas within the closed loop.",
+      "clause_b": "The compressor lowers the pressure of the refrigerant gas within the closed loop.",
+      "clause_c": "The compressor increases the pressure of refrigerant gas in the closed loop."
+    },
+    {
+      "id": "pat_mechanism_substitution_020",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The controller opens the throttle valve when the engine load increases.",
+      "clause_b": "The controller closes the throttle valve when the engine load increases.",
+      "clause_c": "The controller opens the throttle valve as engine load grows."
+    },
+    {
+      "id": "pat_mechanism_substitution_021",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The receiver demodulates the incoming radio-frequency signal to recover the baseband data.",
+      "clause_b": "The receiver modulates the incoming radio-frequency signal to overlay baseband data.",
+      "clause_c": "The receiver extracts baseband data from the incoming radio-frequency signal via demodulation."
+    },
+    {
+      "id": "pat_mechanism_substitution_022",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The motor accelerates the payload to the target velocity within the specified time window.",
+      "clause_b": "The motor decelerates the payload to the target velocity within the specified time window.",
+      "clause_c": "The motor brings the payload up to target velocity within the specified time window."
+    },
+    {
+      "id": "pat_mechanism_substitution_023",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The catalyst promotes the forward reaction under the specified temperature and pressure conditions.",
+      "clause_b": "The catalyst suppresses the forward reaction under the specified temperature and pressure conditions.",
+      "clause_c": "The catalyst accelerates the forward reaction at the specified conditions."
+    },
+    {
+      "id": "pat_mechanism_substitution_024",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The regulator amplifies the input voltage to maintain the required output level under load.",
+      "clause_b": "The regulator attenuates the input voltage to maintain the required output level under load.",
+      "clause_c": "The regulator boosts the input voltage to hold the required output level under load."
+    },
+    {
+      "id": "pat_mechanism_substitution_025",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The channel encoder introduces redundancy to protect the payload against transmission errors.",
+      "clause_b": "The channel decoder removes redundancy to protect the payload against transmission errors.",
+      "clause_c": "The channel encoder adds redundant symbols to protect the payload from transmission errors."
+    },
+    {
+      "id": "pat_mechanism_substitution_026",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The relay closes the auxiliary circuit when the primary coil is energized.",
+      "clause_b": "The relay opens the auxiliary circuit when the primary coil is energized.",
+      "clause_c": "The relay closes the auxiliary circuit whenever its primary coil receives current."
+    },
+    {
+      "id": "pat_mechanism_substitution_027",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The centrifuge accelerates the sample tubes to twenty thousand revolutions per minute.",
+      "clause_b": "The centrifuge decelerates the sample tubes to twenty thousand revolutions per minute.",
+      "clause_c": "The centrifuge spins the sample tubes up to twenty thousand revolutions per minute."
+    },
+    {
+      "id": "pat_mechanism_substitution_028",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The optical modulator introduces a phase shift onto the outgoing laser beam.",
+      "clause_b": "The optical modulator removes any phase shift from the outgoing laser beam.",
+      "clause_c": "The optical modulator adds a phase shift to the outgoing laser beam."
+    },
+    {
+      "id": "pat_mechanism_substitution_029",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The controller writes the calibration data into the non-volatile memory during commissioning.",
+      "clause_b": "The controller reads the calibration data from the non-volatile memory during commissioning.",
+      "clause_c": "The controller stores calibration data in non-volatile memory during commissioning."
+    },
+    {
+      "id": "pat_mechanism_substitution_030",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The pressure valve releases excess gas from the vessel when the internal pressure rises above the setpoint.",
+      "clause_b": "The pressure valve draws additional gas into the vessel when the internal pressure rises above the setpoint.",
+      "clause_c": "The pressure valve vents excess gas from the vessel once internal pressure passes the setpoint."
+    },
+    {
+      "id": "pat_mechanism_substitution_031",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The active suspension raises the ride height when the vehicle encounters uneven terrain.",
+      "clause_b": "The active suspension lowers the ride height when the vehicle encounters uneven terrain.",
+      "clause_c": "The active suspension increases ride height in response to uneven terrain."
+    },
+    {
+      "id": "pat_mechanism_substitution_032",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The processor compresses the video stream before storing it in the archive.",
+      "clause_b": "The processor decompresses the video stream before storing it in the archive.",
+      "clause_c": "The processor reduces video stream size before archival storage."
+    },
+    {
+      "id": "pat_mechanism_substitution_033",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The bearing damps rotational vibration transmitted from the drive shaft to the housing.",
+      "clause_b": "The bearing amplifies rotational vibration transmitted from the drive shaft to the housing.",
+      "clause_c": "The bearing attenuates rotational vibration passing from the drive shaft to the housing."
+    },
+    {
+      "id": "pat_mechanism_substitution_034",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The exchanger transfers thermal energy from the hot fluid to the cold fluid across the barrier.",
+      "clause_b": "The exchanger absorbs thermal energy from the cold fluid into the hot fluid across the barrier.",
+      "clause_c": "The exchanger moves thermal energy from the hot fluid into the cold fluid across the barrier."
+    },
+    {
+      "id": "pat_mechanism_substitution_035",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The immune modulator activates T-cell populations in response to the antigen challenge.",
+      "clause_b": "The immune modulator inhibits T-cell populations in response to the antigen challenge.",
+      "clause_c": "The immune modulator triggers T-cell activation upon antigen challenge."
+    },
+    {
+      "id": "pat_mechanism_substitution_036",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The relay contacts open when the coil current drops below the release threshold.",
+      "clause_b": "The relay contacts close when the coil current drops below the release threshold.",
+      "clause_c": "The relay contacts open as coil current falls below the release threshold."
+    },
+    {
+      "id": "pat_mechanism_substitution_037",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The absorber captures incident photons and converts them to electron-hole pairs.",
+      "clause_b": "The absorber emits incident photons and converts them to electron-hole pairs.",
+      "clause_c": "The absorber captures incident photons, generating electron-hole pairs."
+    },
+    {
+      "id": "pat_mechanism_substitution_038",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The signal path attenuates high-frequency components while passing lower-frequency content.",
+      "clause_b": "The signal path amplifies high-frequency components while passing lower-frequency content.",
+      "clause_c": "The signal path suppresses high-frequency components and passes lower-frequency content."
+    },
+    {
+      "id": "pat_mechanism_substitution_039",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The compressor compresses air to a working pressure of eight bar for the tool line.",
+      "clause_b": "The compressor expands air to a working pressure of eight bar for the tool line.",
+      "clause_c": "The compressor pressurizes air up to eight bar working pressure for the tool line."
+    },
+    {
+      "id": "pat_mechanism_substitution_040",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The controller opens the bypass valve when the primary channel becomes blocked.",
+      "clause_b": "The controller closes the bypass valve when the primary channel becomes blocked.",
+      "clause_c": "The controller opens the bypass valve upon blockage of the primary channel."
+    },
+    {
+      "id": "pat_mechanism_substitution_041",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The oscillator generates a sinusoidal waveform at the target frequency of ten megahertz.",
+      "clause_b": "The oscillator dissipates a sinusoidal waveform at the target frequency of ten megahertz.",
+      "clause_c": "The oscillator produces a sinusoidal waveform at the ten-megahertz target frequency."
+    },
+    {
+      "id": "pat_mechanism_substitution_042",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The pump injects the reagent into the reaction vessel at the specified molar rate.",
+      "clause_b": "The pump extracts the reagent from the reaction vessel at the specified molar rate.",
+      "clause_c": "The pump delivers the reagent into the reaction vessel at the specified molar rate."
+    },
+    {
+      "id": "pat_mechanism_substitution_043",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The compensator advances the phase of the feedback signal relative to the reference.",
+      "clause_b": "The compensator delays the phase of the feedback signal relative to the reference.",
+      "clause_c": "The compensator moves feedback signal phase forward relative to the reference."
+    },
+    {
+      "id": "pat_mechanism_substitution_044",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The controller enables the servo loop when the position error exceeds the deadband.",
+      "clause_b": "The controller disables the servo loop when the position error exceeds the deadband.",
+      "clause_c": "The controller engages the servo loop once position error passes the deadband."
+    },
+    {
+      "id": "pat_mechanism_substitution_045",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The regulator absorbs voltage transients from the incoming line before they reach the load.",
+      "clause_b": "The regulator emits voltage transients toward the incoming line before they reach the load.",
+      "clause_c": "The regulator suppresses voltage transients from the incoming line before they reach the load."
+    },
+    {
+      "id": "pat_mechanism_substitution_046",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The digital filter attenuates signal components above the specified cutoff frequency.",
+      "clause_b": "The digital filter amplifies signal components above the specified cutoff frequency.",
+      "clause_c": "The digital filter reduces signal amplitude above the specified cutoff frequency."
+    },
+    {
+      "id": "pat_mechanism_substitution_047",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The pressure vessel expands under the applied thermal load during operation.",
+      "clause_b": "The pressure vessel contracts under the applied thermal load during operation.",
+      "clause_c": "The pressure vessel enlarges under applied thermal load while running."
+    },
+    {
+      "id": "pat_mechanism_substitution_048",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The switch connects the sensor output to the input of the analog-to-digital converter.",
+      "clause_b": "The switch disconnects the sensor output from the input of the analog-to-digital converter.",
+      "clause_c": "The switch routes the sensor output into the ADC input."
+    },
+    {
+      "id": "pat_mechanism_substitution_049",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The controller latches the state machine in the safe mode after a fault is detected.",
+      "clause_b": "The controller unlatches the state machine from the safe mode after a fault is detected.",
+      "clause_c": "The controller holds the state machine in safe mode following a detected fault."
+    },
+    {
+      "id": "pat_mechanism_substitution_050",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The regenerator recovers thermal energy from the exhaust stream to preheat the incoming air.",
+      "clause_b": "The regenerator wastes thermal energy from the exhaust stream to preheat the incoming air.",
+      "clause_c": "The regenerator captures thermal energy from the exhaust stream, using it to preheat incoming air."
+    },
+    {
+      "id": "pat_mechanism_substitution_051",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The mechanism raises the platform when the operator activates the upward control button.",
+      "clause_b": "The mechanism lowers the platform when the operator activates the upward control button.",
+      "clause_c": "The mechanism elevates the platform on operator activation of the upward control button."
+    },
+    {
+      "id": "pat_mechanism_substitution_052",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The controller writes new firmware to the flash memory during the OTA update procedure.",
+      "clause_b": "The controller erases old firmware from the flash memory during the OTA update procedure.",
+      "clause_c": "The controller stores new firmware into flash memory during the OTA update procedure."
+    },
+    {
+      "id": "pat_mechanism_substitution_053",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The pump maintains positive pressure in the sealed chamber during the manufacturing cycle.",
+      "clause_b": "The pump maintains negative pressure in the sealed chamber during the manufacturing cycle.",
+      "clause_c": "The pump holds positive pressure inside the sealed chamber throughout the manufacturing cycle."
+    },
+    {
+      "id": "pat_mechanism_substitution_054",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The clutch engages the drive train when the shift command is issued by the transmission controller.",
+      "clause_b": "The clutch disengages the drive train when the shift command is issued by the transmission controller.",
+      "clause_c": "The clutch couples the drive train upon shift command from the transmission controller."
+    },
+    {
+      "id": "pat_mechanism_substitution_055",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The exchanger evaporates the working fluid on the hot side to transport thermal energy.",
+      "clause_b": "The exchanger condenses the working fluid on the hot side to transport thermal energy.",
+      "clause_c": "The exchanger vaporizes the working fluid on its hot side to move thermal energy."
+    },
+    {
+      "id": "pat_mechanism_substitution_056",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The controller opens the shutter when the imaging trigger signal is asserted.",
+      "clause_b": "The controller closes the shutter when the imaging trigger signal is asserted.",
+      "clause_c": "The controller opens the shutter on assertion of the imaging trigger."
+    },
+    {
+      "id": "pat_mechanism_substitution_057",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The regulator injects current into the load when the sensed voltage is below the setpoint.",
+      "clause_b": "The regulator drains current from the load when the sensed voltage is below the setpoint.",
+      "clause_c": "The regulator supplies current to the load whenever sensed voltage falls below the setpoint."
+    },
+    {
+      "id": "pat_mechanism_substitution_058",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The valve seats close under the retreating flow to prevent reverse-flow past the check.",
+      "clause_b": "The valve seats open under the retreating flow to prevent reverse-flow past the check.",
+      "clause_c": "The valve seats close during retreating flow to block reverse flow past the check."
+    },
+    {
+      "id": "pat_mechanism_substitution_059",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The heater raises the water bath temperature to the setpoint over five minutes.",
+      "clause_b": "The heater lowers the water bath temperature to the setpoint over five minutes.",
+      "clause_c": "The heater brings the water bath up to setpoint temperature within five minutes."
+    },
+    {
+      "id": "pat_mechanism_substitution_060",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The mechanism accelerates rotational speed of the rotor to the operating value at startup.",
+      "clause_b": "The mechanism decelerates rotational speed of the rotor to the operating value at startup.",
+      "clause_c": "The mechanism spins the rotor up to the operating rotational speed at startup."
+    },
+    {
+      "id": "pat_mechanism_substitution_061",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The switch enables the redundant path when the primary path exhibits a fault.",
+      "clause_b": "The switch disables the redundant path when the primary path exhibits a fault.",
+      "clause_c": "The switch activates the redundant path once a primary path fault is detected."
+    },
+    {
+      "id": "pat_mechanism_substitution_062",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The regulator supplies stable voltage to the load across the specified line-transient envelope.",
+      "clause_b": "The regulator drains stable voltage from the load across the specified line-transient envelope.",
+      "clause_c": "The regulator delivers stable voltage to the load throughout the line-transient envelope."
+    },
+    {
+      "id": "pat_mechanism_substitution_063",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The optical amplifier boosts the intensity of the propagating light signal in the fiber.",
+      "clause_b": "The optical amplifier absorbs the intensity of the propagating light signal in the fiber.",
+      "clause_c": "The optical amplifier strengthens the intensity of the light signal propagating in the fiber."
+    },
+    {
+      "id": "pat_mechanism_substitution_064",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The mechanism locks the safety mechanism when the operator engages the guard interlock.",
+      "clause_b": "The mechanism unlocks the safety mechanism when the operator engages the guard interlock.",
+      "clause_c": "The optical amplifier boosts the intensity of the light signal propagating in the fiber."
+    },
+    {
+      "id": "pat_mechanism_substitution_065",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The valve admits fuel into the combustion chamber during the intake stroke.",
+      "clause_b": "The valve expels fuel from the combustion chamber during the intake stroke.",
+      "clause_c": "The valve introduces fuel into the combustion chamber on the intake stroke."
+    },
+    {
+      "id": "pat_mechanism_substitution_066",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The magnetic field magnetizes the ferrous material as it passes through the coil aperture.",
+      "clause_b": "The magnetic field demagnetizes the ferrous material as it passes through the coil aperture.",
+      "clause_c": "The magnetic field induces magnetization in the ferrous material passing through the coil aperture."
+    },
+    {
+      "id": "pat_mechanism_substitution_067",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The controller powers up the peripherals after the main supply reaches the ready threshold.",
+      "clause_b": "The controller powers down the peripherals after the main supply reaches the ready threshold.",
+      "clause_c": "The controller turns on the peripherals once the main supply passes the ready threshold."
+    },
+    {
+      "id": "pat_mechanism_substitution_068",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The RF chain amplifies the antenna signal before delivering it to the mixer stage.",
+      "clause_b": "The RF chain attenuates the antenna signal before delivering it to the mixer stage.",
+      "clause_c": "The RF chain boosts the antenna signal ahead of the mixer stage."
+    },
+    {
+      "id": "pat_mechanism_substitution_069",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The mechanism extends the arm to the retrieval position under servo control.",
+      "clause_b": "The mechanism retracts the arm from the retrieval position under servo control.",
+      "clause_c": "The mechanism stretches the arm out to the retrieval position under servo control."
+    },
+    {
+      "id": "pat_mechanism_substitution_070",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The controller enables direct memory access transfers between the peripheral and the main memory.",
+      "clause_b": "The controller disables direct memory access transfers between the peripheral and the main memory.",
+      "clause_c": "The controller allows direct memory access transfers between the peripheral and main memory."
+    },
+    {
+      "id": "pat_mechanism_substitution_071",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The controller starts the motor when the enable input transitions from low to high.",
+      "clause_b": "The controller stops the motor when the enable input transitions from low to high.",
+      "clause_c": "The controller starts the motor on a low-to-high transition of the enable input."
+    },
+    {
+      "id": "pat_mechanism_substitution_072",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The compressor loads the refrigerant into the accumulator during the cool-down phase.",
+      "clause_b": "The compressor unloads the refrigerant from the accumulator during the cool-down phase.",
+      "clause_c": "The compressor fills the accumulator with refrigerant during the cool-down phase."
+    },
+    {
+      "id": "pat_mechanism_substitution_073",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The waveguide guides the electromagnetic wave from the source to the target antenna feed.",
+      "clause_b": "The waveguide blocks the electromagnetic wave from the source to the target antenna feed.",
+      "clause_c": "The waveguide channels the electromagnetic wave from source to target antenna feed."
+    },
+    {
+      "id": "pat_mechanism_substitution_074",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The controller opens the drain valve to purge the collected condensate from the reservoir.",
+      "clause_b": "The controller closes the drain valve to purge the collected condensate from the reservoir.",
+      "clause_c": "The controller opens the drain valve to evacuate collected condensate from the reservoir."
+    },
+    {
+      "id": "pat_mechanism_substitution_075",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The regulator maintains the coolant flow through the reactor loop at the specified mass rate.",
+      "clause_b": "The regulator interrupts the coolant flow through the reactor loop at the specified mass rate.",
+      "clause_c": "The regulator holds coolant flow through the reactor loop at the specified mass rate."
+    },
+    {
+      "id": "pat_mechanism_substitution_076",
+      "trap_type": "mechanism_substitution",
+      "clause_a": "The controller extends its operation to include the auxiliary channel when the load exceeds the primary rating.",
+      "clause_b": "The controller limits its operation to exclude the auxiliary channel when the load exceeds the primary rating.",
+      "clause_c": "The controller adds the auxiliary channel to operation once load exceeds the primary rating."
+    }
+  ]
+}

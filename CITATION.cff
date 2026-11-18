@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use pelloran-safety-lens, please cite the paper below."
+type: software
+title: pelloran-safety-lens
+abstract: "The reproducibility package for the paper 'Small Learned Projections Reduce Semantic-Reversal Errors in Dense Retrieval': trap sets in four domains, the safety lenses, the trainer, the scripts that rebuild the legal, patent and financial distractor pools, and the stored results with their hashes."
+authors:
+  - family-names: Karim
+    given-names: Sayed Amir
+    affiliation: Pelloran Inc.
+version: 1.1.0
+date-released: 2026-11-18
+license: AGPL-3.0-only
+repository-code: "https://github.com/pelloran-inc/pelloran-safety-lens"
+doi: "10.5281/zenodo.24345474"
+keywords:
+  - dense retrieval
+  - sentence embeddings
+  - hard negatives
+  - semantic reversal
+  - reproducibility
+preferred-citation:
+  type: article
+  status: preprint
+  title: "Small Learned Projections Reduce Semantic-Reversal Errors in Dense Retrieval: A Four-Domain Empirical Study"
+  authors:
+    - family-names: Karim
+      given-names: Sayed Amir
+      affiliation: Pelloran Inc.
+  year: 2026
+  doi: "10.5281/zenodo.24345474"

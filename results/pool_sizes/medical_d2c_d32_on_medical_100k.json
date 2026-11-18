@@ -1,0 +1,686 @@
+{
+  "meta": {
+    "lens": "lenses/medical_d2c_d32.aqwt",
+    "dataset": "data/traps/medical_300.json",
+    "aqtc": "medical_100k.aqtc",
+    "k": 10,
+    "n_cases": 300,
+    "n_pool": 100900,
+    "n_distr": 100000
+  },
+  "summary": {
+    "hn_leaks_count": 0,
+    "hitc_misses_count": 9,
+    "hn_at_k": 0.0,
+    "hitc_at_k": 0.97
+  },
+  "hn_leak_cases": [],
+  "hitc_miss_cases": [
+    {
+      "case_index": 28,
+      "case_id": "med_v2_contra_004",
+      "trap_type": "contraindication_flip",
+      "clause_a": "ACE inhibitors are indicated for heart failure with reduced ejection fraction.",
+      "clause_b": "ACE inhibitors are contraindicated for heart failure with reduced ejection fraction.",
+      "clause_c": "For heart failure with reduced ejection fraction, ACE inhibitors are a standard component of therapy.",
+      "rank_b": 79336,
+      "rank_c": 197,
+      "score_b": 0.7277339100837708,
+      "score_c": 0.9202333688735962,
+      "top_k": [
+        {
+          "pool_idx": 46677,
+          "score": 0.9545618891716003,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 39602,
+          "score": 0.945594072341919,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 9147,
+          "score": 0.9454794526100159,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 56411,
+          "score": 0.9452210664749146,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 38733,
+          "score": 0.943071186542511,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 3824,
+          "score": 0.9426632523536682,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 56423,
+          "score": 0.9420595169067383,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 70045,
+          "score": 0.9417200684547424,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 94295,
+          "score": 0.9414517879486084,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 87339,
+          "score": 0.9401369094848633,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 38,
+      "case_id": "med_v2_contra_014",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Vitamin K administration is indicated for warfarin-induced coagulopathy with major bleeding.",
+      "clause_b": "Vitamin K administration is contraindicated for warfarin-induced coagulopathy with major bleeding.",
+      "clause_c": "Major warfarin-induced coagulopathy is reversed by administration of vitamin K.",
+      "rank_b": 31780,
+      "rank_c": 155,
+      "score_b": 0.8172969818115234,
+      "score_c": 0.9243751764297485,
+      "top_k": [
+        {
+          "pool_idx": 574,
+          "score": 0.951542854309082,
+          "kind": "case_B",
+          "case_ref": 191
+        },
+        {
+          "pool_idx": 61780,
+          "score": 0.9482357501983643,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 481,
+          "score": 0.948100745677948,
+          "kind": "case_B",
+          "case_ref": 160
+        },
+        {
+          "pool_idx": 75,
+          "score": 0.9467381834983826,
+          "kind": "case_A",
+          "case_ref": 25
+        },
+        {
+          "pool_idx": 92562,
+          "score": 0.9462908506393433,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 12197,
+          "score": 0.9462325572967529,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 5893,
+          "score": 0.9450680613517761,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 36344,
+          "score": 0.9446293711662292,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 60002,
+          "score": 0.9444378018379211,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 14956,
+          "score": 0.9441384673118591,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 48,
+      "case_id": "med_v2_contra_024",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Anticoagulation is indicated for confirmed deep vein thrombosis in adults.",
+      "clause_b": "Anticoagulation is contraindicated for confirmed deep vein thrombosis in adults.",
+      "clause_c": "Confirmed deep vein thrombosis in adults is treated with therapeutic anticoagulation.",
+      "rank_b": 65212,
+      "rank_c": 48,
+      "score_b": 0.7528243660926819,
+      "score_c": 0.9290791749954224,
+      "top_k": [
+        {
+          "pool_idx": 553,
+          "score": 0.9484941959381104,
+          "kind": "case_B",
+          "case_ref": 184
+        },
+        {
+          "pool_idx": 51296,
+          "score": 0.9463163614273071,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 26712,
+          "score": 0.9433878064155579,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 21270,
+          "score": 0.9433532357215881,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 31901,
+          "score": 0.9430580735206604,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 22331,
+          "score": 0.9393972158432007,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 15035,
+          "score": 0.939212441444397,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 51795,
+          "score": 0.9383988380432129,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 18977,
+          "score": 0.938180685043335,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 4686,
+          "score": 0.9381503462791443,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 167,
+      "case_id": "med_v2b_contraindication_flip_018",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Angiotensin receptor blockers are contraindicated in pregnancy.",
+      "clause_b": "Angiotensin receptor blockers are indicated in pregnancy.",
+      "clause_c": "Angiotensin receptor blockers are avoided during pregnancy due to teratogenic risk.",
+      "rank_b": 11729,
+      "rank_c": 63,
+      "score_b": 0.8267928957939148,
+      "score_c": 0.9399908781051636,
+      "top_k": [
+        {
+          "pool_idx": 498,
+          "score": 0.9761541485786438,
+          "kind": "case_A",
+          "case_ref": 166
+        },
+        {
+          "pool_idx": 528,
+          "score": 0.9728428721427917,
+          "kind": "case_A",
+          "case_ref": 176
+        },
+        {
+          "pool_idx": 41220,
+          "score": 0.9696391820907593,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 459,
+          "score": 0.9684536457061768,
+          "kind": "case_A",
+          "case_ref": 153
+        },
+        {
+          "pool_idx": 549,
+          "score": 0.9669010639190674,
+          "kind": "case_A",
+          "case_ref": 183
+        },
+        {
+          "pool_idx": 170,
+          "score": 0.966594934463501,
+          "kind": "case_C",
+          "case_ref": 56
+        },
+        {
+          "pool_idx": 483,
+          "score": 0.9661914706230164,
+          "kind": "case_A",
+          "case_ref": 161
+        },
+        {
+          "pool_idx": 477,
+          "score": 0.9656531810760498,
+          "kind": "case_A",
+          "case_ref": 159
+        },
+        {
+          "pool_idx": 479,
+          "score": 0.9621568918228149,
+          "kind": "case_C",
+          "case_ref": 159
+        },
+        {
+          "pool_idx": 500,
+          "score": 0.9621264338493347,
+          "kind": "case_C",
+          "case_ref": 166
+        }
+      ]
+    },
+    {
+      "case_index": 170,
+      "case_id": "med_v2b_contraindication_flip_021",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Sulfonylureas are contraindicated in patients with severe renal impairment.",
+      "clause_b": "Sulfonylureas are indicated in patients with severe renal impairment.",
+      "clause_c": "Sulfonylureas are avoided in patients with severe renal impairment.",
+      "rank_b": 30785,
+      "rank_c": 41,
+      "score_b": 0.7706860899925232,
+      "score_c": 0.9451625347137451,
+      "top_k": [
+        {
+          "pool_idx": 133,
+          "score": 0.9706524014472961,
+          "kind": "case_B",
+          "case_ref": 44
+        },
+        {
+          "pool_idx": 59754,
+          "score": 0.9667174816131592,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 543,
+          "score": 0.9664850831031799,
+          "kind": "case_A",
+          "case_ref": 181
+        },
+        {
+          "pool_idx": 552,
+          "score": 0.9647459983825684,
+          "kind": "case_A",
+          "case_ref": 184
+        },
+        {
+          "pool_idx": 594,
+          "score": 0.9620992541313171,
+          "kind": "case_A",
+          "case_ref": 198
+        },
+        {
+          "pool_idx": 480,
+          "score": 0.9605756998062134,
+          "kind": "case_A",
+          "case_ref": 160
+        },
+        {
+          "pool_idx": 479,
+          "score": 0.9593906998634338,
+          "kind": "case_C",
+          "case_ref": 159
+        },
+        {
+          "pool_idx": 477,
+          "score": 0.9587736129760742,
+          "kind": "case_A",
+          "case_ref": 159
+        },
+        {
+          "pool_idx": 555,
+          "score": 0.9581449627876282,
+          "kind": "case_A",
+          "case_ref": 185
+        },
+        {
+          "pool_idx": 486,
+          "score": 0.9579653739929199,
+          "kind": "case_A",
+          "case_ref": 162
+        }
+      ]
+    },
+    {
+      "case_index": 173,
+      "case_id": "med_v2b_contraindication_flip_024",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Tricyclic antidepressants are contraindicated in the acute post-myocardial-infarction period.",
+      "clause_b": "Tricyclic antidepressants are indicated in the acute post-myocardial-infarction period.",
+      "clause_c": "Acute post-MI period rules out TCA therapy.",
+      "rank_b": 17704,
+      "rank_c": 26,
+      "score_b": 0.8265649080276489,
+      "score_c": 0.9548642635345459,
+      "top_k": [
+        {
+          "pool_idx": 85,
+          "score": 0.9748858213424683,
+          "kind": "case_B",
+          "case_ref": 28
+        },
+        {
+          "pool_idx": 492,
+          "score": 0.974341869354248,
+          "kind": "case_A",
+          "case_ref": 164
+        },
+        {
+          "pool_idx": 88,
+          "score": 0.9741817712783813,
+          "kind": "case_B",
+          "case_ref": 29
+        },
+        {
+          "pool_idx": 467,
+          "score": 0.9725807905197144,
+          "kind": "case_C",
+          "case_ref": 155
+        },
+        {
+          "pool_idx": 494,
+          "score": 0.968810498714447,
+          "kind": "case_C",
+          "case_ref": 164
+        },
+        {
+          "pool_idx": 121,
+          "score": 0.9680875539779663,
+          "kind": "case_B",
+          "case_ref": 40
+        },
+        {
+          "pool_idx": 82,
+          "score": 0.9652695059776306,
+          "kind": "case_B",
+          "case_ref": 27
+        },
+        {
+          "pool_idx": 540,
+          "score": 0.9649325609207153,
+          "kind": "case_A",
+          "case_ref": 180
+        },
+        {
+          "pool_idx": 485,
+          "score": 0.9619168043136597,
+          "kind": "case_C",
+          "case_ref": 161
+        },
+        {
+          "pool_idx": 465,
+          "score": 0.9617693424224854,
+          "kind": "case_A",
+          "case_ref": 155
+        }
+      ]
+    },
+    {
+      "case_index": 180,
+      "case_id": "med_v2b_contraindication_flip_031",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Beta-blockers are contraindicated in decompensated acute heart failure with pulmonary edema.",
+      "clause_b": "Beta-blockers are indicated in decompensated acute heart failure with pulmonary edema.",
+      "clause_c": "Beta-blockers are avoided in decompensated acute heart failure with pulmonary edema.",
+      "rank_b": 31631,
+      "rank_c": 66,
+      "score_b": 0.7917049527168274,
+      "score_c": 0.9479111433029175,
+      "top_k": [
+        {
+          "pool_idx": 455,
+          "score": 0.9803906679153442,
+          "kind": "case_C",
+          "case_ref": 151
+        },
+        {
+          "pool_idx": 569,
+          "score": 0.9802004098892212,
+          "kind": "case_C",
+          "case_ref": 189
+        },
+        {
+          "pool_idx": 453,
+          "score": 0.9788715839385986,
+          "kind": "case_A",
+          "case_ref": 151
+        },
+        {
+          "pool_idx": 567,
+          "score": 0.9774867296218872,
+          "kind": "case_A",
+          "case_ref": 189
+        },
+        {
+          "pool_idx": 537,
+          "score": 0.9728649854660034,
+          "kind": "case_A",
+          "case_ref": 179
+        },
+        {
+          "pool_idx": 118,
+          "score": 0.9724576473236084,
+          "kind": "case_B",
+          "case_ref": 39
+        },
+        {
+          "pool_idx": 139,
+          "score": 0.9721372723579407,
+          "kind": "case_B",
+          "case_ref": 46
+        },
+        {
+          "pool_idx": 127,
+          "score": 0.9720065593719482,
+          "kind": "case_B",
+          "case_ref": 42
+        },
+        {
+          "pool_idx": 545,
+          "score": 0.969506025314331,
+          "kind": "case_C",
+          "case_ref": 181
+        },
+        {
+          "pool_idx": 486,
+          "score": 0.9686635732650757,
+          "kind": "case_A",
+          "case_ref": 162
+        }
+      ]
+    },
+    {
+      "case_index": 193,
+      "case_id": "med_v2b_contraindication_flip_044",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Isoniazid is contraindicated in patients with acute drug-induced hepatitis.",
+      "clause_b": "Isoniazid is indicated in patients with acute drug-induced hepatitis.",
+      "clause_c": "Isoniazid is held in patients with acute drug-induced hepatitis until liver enzymes normalize.",
+      "rank_b": 37440,
+      "rank_c": 3521,
+      "score_b": 0.745490312576294,
+      "score_c": 0.8650754690170288,
+      "top_k": [
+        {
+          "pool_idx": 576,
+          "score": 0.9712011814117432,
+          "kind": "case_A",
+          "case_ref": 192
+        },
+        {
+          "pool_idx": 467,
+          "score": 0.9711961150169373,
+          "kind": "case_C",
+          "case_ref": 155
+        },
+        {
+          "pool_idx": 85,
+          "score": 0.9649345874786377,
+          "kind": "case_B",
+          "case_ref": 28
+        },
+        {
+          "pool_idx": 543,
+          "score": 0.9648538827896118,
+          "kind": "case_A",
+          "case_ref": 181
+        },
+        {
+          "pool_idx": 552,
+          "score": 0.9645298719406128,
+          "kind": "case_A",
+          "case_ref": 184
+        },
+        {
+          "pool_idx": 130,
+          "score": 0.9643710255622864,
+          "kind": "case_B",
+          "case_ref": 43
+        },
+        {
+          "pool_idx": 480,
+          "score": 0.9620684385299683,
+          "kind": "case_A",
+          "case_ref": 160
+        },
+        {
+          "pool_idx": 465,
+          "score": 0.9620136022567749,
+          "kind": "case_A",
+          "case_ref": 155
+        },
+        {
+          "pool_idx": 594,
+          "score": 0.961815357208252,
+          "kind": "case_A",
+          "case_ref": 198
+        },
+        {
+          "pool_idx": 546,
+          "score": 0.9590511918067932,
+          "kind": "case_A",
+          "case_ref": 182
+        }
+      ]
+    },
+    {
+      "case_index": 198,
+      "case_id": "med_v2b_contraindication_flip_049",
+      "trap_type": "contraindication_flip",
+      "clause_a": "Fluoroquinolones are contraindicated in patients with active tendon rupture history.",
+      "clause_b": "Fluoroquinolones are indicated in patients with active tendon rupture history.",
+      "clause_c": "Fluoroquinolones are avoided in patients with active tendon rupture history.",
+      "rank_b": 37355,
+      "rank_c": 59,
+      "score_b": 0.7613802552223206,
+      "score_c": 0.9485983848571777,
+      "top_k": [
+        {
+          "pool_idx": 489,
+          "score": 0.9720399379730225,
+          "kind": "case_A",
+          "case_ref": 163
+        },
+        {
+          "pool_idx": 133,
+          "score": 0.9692668318748474,
+          "kind": "case_B",
+          "case_ref": 44
+        },
+        {
+          "pool_idx": 549,
+          "score": 0.9690799713134766,
+          "kind": "case_A",
+          "case_ref": 183
+        },
+        {
+          "pool_idx": 4520,
+          "score": 0.9661502242088318,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 507,
+          "score": 0.9659566283226013,
+          "kind": "case_A",
+          "case_ref": 169
+        },
+        {
+          "pool_idx": 492,
+          "score": 0.9655271768569946,
+          "kind": "case_A",
+          "case_ref": 164
+        },
+        {
+          "pool_idx": 543,
+          "score": 0.965290904045105,
+          "kind": "case_A",
+          "case_ref": 181
+        },
+        {
+          "pool_idx": 480,
+          "score": 0.9640123844146729,
+          "kind": "case_A",
+          "case_ref": 160
+        },
+        {
+          "pool_idx": 491,
+          "score": 0.9637859463691711,
+          "kind": "case_C",
+          "case_ref": 163
+        },
+        {
+          "pool_idx": 485,
+          "score": 0.9624509811401367,
+          "kind": "case_C",
+          "case_ref": 161
+        }
+      ]
+    }
+  ]
+}

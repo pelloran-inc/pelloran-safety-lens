@@ -1,0 +1,19 @@
+[project]
+name = "pelloran-safety-lens"
+version = "1.1.0"
+description = "Reproducibility package for 'Small Learned Projections Reduce Semantic-Reversal Errors in Dense Retrieval'"
+readme = "README.md"
+license = { text = "AGPL-3.0-only" }
+authors = [{ name = "Pelloran Inc.", email = "opensource@pelloran.com" }]
+requires-python = ">=3.10"
+dependencies = ["numpy==1.26.4"]
+
+# Versions are pinned (not lower bounds) so the embeddings, and therefore
+# the .aqtc pools and the exact-search results, are reproducible. The HF
+# model and dataset revisions are pinned separately, at the point of use
+# (embed_and_pack.py --model-revision; the pool builders' --revision), and
+# recorded in DATA.md.
+[project.optional-dependencies]
+train = ["torch==2.2.2"]
+embed = ["sentence-transformers==2.7.0", "transformers==4.40.2"]
+pools = ["datasets==2.19.0"]

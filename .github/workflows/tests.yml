@@ -1,0 +1,33 @@
+name: tests
+
+# The integrity tests: hashes of the lenses and trap sets, references between the files, the stored results'
+# self-consistency, and every script's --help. They need no model, no download and no pool binary.
+# Re-measuring the stored results needs the pool binaries; see REPRODUCE.md.
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    name: unittest (Python ${{ matrix.python }})
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: numpy
+        run: python -m pip install "numpy>=1.24"
+      - name: Integrity tests
+        run: python -m unittest discover -s tests -v
+      - name: Lens and trap-set hashes
+        run: |
+          (cd lenses && sha256sum -c SHA256SUMS)
+          (cd data && sha256sum -c SHA256SUMS)

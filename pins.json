@@ -1,0 +1,17 @@
+{
+  "_comment": "Pinned Hugging Face revisions for byte-reproducible pools and results. Read by scripts/_pins.py; the builders and embed_and_pack use these exact commits. This file is shipped and is NOT overwritten by reproduce.sh; rebaseline.sh regenerates it only as an explicit maintenance step.",
+  "model": {
+    "intfloat/e5-large-v2": "f169b11e22de13617baa190a028a32f3493550b6"
+  },
+  "datasets": {
+    "jmhb/pubmed_bioasq_2022": "3082ea61ed0f87f25695746c1f1c0365d3d466e8",
+    "big_patent": "2a5336492ddc4e21cebd3865fd2a7e8b070bfede",
+    "lex_glue": "c23fdff1a6bf74e0e1a71cb86f1e781d37da888c",
+    "eloukas/edgar-corpus": "7e90f0f342569b35213445f809cfaf3b91f9964f",
+    "nickmuchi/financial-classification": "13f607f592261fac937668d2b4418222f345d423",
+    "zeroshot/twitter-financial-news-sentiment": "ccbe24de388e287beb92dd393a335c376b350ac3",
+    "zeroshot/twitter-financial-news-topic": "acbc8af2a35ccf0916124efcbe9e6cf25f191012",
+    "ChanceFocus/flare-fpb": "7de7bf7af4b987fce965cc324ce0d898da679e76",
+    "kdave/Indian_Financial_News": "a6a6b07486c479c097624711d7baa8462ba02a3c"
+  }
+}

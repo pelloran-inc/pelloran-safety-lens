@@ -1,0 +1,1648 @@
+{
+  "meta": {
+    "lens": "lenses/financial_v4_d32.aqwt",
+    "dataset": "data/traps/financial_301.json",
+    "aqtc": "financial_100k.aqtc",
+    "k": 10,
+    "n_cases": 301,
+    "n_pool": 100903,
+    "n_distr": 100000
+  },
+  "summary": {
+    "hn_leaks_count": 0,
+    "hitc_misses_count": 22,
+    "hn_at_k": 0.0,
+    "hitc_at_k": 0.9269102990033222
+  },
+  "hn_leak_cases": [],
+  "hitc_miss_cases": [
+    {
+      "case_index": 16,
+      "case_id": "fin_direction_flip_017",
+      "trap_type": "direction_flip",
+      "clause_a": "Return on invested capital improved to 18.4% from 15.9% year-over-year.",
+      "clause_b": "Return on invested capital worsened to 18.4% from 15.9% year-over-year.",
+      "clause_c": "ROIC climbed to 18.4% from a prior 15.9% year-over-year.",
+      "rank_b": 60144,
+      "rank_c": 7949,
+      "score_b": 0.6812831163406372,
+      "score_c": 0.8563927412033081,
+      "top_k": [
+        {
+          "pool_idx": 180,
+          "score": 0.9749717116355896,
+          "kind": "case_A",
+          "case_ref": 60
+        },
+        {
+          "pool_idx": 75,
+          "score": 0.9712177515029907,
+          "kind": "case_A",
+          "case_ref": 25
+        },
+        {
+          "pool_idx": 97465,
+          "score": 0.9662555456161499,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 195,
+          "score": 0.9660282135009766,
+          "kind": "case_A",
+          "case_ref": 65
+        },
+        {
+          "pool_idx": 26359,
+          "score": 0.9654858112335205,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 16501,
+          "score": 0.9652581214904785,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 23064,
+          "score": 0.9651879668235779,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 197,
+          "score": 0.9651859998703003,
+          "kind": "case_C",
+          "case_ref": 65
+        },
+        {
+          "pool_idx": 36363,
+          "score": 0.9644312262535095,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 26394,
+          "score": 0.9643566608428955,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 17,
+      "case_id": "fin_direction_flip_018",
+      "trap_type": "direction_flip",
+      "clause_a": "Days sales outstanding decreased to 42 days from 48 days.",
+      "clause_b": "Days sales outstanding increased to 42 days from 48 days.",
+      "clause_c": "DSO improved to 42 days, down from the earlier 48-day figure.",
+      "rank_b": 44817,
+      "rank_c": 44,
+      "score_b": 0.7953702211380005,
+      "score_c": 0.9522088766098022,
+      "top_k": [
+        {
+          "pool_idx": 67814,
+          "score": 0.9702435731887817,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 440,
+          "score": 0.9689313769340515,
+          "kind": "case_C",
+          "case_ref": 146
+        },
+        {
+          "pool_idx": 41294,
+          "score": 0.9662585854530334,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 100630,
+          "score": 0.9649399518966675,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 14984,
+          "score": 0.96435546875,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 16594,
+          "score": 0.9634095430374146,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 438,
+          "score": 0.962518572807312,
+          "kind": "case_A",
+          "case_ref": 146
+        },
+        {
+          "pool_idx": 55746,
+          "score": 0.9612740278244019,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 7607,
+          "score": 0.960715115070343,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 82172,
+          "score": 0.9604407548904419,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 25,
+      "case_id": "fin_direction_flip_026",
+      "trap_type": "direction_flip",
+      "clause_a": "Segment operating margin improved by 180 basis points to 24.2%.",
+      "clause_b": "Segment operating margin deteriorated by 180 basis points to 24.2%.",
+      "clause_c": "Segment operating margin was up 180 bps, reaching 24.2%.",
+      "rank_b": 70658,
+      "rank_c": 14,
+      "score_b": 0.6768561005592346,
+      "score_c": 0.9693797826766968,
+      "top_k": [
+        {
+          "pool_idx": 36812,
+          "score": 0.9808228015899658,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 95808,
+          "score": 0.9745503067970276,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 82413,
+          "score": 0.9741486310958862,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 100674,
+          "score": 0.9733307361602783,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 83769,
+          "score": 0.9732288122177124,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 91037,
+          "score": 0.9725366830825806,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 66861,
+          "score": 0.9722466468811035,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 95762,
+          "score": 0.9721629619598389,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 48,
+          "score": 0.9712177515029907,
+          "kind": "case_A",
+          "case_ref": 16
+        },
+        {
+          "pool_idx": 82462,
+          "score": 0.9703624248504639,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 27,
+      "case_id": "fin_direction_flip_028",
+      "trap_type": "direction_flip",
+      "clause_a": "Assets under management grew to $1.4 trillion at period-end.",
+      "clause_b": "Assets under management shrank to $1.4 trillion at period-end.",
+      "clause_c": "Period-end AUM climbed to $1.4 trillion.",
+      "rank_b": 43042,
+      "rank_c": 129,
+      "score_b": 0.7650212049484253,
+      "score_c": 0.9335541725158691,
+      "top_k": [
+        {
+          "pool_idx": 48684,
+          "score": 0.9697214365005493,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 38,
+          "score": 0.967058539390564,
+          "kind": "case_C",
+          "case_ref": 12
+        },
+        {
+          "pool_idx": 36776,
+          "score": 0.96571284532547,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 36,
+          "score": 0.9647001624107361,
+          "kind": "case_A",
+          "case_ref": 12
+        },
+        {
+          "pool_idx": 74353,
+          "score": 0.9588506817817688,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 89045,
+          "score": 0.958604633808136,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 92927,
+          "score": 0.9578269124031067,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 46179,
+          "score": 0.9576520919799805,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 77514,
+          "score": 0.9567617774009705,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 61321,
+          "score": 0.9562332630157471,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 29,
+      "case_id": "fin_direction_flip_030",
+      "trap_type": "direction_flip",
+      "clause_a": "Bookings-to-billings ratio improved to 1.15 from 1.02 in the prior quarter.",
+      "clause_b": "Bookings-to-billings ratio worsened to 1.15 from 1.02 in the prior quarter.",
+      "clause_c": "The bookings-to-billings ratio rose to 1.15, up from 1.02 last quarter.",
+      "rank_b": 46563,
+      "rank_c": 94,
+      "score_b": 0.7889022827148438,
+      "score_c": 0.9582618474960327,
+      "top_k": [
+        {
+          "pool_idx": 35702,
+          "score": 0.9750170707702637,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 69699,
+          "score": 0.9736448526382446,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 67875,
+          "score": 0.9735501408576965,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 28249,
+          "score": 0.9720258712768555,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 44595,
+          "score": 0.9714687466621399,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 51513,
+          "score": 0.9708980321884155,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 4993,
+          "score": 0.9702766537666321,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 82420,
+          "score": 0.9695516228675842,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 5733,
+          "score": 0.969548225402832,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 135,
+          "score": 0.9694200158119202,
+          "kind": "case_A",
+          "case_ref": 45
+        }
+      ]
+    },
+    {
+      "case_index": 42,
+      "case_id": "fin_direction_flip_043",
+      "trap_type": "direction_flip",
+      "clause_a": "The stock repurchase program increased authorized capacity to $10 billion.",
+      "clause_b": "The stock repurchase program decreased authorized capacity to $10 billion.",
+      "clause_c": "The company raised the stock repurchase authorization to $10 billion.",
+      "rank_b": 47370,
+      "rank_c": 110,
+      "score_b": 0.7455654740333557,
+      "score_c": 0.943376898765564,
+      "top_k": [
+        {
+          "pool_idx": 34176,
+          "score": 0.9691231846809387,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 82517,
+          "score": 0.9674272537231445,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 4964,
+          "score": 0.9669150710105896,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 21467,
+          "score": 0.9667800664901733,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 82483,
+          "score": 0.9663886427879333,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 46324,
+          "score": 0.9653544425964355,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 41851,
+          "score": 0.9648743867874146,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 99017,
+          "score": 0.9633952379226685,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 82433,
+          "score": 0.9633585810661316,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 82461,
+          "score": 0.9598308801651001,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 51,
+      "case_id": "fin_direction_flip_052",
+      "trap_type": "direction_flip",
+      "clause_a": "Cost per acquisition improved by 18% following the customer-targeting overhaul.",
+      "clause_b": "Cost per acquisition worsened by 18% following the customer-targeting overhaul.",
+      "clause_c": "The customer-targeting overhaul drove an 18% reduction in cost per acquisition.",
+      "rank_b": 26621,
+      "rank_c": 21,
+      "score_b": 0.800460934638977,
+      "score_c": 0.944322943687439,
+      "top_k": [
+        {
+          "pool_idx": 31942,
+          "score": 0.9589009284973145,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 99016,
+          "score": 0.9575524926185608,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 62019,
+          "score": 0.9568212628364563,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 21968,
+          "score": 0.9550533294677734,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 62691,
+          "score": 0.9503187537193298,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 1925,
+          "score": 0.949325680732727,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 500,
+          "score": 0.9482569694519043,
+          "kind": "case_C",
+          "case_ref": 166
+        },
+        {
+          "pool_idx": 25294,
+          "score": 0.9482288360595703,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 28808,
+          "score": 0.9475322961807251,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 95413,
+          "score": 0.9473956227302551,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 58,
+      "case_id": "fin_direction_flip_059",
+      "trap_type": "direction_flip",
+      "clause_a": "Consolidated leverage ratio improved to 1.2x from 1.9x during the fiscal year.",
+      "clause_b": "Consolidated leverage ratio deteriorated to 1.2x from 1.9x during the fiscal year.",
+      "clause_c": "The consolidated leverage ratio dropped to 1.2x from 1.9x during the fiscal year.",
+      "rank_b": 47367,
+      "rank_c": 7515,
+      "score_b": 0.7467232942581177,
+      "score_c": 0.8684738874435425,
+      "top_k": [
+        {
+          "pool_idx": 94017,
+          "score": 0.9753934741020203,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 141,
+          "score": 0.9752525687217712,
+          "kind": "case_A",
+          "case_ref": 47
+        },
+        {
+          "pool_idx": 38134,
+          "score": 0.9713154435157776,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 88936,
+          "score": 0.9702028036117554,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 276,
+          "score": 0.9692338705062866,
+          "kind": "case_A",
+          "case_ref": 92
+        },
+        {
+          "pool_idx": 38133,
+          "score": 0.9688502550125122,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 96085,
+          "score": 0.9680734276771545,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 13988,
+          "score": 0.9676077365875244,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 464,
+          "score": 0.9673434495925903,
+          "kind": "case_C",
+          "case_ref": 154
+        },
+        {
+          "pool_idx": 86601,
+          "score": 0.965233564376831,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 60,
+      "case_id": "fin_direction_flip_061",
+      "trap_type": "direction_flip",
+      "clause_a": "Return on equity improved to 22.8% from 19.5% in the prior fiscal year.",
+      "clause_b": "Return on equity worsened to 22.8% from 19.5% in the prior fiscal year.",
+      "clause_c": "ROE rose to 22.8% from 19.5% versus the prior fiscal year.",
+      "rank_b": 66777,
+      "rank_c": 628,
+      "score_b": 0.7220564484596252,
+      "score_c": 0.9366337060928345,
+      "top_k": [
+        {
+          "pool_idx": 75861,
+          "score": 0.9770908355712891,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 89009,
+          "score": 0.9765112996101379,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 48,
+          "score": 0.9749717116355896,
+          "kind": "case_A",
+          "case_ref": 16
+        },
+        {
+          "pool_idx": 36363,
+          "score": 0.9749329090118408,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 26359,
+          "score": 0.9737253785133362,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 26394,
+          "score": 0.9733873605728149,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 79702,
+          "score": 0.9719760417938232,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 88937,
+          "score": 0.9710782766342163,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 97465,
+          "score": 0.967796266078949,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 71377,
+          "score": 0.9672789573669434,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 63,
+      "case_id": "fin_direction_flip_064",
+      "trap_type": "direction_flip",
+      "clause_a": "Segment reported margins expanded 340 basis points in the current period.",
+      "clause_b": "Segment reported margins contracted 340 basis points in the current period.",
+      "clause_c": "Segment reported margins climbed 340 bps in the current period.",
+      "rank_b": 54013,
+      "rank_c": 53,
+      "score_b": 0.7702242136001587,
+      "score_c": 0.9672579765319824,
+      "top_k": [
+        {
+          "pool_idx": 197,
+          "score": 0.981421709060669,
+          "kind": "case_C",
+          "case_ref": 65
+        },
+        {
+          "pool_idx": 40745,
+          "score": 0.9795398712158203,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 195,
+          "score": 0.9784431457519531,
+          "kind": "case_A",
+          "case_ref": 65
+        },
+        {
+          "pool_idx": 94708,
+          "score": 0.9781376123428345,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 65598,
+          "score": 0.9755874872207642,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 30663,
+          "score": 0.9752501845359802,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 72259,
+          "score": 0.9751729369163513,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 182,
+          "score": 0.9747324585914612,
+          "kind": "case_C",
+          "case_ref": 60
+        },
+        {
+          "pool_idx": 17958,
+          "score": 0.9742255210876465,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 10482,
+          "score": 0.973849356174469,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 64,
+      "case_id": "fin_direction_flip_065",
+      "trap_type": "direction_flip",
+      "clause_a": "Interest coverage ratio improved to 8.5x from 6.2x during the fiscal year.",
+      "clause_b": "Interest coverage ratio worsened to 8.5x from 6.2x during the fiscal year.",
+      "clause_c": "The interest coverage ratio climbed to 8.5x versus a prior 6.2x.",
+      "rank_b": 45616,
+      "rank_c": 15,
+      "score_b": 0.720706582069397,
+      "score_c": 0.9523525238037109,
+      "top_k": [
+        {
+          "pool_idx": 24512,
+          "score": 0.9690103530883789,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 72839,
+          "score": 0.9688205718994141,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 9492,
+          "score": 0.9676831364631653,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 66527,
+          "score": 0.9647055864334106,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 39546,
+          "score": 0.9631387591362,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 76203,
+          "score": 0.9613246917724609,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 65041,
+          "score": 0.9610162973403931,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 8189,
+          "score": 0.9566686749458313,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 69314,
+          "score": 0.9561668634414673,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 2479,
+          "score": 0.9555553793907166,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 70,
+      "case_id": "fin_direction_flip_071",
+      "trap_type": "direction_flip",
+      "clause_a": "Working capital days improved by 6 days sequentially in the fourth quarter.",
+      "clause_b": "Working capital days worsened by 6 days sequentially in the fourth quarter.",
+      "clause_c": "Q4 working capital days dropped by 6 days from the prior quarter.",
+      "rank_b": 37114,
+      "rank_c": 3234,
+      "score_b": 0.7323538661003113,
+      "score_c": 0.8634029626846313,
+      "top_k": [
+        {
+          "pool_idx": 46358,
+          "score": 0.9663161039352417,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 38605,
+          "score": 0.9610724449157715,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 10101,
+          "score": 0.9584701657295227,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 48722,
+          "score": 0.955025315284729,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 3258,
+          "score": 0.9505674839019775,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 97602,
+          "score": 0.9505442976951599,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 57880,
+          "score": 0.9494023323059082,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 31941,
+          "score": 0.9488619565963745,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 6215,
+          "score": 0.9487913846969604,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 44961,
+          "score": 0.948769211769104,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 72,
+      "case_id": "fin_direction_flip_073",
+      "trap_type": "direction_flip",
+      "clause_a": "Consolidated adjusted operating margin improved 210 basis points annually.",
+      "clause_b": "Consolidated adjusted operating margin worsened 210 basis points annually.",
+      "clause_c": "Consolidated adjusted operating margin climbed 210 bps on an annual basis.",
+      "rank_b": 55391,
+      "rank_c": 55,
+      "score_b": 0.7424905300140381,
+      "score_c": 0.959962010383606,
+      "top_k": [
+        {
+          "pool_idx": 72955,
+          "score": 0.9815778732299805,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 62,
+          "score": 0.9777424931526184,
+          "kind": "case_C",
+          "case_ref": 20
+        },
+        {
+          "pool_idx": 77586,
+          "score": 0.9774032831192017,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 12,
+          "score": 0.9772130846977234,
+          "kind": "case_A",
+          "case_ref": 4
+        },
+        {
+          "pool_idx": 44224,
+          "score": 0.9767478704452515,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 77587,
+          "score": 0.9762354493141174,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 70063,
+          "score": 0.9743855595588684,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 60,
+          "score": 0.9735099077224731,
+          "kind": "case_A",
+          "case_ref": 20
+        },
+        {
+          "pool_idx": 2196,
+          "score": 0.9725933074951172,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 100732,
+          "score": 0.9708013534545898,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 93,
+      "case_id": "fin_polarity_flip_019",
+      "trap_type": "polarity_flip",
+      "clause_a": "The commodity hedge generated an economic profit for the reporting period.",
+      "clause_b": "The commodity hedge generated an economic loss for the reporting period.",
+      "clause_c": "The commodity hedge produced an economic gain for the period.",
+      "rank_b": 71779,
+      "rank_c": 13,
+      "score_b": 0.7255688309669495,
+      "score_c": 0.9655643701553345,
+      "top_k": [
+        {
+          "pool_idx": 71377,
+          "score": 0.9774777293205261,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 100671,
+          "score": 0.9713271856307983,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 100698,
+          "score": 0.9712181687355042,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 72459,
+          "score": 0.9692233204841614,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 26394,
+          "score": 0.9690337181091309,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 59127,
+          "score": 0.9678588509559631,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 79337,
+          "score": 0.9678055047988892,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 38744,
+          "score": 0.9671819806098938,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 10167,
+          "score": 0.9670044779777527,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 86458,
+          "score": 0.9664767980575562,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 106,
+      "case_id": "fin_polarity_flip_032",
+      "trap_type": "polarity_flip",
+      "clause_a": "The vendor financing terms created an accounts payable liability.",
+      "clause_b": "The vendor financing terms created an accounts payable asset.",
+      "clause_c": "The accounts payable liability grew because of vendor financing terms.",
+      "rank_b": 51709,
+      "rank_c": 12,
+      "score_b": 0.7836244702339172,
+      "score_c": 0.9555023908615112,
+      "top_k": [
+        {
+          "pool_idx": 262,
+          "score": 0.9727817177772522,
+          "kind": "case_B",
+          "case_ref": 87
+        },
+        {
+          "pool_idx": 87930,
+          "score": 0.9641337990760803,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 21450,
+          "score": 0.9620506167411804,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 42644,
+          "score": 0.9603289365768433,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 86571,
+          "score": 0.9601795077323914,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 99277,
+          "score": 0.9581637978553772,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 20448,
+          "score": 0.9581403732299805,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 56646,
+          "score": 0.957325279712677,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 51498,
+          "score": 0.9565696716308594,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 74459,
+          "score": 0.9562869071960449,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 111,
+      "case_id": "fin_polarity_flip_037",
+      "trap_type": "polarity_flip",
+      "clause_a": "The property held for sale is classified as a current asset.",
+      "clause_b": "The property held for sale is classified as a current liability.",
+      "clause_c": "Balance sheet classification puts the property held for sale under current assets.",
+      "rank_b": 66538,
+      "rank_c": 559,
+      "score_b": 0.6831539273262024,
+      "score_c": 0.8847454786300659,
+      "top_k": [
+        {
+          "pool_idx": 52117,
+          "score": 0.9469263553619385,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 356,
+          "score": 0.9419907331466675,
+          "kind": "case_C",
+          "case_ref": 118
+        },
+        {
+          "pool_idx": 1461,
+          "score": 0.9414056539535522,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 17528,
+          "score": 0.938360333442688,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 76303,
+          "score": 0.9336913228034973,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 87426,
+          "score": 0.9315744042396545,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 17328,
+          "score": 0.9310944080352783,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 18394,
+          "score": 0.9310840368270874,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 3062,
+          "score": 0.9310780167579651,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 52317,
+          "score": 0.9303935766220093,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 145,
+      "case_id": "fin_polarity_flip_071",
+      "trap_type": "polarity_flip",
+      "clause_a": "The unrealized foreign exchange gain was recorded in OCI for the period.",
+      "clause_b": "The unrealized foreign exchange loss was recorded in OCI for the period.",
+      "clause_c": "Period OCI included the unrealized foreign exchange gain.",
+      "rank_b": 39940,
+      "rank_c": 14,
+      "score_b": 0.8094805479049683,
+      "score_c": 0.9569485783576965,
+      "top_k": [
+        {
+          "pool_idx": 83738,
+          "score": 0.9687906503677368,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 48728,
+          "score": 0.9674683809280396,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 79381,
+          "score": 0.9642214179039001,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 75243,
+          "score": 0.9630715847015381,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 36365,
+          "score": 0.961556077003479,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 26359,
+          "score": 0.9606931209564209,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 44487,
+          "score": 0.9604158401489258,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 13711,
+          "score": 0.9602482318878174,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 11434,
+          "score": 0.9601244926452637,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 65772,
+          "score": 0.9588193297386169,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 166,
+      "case_id": "fin_period_flip_017",
+      "trap_type": "period_flip",
+      "clause_a": "Year-to-date operating income of $9.2 billion is up 12% versus prior year-to-date.",
+      "clause_b": "Year-to-date operating income of $9.2 billion is down 12% versus prior year-to-date.",
+      "clause_c": "YTD operating income at $9.2 billion is 12% ahead of prior YTD.",
+      "rank_b": 67625,
+      "rank_c": 2710,
+      "score_b": 0.6714252233505249,
+      "score_c": 0.9017435312271118,
+      "top_k": [
+        {
+          "pool_idx": 88937,
+          "score": 0.9745594263076782,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 39448,
+          "score": 0.9723951816558838,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 69699,
+          "score": 0.9723898768424988,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 88934,
+          "score": 0.9685949087142944,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 493,
+          "score": 0.9684066772460938,
+          "kind": "case_B",
+          "case_ref": 164
+        },
+        {
+          "pool_idx": 96069,
+          "score": 0.9673774838447571,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 78368,
+          "score": 0.9669417142868042,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 78481,
+          "score": 0.9665581583976746,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 171,
+          "score": 0.9661210775375366,
+          "kind": "case_A",
+          "case_ref": 57
+        },
+        {
+          "pool_idx": 36363,
+          "score": 0.9661113619804382,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 197,
+      "case_id": "fin_period_flip_048",
+      "trap_type": "period_flip",
+      "clause_a": "The current-quarter tax rate of 22.4% compares to 24.1% in the prior quarter.",
+      "clause_b": "The current-year tax rate of 22.4% compares to 24.1% in the prior year.",
+      "clause_c": "This quarter's tax rate at 22.4% is below the 24.1% of the prior quarter.",
+      "rank_b": 86864,
+      "rank_c": 697,
+      "score_b": 0.5720779895782471,
+      "score_c": 0.9029842019081116,
+      "top_k": [
+        {
+          "pool_idx": 36796,
+          "score": 0.97318434715271,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 71249,
+          "score": 0.9656571745872498,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 100705,
+          "score": 0.9633399248123169,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 3247,
+          "score": 0.9625186920166016,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 58329,
+          "score": 0.9595173001289368,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 49901,
+          "score": 0.9590199589729309,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 66831,
+          "score": 0.9558095932006836,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 93452,
+          "score": 0.955185055732727,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 17345,
+          "score": 0.9550403356552124,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 38019,
+          "score": 0.9542446732521057,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 231,
+      "case_id": "fin_party_flip_006",
+      "trap_type": "party_flip",
+      "clause_a": "As lessor, the REIT collected quarterly rental income from the tenant.",
+      "clause_b": "As lessee, the REIT paid quarterly rental income to the landlord.",
+      "clause_c": "The REIT, in its role as lessor, received quarterly rent from its tenant.",
+      "rank_b": 57380,
+      "rank_c": 30,
+      "score_b": 0.741887092590332,
+      "score_c": 0.9432656764984131,
+      "top_k": [
+        {
+          "pool_idx": 61933,
+          "score": 0.9557880163192749,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 49527,
+          "score": 0.9542969465255737,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 87019,
+          "score": 0.952548623085022,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 74841,
+          "score": 0.952538251876831,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 28708,
+          "score": 0.9524599313735962,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 74120,
+          "score": 0.9512813091278076,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 99174,
+          "score": 0.951045036315918,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 38413,
+          "score": 0.9507141709327698,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 55831,
+          "score": 0.9504812955856323,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 57908,
+          "score": 0.9498907327651978,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 245,
+      "case_id": "fin_party_flip_020",
+      "trap_type": "party_flip",
+      "clause_a": "The mortgagor is the property owner pledging real estate as loan security.",
+      "clause_b": "The mortgagee is the property owner pledging real estate as loan security.",
+      "clause_c": "The mortgagor, as property owner, pledges real estate as security for the loan.",
+      "rank_b": 93345,
+      "rank_c": 636,
+      "score_b": 0.5368536114692688,
+      "score_c": 0.9045335054397583,
+      "top_k": [
+        {
+          "pool_idx": 34022,
+          "score": 0.9622094631195068,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 23987,
+          "score": 0.9586321115493774,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 78259,
+          "score": 0.9484333992004395,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 74560,
+          "score": 0.9462077617645264,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 84219,
+          "score": 0.944595456123352,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 21104,
+          "score": 0.9441787004470825,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 14833,
+          "score": 0.9437898397445679,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 50722,
+          "score": 0.9431981444358826,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 71864,
+          "score": 0.9427056312561035,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 72383,
+          "score": 0.9415812492370605,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    },
+    {
+      "case_index": 277,
+      "case_id": "fin_party_flip_052",
+      "trap_type": "party_flip",
+      "clause_a": "The seller is the party ceding the receivable book to the factoring purchaser.",
+      "clause_b": "The buyer is the party ceding the receivable book to the factoring purchaser.",
+      "clause_c": "The seller cedes the receivable book to the factoring purchaser.",
+      "rank_b": 19590,
+      "rank_c": 40,
+      "score_b": 0.7741609811782837,
+      "score_c": 0.9357434511184692,
+      "top_k": [
+        {
+          "pool_idx": 42281,
+          "score": 0.9677243232727051,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 88423,
+          "score": 0.9610959887504578,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 51594,
+          "score": 0.9586678743362427,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 60435,
+          "score": 0.9568089842796326,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 23076,
+          "score": 0.9557778835296631,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 84899,
+          "score": 0.9543656706809998,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 86455,
+          "score": 0.9542641639709473,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 6361,
+          "score": 0.9535195827484131,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 49678,
+          "score": 0.952103316783905,
+          "kind": "distractor",
+          "case_ref": null
+        },
+        {
+          "pool_idx": 5526,
+          "score": 0.94987952709198,
+          "kind": "distractor",
+          "case_ref": null
+        }
+      ]
+    }
+  ]
+}
