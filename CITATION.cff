@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use pelloran-safety-lens, please cite the paper below."
 type: software
 title: pelloran-safety-lens
-abstract: "The reproducibility package for the paper 'Small Learned Projections Reduce Semantic-Reversal Errors in Dense Retrieval': trap sets in four domains, the safety lenses, the trainer, the scripts that rebuild the legal, patent and financial distractor pools, and the stored results with their hashes."
+abstract: "The reproducibility package for the paper 'Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration': trap sets in four domains, the safety lenses, the trainer, the scripts that rebuild the legal, patent and financial distractor pools, and the stored results with their hashes."
 authors:
   - family-names: Karim
     given-names: Sayed Amir
@@ -21,7 +21,7 @@ keywords:
 preferred-citation:
   type: article
   status: preprint
-  title: "Small Learned Projections Reduce Semantic-Reversal Errors in Dense Retrieval: A Four-Domain Empirical Study"
+  title: "Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study"
   authors:
     - family-names: Karim
       given-names: Sayed Amir

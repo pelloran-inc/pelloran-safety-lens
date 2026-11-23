@@ -27,7 +27,7 @@
 
 ---
 
-The reproducibility package for the paper **"Small Learned Projections Reduce Semantic-Reversal Errors in Dense Retrieval: A Four-Domain Empirical Study"** by Sayed Amir Karim (Pelloran Research).
+The reproducibility package for the paper **"Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study"** by Sayed Amir Karim (Pelloran Research).
 
 ## The problem, in one example
 
@@ -95,12 +95,12 @@ The paper's wall-clock figures use a proprietary retriever of Pelloran's that wo
 
 If you use this package, please cite the paper:
 
-> Sayed Amir Karim. *Small Learned Projections Reduce Semantic-Reversal Errors in Dense Retrieval: A Four-Domain Empirical Study.* Preprint, 2026. doi:[10.5281/zenodo.24345474](https://doi.org/10.5281/zenodo.24345474)
+> Sayed Amir Karim. *Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study.* Preprint, 2026. doi:[10.5281/zenodo.24345474](https://doi.org/10.5281/zenodo.24345474)
 
 ```bibtex
 @misc{karim2026safetylens,
   author = {Karim, Sayed Amir},
-  title  = {Small Learned Projections Reduce Semantic-Reversal Errors in Dense Retrieval: A Four-Domain Empirical Study},
+  title  = {Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study},
   year   = {2026},
   note   = {Preprint},
   doi    = {10.5281/zenodo.24345474}

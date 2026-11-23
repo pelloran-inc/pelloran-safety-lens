@@ -5,6 +5,11 @@ All notable changes to pelloran-safety-lens are listed here, newest first. The f
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html). A release's version is its git tag; how a release is
 made is in [RELEASING.md](RELEASING.md).
 
+## [Unreleased]
+
+### Fixed
+- Citation title in `CITATION.cff` and `README.md` aligned to the published paper, *Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study* (Zenodo DOI 10.5281/zenodo.24345474).
+
 ## [1.1.0] — 2026-11-18
 
 ## [1.1.0] - 2026-11-13
