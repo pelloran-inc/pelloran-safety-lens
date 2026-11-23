@@ -25,6 +25,12 @@
   <sub><b>The result in one picture.</b> Without the lens, a meaning-reversing trap reaches the top-10 for <b>81&ndash;100&thinsp;%</b> of queries (raw cosine over E5-Large-v2). With a small learned <b>safety lens</b> &mdash; 11 or 32 numbers per document &mdash; it is <b>0.0000</b> in all four domains, under exact nearest-neighbour search. Every number here is re-measured by the package (<a href="REPRODUCE.md">REPRODUCE.md</a>).</sub>
 </div>
 
+<div align="center">
+  <img src="assets/lens_reshape.gif" width="820" alt="Two small learned lenses reshape the vector space: the right answer moves close to the question, the trap moves away, and the space shrinks to 11 numbers per document">
+  <br>
+  <sub><b>How it works, in 15 seconds</b> (an illustration, sped up). Two small learned lenses reshape the vector space: the <b>Utility Lens</b> pulls together what belongs together, the <b>Safety Lens</b> pushes away what only looks alike, and the space shrinks from 1024 numbers per document to 11 or 32. The lenses are applied once; the small copy goes into any vector database. <a href="assets/pelloran_safety-lens_what-it-does.webm">The whole video (4:34)</a>.</sub>
+</div>
+
 ---
 
 The reproducibility package for the paper **"Small Learned Projections for Semantic-Reversal-Aware Retrieval with Spectral Acceleration: A Four-Domain Empirical Study"** by Sayed Amir Karim (Pelloran Research).
